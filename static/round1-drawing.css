@@ -1,0 +1,46 @@
+.round1-panel{margin:20px 0 24px;font-size:16px;line-height:1.65}
+.round1-panel .round1-head{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 22px;border-bottom:1px solid var(--line)}
+.round1-panel .round1-head h2{font-size:20px;line-height:1.4}
+.round1-panel .round1-head p{font-size:14px;color:var(--muted);margin-top:3px}
+.round1-boundary{font-size:14px;font-weight:650;color:#894f13;background:#fff3de;border:1px solid #f0d5a8;border-radius:6px;padding:5px 10px;white-space:nowrap}
+.round1-body{padding:22px}
+.round1-provenance{display:flex;align-items:baseline;gap:8px 16px;flex-wrap:wrap;padding:12px 16px;margin-bottom:18px;border-radius:6px;font-size:15px}
+.round1-provenance strong{font-size:16px}
+.round1-provenance.is-unlinked{color:#813d24;background:#fff0e9;border:1px solid #eac0ae}
+.round1-provenance.is-linked{color:#236247;background:#ebf6ef;border:1px solid #bfdcca}
+.round1-content{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(270px,1fr);gap:22px;align-items:start}
+.round1-preview{margin:0;min-width:0;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:#f7f8fa}
+.round1-preview a{display:block;min-height:220px;max-height:520px;overflow:auto}
+.round1-preview img{display:block;width:100%;height:auto;object-fit:contain;background:#fff}
+.round1-preview figcaption{font-size:14px;color:var(--muted);padding:8px 12px;border-top:1px solid var(--line);background:#fff}
+.round1-no-preview,.round1-message{display:flex;flex-direction:column;justify-content:center;min-height:180px;padding:22px;border:1px dashed #cbd3df;border-radius:6px;background:#f9fafc;color:var(--muted)}
+.round1-message strong{font-size:18px;color:var(--ink)}
+.round1-message p{font-size:15px;margin:6px 0 12px}
+.round1-message .btn{align-self:flex-start}
+.round1-selection{border-left:4px solid var(--blue);padding:2px 0 2px 14px}
+.round1-selection-head{display:flex;gap:8px;justify-content:space-between;align-items:baseline}
+.round1-selection-head strong{font-size:18px;line-height:1.4}
+.round1-selection-head span{font-size:14px;white-space:nowrap;color:var(--muted)}
+.round1-selection p{font-size:15px;color:var(--muted);margin-top:7px}
+.round1-info-actions,.round1-footer{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.round1-info-actions{margin:18px 0 14px}
+.round1-panel .btn{min-height:44px;padding:9px 14px;font-size:15px;white-space:normal;line-height:1.5;text-align:center}
+.round1-panel [data-round1-action="upload"]{background:var(--blue);border-color:var(--blue);color:#fff}
+.round1-panel [data-round1-action="upload"]:hover{background:#234dd1}
+.round1-panel [aria-disabled="true"]{opacity:.6;cursor:wait}
+.round1-source,.round1-coverage{font-size:14px;color:var(--muted);overflow-wrap:anywhere;margin:12px 0}
+.round1-candidates,.round1-warnings{border-top:1px solid var(--line);margin-top:16px;padding-top:12px}
+.round1-candidates summary,.round1-warnings summary{cursor:pointer;min-height:44px;font-size:15px;font-weight:600;color:var(--blue);display:flex;align-items:center}
+.round1-candidates ol,.round1-warnings ul{padding-left:21px;margin:8px 0 0;max-height:300px;overflow:auto}
+.round1-candidates li{padding:8px 0;border-bottom:1px solid var(--line);font-size:14px;overflow-wrap:anywhere}
+.round1-candidates li span{display:block}
+.round1-candidates li span:last-child{color:var(--muted)}
+.round1-warnings li{margin:0 0 8px;color:var(--muted);font-size:14px;overflow-wrap:anywhere}
+.round1-note{margin:18px 0 0;padding:14px 16px;border-radius:6px;background:#f6f8fc;font-size:14px;color:var(--muted)}
+.round1-error{margin:14px 0;color:var(--danger);font-size:15px;overflow-wrap:anywhere}
+.round1-footer{margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}
+.round1-upload-state{margin-top:12px;color:var(--muted);font-size:14px}
+.round1-upload-state progress{display:block;width:100%;height:8px;margin-top:6px;accent-color:var(--blue)}
+.round1-panel :focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+@media(max-width:850px){.round1-content{grid-template-columns:1fr}.round1-preview a{max-height:none}}
+@media(max-width:600px){.round1-panel .round1-head{padding:16px;align-items:flex-start;flex-direction:column}.round1-body{padding:16px}.round1-footer .btn{flex:1;min-width:160px}.round1-selection-head{align-items:flex-start}}

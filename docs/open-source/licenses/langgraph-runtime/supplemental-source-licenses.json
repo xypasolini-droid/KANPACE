@@ -1,0 +1,9 @@
+[
+  {
+    "name": "langsmith",
+    "version": "0.12.2",
+    "source_url": "https://files.pythonhosted.org/packages/f4/b7/74d0992a461eacad8106e5dcfd7677d7640b5ff4e12ea545856467004f4f/langsmith-0.12.2.tar.gz",
+    "source_sha256": "ff369ba4390e0969dbb109e838281404ae637e76ef73b347336bae05b4f87331",
+    "license_files": []
+  }
+]

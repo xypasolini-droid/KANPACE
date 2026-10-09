@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.0",
+  "research_branch": "CAD supplemental / user-named omniverse-cad-to-usd skill",
+  "researched_local_date": "2026-09-06",
+  "written_at_utc": "2026-09-07T02:57:48.875912+00:00",
+  "scope": "只读研究；补充 cad.json；不计入 17 个全开源候选。",
+  "candidates": [
+    {
+      "id": "omniverse-cad-to-usd",
+      "name": "NVIDIA Omniverse CAD to USD skill / usd-convert-cad",
+      "category_l1": "CAD / 施工图 / PDF / OCR / BOM / 3D / 排料 / CAM",
+      "coverage": [
+        "原生 CAD 与 STEP 转 USD",
+        "真实三维模型旋转的上游资产生成",
+        "装配可视化层级",
+        "零件名称和源元数据",
+        "多文件装配引用"
+      ],
+      "repo_url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad",
+      "skill_url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/skills/omniverse-cad-to-usd/SKILL.md",
+      "recommended_role": "条件采用：在独立 Windows/Linux 节点做格式补充与装配可视化 PoC；保留当前 OCCT + Three.js 主线。不计为全开源 CAD 内核候选。",
+      "direct_answer": "能用得上。官方确有该 skill 和实际转换 wheel，可把真实 STEP、SLDPRT、SLDASM 等转换为 USD；当前 Mac 没有官方原生包。它不提供完整 SolidWorks 参数树、工程 BOM 或加工模型恢复，生产接入还需确认 NVIDIA 许可、NVIDIA 平台条件和实际文件兼容性。",
+      "is_fully_open_source": false,
+      "available_capabilities": [
+        "官方 v0.2.0 skill 调用 usd-convert-cad 自包含 Python 3.12 wheel；无需 Omniverse Kit，包含 pxr 与 CAD 转换运行时。",
+        "输入支持 STEP/IGES、SolidWorks SLDPRT/SLDASM、Parasolid、CATIA、JT、NX/Creo、Inventor、IFC、AutoCAD 3D、Revit 等；支持格式不代表任意版本与缺失引用的文件均成功。",
+        "输出 USD/USDA/USDC；装配 occurrence 可映射为 Xform，重复零件可采用 references / instanceable references，外部装配可采用 references / payloads。",
+        "原始零件名保留为显示名；USD 路径名称被编码为合法唯一标识。带源局部变换、单位与选配可见性信息。",
+        "CAD B-rep 在导入时被三角化为 UsdGeomMesh；可调细分精度，支持材料和每面材料 subset。",
+        "开启 convertMetadata 后可输出源属性到自定义 USD 属性；可选物理属性是数据属性，不是自动建立仿真物理行为。"
+      ],
+      "limitations": [
+        "USD 输出不保留原生 CAD B-rep 拓扑，不能一般性无损回写 CAD；完整 SolidWorks 特征树、草图、配置逻辑与 mates/constraints 不在已实现输出能力内。",
+        "官方明确不生成可视 PMI 几何、专门 PMI schema 或可编辑语义 PMI；可能读取部分 PMI 供元数据/视图使用不等于完整保留尺寸公差。",
+        "抑制的装配分支总被跳过；隐藏分支受加载及过滤参数影响；缺失外部零件与源读取器未暴露的数据无法补回。可视化节点数不能直接当完整工程 BOM 数量。",
+        "材料为 Preview Surface / OmniPBR 等可视化映射；当前不输出 primvars:st UV，不能保证源贴图外观完全保真，也不能把视觉颜色推断为制造材料牌号。",
+        "只有 USD/USDA/USDC 输出，不输出 GLB 或 USDZ；GLTF/GLB 出现在输入列表。当前 Three.js 工作流需单独的 USD 到网页资产适配或支持 USD 的查看器。",
+        "该技能没有图片/效果图到准确工程模型的能力；尺寸、板厚、孔位、配合、公差必须来自真实 CAD、施工图与人工确认。",
+        "不提供排料、制造工艺、CNC 后处理或 G-code。几何展示需与已核验 BOM、加工数据分开。",
+        "linux-aarch64 不支持 DWG/DXF 或 RVT/RFA；Mac 不在官方支持平台内。",
+        "本轮只读验证官方文档、许可证、元数据和索引；未安装、未运行转换，未验证客户 SolidWorks 版本、装配引用、中文名称、实际 BOM 一致性、离线部署或网页输出。"
+      ],
+      "deployment_platforms": [
+        "Windows x86_64 / CPython 3.12",
+        "Linux x86_64 / CPython 3.12 / manylinux_2_35",
+        "Linux aarch64 / CPython 3.12 / manylinux_2_35（DWG/DXF、Revit 除外）"
+      ],
+      "kanpace_integration": [
+        "KANPACE Python 后端通过隔离转换作业适配器调用独立 Python 3.12 环境 CLI；Mac Web 后端可向企业自有、满足许可的 Windows/Linux 转换节点派发本地文件任务。",
+        "按文件包保留真实 CAD 源及外部零件引用，生成 source hash、版本、参数、日志、退出码、USD 输出清单、单位/边界框与告警；工具本身不生成独立 JSON 状态报告。",
+        "将 USD 装配 occurrence / 源零件名映射到 KANPACE 的已核验 BOM ID；由工程师核对数量、重复实例、抑制件、材料牌号和关键尺寸后才进入分工。",
+        "常规网页查看继续 Three.js：另评估 USD 到 GLB/网格 JSON 的资产适配，显式保留 BOM ID、变换、材质、单位与拾取映射；此 adapter 不是该 skill 的现成功能。",
+        "若后续确需大场景 RTX 材质审阅，可另用 Windows/Linux RTX Kit 服务和 Omniverse WebRTC 嵌入网页；这属于额外运行时、会话与渲染基础设施。",
+        "ESP32 工牌只接收任务、状态与已核验零件标识，不承载 CAD 解析或 USD 渲染。"
+      ],
+      "license": "skill 文档 CC-BY-4.0、skill 源码 Apache-2.0；转换 runtime 为 NVIDIA Software License Agreement + NVIDIA AI Product Specific Terms；包含专有 HOOPS Exchange。",
+      "license_url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/LICENSE.md",
+      "component_and_model_license_notes": [
+        {
+          "component": "omniverse-cad-to-usd skill",
+          "license": "Apache-2.0 AND CC-BY-4.0（代码 Apache；文档 CC-BY）",
+          "license_url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/skills/omniverse-cad-to-usd/LICENSE.md",
+          "note": "技能说明可公开阅读/复用，不将 converter 改成全开源。"
+        },
+        {
+          "component": "usd-convert-cad native runtime",
+          "license": "NVIDIA proprietary agreements",
+          "license_url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/LICENSE.md",
+          "note": "根许可直接引用 NVIDIA Software License Agreement 与 AI 产品附加条款；商用、服务与再分发依具体产品权益、条款及适用费用，不能以 GitHub 可见或无需 EULA 提示认定任意商用。"
+        },
+        {
+          "component": "HOOPS Exchange SDK 2026.5.0",
+          "license": "Commercial / Proprietary",
+          "license_url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/THIRD_PARTY_NOTICES.md",
+          "note": "由 NVIDIA 向 Tech Soft 3D 授权取得并用于 CAD 读取；不能称开源，也不能在未核实下断言每位用户必须另购直接 HOOPS license。"
+        },
+        {
+          "component": "NVIDIA OpenUSD Exchange SDK 2.3",
+          "license": "Apache-2.0",
+          "license_url": "https://github.com/NVIDIA-Omniverse/usd-exchange/blob/main/LICENSE.md",
+          "note": "开放的 USD authoring 层，不能单独替代专有 CAD reader。"
+        },
+        {
+          "component": "OpenUSD pxr 25.11",
+          "license": "Tomorrow Open Source Technology License 1.0",
+          "license_url": "https://github.com/PixarAnimationStudios/OpenUSD/blob/v25.11/LICENSE.txt",
+          "note": "Apache 2.0 衍生条款，商标条款有区别；不要简单写作原版 Apache-2.0。OpenUSD 开放不代表 Omniverse 全栈开放。"
+        },
+        {
+          "component": "其他运行时依赖",
+          "license": "按组件分别许可",
+          "license_url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/THIRD_PARTY_NOTICES.md",
+          "note": "直接依赖有 fmt MIT（含嵌入二进制例外）与 pybind11 BSD-3；HOOPS 含 ODA 等传递依赖，分发保留随包许可证及 notices。"
+        },
+        {
+          "component": "AI 模型权重",
+          "license": null,
+          "license_url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/skills/omniverse-cad-to-usd/SKILL.md",
+          "note": "CAD 转换自身未列必需 AI 模型权重。Agent skill 是工作流程指令，不是生成模型。"
+        }
+      ],
+      "activity": {
+        "archived": false,
+        "archive_status_evidence": "2026-09-06 观察官方 GitHub 仓库网页，无 archived 横幅；GitHub API 请求 403，未以 API archived 字段作证。",
+        "github_latest_release": null,
+        "latest_documented_version": "0.2.0",
+        "pypi_version": "0.2.0",
+        "pypi_upload_at": "2026-07-30T21:05:04.963276Z",
+        "default_branch_latest_observed_commit_at": "2026-07-30T23:47:33Z",
+        "commit_sha": "208fe2c1cd71ae2bb7bd825daf712617000ae028",
+        "commit_title": "Release v0.2.0",
+        "commit_url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/commit/208fe2c1cd71ae2bb7bd825daf712617000ae028",
+        "commit_feed_url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/commits/main.atom",
+        "evidence_note": "主分支 Atom 实际观察提交与 PyPI 上传；不把 commit title 当已核验 GitHub release 对象。"
+      },
+      "maturity_basis": [
+        "NVIDIA 官方组织仓库、规范 SKILL.md、详细 concept_mapping/LIMITATIONS、包索引与原生平台 wheel 均有一级来源。",
+        "导入核心 HOOPS Exchange 为成熟商用 CAD SDK；这只能证明依赖基础，不能证明 v0.2.0 新封装在 KANPACE 客户样本上成功。",
+        "kitless v0.2.0 很新；需将版本兼容、中文名、外部装配、BOM 完整性、单位/误差、内存耗时与生产授权作为采用条件。"
+      ],
+      "official_sources": [
+        {
+          "title": "NVIDIA official repository",
+          "url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad"
+        },
+        {
+          "title": "Canonical skill 0.2.0",
+          "url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/skills/omniverse-cad-to-usd/SKILL.md"
+        },
+        {
+          "title": "CAD to OpenUSD concept mapping",
+          "url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/docs/concept_mapping.md"
+        },
+        {
+          "title": "Known limitations",
+          "url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/LIMITATIONS.md"
+        },
+        {
+          "title": "Converter license",
+          "url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/LICENSE.md"
+        },
+        {
+          "title": "Skill license",
+          "url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/skills/omniverse-cad-to-usd/LICENSE.md"
+        },
+        {
+          "title": "Third party versions and licenses",
+          "url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/THIRD_PARTY_NOTICES.md"
+        },
+        {
+          "title": "Official NVIDIA wheel index",
+          "url": "https://pypi.nvidia.com/usd-convert-cad/"
+        },
+        {
+          "title": "PyPI package metadata",
+          "url": "https://pypi.org/pypi/usd-convert-cad/json"
+        },
+        {
+          "title": "Official conversion manual",
+          "url": "https://docs.omniverse.nvidia.com/extensions/latest/ext_cad-converter/manual.html"
+        },
+        {
+          "title": "NVIDIA Software License Agreement, 2026-05-07",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement/"
+        },
+        {
+          "title": "NVIDIA AI terms, 2026-04-15",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/product-specific-terms-for-ai-products/"
+        },
+        {
+          "title": "Kit renderer technical requirements",
+          "url": "https://docs.omniverse.nvidia.com/dev-guide/latest/common/technical-requirements.html"
+        },
+        {
+          "title": "Omniverse WebRTC library",
+          "url": "https://docs.omniverse.nvidia.com/ov-web-sdk/latest/web-streaming-library/overview.html"
+        },
+        {
+          "title": "Main branch latest commit evidence",
+          "url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/commits/main.atom"
+        }
+      ],
+      "validation_status": "官方源码文档/技能内容/许可证/包索引只读核验；没有安装技能或 runtime，没有执行转换。"
+    }
+  ],
+  "skill_discovery": {
+    "exact_name_found": true,
+    "publisher": "NVIDIA Omniverse official GitHub organization",
+    "canonical_skill_url": "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/skills/omniverse-cad-to-usd/SKILL.md",
+    "skill_content_read": true,
+    "referenced_mapping_read": true,
+    "local_installation_found": false,
+    "local_installation_evidence": "父任务已搜索本地 .codex skills/plugins 与 workspace，未见该 skill；本分支未重新搜索。",
+    "installed_or_executed": false,
+    "version": "0.2.0",
+    "important_version_change": "当前技能从 Kit extension 安装流程改为 self-contained kitless Python wheel；不要套用旧教程的 Kit/registry/config.env 前置条件。"
+  },
+  "platform_and_entitlement": {
+    "current_mac_direct_support": false,
+    "technical_conversion_requires_kit": false,
+    "technical_conversion_requires_rtx_gpu": "未在 standalone wheel 的官方 prerequisites 发现 RTX 型号要求；本轮未运行，不能据此承诺任意无 NVIDIA 硬件机器可用。",
+    "nvidia_platform_license_condition": "根许可引用 AI Product Terms D.2 / §8.15：包括 Omniverse 在内的专有组件限定于 NVIDIA Platforms。主协议 §17.30 将 NVIDIA Platform 定义为带 NVIDIA GPU 或 NVIDIA CPU 的系统（网络场景含 NVIDIA HCA）。在非 NVIDIA 系统生产使用前应取得适用授权依据。",
+    "license_sources": [
+      "https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/LICENSE.md",
+      "https://www.nvidia.com/en-us/agreements/enterprise-software/product-specific-terms-for-ai-products/",
+      "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement/"
+    ],
+    "price_or_enterprise_subscription": "未找到能直接确认该 pip 包生产权益/价格的专用产品表。不得宣称一律免费无限商用，也不得宣称一律必须购买企业订阅或另购 HOOPS。",
+    "developer_license_note": "若通过 NVIDIA developer program 获得 Enterprise 产品个人许可，附加条款 F 限内部非生产评估/开发/测试；不能泛化套用于所有 Community 产品。",
+    "package_availability": {
+      "public_pypi": "0.2.0 仅列 2818 字节 sdist，不能用它否认 wheel 存在。",
+      "nvidia_index_wheels_observed": [
+        "usd_convert_cad-0.2.0-cp312-cp312-manylinux_2_35_aarch64.whl",
+        "usd_convert_cad-0.2.0-cp312-cp312-manylinux_2_35_x86_64.whl",
+        "usd_convert_cad-0.2.0-cp312-cp312-win_amd64.whl"
+      ],
+      "nvidia_index_url": "https://pypi.nvidia.com/usd-convert-cad/",
+      "wheel_downloaded": false,
+      "installation_tested": false,
+      "offline": "skill 声明网络仅安装时需要；实际内网打包、许可与运行是否完全离线未实测。"
+    },
+    "streaming_distinction": "Kit RTX 渲染/浏览器 WebRTC 是另一路可选方案，须具备官方支持的 Windows/Linux + NVIDIA RTX 渲染环境；Mac 可作为网页客户端。此 GPU 渲染要求不能直接当作 kitless CAD 转换要求。"
+  },
+  "preservation_matrix": [
+    {
+      "concept": "真实几何可旋转",
+      "status": "支持",
+      "detail": "来自真实 CAD 的三角网格；LOD 与单位需校验。"
+    },
+    {
+      "concept": "装配树/重复实例/变换",
+      "status": "有条件保留",
+      "detail": "以 HOOPS 暴露的 occurrence、prototype、引用为准；抑制和过滤会影响结果。"
+    },
+    {
+      "concept": "零件名称",
+      "status": "有条件保留",
+      "detail": "USD prim 名称经过合法化和去重，源名保留 displayName；不能把路径当永久业务 ID。"
+    },
+    {
+      "concept": "颜色/材料/贴图",
+      "status": "部分",
+      "detail": "支持材料网络与面分组；当前无 UV primvars:st；显示材料不等于制造物料。"
+    },
+    {
+      "concept": "源元数据/自定义属性",
+      "status": "可选且受源读取器限制",
+      "detail": "需启用 convertMetadata；默认关闭。"
+    },
+    {
+      "concept": "PMI 尺寸公差",
+      "status": "不完整",
+      "detail": "没有可视 PMI 或可编辑语义 PMI 输出。"
+    },
+    {
+      "concept": "SLDASM 原生参数/配置/约束树",
+      "status": "不提供完整恢复",
+      "detail": "不能把支持文件扩展名理解为完整工程语义解析。"
+    },
+    {
+      "concept": "制造 BOM",
+      "status": "待工程核验",
+      "detail": "节点/实例可辅助关联；物料编码、制造数量、工艺、抑制件不能自动等同源 BOM。"
+    },
+    {
+      "concept": "体积/面积/密度",
+      "status": "可选",
+      "detail": "部分 physical-property 属性依源与 RI prim 是否建立；不是 UsdPhysics 行为。"
+    },
+    {
+      "concept": "精确 B-rep 与 CAD 往返",
+      "status": "不保留",
+      "detail": "输出为 tessellated meshes，不能作为无损制造模型存档。"
+    },
+    {
+      "concept": "GLB / USDZ 输出",
+      "status": "未支持",
+      "detail": "当前只输出 USD、USDA、USDC。"
+    },
+    {
+      "concept": "效果图变准确加工模型",
+      "status": "不支持",
+      "detail": "没有图片反求制造尺寸、结构、材料或公差的实现。"
+    }
+  ],
+  "recommended_next_evaluation": [
+    "先明确实际转换节点操作系统/架构、NVIDIA 平台、适用生产权益与分发方式，再选固定包版本。",
+    "以已有真实 STEP 装配和带完整外部引用的 SLDASM 各一套作候选样本，保留原源文件与人工 BOM。",
+    "核对关键边界框/单位、零件中文名、重复实例、缺件、隐藏抑制件、材料与数量；由工程人员确认。",
+    "再评估与 KANPACE Three.js 的 USD/GLB 适配，不提前替换现有已运行的 OCCT WASM 路径。"
+  ],
+  "evidence_files": [
+    "omniverse-source-evidence.json",
+    "omniverse-mapping-evidence.json",
+    "omniverse-package-evidence.json",
+    "omniverse-terms-platform-evidence.json"
+  ]
+}

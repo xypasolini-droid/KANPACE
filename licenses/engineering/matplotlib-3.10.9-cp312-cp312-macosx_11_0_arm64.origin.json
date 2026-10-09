@@ -1,0 +1,28 @@
+{
+  "official": {
+    "comment_text": null,
+    "core-metadata": {
+      "sha256": "bea8a4672bbe4f26b7a4fe5bc5e5023a08c4fb7069cc951f39eef26a403c7ea6"
+    },
+    "digests": {
+      "blake2b_256": "b7184880dd762e40cd360c1bf06e890c5a97b997e91cb324602b1a19950ad5ce",
+      "md5": "765ad58ca322ff63e2543c047524eb59",
+      "sha256": "41cb28c2bd769aa3e98322c6ab09854cbcc52ab69d2759d681bba3e327b2b320"
+    },
+    "downloads": -1,
+    "filename": "matplotlib-3.10.9-cp312-cp312-macosx_11_0_arm64.whl",
+    "has_sig": false,
+    "md5_digest": "765ad58ca322ff63e2543c047524eb59",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp312",
+    "requires_python": ">=3.10",
+    "size": 8216016,
+    "upload_time": "2026-04-24T00:12:23",
+    "upload_time_iso_8601": "2026-04-24T00:12:23.400245Z",
+    "url": "https://files.pythonhosted.org/packages/b7/18/4880dd762e40cd360c1bf06e890c5a97b997e91cb324602b1a19950ad5ce/matplotlib-3.10.9-cp312-cp312-macosx_11_0_arm64.whl",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "mirror_url": "https://pypi.tuna.tsinghua.edu.cn/packages/b7/18/4880dd762e40cd360c1bf06e890c5a97b997e91cb324602b1a19950ad5ce/matplotlib-3.10.9-cp312-cp312-macosx_11_0_arm64.whl",
+  "verified_sha256": "41cb28c2bd769aa3e98322c6ab09854cbcc52ab69d2759d681bba3e327b2b320"
+}

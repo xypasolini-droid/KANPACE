@@ -1,0 +1,28 @@
+{
+  "official": {
+    "comment_text": "",
+    "core-metadata": {
+      "sha256": "c346518927a9ab8b1265c222eff0751c44051e0f8ab59a94ee71b8c1e8e1a9a4"
+    },
+    "digests": {
+      "blake2b_256": "9264c1194510eaed272d86b53a08c790ca6ed1c450f06d401c49c8145fc46d40",
+      "md5": "9633948144393a2f1ac1b063f3d5a371",
+      "sha256": "ee4b0919026d8c533aeb69b16c6ec4a891a2f6844efaa14121bf68838753209c"
+    },
+    "downloads": -1,
+    "filename": "opencv_contrib_python-4.10.0.84-cp37-abi3-macosx_11_0_arm64.whl",
+    "has_sig": false,
+    "md5_digest": "9633948144393a2f1ac1b063f3d5a371",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp37",
+    "requires_python": ">=3.6",
+    "size": 63667391,
+    "upload_time": "2024-06-18T04:57:54",
+    "upload_time_iso_8601": "2024-06-18T04:57:54.718016Z",
+    "url": "https://files.pythonhosted.org/packages/92/64/c1194510eaed272d86b53a08c790ca6ed1c450f06d401c49c8145fc46d40/opencv_contrib_python-4.10.0.84-cp37-abi3-macosx_11_0_arm64.whl",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "mirror_url": "https://pypi.tuna.tsinghua.edu.cn/packages/92/64/c1194510eaed272d86b53a08c790ca6ed1c450f06d401c49c8145fc46d40/opencv_contrib_python-4.10.0.84-cp37-abi3-macosx_11_0_arm64.whl",
+  "verified_sha256": "ee4b0919026d8c533aeb69b16c6ec4a891a2f6844efaa14121bf68838753209c"
+}

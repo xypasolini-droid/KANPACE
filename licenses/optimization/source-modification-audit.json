@@ -1,0 +1,56 @@
+[
+  {
+    "path": "vendor-sources/optimization/packingsolver",
+    "commit": "4ba84e45ab4b7697d2fec2bb62bdca09dab56d29",
+    "status": [],
+    "upstream_source_modified": false
+  },
+  {
+    "path": "vendor-sources/optimization/deps/optimizationtools",
+    "commit": "7e29ad3e2dab11a44887fbcc9382188c5d0ead12",
+    "status": [],
+    "upstream_source_modified": false
+  },
+  {
+    "path": "vendor-sources/optimization/deps/treesearchsolver",
+    "commit": "b7254420989dd804144d16b898f323f1d606dda4",
+    "status": [],
+    "upstream_source_modified": false
+  },
+  {
+    "path": "vendor-sources/optimization/deps/shape",
+    "commit": "1e57508f8f9a194891e0343c84a1a255f62f0e40",
+    "status": [],
+    "upstream_source_modified": false
+  },
+  {
+    "path": "vendor-sources/optimization/deps/multiplechoicesubsetsumsolver",
+    "commit": "83406f59044425aef1391030db0b29333c208d7f",
+    "status": [],
+    "upstream_source_modified": false
+  },
+  {
+    "path": "vendor-sources/optimization/deps/mathoptsolverscmake",
+    "commit": "66b6e34c0c99916c75f10d7af6756c3310e54a2b",
+    "status": [],
+    "upstream_source_modified": false
+  },
+  {
+    "path": "vendor-sources/optimization/deps/knapsacksolver",
+    "commit": "605153f85b0781ae0c2b7548a18639ef77d25c09",
+    "status": [],
+    "upstream_source_modified": false
+  },
+  {
+    "path": "vendor-sources/optimization/deps/columngenerationsolver",
+    "commit": "1274df41234709ab3d62f1b3e6dd2a88d3799710",
+    "status": [],
+    "upstream_source_modified": false
+  },
+  {
+    "path": "vendor-sources/optimization/deps/highs",
+    "commit": "1d267d97c16928bb5f86fcb2cba2d20f94c8720c",
+    "status": [],
+    "upstream_source_modified": false
+  }
+]

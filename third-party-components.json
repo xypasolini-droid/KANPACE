@@ -1,0 +1,2843 @@
+{
+  "schema": "KANPACE-third-party-inventory-v1",
+  "generated_on": "2026-09-07",
+  "scope": "Five core engines, their observed local runtime dependencies, and distributed Web vendor components. Firmware has a separately linked inventory. Not a SPDX legal certification. Web upgrade adds native PDF extraction and fixed external recognition workers; no new model weights distributed.",
+  "own_code_license": "See LICENSING.md; no blanket open-source grant is made for KANPACE proprietary/custom code.",
+  "package_excludes": [
+    ".venv*",
+    ".engineering-wheelhouse",
+    "models/engineering",
+    "bin/optimization",
+    "vendor-sources/optimization",
+    "factory business data, drawings and secrets",
+    "external Poppler executables and libraries"
+  ],
+  "distribution_definitions": {
+    "vendored": "Copied upstream files shipped with application",
+    "source": "Readable corresponding source or source archive included",
+    "binary": "Compiled bytes included",
+    "downloaded": "Installer/build downloads upstream package; package itself not necessarily included",
+    "local-only": "Present on this development machine; excluded from generic source release"
+  },
+  "components": [
+    {
+      "id": "paddleocr",
+      "name": "PaddleOCR",
+      "version": "3.3.2",
+      "license_label": "Apache-2.0",
+      "upstream": "https://github.com/PaddlePaddle/PaddleOCR",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "requirements-engineering.txt",
+        "requirements-engineering.lock.txt",
+        "licenses/engineering/paddleocr-3.3.2"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified unless otherwise noted",
+        "kanpace_adapter": "separate implementation; not a modification of the upstream library"
+      },
+      "requirements": [
+        "保留原始版权、许可和适用 NOTICE；修改上游文件时标记修改。",
+        "第三方许可不自动覆盖 KANPACE 自有代码、商标、客户资料。"
+      ],
+      "role": "施工图文字/坐标识别；模型单独列项",
+      "runtime_not_distributed": [
+        ".venv-engineering"
+      ],
+      "related_ids": [
+        "paddlepaddle",
+        "paddlex",
+        "ppocr-mobile-det",
+        "ppocr-mobile-rec"
+      ]
+    },
+    {
+      "id": "paddlepaddle",
+      "name": "PaddlePaddle",
+      "version": "3.2.2",
+      "license_label": "Apache-2.0",
+      "upstream": "https://github.com/PaddlePaddle/Paddle",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "licenses/engineering/paddlepaddle-3.2.2"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified unless otherwise noted",
+        "kanpace_adapter": "separate implementation; not a modification of the upstream library"
+      },
+      "requirements": [
+        "保留原始版权、许可和适用 NOTICE；修改上游文件时标记修改。",
+        "第三方许可不自动覆盖 KANPACE 自有代码、商标、客户资料。"
+      ],
+      "role": "OCR CPU 推理运行时"
+    },
+    {
+      "id": "paddlex",
+      "name": "PaddleX",
+      "version": "3.3.13",
+      "license_label": "Apache-2.0",
+      "upstream": "https://github.com/PaddlePaddle/PaddleX",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "licenses/engineering/paddlex-3.3.13"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified unless otherwise noted",
+        "kanpace_adapter": "separate implementation; not a modification of the upstream library"
+      },
+      "requirements": [
+        "保留原始版权、许可和适用 NOTICE；修改上游文件时标记修改。",
+        "第三方许可不自动覆盖 KANPACE 自有代码、商标、客户资料。"
+      ],
+      "role": "PaddleOCR 管线依赖"
+    },
+    {
+      "id": "ocp",
+      "name": "cadquery-ocp",
+      "version": "7.8.1.1.post1",
+      "license_label": "Apache-2.0 (wrapper only)",
+      "upstream": "https://github.com/CadQuery/OCP",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "licenses/engineering/cadquery-ocp-7.8.1.1.post1",
+        "licenses/engineering/embedded-ocp-native-libraries.json"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified unless otherwise noted",
+        "kanpace_adapter": "separate implementation; not a modification of the upstream library"
+      },
+      "requirements": [
+        "保留原始版权、许可和适用 NOTICE；修改上游文件时标记修改。",
+        "第三方许可不自动覆盖 KANPACE 自有代码、商标、客户资料。",
+        "包装层 Apache 不覆盖内嵌 OCCT、FreeImage、LibRaw 等。"
+      ],
+      "role": "后端 OCCT Python 绑定",
+      "related_ids": [
+        "occt-native",
+        "freeimage",
+        "libraw"
+      ],
+      "redistribution_open_issue": "native-wheel-corresponding-source"
+    },
+    {
+      "id": "occt-native",
+      "name": "Open CASCADE Technology (native)",
+      "version": "7.8.1",
+      "license_label": "LGPL-2.1 with OCCT exception 1.0",
+      "upstream": "https://github.com/Open-Cascade-SAS/OCCT/tree/V7_8_1",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "licenses/engineering/OCCT-7.8.1-LGPL-2.1.txt",
+        "licenses/engineering/OCCT-7.8.1-exception.txt"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified unless otherwise noted",
+        "kanpace_adapter": "separate implementation; not a modification of the upstream library"
+      },
+      "requirements": [
+        "保留许可及明确 OCCT 使用声明。",
+        "若分发原生库，提供对应源码及适用构建/替换材料；当前包不包含原生库。"
+      ],
+      "role": "后端精确 BREP 几何计算",
+      "redistribution_open_issue": "native-wheel-corresponding-source"
+    },
+    {
+      "id": "ortools",
+      "name": "Google OR-Tools",
+      "version": "9.15.6755",
+      "license_label": "Apache-2.0",
+      "upstream": "https://github.com/google/or-tools/tree/v9.15",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "requirements-optimization.lock.txt",
+        "licenses/optimization/python/ortools",
+        "requirements-web.in",
+        "docs/upgrade/runtime-locks",
+        "docs/upgrade/runtime-licenses"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified unless otherwise noted",
+        "kanpace_adapter": "separate implementation; not a modification of the upstream library"
+      },
+      "requirements": [
+        "保留原始版权、许可和适用 NOTICE；修改上游文件时标记修改。",
+        "第三方许可不自动覆盖 KANPACE 自有代码、商标、客户资料。"
+      ],
+      "role": "有限产能排程"
+    },
+    {
+      "id": "packingsolver",
+      "name": "PackingSolver",
+      "version": "4ba84e45ab4b7697d2fec2bb62bdca09dab56d29",
+      "license_label": "MIT",
+      "upstream": "https://github.com/fontanf/packingsolver",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "setup_optimization.py",
+        "licenses/optimization/cpp",
+        "licenses/optimization/manifest.json",
+        "licenses/optimization/source-modification-audit.json"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified unless otherwise noted",
+        "kanpace_adapter": "separate implementation; not a modification of the upstream library"
+      },
+      "requirements": [
+        "保留原始版权、许可和适用 NOTICE；修改上游文件时标记修改。",
+        "第三方许可不自动覆盖 KANPACE 自有代码、商标、客户资料。",
+        "分别保留 HiGHS、Boost、AMD、METIS 等依赖通知。"
+      ],
+      "role": "矩形断头切割排料",
+      "version_kind": "git-commit",
+      "build_options": {
+        "HiGHS": true,
+        "CLP": false,
+        "KNITRO": false,
+        "tests": false
+      },
+      "local_binary_sha256": "6180bc72955affe1b19198ccb63cd5944acf95a1417bbb77b49d5e98614238ad",
+      "runtime_not_distributed": [
+        "bin/optimization",
+        "vendor-sources/optimization",
+        ".venv-optimization"
+      ]
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph",
+      "version": "1.2.11",
+      "license_label": "MIT",
+      "upstream": "https://github.com/langchain-ai/langgraph",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "requirements-agent.lock.txt",
+        "tools/setup_agent.py",
+        "docs/open-source/licenses/langgraph-runtime",
+        "requirements-web.in",
+        "docs/upgrade/runtime-locks",
+        "docs/upgrade/runtime-licenses"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified unless otherwise noted",
+        "kanpace_adapter": "separate implementation; not a modification of the upstream library"
+      },
+      "requirements": [
+        "保留原始版权、许可和适用 NOTICE；修改上游文件时标记修改。",
+        "第三方许可不自动覆盖 KANPACE 自有代码、商标、客户资料。",
+        "MPL/Apache 等传递依赖仍按各自条款处理；客户端许可不是 LangSmith 云服务授权。"
+      ],
+      "role": "本机可追踪工作流",
+      "checkpoint_version": "4.2.0",
+      "checkpoint_sqlite_version": "3.1.1",
+      "llm_weights_included": false,
+      "runtime_not_distributed": [
+        ".venv-agent"
+      ]
+    },
+    {
+      "id": "ppocr-mobile-det",
+      "name": "PP-OCRv5_mobile_det",
+      "version": "0d63e78e2b680928f6b1747d76a08db6e645efb7",
+      "license_label": "Apache-2.0 (exact model card)",
+      "upstream": "https://huggingface.co/PaddlePaddle/PP-OCRv5_mobile_det/tree/0d63e78e2b680928f6b1747d76a08db6e645efb7",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "licenses/engineering/PP-OCRv5_mobile_det-MODEL-CARD.md",
+        "licenses/engineering/model-manifest.json"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified unless otherwise noted",
+        "kanpace_adapter": "separate implementation; not a modification of the upstream library"
+      },
+      "requirements": [
+        "保留原始版权、许可和适用 NOTICE；修改上游文件时标记修改。",
+        "第三方许可不自动覆盖 KANPACE 自有代码、商标、客户资料。",
+        "模型换版/换来源须重新核验；不从代码许可推导其他权重许可。"
+      ],
+      "version_kind": "model-revision",
+      "model_weight_license_verified_separately": true,
+      "files_sha256": {
+        "README.md": "4cc20ad6d41af86b3ce9885ffb0956e152574a2eb14179aeb07fd2d3956161ca",
+        "inference.json": "05feef1acb00aa4cd7362b15f7f501fc4f99d7b1fa73c1c871e0c7b1504b0f5c",
+        "inference.pdiparams": "afa1820cb16c1fd0dad589d0f8b389139061c1ef6d68019685fd07be997dda5b",
+        "inference.yml": "98069072e1b6b37d727fd9d9f11725faa46d6ea0de012f2ed26caea011c37699"
+      },
+      "weights_included": false
+    },
+    {
+      "id": "ppocr-mobile-rec",
+      "name": "PP-OCRv5_mobile_rec",
+      "version": "682f20538d8c086cb2128e5cfac775e6c4904e85",
+      "license_label": "Apache-2.0 (exact model card)",
+      "upstream": "https://huggingface.co/PaddlePaddle/PP-OCRv5_mobile_rec/tree/682f20538d8c086cb2128e5cfac775e6c4904e85",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "licenses/engineering/PP-OCRv5_mobile_rec-MODEL-CARD.md",
+        "licenses/engineering/model-manifest.json"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified unless otherwise noted",
+        "kanpace_adapter": "separate implementation; not a modification of the upstream library"
+      },
+      "requirements": [
+        "保留原始版权、许可和适用 NOTICE；修改上游文件时标记修改。",
+        "第三方许可不自动覆盖 KANPACE 自有代码、商标、客户资料。",
+        "模型换版/换来源须重新核验；不从代码许可推导其他权重许可。"
+      ],
+      "version_kind": "model-revision",
+      "model_weight_license_verified_separately": true,
+      "files_sha256": {
+        "README.md": "b02727443cef4904a9ee12accdfaf66fcbada7b93a1a05c40dde7582291ba28c",
+        "inference.json": "24587345250c7332d0fc6f9a44e794d078cdaeb64c302fef906f325619de2569",
+        "inference.pdiparams": "2460da90875937c94db97eba74ae3d9e5d4c4c57c42f1f41531c09a26bcc771a",
+        "inference.yml": "5dfeb2777f6d0db8177d8128a8acfcf6e6276dc4ac73ea3bf0dc06d6a5e85d8e"
+      },
+      "weights_included": false
+    },
+    {
+      "id": "freeimage",
+      "name": "FreeImage",
+      "version": "3.18.0",
+      "license_label": "FreeImage Public License 1.0 (FIPL chosen; upstream also offers GPL)",
+      "upstream": "https://freeimage.sourceforge.io/license.html",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "licenses/engineering/FreeImage-3.18.0-FIPL.txt",
+        "licenses/engineering/embedded-native-distribution-audit.md"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified unless otherwise noted",
+        "kanpace_adapter": "separate implementation; not a modification of the upstream library"
+      },
+      "requirements": [
+        "随附 FIPL 原文及手册/关于中的使用致谢。",
+        "按 FIPL 遵守覆盖源码、修改、可执行形式分发的源码可得性与通知要求。"
+      ],
+      "version_evidence": "本机 FreeImage_GetVersion 实测，嵌入 OCP wheel",
+      "redistribution_open_issue": "native-wheel-corresponding-source"
+    },
+    {
+      "id": "libraw",
+      "name": "LibRaw",
+      "version": "0.21.3-Release",
+      "license_label": "LGPL-2.1 OR CDDL-1.0",
+      "upstream": "https://github.com/LibRaw/LibRaw/tree/0.21.3",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "licenses/engineering/LibRaw-0.21.3-COPYRIGHT.txt",
+        "licenses/engineering/LibRaw-0.21.3-CDDL.txt",
+        "licenses/engineering/LibRaw-0.21.3-LGPL.txt"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified unless otherwise noted",
+        "kanpace_adapter": "separate implementation; not a modification of the upstream library"
+      },
+      "requirements": [
+        "分发时明确选择许可路径，并满足覆盖源码/修改/可执行形式的适用要求。",
+        "未证实该 wheel 的可选 GPL demosaic 配置；不能推断包装器 Apache 覆盖本库。"
+      ],
+      "version_evidence": "本机 libraw_version 实测，FreeImage 链接 libraw.23.dylib",
+      "redistribution_open_issue": "native-wheel-corresponding-source"
+    },
+    {
+      "id": "three",
+      "name": "Three.js",
+      "version": "0.180.0",
+      "license_label": "MIT",
+      "upstream": "https://github.com/mrdoob/three.js/tree/r180",
+      "distribution": [
+        "vendored",
+        "source"
+      ],
+      "distributed_paths": [
+        "static/model/vendor/three",
+        "licenses/web/three-0.180.0-distributed-files.tar.gz",
+        "licenses/web/three-r180-MIT.txt"
+      ],
+      "modifications": {
+        "upstream_code": "8 files byte-identical to official npm package"
+      },
+      "requirements": [
+        "保留 three.js authors 版权、MIT 许可和免责文本。"
+      ],
+      "git_commit": "0af9729d0c143a86a1d725d6e2c3ad83301f3f34",
+      "evidence": "licenses/web/vendored-verification.json"
+    },
+    {
+      "id": "occt-import-js",
+      "name": "occt-import-js",
+      "version": "0.0.23",
+      "license_label": "LGPL-2.1 (upstream declaration)",
+      "upstream": "https://github.com/kovacsv/occt-import-js/tree/c2148e54b456b571238d35cac037d304053d64b2",
+      "distribution": [
+        "vendored",
+        "binary",
+        "source"
+      ],
+      "distributed_paths": [
+        "static/model/vendor/occt",
+        "licenses/web/occt-import-js-0.0.23.tgz",
+        "licenses/web/README.md"
+      ],
+      "modifications": {
+        "upstream_code": "6 vendored files byte-identical to official npm; 123 npm source files match pinned git bytes or only CRLF/LF normalization"
+      },
+      "requirements": [
+        "与 WASM 同时提供完整对应库源码及构建材料、版权和 LGPL。",
+        "保留可修改/替换兼容 JS/WASM 库及调试修改所需权利。"
+      ],
+      "git_commit": "c2148e54b456b571238d35cac037d304053d64b2",
+      "evidence": [
+        "licenses/web/vendored-verification.json",
+        "licenses/web/occt-npm-source-git-verification.json"
+      ],
+      "related_ids": [
+        "occt-wasm",
+        "emscripten-runtime"
+      ],
+      "bit_reproducible_build_verified": false
+    },
+    {
+      "id": "occt-wasm",
+      "name": "Open CASCADE Technology (browser WASM)",
+      "version": "7.6.1",
+      "license_label": "LGPL-2.1 with OCCT exception 1.0",
+      "upstream": "https://github.com/Open-Cascade-SAS/OCCT/tree/d2abb6d844231cb8f29be6894440874a4700e4a5",
+      "distribution": [
+        "vendored",
+        "binary",
+        "source"
+      ],
+      "distributed_paths": [
+        "licenses/web/OCCT-d2abb6d844231cb8f29be6894440874a4700e4a5.tar.gz",
+        "licenses/web/OCCT-7.6.1-browser-LGPL.txt",
+        "licenses/web/OCCT-browser-exception.txt",
+        "licenses/web/OCCT-browser-Standard_Version.hxx"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified unless otherwise noted",
+        "kanpace_adapter": "separate implementation; not a modification of the upstream library"
+      },
+      "requirements": [
+        "本包已随附精确 OCCT 子模块完整源码；不得删去对应源码而保留 WASM。",
+        "OCCT 例外不改变库本体的 LGPL 义务。"
+      ],
+      "git_commit": "d2abb6d844231cb8f29be6894440874a4700e4a5",
+      "version_evidence": "exact upstream src/Standard/Standard_Version.hxx",
+      "corresponding_source_included": true
+    },
+    {
+      "id": "emscripten-runtime",
+      "name": "Emscripten generated/runtime support",
+      "version": "3.1.69",
+      "license_label": "MIT OR NCSA; musl/libc++/libc++abi retain separate license texts",
+      "upstream": "https://github.com/emscripten-core/emscripten/tree/3.1.69",
+      "distribution": [
+        "binary",
+        "downloaded"
+      ],
+      "distributed_paths": [
+        "licenses/web/Emscripten-3.1.69-LICENSE.txt",
+        "licenses/web/Emscripten-3.1.69-musl-COPYRIGHT.txt",
+        "licenses/web/Emscripten-3.1.69-libcxx-LICENSE.txt",
+        "licenses/web/Emscripten-3.1.69-libcxxabi-LICENSE.txt"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified unless otherwise noted",
+        "kanpace_adapter": "separate implementation; not a modification of the upstream library"
+      },
+      "requirements": [
+        "保留支持库各自版权与许可；不把整个 OCCT WASM 标为 MIT。"
+      ],
+      "compiler_toolchain_included": false,
+      "version_evidence": "original tools/setup_emscripten_win.bat in npm source archive",
+      "bit_reproducible_build_verified": false
+    },
+    {
+      "id": "pyserial-web",
+      "name": "pySerial",
+      "version": "3.5",
+      "license_label": "BSD-3-Clause",
+      "upstream": "https://github.com/pyserial/pyserial/tree/v3.5",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "requirements-hardware.txt",
+        "setup_hardware.py",
+        "licenses/web-runtime/pyserial-3.5-BSD-3-Clause.txt"
+      ],
+      "role": "Web USB device_bridge optional serial I/O",
+      "modifications": {
+        "upstream_code": "not modified by KANPACE"
+      },
+      "requirements": [
+        "保留版权、BSD 条款及免责说明；不以作者名义背书。"
+      ]
+    },
+    {
+      "id": "pillow-web",
+      "name": "Pillow (Web media runtime)",
+      "version": "12.3.0",
+      "license_label": "MIT-CMU",
+      "upstream": "https://github.com/python-pillow/Pillow",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "requirements-media.txt",
+        "setup_media.py",
+        "licenses/web-runtime/manifest.json"
+      ],
+      "role": "Web image decode/validation; separate from engineering Pillow 11.3.0",
+      "declared_requirement": "Pillow>=12.0,<13",
+      "version_is_observed_not_exact_requirement_pin": true,
+      "modifications": {
+        "upstream_code": "not modified by KANPACE"
+      },
+      "requirements": [
+        "保留完整版权与许可；原生图像依赖继续适用各自条款。",
+        "安装器使用版本范围，未来安装结果可能变化；变化时更新许可清单。"
+      ]
+    },
+    {
+      "id": "poppler-cli",
+      "name": "Poppler pdfinfo / pdftoppm",
+      "version": "26.04.0",
+      "license_label": "GPL-2.0-only (installed formula); upstream COPYING is GPL v2",
+      "upstream": "https://poppler.freedesktop.org/",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "licenses/web-runtime/Poppler-26.04.0-COPYING.txt",
+        "licenses/web-runtime/Poppler-26.04.0-README.md",
+        "licenses/web-runtime/poppler-provenance.json"
+      ],
+      "role": "External CLI used through subprocess and files for legacy PDF preview; not linked into KANPACE",
+      "modifications": {
+        "upstream_code": "unmodified external system installation; no bundled executable"
+      },
+      "requirements": [
+        "当前交付不包括 Poppler 可执行文件、库或源文件；只登记现有外部命令依赖。",
+        "未来分发 Poppler 或将其链接进应用时需按 GPL 重新审查相应源码、许可与组合方式；本声明未因此替 KANPACE 自有代码另行授予 GPL。"
+      ],
+      "version_evidence": "pdfinfo -v and pdftoppm -v returned 26.04.0"
+    },
+    {
+      "id": "qrcode-generator",
+      "name": "QR Code Generator",
+      "version": "commit 83b7e8fe3fddd3b0368dbafd6ce56995bd25e3c8",
+      "license_label": "MIT",
+      "upstream": "https://github.com/kazuhikoarase/qrcode-generator",
+      "distribution": [
+        "vendored",
+        "source"
+      ],
+      "distributed_paths": [
+        "static/qr-code.js",
+        "licenses/web/qrcode-generator/LICENSE",
+        "licenses/web/qrcode-generator/provenance.json"
+      ],
+      "modifications": {
+        "upstream_code": "unmodified"
+      },
+      "requirements": [
+        "保留上游版权和完整MIT许可证。"
+      ],
+      "role": "本地编码工件与货位二维码；不向外部服务发送生产数据",
+      "sha256": "79ec86f82856005b1c887905cfccfcfbec3821ca61c7fd5a952faa5f778f791c"
+    },
+    {
+      "id": "web-pdfium-runtime",
+      "name": "pypdfium2 + embedded PDFium",
+      "version": "4.30.0 / PDFium 126.0.6462.0 (tested macOS wheel)",
+      "license_label": "(Apache-2.0 OR BSD-3-Clause) AND LicenseRef-PdfiumThirdParty; documentation CC-BY-4.0",
+      "upstream": "https://pypi.org/project/pypdfium2/4.30.0/",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "requirements-web.in",
+        "docs/upgrade/runtime-licenses/optimization",
+        "docs/upgrade/runtime-locks"
+      ],
+      "role": "native PDF character extraction and original-page coordinate frames",
+      "requirements": [
+        "Retain wrapper license and embedded PDFium third-party notices from actual target-platform wheel; target Linux image requires its own artifact and license inventory."
+      ],
+      "runtime_not_distributed": [
+        ".venv-optimization"
+      ]
+    },
+    {
+      "id": "docling-web-worker",
+      "name": "Docling (optional complete CPU pipeline worker)",
+      "version": "2.133.0",
+      "license_label": "MIT (Docling code only); models and dependencies separate",
+      "upstream": "https://github.com/docling-project/docling/tree/v2.133.0",
+      "distribution": [
+        "downloaded"
+      ],
+      "distributed_paths": [
+        "workers/docling_service.py",
+        "requirements-docling-worker.txt",
+        "licenses/web-upgrade/docling-2.133.0"
+      ],
+      "role": "complex PDF layout and table extraction through fixed authenticated worker",
+      "installed_and_model_tested": false,
+      "requirements": [
+        "Retain upstream copyright and MIT text. Review exact layout/OCR/table weight revisions and target-platform dependency licenses before deployment; no model license is inferred from code MIT."
+      ]
+    },
+    {
+      "id": "web-upgrade-pillow",
+      "name": "Pillow (Web images)",
+      "version": "12.3.0",
+      "license_label": "MIT-CMU with embedded image codec licenses; actual wheel LICENSE is authoritative",
+      "upstream": "https://pypi.org/project/pillow/12.3.0/",
+      "distribution": [
+        "downloaded",
+        "local-only"
+      ],
+      "distributed_paths": [
+        "requirements-web.in",
+        "docs/upgrade/runtime-licenses/optimization",
+        "docs/upgrade/runtime-locks"
+      ],
+      "role": "Web image verification, previews and safe decoding/encoding; no hardware change",
+      "requirements": [
+        "Retain complete Pillow LICENSE including embedded dependency notices for the actual target-platform wheel"
+      ],
+      "runtime_not_distributed": [
+        ".venv-optimization"
+      ]
+    }
+  ],
+  "dependency_groups": [
+    {
+      "id": "engineering-python",
+      "record_count": 67,
+      "manifest": "licenses/engineering/installed-dependencies.json",
+      "lock": "requirements-engineering.lock.txt",
+      "items": [
+        {
+          "name": "aistudio_sdk",
+          "version": "0.3.9",
+          "upstream_package": "https://pypi.org/project/aistudio_sdk/0.3.9/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Apache-2.0",
+          "license_files": [
+            "licenses/engineering/aistudio_sdk-0.3.9/aistudio_sdk-0.3.9.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "annotated-types",
+          "version": "0.8.0",
+          "upstream_package": "https://pypi.org/project/annotated-types/0.8.0/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/annotated-types-0.8.0/annotated_types-0.8.0.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "anyio",
+          "version": "4.15.1",
+          "upstream_package": "https://pypi.org/project/anyio/4.15.1/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/anyio-4.15.1/anyio-4.15.1.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "bce-python-sdk",
+          "version": "0.9.79",
+          "upstream_package": "https://pypi.org/project/bce-python-sdk/0.9.79/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Apache License 2.0",
+          "license_files": [
+            "licenses/engineering/bce-python-sdk-0.9.79/source-provenance.json",
+            "licenses/engineering/bce-python-sdk-0.9.79/upstream-package-copyright.py.txt",
+            "licenses/engineering/bce-python-sdk-0.9.79/APACHE-2.0.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "cadquery-ocp",
+          "version": "7.8.1.1.post1",
+          "upstream_package": "https://pypi.org/project/cadquery-ocp/7.8.1.1.post1/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/cadquery-ocp-7.8.1.1.post1/cadquery_ocp__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "certifi",
+          "version": "2026.7.22",
+          "upstream_package": "https://pypi.org/project/certifi/2026.7.22/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MPL-2.0",
+          "license_files": [
+            "licenses/engineering/certifi-2026.7.22/certifi-2026.7.22.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "cffi",
+          "version": "2.1.1",
+          "upstream_package": "https://pypi.org/project/cffi/2.1.1/",
+          "observed_license_expression": "MIT-0",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/cffi-2.1.1/cffi-2.1.1.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "chardet",
+          "version": "7.6.0",
+          "upstream_package": "https://pypi.org/project/chardet/7.6.0/",
+          "observed_license_expression": "0BSD",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/chardet-7.6.0/chardet-7.6.0.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "3.5.1",
+          "upstream_package": "https://pypi.org/project/charset-normalizer/3.5.1/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "licenses/engineering/charset-normalizer-3.5.1/charset_normalizer-3.5.1.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "click",
+          "version": "8.5.0",
+          "upstream_package": "https://pypi.org/project/click/8.5.0/",
+          "observed_license_expression": "BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/click-8.5.0/click-8.5.0.dist-info__licenses__LICENSE.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "colorlog",
+          "version": "6.12.0",
+          "upstream_package": "https://pypi.org/project/colorlog/6.12.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT License",
+          "license_files": [
+            "licenses/engineering/colorlog-6.12.0/colorlog-6.12.0.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "contourpy",
+          "version": "1.3.3",
+          "upstream_package": "https://pypi.org/project/contourpy/1.3.3/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "BSD 3-Clause License\n\n Copyright (c) 2021-2025, ContourPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n 1. Redistributions of source code must retain the above copyright notice, this\n    list of conditions and the following disclaimer.\n\n 2. Redistributions in bina",
+          "license_files": [
+            "licenses/engineering/contourpy-1.3.3/contourpy-1.3.3.dist-info__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "crc32c",
+          "version": "2.9",
+          "upstream_package": "https://pypi.org/project/crc32c/2.9/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "LGPL-2.1-or-later",
+          "license_files": [
+            "licenses/engineering/crc32c-2.9/crc32c-2.9.dist-info__licenses__LICENSE",
+            "licenses/engineering/crc32c-2.9/crc32c-2.9.dist-info__licenses__LICENSE.google-crc32c",
+            "licenses/engineering/crc32c-2.9/crc32c-2.9.dist-info__licenses__LICENSE.slice-by-8"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "cryptography",
+          "version": "50.0.1",
+          "upstream_package": "https://pypi.org/project/cryptography/50.0.1/",
+          "observed_license_expression": "Apache-2.0 OR BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/cryptography-50.0.1/cryptography-50.0.1.dist-info__licenses__LICENSE",
+            "licenses/engineering/cryptography-50.0.1/cryptography-50.0.1.dist-info__licenses__LICENSE.APACHE",
+            "licenses/engineering/cryptography-50.0.1/cryptography-50.0.1.dist-info__licenses__LICENSE.BSD"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "cycler",
+          "version": "0.12.1",
+          "upstream_package": "https://pypi.org/project/cycler/0.12.1/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Copyright (c) 2015, matplotlib project\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyrig",
+          "license_files": [
+            "licenses/engineering/cycler-0.12.1/cycler-0.12.1.dist-info__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "filelock",
+          "version": "3.32.5",
+          "upstream_package": "https://pypi.org/project/filelock/3.32.5/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/filelock-3.32.5/filelock-3.32.5.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "fonttools",
+          "version": "4.64.0",
+          "upstream_package": "https://pypi.org/project/fonttools/4.64.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "licenses/engineering/fonttools-4.64.0/fonttools-4.64.0.dist-info__licenses__LICENSE",
+            "licenses/engineering/fonttools-4.64.0/fonttools-4.64.0.dist-info__licenses__LICENSE.external"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "fsspec",
+          "version": "2026.7.0",
+          "upstream_package": "https://pypi.org/project/fsspec/2026.7.0/",
+          "observed_license_expression": "BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/fsspec-2026.7.0/fsspec-2026.7.0.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "future",
+          "version": "1.0.0",
+          "upstream_package": "https://pypi.org/project/future/1.0.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "licenses/engineering/future-1.0.0/future-1.0.0.dist-info__LICENSE.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "h11",
+          "version": "0.16.0",
+          "upstream_package": "https://pypi.org/project/h11/0.16.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "licenses/engineering/h11-0.16.0/h11-0.16.0.dist-info__licenses__LICENSE.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "hf-xet",
+          "version": "1.6.0",
+          "upstream_package": "https://pypi.org/project/hf-xet/1.6.0/",
+          "observed_license_expression": "Apache-2.0",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/hf-xet-1.6.0/hf_xet-1.6.0.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "httpcore",
+          "version": "1.0.9",
+          "upstream_package": "https://pypi.org/project/httpcore/1.0.9/",
+          "observed_license_expression": "BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/httpcore-1.0.9/httpcore-1.0.9.dist-info__licenses__LICENSE.md"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "httpx",
+          "version": "0.28.1",
+          "upstream_package": "https://pypi.org/project/httpx/0.28.1/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "BSD-3-Clause",
+          "license_files": [
+            "licenses/engineering/httpx-0.28.1/httpx-0.28.1.dist-info__licenses__LICENSE.md"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "huggingface_hub",
+          "version": "1.30.0",
+          "upstream_package": "https://pypi.org/project/huggingface_hub/1.30.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Apache-2.0",
+          "license_files": [
+            "licenses/engineering/huggingface_hub-1.30.0/huggingface_hub-1.30.0.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "idna",
+          "version": "3.19",
+          "upstream_package": "https://pypi.org/project/idna/3.19/",
+          "observed_license_expression": "BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/idna-3.19/idna-3.19.dist-info__licenses__LICENSE.md"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "imagesize",
+          "version": "2.0.1",
+          "upstream_package": "https://pypi.org/project/imagesize/2.0.1/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/imagesize-2.0.1/imagesize-2.0.1.dist-info__licenses__LICENSE.rst"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "kiwisolver",
+          "version": "1.5.1",
+          "upstream_package": "https://pypi.org/project/kiwisolver/1.5.1/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "=========================\n The Kiwi licensing terms\n=========================\nKiwi is licensed under the terms of the Modified BSD License (also known as\nNew or Revised BSD), as follows:\n\nCopyright (c) 2013-2026, Nucleic Development Team\n\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are m",
+          "license_files": [
+            "licenses/engineering/kiwisolver-1.5.1/kiwisolver-1.5.1.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "matplotlib",
+          "version": "3.10.9",
+          "upstream_package": "https://pypi.org/project/matplotlib/3.10.9/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "License agreement for matplotlib versions 1.3.0 and later\n =========================================================\n\n 1. This LICENSE AGREEMENT is between the Matplotlib Development Team\n (\"MDT\"), and the Individual or Organization (\"Licensee\") accessing and\n otherwise using matplotlib software in source or binary form and its\n associated documentation.\n\n 2. Subject to the terms and conditions of",
+          "license_files": [
+            "licenses/engineering/matplotlib-3.10.9/matplotlib-3.10.9.dist-info__LICENSE",
+            "licenses/engineering/matplotlib-3.10.9/matplotlib__mpl-data__fonts__ttf__LICENSE_DEJAVU",
+            "licenses/engineering/matplotlib-3.10.9/matplotlib__mpl-data__fonts__ttf__LICENSE_STIX"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "modelscope",
+          "version": "1.39.1",
+          "upstream_package": "https://pypi.org/project/modelscope/1.39.1/",
+          "observed_license_expression": "Apache-2.0",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/modelscope-1.39.1/modelscope-1.39.1.dist-info__licenses__LICENSE",
+            "licenses/engineering/modelscope-1.39.1/modelscope__pipelines__cv__license_plate_detection_pipeline.py"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "modelscope-hub",
+          "version": "0.4.0",
+          "upstream_package": "https://pypi.org/project/modelscope-hub/0.4.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Apache-2.0",
+          "license_files": [
+            "licenses/engineering/modelscope-hub-0.4.0/modelscope_hub-0.4.0.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "networkx",
+          "version": "3.6.1",
+          "upstream_package": "https://pypi.org/project/networkx/3.6.1/",
+          "observed_license_expression": "BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/networkx-3.6.1/networkx-3.6.1.dist-info__licenses__LICENSE.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "numpy",
+          "version": "2.5.3",
+          "upstream_package": "https://pypi.org/project/numpy/2.5.3/",
+          "observed_license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__LICENSE.txt",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy___core__include__numpy__libdivide__LICENSE.txt",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy___core__src__common__pythoncapi-compat__COPYING",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy___core__src__highway__LICENSE",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy___core__src__multiarray__dragon4_LICENSE.txt",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy___core__src__npysort__x86-simd-sort__LICENSE.md",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy___core__src__umath__svml__LICENSE",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__fft__pocketfft__LICENSE.md",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__linalg__lapack_lite__LICENSE.txt",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__ma__LICENSE",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__random__LICENSE.md",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__random__src__distributions__LICENSE.md",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__random__src__mt19937__LICENSE.md",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__random__src__pcg64__LICENSE.md",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__random__src__philox__LICENSE.md",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__random__src__sfc64__LICENSE.md",
+            "licenses/engineering/numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__random__src__splitmix64__LICENSE.md",
+            "licenses/engineering/numpy-2.5.3/numpy___core__include__numpy__random__LICENSE.txt",
+            "licenses/engineering/numpy-2.5.3/numpy__ma__LICENSE",
+            "licenses/engineering/numpy-2.5.3/numpy__random__LICENSE.md"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "opencv-contrib-python",
+          "version": "4.10.0.84",
+          "upstream_package": "https://pypi.org/project/opencv-contrib-python/4.10.0.84/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Apache 2.0",
+          "license_files": [
+            "licenses/engineering/opencv-contrib-python-4.10.0.84/cv2__LICENSE-3RD-PARTY.txt",
+            "licenses/engineering/opencv-contrib-python-4.10.0.84/cv2__LICENSE.txt",
+            "licenses/engineering/opencv-contrib-python-4.10.0.84/cv2__data__haarcascade_license_plate_rus_16stages.xml",
+            "licenses/engineering/opencv-contrib-python-4.10.0.84/opencv_contrib_python-4.10.0.84.dist-info__LICENSE-3RD-PARTY.txt",
+            "licenses/engineering/opencv-contrib-python-4.10.0.84/opencv_contrib_python-4.10.0.84.dist-info__LICENSE.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "opt-einsum",
+          "version": "3.3.0",
+          "upstream_package": "https://pypi.org/project/opt-einsum/3.3.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "licenses/engineering/opt-einsum-3.3.0/opt_einsum-3.3.0.dist-info__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "packaging",
+          "version": "26.3",
+          "upstream_package": "https://pypi.org/project/packaging/26.3/",
+          "observed_license_expression": "Apache-2.0 OR BSD-2-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/packaging-26.3/packaging-26.3.dist-info__licenses__LICENSE",
+            "licenses/engineering/packaging-26.3/packaging-26.3.dist-info__licenses__LICENSE.APACHE",
+            "licenses/engineering/packaging-26.3/packaging-26.3.dist-info__licenses__LICENSE.BSD"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "paddleocr",
+          "version": "3.3.2",
+          "upstream_package": "https://pypi.org/project/paddleocr/3.3.2/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Apache License 2.0",
+          "license_files": [
+            "licenses/engineering/paddleocr-3.3.2/paddleocr-3.3.2.dist-info__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "paddlepaddle",
+          "version": "3.2.2",
+          "upstream_package": "https://pypi.org/project/paddlepaddle/3.2.2/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Apache Software License",
+          "license_files": [
+            "licenses/engineering/paddlepaddle-3.2.2/paddlepaddle-3.2.2.dist-info__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "paddlex",
+          "version": "3.3.13",
+          "upstream_package": "https://pypi.org/project/paddlex/3.3.13/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Apache-2.0",
+          "license_files": [
+            "licenses/engineering/paddlex-3.3.13/paddlex-3.3.13.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "pandas",
+          "version": "3.0.2",
+          "upstream_package": "https://pypi.org/project/pandas/3.0.2/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "BSD 3-Clause License\n\n Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team\n All rights reserved.\n\n Copyright (c) 2011-2026, Open source contributors.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n * Redistributions of source code must retain the ab",
+          "license_files": [
+            "licenses/engineering/pandas-3.0.2/pandas-3.0.2.dist-info__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "pillow",
+          "version": "11.3.0",
+          "upstream_package": "https://pypi.org/project/pillow/11.3.0/",
+          "observed_license_expression": "MIT-CMU",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/pillow-11.3.0/pillow-11.3.0.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "prettytable",
+          "version": "3.18.0",
+          "upstream_package": "https://pypi.org/project/prettytable/3.18.0/",
+          "observed_license_expression": "BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/prettytable-3.18.0/prettytable-3.18.0.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "protobuf",
+          "version": "7.36.1",
+          "upstream_package": "https://pypi.org/project/protobuf/7.36.1/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "3-Clause BSD License",
+          "license_files": [
+            "licenses/engineering/protobuf-7.36.1/protobuf-7.36.1.dist-info__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "psutil",
+          "version": "7.2.2",
+          "upstream_package": "https://pypi.org/project/psutil/7.2.2/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "BSD-3-Clause",
+          "license_files": [
+            "licenses/engineering/psutil-7.2.2/psutil-7.2.2.dist-info__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "py-cpuinfo",
+          "version": "9.0.0",
+          "upstream_package": "https://pypi.org/project/py-cpuinfo/9.0.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "licenses/engineering/py-cpuinfo-9.0.0/py_cpuinfo-9.0.0.dist-info__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "pyclipper",
+          "version": "1.4.0",
+          "upstream_package": "https://pypi.org/project/pyclipper/1.4.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "licenses/engineering/pyclipper-1.4.0/pyclipper-1.4.0.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "pycparser",
+          "version": "3.0",
+          "upstream_package": "https://pypi.org/project/pycparser/3.0/",
+          "observed_license_expression": "BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/pycparser-3.0/pycparser-3.0.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "pycryptodome",
+          "version": "3.23.0",
+          "upstream_package": "https://pypi.org/project/pycryptodome/3.23.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "BSD, Public Domain",
+          "license_files": [
+            "licenses/engineering/pycryptodome-3.23.0/pycryptodome-3.23.0.dist-info__LICENSE.rst"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "pydantic",
+          "version": "2.13.5",
+          "upstream_package": "https://pypi.org/project/pydantic/2.13.5/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/pydantic-2.13.5/pydantic-2.13.5.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "pydantic_core",
+          "version": "2.46.5",
+          "upstream_package": "https://pypi.org/project/pydantic_core/2.46.5/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/pydantic_core-2.46.5/pydantic_core-2.46.5.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "pyparsing",
+          "version": "3.3.2",
+          "upstream_package": "https://pypi.org/project/pyparsing/3.3.2/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/pyparsing-3.3.2/pyparsing-3.3.2.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "pypdfium2",
+          "version": "4.30.0",
+          "upstream_package": "https://pypi.org/project/pypdfium2/4.30.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "(Apache-2.0 OR BSD-3-Clause) AND LicenseRef-PdfiumThirdParty",
+          "license_files": [
+            "licenses/engineering/pypdfium2-4.30.0/pypdfium2-4.30.0.dist-info__LicenseRef-PdfiumThirdParty.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel",
+          "supplemental_license_manifest": "licenses/engineering/pypdfium2-4.30.0/upstream-license-supplement.json"
+        },
+        {
+          "name": "python-bidi",
+          "version": "0.6.11",
+          "upstream_package": "https://pypi.org/project/python-bidi/0.6.11/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/python-bidi-0.6.11/python_bidi-0.6.11.dist-info__licenses__COPYING",
+            "licenses/engineering/python-bidi-0.6.11/python_bidi-0.6.11.dist-info__licenses__COPYING.LESSER",
+            "licenses/engineering/python-bidi-0.6.11/python_bidi-0.6.11.dist-info__licenses__LICENSE-THIRD-PARTY.yml"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "python-dateutil",
+          "version": "2.9.0.post0",
+          "upstream_package": "https://pypi.org/project/python-dateutil/2.9.0.post0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Dual License",
+          "license_files": [
+            "licenses/engineering/python-dateutil-2.9.0.post0/python_dateutil-2.9.0.post0.dist-info__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "PyYAML",
+          "version": "6.0.2",
+          "upstream_package": "https://pypi.org/project/PyYAML/6.0.2/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "licenses/engineering/PyYAML-6.0.2/PyYAML-6.0.2.dist-info__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "requests",
+          "version": "2.34.2",
+          "upstream_package": "https://pypi.org/project/requests/2.34.2/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Apache-2.0",
+          "license_files": [
+            "licenses/engineering/requests-2.34.2/requests-2.34.2.dist-info__licenses__LICENSE",
+            "licenses/engineering/requests-2.34.2/requests-2.34.2.dist-info__licenses__NOTICE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "ruamel.yaml",
+          "version": "0.19.1",
+          "upstream_package": "https://pypi.org/project/ruamel.yaml/0.19.1/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "licenses/engineering/ruamel.yaml-0.19.1/ruamel_yaml-0.19.1.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "safetensors",
+          "version": "0.8.0",
+          "upstream_package": "https://pypi.org/project/safetensors/0.8.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/safetensors-0.8.0/safetensors-0.8.0.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "setuptools",
+          "version": "84.0.0",
+          "upstream_package": "https://pypi.org/project/setuptools/84.0.0/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/setuptools-84.0.0/setuptools-84.0.0.dist-info__licenses__LICENSE",
+            "licenses/engineering/setuptools-84.0.0/setuptools___vendor__autocommand-2.2.2.dist-info__LICENSE",
+            "licenses/engineering/setuptools-84.0.0/setuptools___vendor__backports.tarfile-1.2.0.dist-info__LICENSE",
+            "licenses/engineering/setuptools-84.0.0/setuptools___vendor__importlib_metadata-8.7.1.dist-info__licenses__LICENSE",
+            "licenses/engineering/setuptools-84.0.0/setuptools___vendor__jaraco.text-4.0.0.dist-info__LICENSE",
+            "licenses/engineering/setuptools-84.0.0/setuptools___vendor__jaraco_context-6.1.0.dist-info__licenses__LICENSE",
+            "licenses/engineering/setuptools-84.0.0/setuptools___vendor__jaraco_functools-4.4.0.dist-info__licenses__LICENSE",
+            "licenses/engineering/setuptools-84.0.0/setuptools___vendor__more_itertools-10.8.0.dist-info__licenses__LICENSE",
+            "licenses/engineering/setuptools-84.0.0/setuptools___vendor__packaging-26.0.dist-info__licenses__LICENSE",
+            "licenses/engineering/setuptools-84.0.0/setuptools___vendor__packaging-26.0.dist-info__licenses__LICENSE.APACHE",
+            "licenses/engineering/setuptools-84.0.0/setuptools___vendor__packaging-26.0.dist-info__licenses__LICENSE.BSD",
+            "licenses/engineering/setuptools-84.0.0/setuptools___vendor__platformdirs-4.4.0.dist-info__licenses__LICENSE",
+            "licenses/engineering/setuptools-84.0.0/setuptools___vendor__tomli-2.4.0.dist-info__licenses__LICENSE",
+            "licenses/engineering/setuptools-84.0.0/setuptools___vendor__wheel-0.46.3.dist-info__licenses__LICENSE.txt",
+            "licenses/engineering/setuptools-84.0.0/setuptools___vendor__zipp-3.23.0.dist-info__licenses__LICENSE",
+            "licenses/engineering/setuptools-84.0.0/setuptools__config__NOTICE",
+            "licenses/engineering/setuptools-84.0.0/setuptools__config___validate_pyproject__NOTICE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "shapely",
+          "version": "2.1.2",
+          "upstream_package": "https://pypi.org/project/shapely/2.1.2/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "BSD 3-Clause",
+          "license_files": [
+            "licenses/engineering/shapely-2.1.2/shapely-2.1.2.dist-info__licenses__LICENSE.txt",
+            "licenses/engineering/shapely-2.1.2/shapely-2.1.2.dist-info__licenses__LICENSE_GEOS"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "six",
+          "version": "1.17.0",
+          "upstream_package": "https://pypi.org/project/six/1.17.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "licenses/engineering/six-1.17.0/six-1.17.0.dist-info__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "tqdm",
+          "version": "4.70.0",
+          "upstream_package": "https://pypi.org/project/tqdm/4.70.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MPL-2.0 AND MIT",
+          "license_files": [
+            "licenses/engineering/tqdm-4.70.0/tqdm-4.70.0.dist-info__licenses__LICENCE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "typing-inspection",
+          "version": "0.4.4",
+          "upstream_package": "https://pypi.org/project/typing-inspection/0.4.4/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/typing-inspection-0.4.4/typing_inspection-0.4.4.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "typing_extensions",
+          "version": "4.16.0",
+          "upstream_package": "https://pypi.org/project/typing_extensions/4.16.0/",
+          "observed_license_expression": "PSF-2.0",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/typing_extensions-4.16.0/typing_extensions-4.16.0.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "ujson",
+          "version": "6.0.0",
+          "upstream_package": "https://pypi.org/project/ujson/6.0.0/",
+          "observed_license_expression": "BSD-3-Clause AND TCL",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/ujson-6.0.0/ujson-6.0.0.dist-info__licenses__LICENSE.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "urllib3",
+          "version": "2.7.0",
+          "upstream_package": "https://pypi.org/project/urllib3/2.7.0/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/urllib3-2.7.0/urllib3-2.7.0.dist-info__licenses__LICENSE.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "vtk",
+          "version": "9.3.1",
+          "upstream_package": "https://pypi.org/project/vtk/9.3.1/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "BSD",
+          "license_files": [
+            "licenses/engineering/vtk-9.3.1/vtk-9.3.1.dist-info__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        },
+        {
+          "name": "wcwidth",
+          "version": "0.8.3",
+          "upstream_package": "https://pypi.org/project/wcwidth/0.8.3/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "licenses/engineering/wcwidth-0.8.3/wcwidth-0.8.3.dist-info__licenses__LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "not made by KANPACE; not a byte-level audit of every transitive wheel"
+        }
+      ]
+    },
+    {
+      "id": "agent-python",
+      "record_count": 42,
+      "manifest": "docs/open-source/licenses/langgraph-runtime/manifest.json",
+      "lock": "requirements-agent.lock.txt",
+      "items": [
+        {
+          "name": "aiosqlite",
+          "version": "0.22.1",
+          "upstream_package": "https://pypi.org/project/aiosqlite/0.22.1/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/aiosqlite__aiosqlite-0.22.1.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "annotated-types",
+          "version": "0.8.0",
+          "upstream_package": "https://pypi.org/project/annotated-types/0.8.0/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/annotated-types__annotated_types-0.8.0.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "anyio",
+          "version": "4.15.1",
+          "upstream_package": "https://pypi.org/project/anyio/4.15.1/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/anyio__anyio-4.15.1.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "certifi",
+          "version": "2026.7.22",
+          "upstream_package": "https://pypi.org/project/certifi/2026.7.22/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MPL-2.0",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/certifi__certifi-2026.7.22.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "3.5.1",
+          "upstream_package": "https://pypi.org/project/charset-normalizer/3.5.1/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/charset-normalizer__charset_normalizer-3.5.1.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "distro",
+          "version": "1.9.0",
+          "upstream_package": "https://pypi.org/project/distro/1.9.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Apache License, Version 2.0",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/distro__distro-1.9.0.dist-info_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "h11",
+          "version": "0.16.0",
+          "upstream_package": "https://pypi.org/project/h11/0.16.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/h11__h11-0.16.0.dist-info_licenses_LICENSE.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "httpcore",
+          "version": "1.0.9",
+          "upstream_package": "https://pypi.org/project/httpcore/1.0.9/",
+          "observed_license_expression": "BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/httpcore__httpcore-1.0.9.dist-info_licenses_LICENSE.md"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "httpcore2",
+          "version": "2.12.0",
+          "upstream_package": "https://pypi.org/project/httpcore2/2.12.0/",
+          "observed_license_expression": "BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/httpcore2__httpcore2-2.12.0.dist-info_licenses_LICENSE.md"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "httpx",
+          "version": "0.28.1",
+          "upstream_package": "https://pypi.org/project/httpx/0.28.1/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "BSD-3-Clause",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/httpx__httpx-0.28.1.dist-info_licenses_LICENSE.md"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "httpx2",
+          "version": "2.12.0",
+          "upstream_package": "https://pypi.org/project/httpx2/2.12.0/",
+          "observed_license_expression": "BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/httpx2__httpx2-2.12.0.dist-info_licenses_LICENSE.md"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "idna",
+          "version": "3.19",
+          "upstream_package": "https://pypi.org/project/idna/3.19/",
+          "observed_license_expression": "BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/idna__idna-3.19.dist-info_licenses_LICENSE.md"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "jsonpatch",
+          "version": "1.33",
+          "upstream_package": "https://pypi.org/project/jsonpatch/1.33/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Modified BSD License",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/jsonpatch__jsonpatch-1.33.dist-info_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "jsonpointer",
+          "version": "3.1.1",
+          "upstream_package": "https://pypi.org/project/jsonpointer/3.1.1/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Modified BSD License",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/jsonpointer__jsonpointer-3.1.1.dist-info_licenses_LICENSE.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "langchain-core",
+          "version": "1.6.2",
+          "upstream_package": "https://pypi.org/project/langchain-core/1.6.2/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/langchain-core__langchain_core-1.6.2.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "langchain-protocol",
+          "version": "0.0.19",
+          "upstream_package": "https://pypi.org/project/langchain-protocol/0.0.19/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/langchain-protocol__langchain_protocol-0.0.19.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "langgraph",
+          "version": "1.2.11",
+          "upstream_package": "https://pypi.org/project/langgraph/1.2.11/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/langgraph__langgraph-1.2.11.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "langgraph-checkpoint",
+          "version": "4.2.0",
+          "upstream_package": "https://pypi.org/project/langgraph-checkpoint/4.2.0/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/langgraph-checkpoint__langgraph_checkpoint-4.2.0.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "langgraph-checkpoint-sqlite",
+          "version": "3.1.1",
+          "upstream_package": "https://pypi.org/project/langgraph-checkpoint-sqlite/3.1.1/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/langgraph-checkpoint-sqlite__langgraph_checkpoint_sqlite-3.1.1.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "langgraph-prebuilt",
+          "version": "1.1.0",
+          "upstream_package": "https://pypi.org/project/langgraph-prebuilt/1.1.0/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/langgraph-prebuilt__langgraph_prebuilt-1.1.0.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "langgraph-sdk",
+          "version": "0.4.4",
+          "upstream_package": "https://pypi.org/project/langgraph-sdk/0.4.4/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/langgraph-sdk__langgraph_sdk-0.4.4.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "langsmith",
+          "version": "0.12.2",
+          "upstream_package": "https://pypi.org/project/langsmith/0.12.2/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "supplemental_license_manifest": "docs/open-source/licenses/langgraph-runtime/upstream-supplemental-licenses.json"
+        },
+        {
+          "name": "orjson",
+          "version": "3.12.0",
+          "upstream_package": "https://pypi.org/project/orjson/3.12.0/",
+          "observed_license_expression": "MPL-2.0 AND (Apache-2.0 OR MIT)",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/orjson__orjson-3.12.0.dist-info_licenses_LICENSE-APACHE",
+            "docs/open-source/licenses/langgraph-runtime/orjson__orjson-3.12.0.dist-info_licenses_LICENSE-MIT",
+            "docs/open-source/licenses/langgraph-runtime/orjson__orjson-3.12.0.dist-info_licenses_LICENSE-MPL-2.0"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "ormsgpack",
+          "version": "1.12.2",
+          "upstream_package": "https://pypi.org/project/ormsgpack/1.12.2/",
+          "observed_license_expression": "Apache-2.0 OR MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/ormsgpack__ormsgpack-1.12.2.dist-info_licenses_LICENSE-APACHE",
+            "docs/open-source/licenses/langgraph-runtime/ormsgpack__ormsgpack-1.12.2.dist-info_licenses_LICENSE-MIT"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "packaging",
+          "version": "26.3",
+          "upstream_package": "https://pypi.org/project/packaging/26.3/",
+          "observed_license_expression": "Apache-2.0 OR BSD-2-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/packaging__packaging-26.3.dist-info_licenses_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/packaging__packaging-26.3.dist-info_licenses_LICENSE.APACHE",
+            "docs/open-source/licenses/langgraph-runtime/packaging__packaging-26.3.dist-info_licenses_LICENSE.BSD"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "pip",
+          "version": "26.1.2",
+          "upstream_package": "https://pypi.org/project/pip/26.1.2/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_LICENSE.txt",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_cachecontrol_LICENSE.txt",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_certifi_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_distlib_LICENSE.txt",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_distro_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_idna_LICENSE.md",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_msgpack_COPYING",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_packaging_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_packaging_LICENSE.APACHE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_packaging_LICENSE.BSD",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_pkg_resources_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_platformdirs_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_pygments_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_pyproject_hooks_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_requests_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_resolvelib_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_rich_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_tomli_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_tomli_w_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_truststore_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip-26.1.2.dist-info_licenses_src_pip__vendor_urllib3_LICENSE.txt",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_cachecontrol_LICENSE.txt",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_certifi_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_distlib_LICENSE.txt",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_distro_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_idna_LICENSE.md",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_msgpack_COPYING",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_packaging_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_packaging_LICENSE.APACHE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_packaging_LICENSE.BSD",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_pkg_resources_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_platformdirs_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_pygments_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_pyproject_hooks_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_requests_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_resolvelib_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_rich_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_tomli_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_tomli_w_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_truststore_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/pip__pip__vendor_urllib3_LICENSE.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "pydantic",
+          "version": "2.13.5",
+          "upstream_package": "https://pypi.org/project/pydantic/2.13.5/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/pydantic__pydantic-2.13.5.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "pydantic_core",
+          "version": "2.46.5",
+          "upstream_package": "https://pypi.org/project/pydantic_core/2.46.5/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/pydantic_core__pydantic_core-2.46.5.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "PyYAML",
+          "version": "6.0.3",
+          "upstream_package": "https://pypi.org/project/PyYAML/6.0.3/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/PyYAML__pyyaml-6.0.3.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "requests",
+          "version": "2.34.2",
+          "upstream_package": "https://pypi.org/project/requests/2.34.2/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Apache-2.0",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/requests__requests-2.34.2.dist-info_licenses_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/requests__requests-2.34.2.dist-info_licenses_NOTICE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "requests-toolbelt",
+          "version": "1.0.0",
+          "upstream_package": "https://pypi.org/project/requests-toolbelt/1.0.0/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Apache 2.0",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/requests-toolbelt__requests_toolbelt-1.0.0.dist-info_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "sniffio",
+          "version": "1.3.1",
+          "upstream_package": "https://pypi.org/project/sniffio/1.3.1/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT OR Apache-2.0",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/sniffio__sniffio-1.3.1.dist-info_LICENSE",
+            "docs/open-source/licenses/langgraph-runtime/sniffio__sniffio-1.3.1.dist-info_LICENSE.APACHE2",
+            "docs/open-source/licenses/langgraph-runtime/sniffio__sniffio-1.3.1.dist-info_LICENSE.MIT"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "sqlite-vec",
+          "version": "0.1.9",
+          "upstream_package": "https://pypi.org/project/sqlite-vec/0.1.9/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "MIT License, Apache License, Version 2.0",
+          "license_files": [],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "supplemental_license_manifest": "docs/open-source/licenses/langgraph-runtime/upstream-supplemental-licenses.json"
+        },
+        {
+          "name": "tenacity",
+          "version": "9.1.4",
+          "upstream_package": "https://pypi.org/project/tenacity/9.1.4/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "Apache 2.0",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/tenacity__tenacity-9.1.4.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "truststore",
+          "version": "0.10.4",
+          "upstream_package": "https://pypi.org/project/truststore/0.10.4/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/truststore__truststore-0.10.4.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "typing-inspection",
+          "version": "0.4.4",
+          "upstream_package": "https://pypi.org/project/typing-inspection/0.4.4/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/typing-inspection__typing_inspection-0.4.4.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "typing_extensions",
+          "version": "4.16.0",
+          "upstream_package": "https://pypi.org/project/typing_extensions/4.16.0/",
+          "observed_license_expression": "PSF-2.0",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/typing_extensions__typing_extensions-4.16.0.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "urllib3",
+          "version": "2.7.0",
+          "upstream_package": "https://pypi.org/project/urllib3/2.7.0/",
+          "observed_license_expression": "MIT",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/urllib3__urllib3-2.7.0.dist-info_licenses_LICENSE.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "uuid_utils",
+          "version": "0.17.0",
+          "upstream_package": "https://pypi.org/project/uuid_utils/0.17.0/",
+          "observed_license_expression": "BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/uuid_utils__uuid_utils-0.17.0.dist-info_licenses_LICENSE.md"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "websockets",
+          "version": "16.1.1",
+          "upstream_package": "https://pypi.org/project/websockets/16.1.1/",
+          "observed_license_expression": "BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/websockets__websockets-16.1.1.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "xxhash",
+          "version": "4.0.1",
+          "upstream_package": "https://pypi.org/project/xxhash/4.0.1/",
+          "observed_license_expression": null,
+          "observed_license_metadata": "BSD-2-Clause",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/xxhash__xxhash-4.0.1.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "zstandard",
+          "version": "0.25.0",
+          "upstream_package": "https://pypi.org/project/zstandard/0.25.0/",
+          "observed_license_expression": "BSD-3-Clause",
+          "observed_license_metadata": "",
+          "license_files": [
+            "docs/open-source/licenses/langgraph-runtime/zstandard__zstandard-0.25.0.dist-info_licenses_LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "optimization-python",
+      "record_count": 13,
+      "manifest": "licenses/optimization/manifest.json",
+      "lock": "requirements-optimization.lock.txt",
+      "items": [
+        {
+          "name": "pandas",
+          "version": "3.0.5",
+          "upstream_package": "https://pypi.org/project/pandas/3.0.5/",
+          "license_files": [
+            "licenses/optimization/python/pandas/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "setuptools",
+          "version": "82.0.1",
+          "upstream_package": "https://pypi.org/project/setuptools/82.0.1/",
+          "license_files": [
+            "licenses/optimization/python/setuptools/licenses/LICENSE",
+            "licenses/optimization/python/setuptools/LICENSE",
+            "licenses/optimization/python/setuptools/licenses/LICENSE.APACHE",
+            "licenses/optimization/python/setuptools/licenses/LICENSE.BSD",
+            "licenses/optimization/python/setuptools/licenses/LICENSE.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "ninja",
+          "version": "1.11.1.4",
+          "upstream_package": "https://pypi.org/project/ninja/1.11.1.4/",
+          "license_files": [
+            "licenses/optimization/python/ninja/licenses/LICENSE_Apache_20"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "numpy",
+          "version": "2.4.6",
+          "upstream_package": "https://pypi.org/project/numpy/2.4.6/",
+          "license_files": [
+            "licenses/optimization/python/numpy/licenses/LICENSE.txt",
+            "licenses/optimization/python/numpy/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+            "licenses/optimization/python/numpy/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+            "licenses/optimization/python/numpy/licenses/numpy/_core/src/highway/LICENSE",
+            "licenses/optimization/python/numpy/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+            "licenses/optimization/python/numpy/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+            "licenses/optimization/python/numpy/licenses/numpy/_core/src/umath/svml/LICENSE",
+            "licenses/optimization/python/numpy/licenses/numpy/fft/pocketfft/LICENSE.md",
+            "licenses/optimization/python/numpy/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+            "licenses/optimization/python/numpy/licenses/numpy/ma/LICENSE",
+            "licenses/optimization/python/numpy/licenses/numpy/random/LICENSE.md",
+            "licenses/optimization/python/numpy/licenses/numpy/random/src/distributions/LICENSE.md",
+            "licenses/optimization/python/numpy/licenses/numpy/random/src/mt19937/LICENSE.md",
+            "licenses/optimization/python/numpy/licenses/numpy/random/src/pcg64/LICENSE.md",
+            "licenses/optimization/python/numpy/licenses/numpy/random/src/philox/LICENSE.md",
+            "licenses/optimization/python/numpy/licenses/numpy/random/src/sfc64/LICENSE.md",
+            "licenses/optimization/python/numpy/licenses/numpy/random/src/splitmix64/LICENSE.md"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "absl-py",
+          "version": "2.5.0",
+          "upstream_package": "https://pypi.org/project/absl-py/2.5.0/",
+          "license_files": [
+            "licenses/optimization/python/absl-py/licenses/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "immutabledict",
+          "version": "4.3.1",
+          "upstream_package": "https://pypi.org/project/immutabledict/4.3.1/",
+          "license_files": [
+            "licenses/optimization/python/immutabledict/licenses/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "protobuf",
+          "version": "6.33.6",
+          "upstream_package": "https://pypi.org/project/protobuf/6.33.6/",
+          "license_files": [
+            "licenses/optimization/python/protobuf/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "python-dateutil",
+          "version": "2.9.0.post0",
+          "upstream_package": "https://pypi.org/project/python-dateutil/2.9.0.post0/",
+          "license_files": [
+            "licenses/optimization/python/python-dateutil/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "cmake",
+          "version": "3.31.6",
+          "upstream_package": "https://pypi.org/project/cmake/3.31.6/",
+          "license_files": [
+            "licenses/optimization/python/cmake/licenses/LICENSE_Apache_20",
+            "licenses/optimization/python/cmake/licenses/LICENSE_BSD_3"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "pip",
+          "version": "26.1",
+          "upstream_package": "https://pypi.org/project/pip/26.1/",
+          "license_files": [
+            "licenses/optimization/python/pip/licenses/LICENSE.txt",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/cachecontrol/LICENSE.txt",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/certifi/LICENSE",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/distlib/LICENSE.txt",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/distro/LICENSE",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/idna/LICENSE.md",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/msgpack/COPYING",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/packaging/LICENSE",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/packaging/LICENSE.APACHE",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/packaging/LICENSE.BSD",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/pkg_resources/LICENSE",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/platformdirs/LICENSE",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/pygments/LICENSE",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/pyproject_hooks/LICENSE",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/requests/LICENSE",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/resolvelib/LICENSE",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/rich/LICENSE",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/tomli/LICENSE",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/tomli_w/LICENSE",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/truststore/LICENSE",
+            "licenses/optimization/python/pip/licenses/src/pip/_vendor/urllib3/LICENSE.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "typing_extensions",
+          "version": "4.16.0",
+          "upstream_package": "https://pypi.org/project/typing_extensions/4.16.0/",
+          "license_files": [
+            "licenses/optimization/python/typing_extensions/licenses/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "ortools",
+          "version": "9.15.6755",
+          "upstream_package": "https://pypi.org/project/ortools/9.15.6755/",
+          "license_files": [
+            "licenses/optimization/python/ortools/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        },
+        {
+          "name": "six",
+          "version": "1.17.0",
+          "upstream_package": "https://pypi.org/project/six/1.17.0/",
+          "license_files": [
+            "licenses/optimization/python/six/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "optimization-cpp",
+      "record_count": 11,
+      "manifest": "licenses/optimization/manifest.json",
+      "items": [
+        {
+          "name": "packingsolver",
+          "version_or_commit": "4ba84e45ab4b7697d2fec2bb62bdca09dab56d29",
+          "upstream": "https://github.com/fontanf/packingsolver",
+          "license_label": "MIT",
+          "license_files": [
+            "licenses/optimization/cpp/packingsolver/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "no tracked changes for Git source trees; see source-modification-audit.json"
+        },
+        {
+          "name": "boost-1.84.0",
+          "version_or_commit": "1.84.0",
+          "upstream": "https://www.boost.org/",
+          "license_label": "BSL-1.0",
+          "license_files": [
+            "licenses/optimization/cpp/boost-1.84.0/LICENSE_1_0.txt"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "no tracked changes for Git source trees; see source-modification-audit.json"
+        },
+        {
+          "name": "optimizationtools",
+          "version_or_commit": "7e29ad3e2dab11a44887fbcc9382188c5d0ead12",
+          "upstream": "https://github.com/fontanf/optimizationtools",
+          "license_label": "MIT",
+          "license_files": [
+            "licenses/optimization/cpp/optimizationtools/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "no tracked changes for Git source trees; see source-modification-audit.json"
+        },
+        {
+          "name": "treesearchsolver",
+          "version_or_commit": "b7254420989dd804144d16b898f323f1d606dda4",
+          "upstream": "https://github.com/fontanf/treesearchsolver",
+          "license_label": "MIT",
+          "license_files": [
+            "licenses/optimization/cpp/treesearchsolver/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "no tracked changes for Git source trees; see source-modification-audit.json"
+        },
+        {
+          "name": "shape",
+          "version_or_commit": "1e57508f8f9a194891e0343c84a1a255f62f0e40",
+          "upstream": "https://github.com/fontanf/shape",
+          "license_label": "MIT",
+          "license_files": [
+            "licenses/optimization/cpp/shape/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "no tracked changes for Git source trees; see source-modification-audit.json"
+        },
+        {
+          "name": "multiplechoicesubsetsumsolver",
+          "version_or_commit": "83406f59044425aef1391030db0b29333c208d7f",
+          "upstream": "https://github.com/fontanf/multiplechoicesubsetsumsolver",
+          "license_label": "MIT",
+          "license_files": [
+            "licenses/optimization/cpp/multiplechoicesubsetsumsolver/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "no tracked changes for Git source trees; see source-modification-audit.json"
+        },
+        {
+          "name": "mathoptsolverscmake",
+          "version_or_commit": "66b6e34c0c99916c75f10d7af6756c3310e54a2b",
+          "upstream": "https://github.com/fontanf/mathoptsolverscmake",
+          "license_label": "MIT",
+          "license_files": [
+            "licenses/optimization/cpp/mathoptsolverscmake/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "no tracked changes for Git source trees; see source-modification-audit.json"
+        },
+        {
+          "name": "knapsacksolver",
+          "version_or_commit": "605153f85b0781ae0c2b7548a18639ef77d25c09",
+          "upstream": "https://github.com/fontanf/knapsacksolver",
+          "license_label": "MIT",
+          "license_files": [
+            "licenses/optimization/cpp/knapsacksolver/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "no tracked changes for Git source trees; see source-modification-audit.json"
+        },
+        {
+          "name": "columngenerationsolver",
+          "version_or_commit": "1274df41234709ab3d62f1b3e6dd2a88d3799710",
+          "upstream": "https://github.com/fontanf/columngenerationsolver",
+          "license_label": "MIT",
+          "license_files": [
+            "licenses/optimization/cpp/columngenerationsolver/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "no tracked changes for Git source trees; see source-modification-audit.json"
+        },
+        {
+          "name": "highs",
+          "version_or_commit": "1d267d97c16928bb5f86fcb2cba2d20f94c8720c",
+          "upstream": "https://github.com/ERGO-Code/HiGHS",
+          "license_label": "MIT plus embedded BSD-3-Clause / Apache-2.0 / BSL-1.0 and other notices",
+          "license_files": [
+            "licenses/optimization/cpp/highs/LICENSE.txt",
+            "licenses/optimization/cpp/highs/extern/LICENCE_1_0.txt",
+            "licenses/optimization/cpp/highs/extern/rcm/LICENSE",
+            "licenses/optimization/cpp/highs/extern/zstr/LICENSE",
+            "licenses/optimization/cpp/highs/extern/metis/LICENSE.txt",
+            "licenses/optimization/cpp/highs/extern/amd/License.txt",
+            "licenses/optimization/cpp/highs/extern/pdqsort/license.txt",
+            "licenses/optimization/cpp/highs/highs/io/filereaderlp/LICENSE"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "no tracked changes for Git source trees; see source-modification-audit.json"
+        },
+        {
+          "name": "json-src",
+          "version_or_commit": "3.11.3",
+          "upstream": "https://github.com/nlohmann/json",
+          "license_label": "MIT",
+          "license_files": [
+            "licenses/optimization/cpp/json-src/LICENSE.MIT"
+          ],
+          "distribution": [
+            "downloaded",
+            "local-only"
+          ],
+          "upstream_modifications": "no tracked changes for Git source trees; see source-modification-audit.json"
+        }
+      ]
+    }
+  ],
+  "distributed_source_archives": [
+    {
+      "path": "licenses/web/OCCT-d2abb6d844231cb8f29be6894440874a4700e4a5.tar.gz",
+      "sha256": "2715d89a1bc44dfd34dab88f729c445ea93f6b57d6539b0c89614a80ae144a6c",
+      "bytes": 48218968,
+      "distribution": [
+        "source"
+      ]
+    },
+    {
+      "path": "licenses/web/occt-import-js-0.0.23.tgz",
+      "sha256": "eaab9ca7bf02799360d8fc70468dc8bf78eb2073c3fafb1ff982006e558fc1f3",
+      "bytes": 4382337,
+      "distribution": [
+        "source",
+        "binary"
+      ]
+    },
+    {
+      "path": "licenses/web/three-0.180.0-distributed-files.tar.gz",
+      "sha256": "eecf5df00eedf9982f40ea8aa6185e91fb7442c126ab3169404224d7717ccd6b",
+      "bytes": 443565,
+      "distribution": [
+        "source"
+      ]
+    }
+  ],
+  "source_evidence": [
+    "licenses/web/vendored-verification.json",
+    "licenses/web/web-source-provenance.json",
+    "licenses/web/occt-npm-source-git-verification.json",
+    "licenses/optimization/source-modification-audit.json",
+    "licenses/engineering/model-manifest.json",
+    "licenses/adapter-license-comment-verification.json",
+    "licenses/web-runtime/manifest.json",
+    "licenses/web-runtime/upstream-sources.json",
+    "licenses/web-runtime/poppler-provenance.json"
+  ],
+  "external_inventories": [
+    {
+      "scope": "ESP32 firmware, Arduino SDK/libraries, bitmap fonts",
+      "path": "firmware/goldenmorning-display/THIRD_PARTY_NOTICES.md",
+      "machine_manifest": "firmware/goldenmorning-display/DEPENDENCY-INVENTORY.json",
+      "license_verification": "firmware/goldenmorning-display/LICENSE-VERIFICATION.md",
+      "license_index": "firmware/goldenmorning-display/licenses/INDEX.md",
+      "source_provenance": "firmware/goldenmorning-display/licenses/SOURCES.json",
+      "status": "separate completed inventory; its unresolved binary/source/font items remain applicable"
+    }
+  ],
+  "asset_boundaries": [
+    {
+      "name": "Web fonts",
+      "raw_font_files_distributed": false,
+      "license": "host OS fonts, not relabeled as OFL",
+      "evidence": "static/ contained no ttf/otf/woff/woff2 files on audit date"
+    },
+    {
+      "name": "KANPACE brand assets",
+      "license": "user-provided brand rights; no OSS or trademark grant asserted here"
+    },
+    {
+      "name": "Factory documents and model inputs",
+      "license": "private customer data; excluded from common source package and third-party model weights"
+    }
+  ],
+  "unresolved_items": [
+    {
+      "id": "native-wheel-corresponding-source",
+      "severity": "must resolve before redistributing the native environment or wheels",
+      "components": [
+        "ocp",
+        "occt-native",
+        "freeimage",
+        "libraw"
+      ],
+      "detail": "OCP wheel embeds 75 dylibs. Full exact source/build patches and optional LibRaw GPL demosaic configuration are not fully proven. FreeImage 3.18.0 in this wheel uses LibRaw 0.21.3, so stock older FreeImage source alone is insufficient.",
+      "mitigation": "Native wheel/env/models/optimizer executables are excluded; installers obtain dependencies at recipient machine. This is not a completed native-binary distribution audit.",
+      "evidence": "licenses/engineering/embedded-native-distribution-audit.md"
+    },
+    {
+      "id": "wasm-build-reproduction",
+      "severity": "verification limit, not missing bundled source",
+      "components": [
+        "occt-import-js",
+        "occt-wasm"
+      ],
+      "detail": "Exact published source, OCCT submodule, build scripts and compiler version are included; no WASM rebuild or bit-for-bit reproduction was performed. Preserve source and replacement rights on future releases."
+    },
+    {
+      "id": "transitive-metadata",
+      "severity": "ongoing release verification",
+      "detail": "122 Python runtime package records and 11 C++ source records are retained as observed metadata and upstream notices. Not every embedded dependency is independently audited. Regenerate manifests when platform/wheel changes."
+    },
+    {
+      "id": "web-media-range",
+      "severity": "version reproducibility",
+      "detail": "Web requirements-media.txt declares Pillow>=12.0,<13; observed local version is 12.3.0 and license evidence is for that version. A later installer resolution may differ; regenerate license manifest if changed."
+    }
+  ],
+  "updated_on": "2026-10-04"
+}

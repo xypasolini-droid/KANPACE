@@ -1,0 +1,255 @@
+{
+  "ortools": {
+    "version": "9.15.6755",
+    "license": "Apache-2.0",
+    "repository": "https://github.com/google/or-tools"
+  },
+  "packingsolver": {
+    "commit": "4ba84e45ab4b7697d2fec2bb62bdca09dab56d29",
+    "license": "MIT",
+    "repository": "https://github.com/fontanf/packingsolver",
+    "enabled_lp_backend": "HiGHS",
+    "clp_enabled": false,
+    "knitro_enabled": false,
+    "binary_sha256": "6180bc72955affe1b19198ccb63cd5944acf95a1417bbb77b49d5e98614238ad"
+  },
+  "source_archives": [
+    {
+      "name": "boost-1.84.0.tar.xz",
+      "sha256": "2e64e5d79a738d0fa6fb546c6e5c2bd28f88d268a2a080546f74e5ff98f29d0e",
+      "url": "https://github.com/boostorg/boost/releases/download/boost-1.84.0/boost-1.84.0.tar.xz"
+    }
+  ],
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.11.15",
+  "python_dependencies": [
+    {
+      "name": "pandas",
+      "version": "3.0.5",
+      "licenses": [
+        "licenses/optimization/python/pandas/LICENSE"
+      ]
+    },
+    {
+      "name": "setuptools",
+      "version": "82.0.1",
+      "licenses": [
+        "licenses/optimization/python/setuptools/licenses/LICENSE",
+        "licenses/optimization/python/setuptools/LICENSE",
+        "licenses/optimization/python/setuptools/LICENSE",
+        "licenses/optimization/python/setuptools/licenses/LICENSE",
+        "licenses/optimization/python/setuptools/LICENSE",
+        "licenses/optimization/python/setuptools/licenses/LICENSE",
+        "licenses/optimization/python/setuptools/licenses/LICENSE",
+        "licenses/optimization/python/setuptools/licenses/LICENSE",
+        "licenses/optimization/python/setuptools/licenses/LICENSE",
+        "licenses/optimization/python/setuptools/licenses/LICENSE.APACHE",
+        "licenses/optimization/python/setuptools/licenses/LICENSE.BSD",
+        "licenses/optimization/python/setuptools/licenses/LICENSE",
+        "licenses/optimization/python/setuptools/licenses/LICENSE",
+        "licenses/optimization/python/setuptools/licenses/LICENSE.txt",
+        "licenses/optimization/python/setuptools/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "ninja",
+      "version": "1.11.1.4",
+      "licenses": [
+        "licenses/optimization/python/ninja/licenses/LICENSE_Apache_20"
+      ]
+    },
+    {
+      "name": "numpy",
+      "version": "2.4.6",
+      "licenses": [
+        "licenses/optimization/python/numpy/licenses/LICENSE.txt",
+        "licenses/optimization/python/numpy/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+        "licenses/optimization/python/numpy/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+        "licenses/optimization/python/numpy/licenses/numpy/_core/src/highway/LICENSE",
+        "licenses/optimization/python/numpy/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+        "licenses/optimization/python/numpy/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+        "licenses/optimization/python/numpy/licenses/numpy/_core/src/umath/svml/LICENSE",
+        "licenses/optimization/python/numpy/licenses/numpy/fft/pocketfft/LICENSE.md",
+        "licenses/optimization/python/numpy/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+        "licenses/optimization/python/numpy/licenses/numpy/ma/LICENSE",
+        "licenses/optimization/python/numpy/licenses/numpy/random/LICENSE.md",
+        "licenses/optimization/python/numpy/licenses/numpy/random/src/distributions/LICENSE.md",
+        "licenses/optimization/python/numpy/licenses/numpy/random/src/mt19937/LICENSE.md",
+        "licenses/optimization/python/numpy/licenses/numpy/random/src/pcg64/LICENSE.md",
+        "licenses/optimization/python/numpy/licenses/numpy/random/src/philox/LICENSE.md",
+        "licenses/optimization/python/numpy/licenses/numpy/random/src/sfc64/LICENSE.md",
+        "licenses/optimization/python/numpy/licenses/numpy/random/src/splitmix64/LICENSE.md"
+      ]
+    },
+    {
+      "name": "absl-py",
+      "version": "2.5.0",
+      "licenses": [
+        "licenses/optimization/python/absl-py/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "immutabledict",
+      "version": "4.3.1",
+      "licenses": [
+        "licenses/optimization/python/immutabledict/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "protobuf",
+      "version": "6.33.6",
+      "licenses": [
+        "licenses/optimization/python/protobuf/LICENSE"
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "licenses": [
+        "licenses/optimization/python/python-dateutil/LICENSE"
+      ]
+    },
+    {
+      "name": "cmake",
+      "version": "3.31.6",
+      "licenses": [
+        "licenses/optimization/python/cmake/licenses/LICENSE_Apache_20",
+        "licenses/optimization/python/cmake/licenses/LICENSE_BSD_3"
+      ]
+    },
+    {
+      "name": "pip",
+      "version": "26.1",
+      "licenses": [
+        "licenses/optimization/python/pip/licenses/LICENSE.txt",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/cachecontrol/LICENSE.txt",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/certifi/LICENSE",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/distlib/LICENSE.txt",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/distro/LICENSE",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/idna/LICENSE.md",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/msgpack/COPYING",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/packaging/LICENSE",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/packaging/LICENSE.APACHE",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/packaging/LICENSE.BSD",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/pkg_resources/LICENSE",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/platformdirs/LICENSE",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/pygments/LICENSE",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/pyproject_hooks/LICENSE",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/requests/LICENSE",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/resolvelib/LICENSE",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/rich/LICENSE",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/tomli/LICENSE",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/tomli_w/LICENSE",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/truststore/LICENSE",
+        "licenses/optimization/python/pip/licenses/src/pip/_vendor/urllib3/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "licenses": [
+        "licenses/optimization/python/typing_extensions/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "ortools",
+      "version": "9.15.6755",
+      "licenses": [
+        "licenses/optimization/python/ortools/LICENSE"
+      ]
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "licenses": [
+        "licenses/optimization/python/six/LICENSE"
+      ]
+    }
+  ],
+  "cpp_dependencies": [
+    {
+      "name": "packingsolver",
+      "commit": "4ba84e45ab4b7697d2fec2bb62bdca09dab56d29",
+      "licenses": [
+        "licenses/optimization/cpp/packingsolver/LICENSE"
+      ]
+    },
+    {
+      "name": "boost-1.84.0",
+      "commit": null,
+      "licenses": [
+        "licenses/optimization/cpp/boost-1.84.0/LICENSE_1_0.txt"
+      ]
+    },
+    {
+      "name": "optimizationtools",
+      "commit": "7e29ad3e2dab11a44887fbcc9382188c5d0ead12",
+      "licenses": [
+        "licenses/optimization/cpp/optimizationtools/LICENSE"
+      ]
+    },
+    {
+      "name": "treesearchsolver",
+      "commit": "b7254420989dd804144d16b898f323f1d606dda4",
+      "licenses": [
+        "licenses/optimization/cpp/treesearchsolver/LICENSE"
+      ]
+    },
+    {
+      "name": "shape",
+      "commit": "1e57508f8f9a194891e0343c84a1a255f62f0e40",
+      "licenses": [
+        "licenses/optimization/cpp/shape/LICENSE"
+      ]
+    },
+    {
+      "name": "multiplechoicesubsetsumsolver",
+      "commit": "83406f59044425aef1391030db0b29333c208d7f",
+      "licenses": [
+        "licenses/optimization/cpp/multiplechoicesubsetsumsolver/LICENSE"
+      ]
+    },
+    {
+      "name": "mathoptsolverscmake",
+      "commit": "66b6e34c0c99916c75f10d7af6756c3310e54a2b",
+      "licenses": [
+        "licenses/optimization/cpp/mathoptsolverscmake/LICENSE"
+      ]
+    },
+    {
+      "name": "knapsacksolver",
+      "commit": "605153f85b0781ae0c2b7548a18639ef77d25c09",
+      "licenses": [
+        "licenses/optimization/cpp/knapsacksolver/LICENSE"
+      ]
+    },
+    {
+      "name": "columngenerationsolver",
+      "commit": "1274df41234709ab3d62f1b3e6dd2a88d3799710",
+      "licenses": [
+        "licenses/optimization/cpp/columngenerationsolver/LICENSE"
+      ]
+    },
+    {
+      "name": "highs",
+      "commit": "1d267d97c16928bb5f86fcb2cba2d20f94c8720c",
+      "licenses": [
+        "licenses/optimization/cpp/highs/LICENSE.txt",
+        "licenses/optimization/cpp/highs/extern/LICENCE_1_0.txt",
+        "licenses/optimization/cpp/highs/extern/rcm/LICENSE",
+        "licenses/optimization/cpp/highs/extern/zstr/LICENSE",
+        "licenses/optimization/cpp/highs/extern/metis/LICENSE.txt",
+        "licenses/optimization/cpp/highs/extern/amd/License.txt",
+        "licenses/optimization/cpp/highs/extern/pdqsort/license.txt",
+        "licenses/optimization/cpp/highs/highs/io/filereaderlp/LICENSE"
+      ]
+    },
+    {
+      "name": "json-src",
+      "commit": null,
+      "licenses": [
+        "licenses/optimization/cpp/json-src/LICENSE.MIT"
+      ]
+    }
+  ]
+}

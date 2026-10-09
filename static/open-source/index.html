@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>KANPACE · 开源技术选型</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../brand/brand.css"><link rel="stylesheet" href="catalog.css">
+  <script src="catalog.js" defer></script>
+  <script src="runtime.js?v=20260907" defer></script>
+</head>
+<body>
+  <header><a class="kanpace-brand" href="/" aria-label="返回 KANPACE"><img class="kanpace-wordmark" src="../brand/KANPACE-Handoff-Black.svg" alt="KANPACE"></a><nav aria-label="页面导航"><a href="#catalog">候选清单</a><a href="#coverage">功能覆盖</a><a href="KANPACE-开源选型.csv" download>导出 Excel 清单</a><a href="KANPACE-开源技术选型.md" download>完整报告 ↗</a></nav></header>
+  <main>
+    <div class="eyebrow">技术研究 / 2026.09.06</div>
+    <section class="intro"><div><h1>开源技术选型</h1><p>围绕图纸、生产流程和工牌，选择值得接入 KANPACE 的成熟项目。</p><p class="muted">保留现有业务基础，补强解析、求解、交互与通信能力。</p></div><div class="stats"><div><b id="count-all">—</b><span>候选与对照条目</span></div><div><b id="count-coverage">—</b><span>重要功能</span></div></div></section>
+    <section class="section" aria-label="已接入的五项核心能力">
+      <div class="section-head"><h2>已接入的五项核心能力</h2><button id="runtime-refresh" type="button">检查本机状态</button></div>
+      <p class="method" id="runtime-message" role="status">正在检查本机引擎…</p>
+      <div class="routes">
+        <article><span class="step" data-engine="paddleocr">正在检测</span><h2>PaddleOCR</h2><p>识别施工图文字，带原图位置建立待复核构件。</p><a href="/#page=drawing">图纸与拆单 →</a></article>
+        <article><span class="step" data-engine="occt">正在检测</span><h2>Open CASCADE</h2><p>核对 STEP 装配实例、单位、表面积、体积与实体有效性。</p><a href="/#page=drawing">核对工程模型 →</a></article>
+        <article><span class="step" data-engine="ortools">正在检测</span><h2>Google OR-Tools</h2><p>在人员、工位、齐套和前后序约束下生成可确认的排程。</p><a href="/#page=scheduling">产能与插单 →</a></article>
+        <article><span class="step" data-engine="langgraph">正在检测</span><h2>LangGraph</h2><p>分步分析延期，比较排程，等待管理者确认再采用。</p><a href="/#page=overview">进入工作台使用操作助手 →</a></article>
+        <article><span class="step" data-engine="packingsolver">正在检测</span><h2>PackingSolver</h2><p>按确认的下料清单计算板材布局、锯缝与用板金额。</p><a href="/#page=quote">成本报价 → 板材排料</a></article>
+      </div>
+    </section>
+    <section class="routes" aria-label="其他能力的建议验证顺序">
+      <article><span class="step">01 / 看懂真实图纸</span><h2>PDF.js · ezdxf · OCR</h2><p>文字与零件回链到原图，技术员确认后进入 BOM 和工艺。</p></article>
+      <article><span class="step">02 / 排得下，也做得完</span><h2>OR-Tools · Frappe Gantt</h2><p>结合材料、工位和班次，验证并行工序、插单与暂停恢复。</p></article>
+      <article><span class="step">03 / 工牌可靠报工</span><h2>官方 ESP 组件 · MQTT</h2><p>延续已验证的屏幕与 USB，完善无线、事件补传和业务回执。</p></article>
+      <article><span class="step">04 / 延续客户习惯</span><h2>openpyxl · ECharts</h2><p>Excel 预览映射，统一经营指标；按客户需要再接 ERP 和 MCP。</p></article>
+    </section>
+    <aside class="omni"><div><span class="step">新增评估 / 用户指定</span><h2>omniverse-cad-to-usd</h2><p>适合独立 CAD 转换节点。官方 skill 与转换运行时分开核验；当前 Mac 不能按官方 wheel 路径运行。USD 场景数据仍需连接到制造 BOM 与网页查看器。</p></div><a href="#catalog" id="find-omni">查看核验结果 →</a></aside>
+    <section id="catalog" class="section">
+      <div class="section-head"><h2>候选清单</h2><span class="muted" id="result-count" aria-live="polite">正在读取…</span></div>
+      <form class="filters" role="search" onsubmit="return false">
+        <label class="search"><span>搜索功能或项目</span><input id="search" type="search" placeholder="试试：SolidWorks、排产、Excel、LVGL" autocomplete="off"></label>
+        <label><span>功能分组</span><select id="category"><option value="">全部分组</option></select></label>
+        <label><span>接入建议</span><select id="priority"><option value="">全部建议</option></select></label>
+        <label><span>许可类型</span><select id="license"><option value="">全部类型</option></select></label>
+        <button id="reset" type="button">重置</button>
+      </form>
+      <p class="method">维护日期区分发布、条目更新、提交与仓库 push。点击项目展开能力边界、接入方式和官方证据。许可标签用于筛选，具体组件以条目说明为准。</p>
+      <div id="results" class="cards"></div>
+      <p id="error" role="alert" hidden></p>
+    </section>
+    <section id="coverage" class="section">
+      <div class="section-head"><h2>功能覆盖与验收</h2><a href="KANPACE-功能覆盖.csv" download>导出覆盖矩阵 ↗</a></div>
+      <p class="method">每个重要功能都对应候选项目、必须保留的业务规则和实际验收条件。找到库不等于功能已经交付。</p>
+      <div id="coverage-list" class="coverage-list"></div>
+    </section>
+    <footer><p>候选目录保留技术研究结论；本次接入的五项能力在上方单独列出，并读取本机实际状态。验证使用隔离样例，客户订单的识别准确率与节省幅度需要按实际资料验收。</p><a href="catalog.json" download>下载机器可读 JSON</a><span> · </span><a href="/">返回生产工作台</a></footer>
+  </main>
+</body>
+</html>

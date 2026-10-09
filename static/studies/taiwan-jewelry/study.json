@@ -1,0 +1,15 @@
+{
+  "title": "图纸分工 · 空白模板",
+  "summary": "通用源码包保留案例查看器，客户图纸与案例数据由所属工厂单独保管",
+  "counts": {
+    "files": 0,
+    "pdfs": 0,
+    "pages": 0,
+    "variants": 0,
+    "cabinets": 0
+  },
+  "work_packages": [],
+  "cabinet_types": [],
+  "issues": [],
+  "flow": []
+}

@@ -1,0 +1,2059 @@
+[
+  {
+    "name": "aistudio_sdk",
+    "version": "0.3.9",
+    "license_expression": null,
+    "license_metadata": "Apache-2.0",
+    "classifiers": [
+      "Programming Language :: Python",
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "aistudio_sdk-0.3.9/aistudio_sdk-0.3.9.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "annotated-types",
+    "version": "0.8.0",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Environment :: Console",
+      "Environment :: MacOS X",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Information Technology",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: POSIX :: Linux",
+      "Operating System :: Unix",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Typing :: Typed"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/annotated-types/annotated-types",
+      "Source, https://github.com/annotated-types/annotated-types",
+      "Changelog, https://github.com/annotated-types/annotated-types/releases"
+    ],
+    "archived_files": [
+      "annotated-types-0.8.0/annotated_types-0.8.0.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "anyio",
+    "version": "4.15.1",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Framework :: AnyIO",
+      "Typing :: Typed",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15",
+      "Programming Language :: Python :: Free Threading :: 2 - Beta"
+    ],
+    "project_urls": [
+      "Documentation, https://anyio.readthedocs.io/en/latest/",
+      "Changelog, https://anyio.readthedocs.io/en/stable/versionhistory.html",
+      "Source code, https://github.com/agronholm/anyio",
+      "Issue tracker, https://github.com/agronholm/anyio/issues"
+    ],
+    "archived_files": [
+      "anyio-4.15.1/anyio-4.15.1.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "bce-python-sdk",
+    "version": "0.9.79",
+    "license_expression": null,
+    "license_metadata": "Apache License 2.0",
+    "classifiers": [],
+    "project_urls": [],
+    "archived_files": [
+      "bce-python-sdk-0.9.79/source-provenance.json",
+      "bce-python-sdk-0.9.79/upstream-package-copyright.py.txt",
+      "bce-python-sdk-0.9.79/APACHE-2.0.txt"
+    ]
+  },
+  {
+    "name": "cadquery-ocp",
+    "version": "7.8.1.1.post1",
+    "license_expression": null,
+    "license_metadata": null,
+    "classifiers": [],
+    "project_urls": [],
+    "archived_files": [
+      "cadquery-ocp-7.8.1.1.post1/cadquery_ocp__LICENSE"
+    ]
+  },
+  {
+    "name": "certifi",
+    "version": "2026.7.22",
+    "license_expression": null,
+    "license_metadata": "MPL-2.0",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+      "Natural Language :: English",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14"
+    ],
+    "project_urls": [
+      "Source, https://github.com/certifi/python-certifi"
+    ],
+    "archived_files": [
+      "certifi-2026.7.22/certifi-2026.7.22.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "license_expression": "MIT-0",
+    "license_metadata": null,
+    "classifiers": [
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15",
+      "Programming Language :: Python :: Free Threading :: 2 - Beta",
+      "Programming Language :: Python :: Implementation :: CPython"
+    ],
+    "project_urls": [
+      "Documentation, https://cffi.readthedocs.io/",
+      "Changelog, https://cffi.readthedocs.io/en/latest/whatsnew.html",
+      "Download, https://github.com/python-cffi/cffi/releases",
+      "Contact, https://groups.google.com/forum/#!forum/python-cffi",
+      "Source Code, https://github.com/python-cffi/cffi",
+      "Issue Tracker, https://github.com/python-cffi/cffi/issues"
+    ],
+    "archived_files": [
+      "cffi-2.1.1/cffi-2.1.1.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "chardet",
+    "version": "7.6.0",
+    "license_expression": "0BSD",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Topic :: Text Processing :: Linguistic"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/chardet/chardet",
+      "Repository, https://github.com/chardet/chardet",
+      "Bug Tracker, https://github.com/chardet/chardet/issues",
+      "Documentation, https://chardet.readthedocs.io",
+      "Changelog, https://chardet.readthedocs.io/en/latest/changelog.html"
+    ],
+    "archived_files": [
+      "chardet-7.6.0/chardet-7.6.0.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.5.1",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Programming Language :: Python :: Free Threading :: 4 - Resilient",
+      "Environment :: WebAssembly",
+      "Environment :: WebAssembly :: Emscripten",
+      "Topic :: Text Processing :: Linguistic",
+      "Topic :: Utilities",
+      "Typing :: Typed"
+    ],
+    "project_urls": [
+      "Changelog, https://github.com/jawah/charset_normalizer/blob/master/CHANGELOG.md",
+      "Documentation, https://charset-normalizer.readthedocs.io/",
+      "Code, https://github.com/jawah/charset_normalizer",
+      "Issue tracker, https://github.com/jawah/charset_normalizer/issues"
+    ],
+    "archived_files": [
+      "charset-normalizer-3.5.1/charset_normalizer-3.5.1.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "click",
+    "version": "8.5.0",
+    "license_expression": "BSD-3-Clause",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Typing :: Typed"
+    ],
+    "project_urls": [
+      "Changes, https://click.palletsprojects.com/page/changes/",
+      "Chat, https://discord.gg/pallets",
+      "Documentation, https://click.palletsprojects.com/",
+      "Donate, https://palletsprojects.com/donate",
+      "Source, https://github.com/pallets/click/"
+    ],
+    "archived_files": [
+      "click-8.5.0/click-8.5.0.dist-info__licenses__LICENSE.txt"
+    ]
+  },
+  {
+    "name": "colorlog",
+    "version": "6.12.0",
+    "license_expression": null,
+    "license_metadata": "MIT License",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Environment :: Console",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.6",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Topic :: Terminals",
+      "Topic :: Utilities"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "colorlog-6.12.0/colorlog-6.12.0.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "contourpy",
+    "version": "1.3.3",
+    "license_expression": null,
+    "license_metadata": "BSD 3-Clause License\n\n Copyright (c) 2021-2025, ContourPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n 1. Redistributions of source code must retain the above copyright notice, this\n    list of conditions and the following disclaimer.\n\n 2. Redistributions in binary form must reproduce the above copyright notice,\n    this list of conditions and the following disclaimer in the documentation\n    and/or other materials provided with the distribution.\n\n 3. Neither the name of the copyright holder nor the names of its\n    contributors may be used to endorse or promote products derived from\n    this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\n FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Science/Research",
+      "License :: OSI Approved :: BSD License",
+      "Programming Language :: C++",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Topic :: Scientific/Engineering :: Information Analysis",
+      "Topic :: Scientific/Engineering :: Mathematics",
+      "Topic :: Scientific/Engineering :: Visualization"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/contourpy/contourpy",
+      "Changelog, https://contourpy.readthedocs.io/en/latest/changelog.html",
+      "Documentation, https://contourpy.readthedocs.io",
+      "Repository, https://github.com/contourpy/contourpy"
+    ],
+    "archived_files": [
+      "contourpy-1.3.3/contourpy-1.3.3.dist-info__LICENSE"
+    ]
+  },
+  {
+    "name": "crc32c",
+    "version": "2.9",
+    "license_expression": null,
+    "license_metadata": "LGPL-2.1-or-later",
+    "classifiers": [
+      "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
+      "Operating System :: OS Independent",
+      "Programming Language :: C",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15"
+    ],
+    "project_urls": [
+      "github, https://github.com/ICRAR/crc32c",
+      "changelog, https://github.com/ICRAR/crc32c/blob/master/CHANGELOG.md",
+      "issues, https://github.com/ICRAR/crc32c/issues"
+    ],
+    "archived_files": [
+      "crc32c-2.9/crc32c-2.9.dist-info__licenses__LICENSE",
+      "crc32c-2.9/crc32c-2.9.dist-info__licenses__LICENSE.google-crc32c",
+      "crc32c-2.9/crc32c-2.9.dist-info__licenses__LICENSE.slice-by-8"
+    ]
+  },
+  {
+    "name": "cryptography",
+    "version": "50.0.1",
+    "license_expression": "Apache-2.0 OR BSD-3-Clause",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Natural Language :: English",
+      "Operating System :: MacOS :: MacOS X",
+      "Operating System :: POSIX",
+      "Operating System :: POSIX :: BSD",
+      "Operating System :: POSIX :: Linux",
+      "Operating System :: Microsoft :: Windows",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Programming Language :: Python :: Free Threading :: 3 - Stable",
+      "Topic :: Security :: Cryptography"
+    ],
+    "project_urls": [
+      "changelog, https://cryptography.io/en/latest/changelog/",
+      "documentation, https://cryptography.io/",
+      "homepage, https://github.com/pyca/cryptography",
+      "issues, https://github.com/pyca/cryptography/issues",
+      "source, https://github.com/pyca/cryptography/"
+    ],
+    "archived_files": [
+      "cryptography-50.0.1/cryptography-50.0.1.dist-info__licenses__LICENSE",
+      "cryptography-50.0.1/cryptography-50.0.1.dist-info__licenses__LICENSE.APACHE",
+      "cryptography-50.0.1/cryptography-50.0.1.dist-info__licenses__LICENSE.BSD"
+    ]
+  },
+  {
+    "name": "cycler",
+    "version": "0.12.1",
+    "license_expression": null,
+    "license_metadata": "Copyright (c) 2015, matplotlib project\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of the matplotlib project nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "classifiers": [
+      "License :: OSI Approved :: BSD License",
+      "Development Status :: 4 - Beta",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3 :: Only"
+    ],
+    "project_urls": [
+      "homepage, https://matplotlib.org/cycler/",
+      "repository, https://github.com/matplotlib/cycler"
+    ],
+    "archived_files": [
+      "cycler-0.12.1/cycler-0.12.1.dist-info__LICENSE"
+    ]
+  },
+  {
+    "name": "filelock",
+    "version": "3.32.5",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15",
+      "Topic :: Internet",
+      "Topic :: Software Development :: Libraries",
+      "Topic :: System"
+    ],
+    "project_urls": [
+      "Documentation, https://py-filelock.readthedocs.io",
+      "Homepage, https://github.com/tox-dev/py-filelock",
+      "Source, https://github.com/tox-dev/py-filelock",
+      "Tracker, https://github.com/tox-dev/py-filelock/issues"
+    ],
+    "archived_files": [
+      "filelock-3.32.5/filelock-3.32.5.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "fonttools",
+    "version": "4.64.0",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Environment :: Console",
+      "Environment :: Other Environment",
+      "Intended Audience :: Developers",
+      "Intended Audience :: End Users/Desktop",
+      "Natural Language :: English",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3",
+      "Topic :: Text Processing :: Fonts",
+      "Topic :: Multimedia :: Graphics",
+      "Topic :: Multimedia :: Graphics :: Graphics Conversion"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "fonttools-4.64.0/fonttools-4.64.0.dist-info__licenses__LICENSE",
+      "fonttools-4.64.0/fonttools-4.64.0.dist-info__licenses__LICENSE.external"
+    ]
+  },
+  {
+    "name": "fsspec",
+    "version": "2026.7.0",
+    "license_expression": "BSD-3-Clause",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Intended Audience :: Developers",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14"
+    ],
+    "project_urls": [
+      "Changelog, https://filesystem-spec.readthedocs.io/en/latest/changelog.html",
+      "Documentation, https://filesystem-spec.readthedocs.io/en/latest/",
+      "Homepage, https://github.com/fsspec/filesystem_spec"
+    ],
+    "archived_files": [
+      "fsspec-2026.7.0/fsspec-2026.7.0.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "future",
+    "version": "1.0.0",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "classifiers": [
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 2",
+      "Programming Language :: Python :: 2.6",
+      "Programming Language :: Python :: 2.7",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.3",
+      "Programming Language :: Python :: 3.4",
+      "Programming Language :: Python :: 3.5",
+      "Programming Language :: Python :: 3.6",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "License :: OSI Approved",
+      "License :: OSI Approved :: MIT License",
+      "Development Status :: 6 - Mature",
+      "Intended Audience :: Developers"
+    ],
+    "project_urls": [
+      "Source, https://github.com/PythonCharmers/python-future"
+    ],
+    "archived_files": [
+      "future-1.0.0/future-1.0.0.dist-info__LICENSE.txt"
+    ]
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "classifiers": [
+      "Development Status :: 3 - Alpha",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Topic :: Internet :: WWW/HTTP",
+      "Topic :: System :: Networking"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "h11-0.16.0/h11-0.16.0.dist-info__licenses__LICENSE.txt"
+    ]
+  },
+  {
+    "name": "hf-xet",
+    "version": "1.6.0",
+    "license_expression": "Apache-2.0",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "License :: OSI Approved :: Apache Software License",
+      "Programming Language :: Rust",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: Free Threading",
+      "Programming Language :: Python :: Free Threading :: 2 - Beta",
+      "Topic :: Scientific/Engineering :: Artificial Intelligence"
+    ],
+    "project_urls": [
+      "Documentation, https://huggingface.co/docs/hub/xet/index",
+      "Homepage, https://github.com/huggingface/xet-core",
+      "Issues, https://github.com/huggingface/xet-core/issues",
+      "Repository, https://github.com/huggingface/xet-core.git"
+    ],
+    "archived_files": [
+      "hf-xet-1.6.0/hf_xet-1.6.0.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "httpcore",
+    "version": "1.0.9",
+    "license_expression": "BSD-3-Clause",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 3 - Alpha",
+      "Environment :: Web Environment",
+      "Framework :: AsyncIO",
+      "Framework :: Trio",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: BSD License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Topic :: Internet :: WWW/HTTP"
+    ],
+    "project_urls": [
+      "Documentation, https://www.encode.io/httpcore",
+      "Homepage, https://www.encode.io/httpcore/",
+      "Source, https://github.com/encode/httpcore"
+    ],
+    "archived_files": [
+      "httpcore-1.0.9/httpcore-1.0.9.dist-info__licenses__LICENSE.md"
+    ]
+  },
+  {
+    "name": "httpx",
+    "version": "0.28.1",
+    "license_expression": null,
+    "license_metadata": "BSD-3-Clause",
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Environment :: Web Environment",
+      "Framework :: AsyncIO",
+      "Framework :: Trio",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: BSD License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Topic :: Internet :: WWW/HTTP"
+    ],
+    "project_urls": [
+      "Changelog, https://github.com/encode/httpx/blob/master/CHANGELOG.md",
+      "Documentation, https://www.python-httpx.org",
+      "Homepage, https://github.com/encode/httpx",
+      "Source, https://github.com/encode/httpx"
+    ],
+    "archived_files": [
+      "httpx-0.28.1/httpx-0.28.1.dist-info__licenses__LICENSE.md"
+    ]
+  },
+  {
+    "name": "huggingface_hub",
+    "version": "1.30.0",
+    "license_expression": null,
+    "license_metadata": "Apache-2.0",
+    "classifiers": [
+      "Intended Audience :: Developers",
+      "Intended Audience :: Education",
+      "Intended Audience :: Science/Research",
+      "License :: OSI Approved :: Apache Software License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Topic :: Scientific/Engineering :: Artificial Intelligence"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "huggingface_hub-1.30.0/huggingface_hub-1.30.0.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "idna",
+    "version": "3.19",
+    "license_expression": "BSD-3-Clause",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Intended Audience :: System Administrators",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Topic :: Internet :: Name Service (DNS)",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Topic :: Utilities"
+    ],
+    "project_urls": [
+      "Changelog, https://github.com/kjd/idna/blob/master/HISTORY.md",
+      "Issue tracker, https://github.com/kjd/idna/issues",
+      "Source, https://github.com/kjd/idna"
+    ],
+    "archived_files": [
+      "idna-3.19/idna-3.19.dist-info__licenses__LICENSE.md"
+    ]
+  },
+  {
+    "name": "imagesize",
+    "version": "2.0.1",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Programming Language :: Python",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Topic :: Multimedia :: Graphics"
+    ],
+    "project_urls": [
+      "Repository, https://github.com/shibukawa/imagesize_py"
+    ],
+    "archived_files": [
+      "imagesize-2.0.1/imagesize-2.0.1.dist-info__licenses__LICENSE.rst"
+    ]
+  },
+  {
+    "name": "kiwisolver",
+    "version": "1.5.1",
+    "license_expression": null,
+    "license_metadata": "=========================\n The Kiwi licensing terms\n=========================\nKiwi is licensed under the terms of the Modified BSD License (also known as\nNew or Revised BSD), as follows:\n\nCopyright (c) 2013-2026, Nucleic Development Team\n\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this\nlist of conditions and the following disclaimer.\n\nRedistributions in binary form must reproduce the above copyright notice, this\nlist of conditions and the following disclaimer in the documentation and/or\nother materials provided with the distribution.\n\nNeither the name of the Nucleic Development Team nor the names of its\ncontributors may be used to endorse or promote products derived from this\nsoftware without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nAbout Kiwi\n----------\nChris Colbert began the Kiwi project in December 2013 in an effort to\ncreate a blisteringly fast UI constraint solver. Chris is still the\nproject lead.\n\nThe Nucleic Development Team is the set of all contributors to the Nucleic\nproject and its subprojects.\n\nThe core team that coordinates development on GitHub can be found here:\nhttp://github.com/nucleic. The current team consists of:\n\n* Chris Colbert\n\nOur Copyright Policy\n--------------------\nNucleic uses a shared copyright model. Each contributor maintains copyright\nover their contributions to Nucleic. But, it is important to note that these\ncontributions are typically only changes to the repositories. Thus, the Nucleic\nsource code, in its entirety is not the copyright of any single person or\ninstitution. Instead, it is the collective copyright of the entire Nucleic\nDevelopment Team. If individual contributors want to maintain a record of what\nchanges/contributions they have specific copyright on, they should indicate\ntheir copyright in the commit message of the change, when they commit the\nchange to one of the Nucleic repositories.\n\nWith this in mind, the following banner should be used in any source code file\nto indicate the copyright and license terms:\n\n#------------------------------------------------------------------------------\n# Copyright (c) 2013-2026, Nucleic Development Team.\n#\n# Distributed under the terms of the Modified BSD License.\n#\n# The full license is in the file LICENSE, distributed with this software.\n#------------------------------------------------------------------------------\n",
+    "classifiers": [
+      "License :: OSI Approved :: BSD License",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Programming Language :: Python :: Implementation :: GraalPy"
+    ],
+    "project_urls": [
+      "homepage, https://github.com/nucleic/kiwi",
+      "documentation, https://kiwisolver.readthedocs.io/en/latest/",
+      "repository, https://github.com/nucleic/kiwi",
+      "changelog, https://github.com/nucleic/kiwi/blob/main/releasenotes.rst"
+    ],
+    "archived_files": [
+      "kiwisolver-1.5.1/kiwisolver-1.5.1.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "matplotlib",
+    "version": "3.10.9",
+    "license_expression": null,
+    "license_metadata": "License agreement for matplotlib versions 1.3.0 and later\n =========================================================\n\n 1. This LICENSE AGREEMENT is between the Matplotlib Development Team\n (\"MDT\"), and the Individual or Organization (\"Licensee\") accessing and\n otherwise using matplotlib software in source or binary form and its\n associated documentation.\n\n 2. Subject to the terms and conditions of this License Agreement, MDT\n hereby grants Licensee a nonexclusive, royalty-free, world-wide license\n to reproduce, analyze, test, perform and/or display publicly, prepare\n derivative works, distribute, and otherwise use matplotlib\n alone or in any derivative version, provided, however, that MDT's\n License Agreement and MDT's notice of copyright, i.e., \"Copyright (c)\n 2012- Matplotlib Development Team; All Rights Reserved\" are retained in\n matplotlib  alone or in any derivative version prepared by\n Licensee.\n\n 3. In the event Licensee prepares a derivative work that is based on or\n incorporates matplotlib or any part thereof, and wants to\n make the derivative work available to others as provided herein, then\n Licensee hereby agrees to include in any such work a brief summary of\n the changes made to matplotlib .\n\n 4. MDT is making matplotlib available to Licensee on an \"AS\n IS\" basis.  MDT MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\n IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, MDT MAKES NO AND\n DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\n FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF MATPLOTLIB\n WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n 5. MDT SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF MATPLOTLIB\n  FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR\n LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING\n MATPLOTLIB , OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF\n THE POSSIBILITY THEREOF.\n\n 6. This License Agreement will automatically terminate upon a material\n breach of its terms and conditions.\n\n 7. Nothing in this License Agreement shall be deemed to create any\n relationship of agency, partnership, or joint venture between MDT and\n Licensee.  This License Agreement does not grant permission to use MDT\n trademarks or trade name in a trademark sense to endorse or promote\n products or services of Licensee, or any third party.\n\n 8. By copying, installing or otherwise using matplotlib ,\n Licensee agrees to be bound by the terms and conditions of this License\n Agreement.\n\n License agreement for matplotlib versions prior to 1.3.0\n ========================================================\n\n 1. This LICENSE AGREEMENT is between John D. Hunter (\"JDH\"), and the\n Individual or Organization (\"Licensee\") accessing and otherwise using\n matplotlib software in source or binary form and its associated\n documentation.\n\n 2. Subject to the terms and conditions of this License Agreement, JDH\n hereby grants Licensee a nonexclusive, royalty-free, world-wide license\n to reproduce, analyze, test, perform and/or display publicly, prepare\n derivative works, distribute, and otherwise use matplotlib\n alone or in any derivative version, provided, however, that JDH's\n License Agreement and JDH's notice of copyright, i.e., \"Copyright (c)\n 2002-2011 John D. Hunter; All Rights Reserved\" are retained in\n matplotlib  alone or in any derivative version prepared by\n Licensee.\n\n 3. In the event Licensee prepares a derivative work that is based on or\n incorporates matplotlib  or any part thereof, and wants to\n make the derivative work available to others as provided herein, then\n Licensee hereby agrees to include in any such work a brief summary of\n the changes made to matplotlib.\n\n 4. JDH is making matplotlib  available to Licensee on an \"AS\n IS\" basis.  JDH MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\n IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, JDH MAKES NO AND\n DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\n FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF MATPLOTLIB\n WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n 5. JDH SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF MATPLOTLIB\n  FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR\n LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING\n MATPLOTLIB , OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF\n THE POSSIBILITY THEREOF.\n\n 6. This License Agreement will automatically terminate upon a material\n breach of its terms and conditions.\n\n 7. Nothing in this License Agreement shall be deemed to create any\n relationship of agency, partnership, or joint venture between JDH and\n Licensee.  This License Agreement does not grant permission to use JDH\n trademarks or trade name in a trademark sense to endorse or promote\n products or services of Licensee, or any third party.\n\n 8. By copying, installing or otherwise using matplotlib,\n Licensee agrees to be bound by the terms and conditions of this License\n Agreement.\n ----\n\n This binary distrubution of Matplotlib can also bundle the following software\n (depending on the build):\n\n Name: AMS Fonts\n Files: matplotlib/tests/cmr10.pfb\n Description: Type-1 version of one of Knuth's Computer Modern fonts\n License: OFL-1.1\n   The cmr10.pfb file is a Type-1 version of one of Knuth's Computer Modern fonts.\n   It is included here as test data only, but the following license applies.\n\n   Copyright (c) 1997, 2009, American Mathematical Society (http://www.ams.org).\n   All Rights Reserved.\n\n   \"cmb10\" is a Reserved Font Name for this Font Software.\n   \"cmbsy10\" is a Reserved Font Name for this Font Software.\n   \"cmbsy5\" is a Reserved Font Name for this Font Software.\n   \"cmbsy6\" is a Reserved Font Name for this Font Software.\n   \"cmbsy7\" is a Reserved Font Name for this Font Software.\n   \"cmbsy8\" is a Reserved Font Name for this Font Software.\n   \"cmbsy9\" is a Reserved Font Name for this Font Software.\n   \"cmbx10\" is a Reserved Font Name for this Font Software.\n   \"cmbx12\" is a Reserved Font Name for this Font Software.\n   \"cmbx5\" is a Reserved Font Name for this Font Software.\n   \"cmbx6\" is a Reserved Font Name for this Font Software.\n   \"cmbx7\" is a Reserved Font Name for this Font Software.\n   \"cmbx8\" is a Reserved Font Name for this Font Software.\n   \"cmbx9\" is a Reserved Font Name for this Font Software.\n   \"cmbxsl10\" is a Reserved Font Name for this Font Software.\n   \"cmbxti10\" is a Reserved Font Name for this Font Software.\n   \"cmcsc10\" is a Reserved Font Name for this Font Software.\n   \"cmcsc8\" is a Reserved Font Name for this Font Software.\n   \"cmcsc9\" is a Reserved Font Name for this Font Software.\n   \"cmdunh10\" is a Reserved Font Name for this Font Software.\n   \"cmex10\" is a Reserved Font Name for this Font Software.\n   \"cmex7\" is a Reserved Font Name for this Font Software.\n   \"cmex8\" is a Reserved Font Name for this Font Software.\n   \"cmex9\" is a Reserved Font Name for this Font Software.\n   \"cmff10\" is a Reserved Font Name for this Font Software.\n   \"cmfi10\" is a Reserved Font Name for this Font Software.\n   \"cmfib8\" is a Reserved Font Name for this Font Software.\n   \"cminch\" is a Reserved Font Name for this Font Software.\n   \"cmitt10\" is a Reserved Font Name for this Font Software.\n   \"cmmi10\" is a Reserved Font Name for this Font Software.\n   \"cmmi12\" is a Reserved Font Name for this Font Software.\n   \"cmmi5\" is a Reserved Font Name for this Font Software.\n   \"cmmi6\" is a Reserved Font Name for this Font Software.\n   \"cmmi7\" is a Reserved Font Name for this Font Software.\n   \"cmmi8\" is a Reserved Font Name for this Font Software.\n   \"cmmi9\" is a Reserved Font Name for this Font Software.\n   \"cmmib10\" is a Reserved Font Name for this Font Software.\n   \"cmmib5\" is a Reserved Font Name for this Font Software.\n   \"cmmib6\" is a Reserved Font Name for this Font Software.\n   \"cmmib7\" is a Reserved Font Name for this Font Software.\n   \"cmmib8\" is a Reserved Font Name for this Font Software.\n   \"cmmib9\" is a Reserved Font Name for this Font Software.\n   \"cmr10\" is a Reserved Font Name for this Font Software.\n   \"cmr12\" is a Reserved Font Name for this Font Software.\n   \"cmr17\" is a Reserved Font Name for this Font Software.\n   \"cmr5\" is a Reserved Font Name for this Font Software.\n   \"cmr6\" is a Reserved Font Name for this Font Software.\n   \"cmr7\" is a Reserved Font Name for this Font Software.\n   \"cmr8\" is a Reserved Font Name for this Font Software.\n   \"cmr9\" is a Reserved Font Name for this Font Software.\n   \"cmsl10\" is a Reserved Font Name for this Font Software.\n   \"cmsl12\" is a Reserved Font Name for this Font Software.\n   \"cmsl8\" is a Reserved Font Name for this Font Software.\n   \"cmsl9\" is a Reserved Font Name for this Font Software.\n   \"cmsltt10\" is a Reserved Font Name for this Font Software.\n   \"cmss10\" is a Reserved Font Name for this Font Software.\n   \"cmss12\" is a Reserved Font Name for this Font Software.\n   \"cmss17\" is a Reserved Font Name for this Font Software.\n   \"cmss8\" is a Reserved Font Name for this Font Software.\n   \"cmss9\" is a Reserved Font Name for this Font Software.\n   \"cmssbx10\" is a Reserved Font Name for this Font Software.\n   \"cmssdc10\" is a Reserved Font Name for this Font Software.\n   \"cmssi10\" is a Reserved Font Name for this Font Software.\n   \"cmssi12\" is a Reserved Font Name for this Font Software.\n   \"cmssi17\" is a Reserved Font Name for this Font Software.\n   \"cmssi8\" is a Reserved Font Name for this Font Software.\n   \"cmssi9\" is a Reserved Font Name for this Font Software.\n   \"cmssq8\" is a Reserved Font Name for this Font Software.\n   \"cmssqi8\" is a Reserved Font Name for this Font Software.\n   \"cmsy10\" is a Reserved Font Name for this Font Software.\n   \"cmsy5\" is a Reserved Font Name for this Font Software.\n   \"cmsy6\" is a Reserved Font Name for this Font Software.\n   \"cmsy7\" is a Reserved Font Name for this Font Software.\n   \"cmsy8\" is a Reserved Font Name for this Font Software.\n   \"cmsy9\" is a Reserved Font Name for this Font Software.\n   \"cmtcsc10\" is a Reserved Font Name for this Font Software.\n   \"cmtex10\" is a Reserved Font Name for this Font Software.\n   \"cmtex8\" is a Reserved Font Name for this Font Software.\n   \"cmtex9\" is a Reserved Font Name for this Font Software.\n   \"cmti10\" is a Reserved Font Name for this Font Software.\n   \"cmti12\" is a Reserved Font Name for this Font Software.\n   \"cmti7\" is a Reserved Font Name for this Font Software.\n   \"cmti8\" is a Reserved Font Name for this Font Software.\n   \"cmti9\" is a Reserved Font Name for this Font Software.\n   \"cmtt10\" is a Reserved Font Name for this Font Software.\n   \"cmtt12\" is a Reserved Font Name for this Font Software.\n   \"cmtt8\" is a Reserved Font Name for this Font Software.\n   \"cmtt9\" is a Reserved Font Name for this Font Software.\n   \"cmu10\" is a Reserved Font Name for this Font Software.\n   \"cmvtt10\" is a Reserved Font Name for this Font Software.\n   \"euex10\" is a Reserved Font Name for this Font Software.\n   \"euex7\" is a Reserved Font Name for this Font Software.\n   \"euex8\" is a Reserved Font Name for this Font Software.\n   \"euex9\" is a Reserved Font Name for this Font Software.\n   \"eufb10\" is a Reserved Font Name for this Font Software.\n   \"eufb5\" is a Reserved Font Name for this Font Software.\n   \"eufb7\" is a Reserved Font Name for this Font Software.\n   \"eufm10\" is a Reserved Font Name for this Font Software.\n   \"eufm5\" is a Reserved Font Name for this Font Software.\n   \"eufm7\" is a Reserved Font Name for this Font Software.\n   \"eurb10\" is a Reserved Font Name for this Font Software.\n   \"eurb5\" is a Reserved Font Name for this Font Software.\n   \"eurb7\" is a Reserved Font Name for this Font Software.\n   \"eurm10\" is a Reserved Font Name for this Font Software.\n   \"eurm5\" is a Reserved Font Name for this Font Software.\n   \"eurm7\" is a Reserved Font Name for this Font Software.\n   \"eusb10\" is a Reserved Font Name for this Font Software.\n   \"eusb5\" is a Reserved Font Name for this Font Software.\n   \"eusb7\" is a Reserved Font Name for this Font Software.\n   \"eusm10\" is a Reserved Font Name for this Font Software.\n   \"eusm5\" is a Reserved Font Name for this Font Software.\n   \"eusm7\" is a Reserved Font Name for this Font Software.\n   \"lasy10\" is a Reserved Font Name for this Font Software.\n   \"lasy5\" is a Reserved Font Name for this Font Software.\n   \"lasy6\" is a Reserved Font Name for this Font Software.\n   \"lasy7\" is a Reserved Font Name for this Font Software.\n   \"lasy8\" is a Reserved Font Name for this Font Software.\n   \"lasy9\" is a Reserved Font Name for this Font Software.\n   \"lasyb10\" is a Reserved Font Name for this Font Software.\n   \"lcircle1\" is a Reserved Font Name for this Font Software.\n   \"lcirclew\" is a Reserved Font Name for this Font Software.\n   \"lcmss8\" is a Reserved Font Name for this Font Software.\n   \"lcmssb8\" is a Reserved Font Name for this Font Software.\n   \"lcmssi8\" is a Reserved Font Name for this Font Software.\n   \"line10\" is a Reserved Font Name for this Font Software.\n   \"linew10\" is a Reserved Font Name for this Font Software.\n   \"msam10\" is a Reserved Font Name for this Font Software.\n   \"msam5\" is a Reserved Font Name for this Font Software.\n   \"msam6\" is a Reserved Font Name for this Font Software.\n   \"msam7\" is a Reserved Font Name for this Font Software.\n   \"msam8\" is a Reserved Font Name for this Font Software.\n   \"msam9\" is a Reserved Font Name for this Font Software.\n   \"msbm10\" is a Reserved Font Name for this Font Software.\n   \"msbm5\" is a Reserved Font Name for this Font Software.\n   \"msbm6\" is a Reserved Font Name for this Font Software.\n   \"msbm7\" is a Reserved Font Name for this Font Software.\n   \"msbm8\" is a Reserved Font Name for this Font Software.\n   \"msbm9\" is a Reserved Font Name for this Font Software.\n   \"wncyb10\" is a Reserved Font Name for this Font Software.\n   \"wncyi10\" is a Reserved Font Name for this Font Software.\n   \"wncyr10\" is a Reserved Font Name for this Font Software.\n   \"wncysc10\" is a Reserved Font Name for this Font Software.\n   \"wncyss10\" is a Reserved Font Name for this Font Software.\n\n   This Font Software is licensed under the SIL Open Font License, Version 1.1.\n   This license is copied below, and is also available with a FAQ at:\n   http://scripts.sil.org/OFL\n\n   -----------------------------------------------------------\n   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\n   -----------------------------------------------------------\n\n   PREAMBLE\n   The goals of the Open Font License (OFL) are to stimulate worldwide\n   development of collaborative font projects, to support the font creation\n   efforts of academic and linguistic communities, and to provide a free and\n   open framework in which fonts may be shared and improved in partnership\n   with others.\n\n   The OFL allows the licensed fonts to be used, studied, modified and\n   redistributed freely as long as they are not sold by themselves. The\n   fonts, including any derivative works, can be bundled, embedded, \n   redistributed and/or sold with any software provided that any reserved\n   names are not used by derivative works. The fonts and derivatives,\n   however, cannot be released under any other type of license. The\n   requirement for fonts to remain under this license does not apply\n   to any document created using the fonts or their derivatives.\n\n   DEFINITIONS\n   \"Font Software\" refers to the set of files released by the Copyright\n   Holder(s) under this license and clearly marked as such. This may\n   include source files, build scripts and documentation.\n\n   \"Reserved Font Name\" refers to any names specified as such after the\n   copyright statement(s).\n\n   \"Original Version\" refers to the collection of Font Software components as\n   distributed by the Copyright Holder(s).\n\n   \"Modified Version\" refers to any derivative made by adding to, deleting,\n   or substituting -- in part or in whole -- any of the components of the\n   Original Version, by changing formats or by porting the Font Software to a\n   new environment.\n\n   \"Author\" refers to any designer, engineer, programmer, technical\n   writer or other person who contributed to the Font Software.\n\n   PERMISSION & CONDITIONS\n   Permission is hereby granted, free of charge, to any person obtaining\n   a copy of the Font Software, to use, study, copy, merge, embed, modify,\n   redistribute, and sell modified and unmodified copies of the Font\n   Software, subject to the following conditions:\n\n   1) Neither the Font Software nor any of its individual components,\n   in Original or Modified Versions, may be sold by itself.\n\n   2) Original or Modified Versions of the Font Software may be bundled,\n   redistributed and/or sold with any software, provided that each copy\n   contains the above copyright notice and this license. These can be\n   included either as stand-alone text files, human-readable headers or\n   in the appropriate machine-readable metadata fields within text or\n   binary files as long as those fields can be easily viewed by the user.\n\n   3) No Modified Version of the Font Software may use the Reserved Font\n   Name(s) unless explicit written permission is granted by the corresponding\n   Copyright Holder. This restriction only applies to the primary font name as\n   presented to the users.\n\n   4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font\n   Software shall not be used to promote, endorse or advertise any\n   Modified Version, except to acknowledge the contribution(s) of the\n   Copyright Holder(s) and the Author(s) or with their explicit written\n   permission.\n\n   5) The Font Software, modified or unmodified, in part or in whole,\n   must be distributed entirely under this license, and must not be\n   distributed under any other license. The requirement for fonts to\n   remain under this license does not apply to any document created\n   using the Font Software.\n\n   TERMINATION\n   This license becomes null and void if any of the above conditions are\n   not met.\n\n   DISCLAIMER\n   THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF\n   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\n   OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE\n   COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\n   INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\n   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\n   OTHER DEALINGS IN THE FONT SOFTWARE.\n\n\n\n Name: BaKoMa Fonts\n Files: matplotlib/mpl-data/fonts/ttf/cm*.ttf matplotlib/mpl-data/fonts/afm/cm*.afm \n Description: Computer Modern Fonts in PostScript Type 1 and TrueType font formats.\n License: BaKoMa Fonts Licence\n         BaKoMa Fonts Licence\n         --------------------\n\n     This licence covers two font packs (known as BaKoMa Fonts Collection,\n     which is available at `CTAN:fonts/cm/ps-type1/bakoma/'):\n\n       1) BaKoMa-CM (1.1/12-Nov-94)\n          Computer Modern Fonts in PostScript Type 1 and TrueType font formats.\n\n       2) BaKoMa-AMS (1.2/19-Jan-95)\n          AMS TeX fonts in PostScript Type 1 and TrueType font formats.\n\n     Copyright (C) 1994, 1995, Basil K. Malyshev. All Rights Reserved.\n\n     Permission to copy and distribute these fonts for any purpose is \n     hereby granted without fee, provided that the above copyright notice, \n     author statement and this permission notice appear in all copies of \n     these fonts and related documentation.\n\n     Permission to modify and distribute modified fonts for any purpose is \n     hereby granted without fee, provided that the copyright notice, \n     author statement, this permission notice and location of original \n     fonts (http://www.ctan.org/tex-archive/fonts/cm/ps-type1/bakoma)\n     appear in all copies of modified fonts and related documentation.\n\n     Permission to use these fonts (embedding into PostScript, PDF, SVG\n     and printing by using any software) is hereby granted without fee. \n     It is not required to provide any notices about using these fonts.\n\n    Basil K. Malyshev\n    INSTITUTE FOR HIGH ENERGY PHYSICS\n    IHEP, OMVT\n    Moscow Region\n    142281 PROTVINO\n    RUSSIA\n\n    E-Mail:\tbakoma@mail.ru\n         or\tmalyshev@mail.ihep.ru\n\n\n\n\n Name: ColorBrewer Color Schemes\n Files: lib/matplotlib/_cm.py\n Description: Color schemes from ColorBrewer\n License: Apache-2.0\n   Apache-Style Software License for ColorBrewer software and ColorBrewer Color Schemes\n\n   Copyright (c) 2002 Cynthia Brewer, Mark Harrower, and The Pennsylvania State University.\n\n   Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n   http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software distributed\n   under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR\n   CONDITIONS OF ANY KIND, either express or implied. See the License for the\n   specific language governing permissions and limitations under the License.\n\n\n Name: Courier 10\n Files: matplotlib/tests/Courier10PitchBT-Bold.pfb\n Description: Courier 10 font, used in tests.\n License: Bitstream-Charter\n   The Courier10PitchBT-Bold.pfb file is a Type-1 version of\n   Courier 10 Pitch BT Bold by Bitstream, obtained from\n   <https://ctan.org/tex-archive/fonts/courierten>. It is included\n   here as test data only, but the following license applies.\n\n\n   (c) Copyright 1989-1992, Bitstream Inc., Cambridge, MA.\n\n   You are hereby granted permission under all Bitstream propriety rights\n   to use, copy, modify, sublicense, sell, and redistribute the 4 Bitstream\n   Charter (r) Type 1 outline fonts and the 4 Courier Type 1 outline fonts\n   for any purpose and without restriction; provided, that this notice is\n   left intact on all copies of such fonts and that Bitstream's trademark\n   is acknowledged as shown below on all unmodified copies of the 4 Charter\n   Type 1 fonts.\n\n   BITSTREAM CHARTER is a registered trademark of Bitstream Inc.\n\n\n\n Name: JSXTools resize observer\n Files: \n Description: Minimal polyfill for the ResizeObserver API\n License: CC0-1.0\n   # CC0 1.0 Universal\n\n   ## Statement of Purpose\n\n   The laws of most jurisdictions throughout the world automatically confer\n   exclusive Copyright and Related Rights (defined below) upon the creator and\n   subsequent owner(s) (each and all, an “owner”) of an original work of\n   authorship and/or a database (each, a “Work”).\n\n   Certain owners wish to permanently relinquish those rights to a Work for the\n   purpose of contributing to a commons of creative, cultural and scientific works\n   (“Commons”) that the public can reliably and without fear of later claims of\n   infringement build upon, modify, incorporate in other works, reuse and\n   redistribute as freely as possible in any form whatsoever and for any purposes,\n   including without limitation commercial purposes. These owners may contribute\n   to the Commons to promote the ideal of a free culture and the further\n   production of creative, cultural and scientific works, or to gain reputation or\n   greater distribution for their Work in part through the use and efforts of\n   others.\n\n   For these and/or other purposes and motivations, and without any expectation of\n   additional consideration or compensation, the person associating CC0 with a\n   Work (the “Affirmer”), to the extent that he or she is an owner of Copyright\n   and Related Rights in the Work, voluntarily elects to apply CC0 to the Work and\n   publicly distribute the Work under its terms, with knowledge of his or her\n   Copyright and Related Rights in the Work and the meaning and intended legal\n   effect of CC0 on those rights.\n\n   1. Copyright and Related Rights. A Work made available under CC0 may be\n      protected by copyright and related or neighboring rights (“Copyright and\n      Related Rights”). Copyright and Related Rights include, but are not limited\n      to, the following:\n      1. the right to reproduce, adapt, distribute, perform, display, communicate,\n         and translate a Work;\n      2. moral rights retained by the original author(s) and/or performer(s);\n      3. publicity and privacy rights pertaining to a person’s image or likeness\n         depicted in a Work;\n      4. rights protecting against unfair competition in regards to a Work,\n         subject to the limitations in paragraph 4(i), below;\n      5. rights protecting the extraction, dissemination, use and reuse of data in\n         a Work;\n      6. database rights (such as those arising under Directive 96/9/EC of the\n         European Parliament and of the Council of 11 March 1996 on the legal\n         protection of databases, and under any national implementation thereof,\n         including any amended or successor version of such directive); and\n      7. other similar, equivalent or corresponding rights throughout the world\n         based on applicable law or treaty, and any national implementations\n         thereof.\n\n   2. Waiver. To the greatest extent permitted by, but not in contravention of,\n      applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and\n      unconditionally waives, abandons, and surrenders all of Affirmer’s Copyright\n      and Related Rights and associated claims and causes of action, whether now\n      known or unknown (including existing as well as future claims and causes of\n      action), in the Work (i) in all territories worldwide, (ii) for the maximum\n      duration provided by applicable law or treaty (including future time\n      extensions), (iii) in any current or future medium and for any number of\n      copies, and (iv) for any purpose whatsoever, including without limitation\n      commercial, advertising or promotional purposes (the “Waiver”). Affirmer\n      makes the Waiver for the benefit of each member of the public at large and\n      to the detriment of Affirmer’s heirs and successors, fully intending that\n      such Waiver shall not be subject to revocation, rescission, cancellation,\n      termination, or any other legal or equitable action to disrupt the quiet\n      enjoyment of the Work by the public as contemplated by Affirmer’s express\n      Statement of Purpose.\n\n   3. Public License Fallback. Should any part of the Waiver for any reason be\n      judged legally invalid or ineffective under applicable law, then the Waiver\n      shall be preserved to the maximum extent permitted taking into account\n      Affirmer’s express Statement of Purpose. In addition, to the extent the\n      Waiver is so judged Affirmer hereby grants to each affected person a\n      royalty-free, non transferable, non sublicensable, non exclusive,\n      irrevocable and unconditional license to exercise Affirmer’s Copyright and\n      Related Rights in the Work (i) in all territories worldwide, (ii) for the\n      maximum duration provided by applicable law or treaty (including future time\n      extensions), (iii) in any current or future medium and for any number of\n      copies, and (iv) for any purpose whatsoever, including without limitation\n      commercial, advertising or promotional purposes (the “License”). The License\n      shall be deemed effective as of the date CC0 was applied by Affirmer to the\n      Work. Should any part of the License for any reason be judged legally\n      invalid or ineffective under applicable law, such partial invalidity or\n      ineffectiveness shall not invalidate the remainder of the License, and in\n      such case Affirmer hereby affirms that he or she will not (i) exercise any\n      of his or her remaining Copyright and Related Rights in the Work or (ii)\n      assert any associated claims and causes of action with respect to the Work,\n      in either case contrary to Affirmer’s express Statement of Purpose.\n\n   4. Limitations and Disclaimers.\n      1. No trademark or patent rights held by Affirmer are waived, abandoned,\n         surrendered, licensed or otherwise affected by this document.\n      2. Affirmer offers the Work as-is and makes no representations or warranties\n         of any kind concerning the Work, express, implied, statutory or\n         otherwise, including without limitation warranties of title,\n         merchantability, fitness for a particular purpose, non infringement, or\n         the absence of latent or other defects, accuracy, or the present or\n         absence of errors, whether or not discoverable, all to the greatest\n         extent permissible under applicable law.\n      3. Affirmer disclaims responsibility for clearing rights of other persons\n         that may apply to the Work or any use thereof, including without\n         limitation any person’s Copyright and Related Rights in the Work.\n         Further, Affirmer disclaims responsibility for obtaining any necessary\n         consents, permissions or other rights required for any use of the Work.\n      4. Affirmer understands and acknowledges that Creative Commons is not a\n         party to this document and has no duty or obligation with respect to this\n         CC0 or use of the Work.\n\n   For more information, please see\n   http://creativecommons.org/publicdomain/zero/1.0/.\n\n\n Name: QHull\n Files: matplotlib/_qhull.*.so\n Description: Convex hull, Delaunay triangulation, Voronoi diagrams, Halfspace intersection\n License: Qhull\n                       Qhull, Copyright (c) 1993-2020\n\n                               C.B. Barber\n                              Arlington, MA \n\n                                  and\n\n          The National Science and Technology Research Center for\n           Computation and Visualization of Geometric Structures\n                           (The Geometry Center)\n                          University of Minnesota\n\n                          email: qhull@qhull.org\n\n   This software includes Qhull from C.B. Barber and The Geometry Center.  \n   Files derived from Qhull 1.0 are copyrighted by the Geometry Center.  The\n   remaining files are copyrighted by C.B. Barber.  Qhull is free software \n   and may be obtained via http from www.qhull.org.  It may be freely copied, \n   modified, and redistributed under the following conditions:\n\n   1. All copyright notices must remain intact in all files.\n\n   2. A copy of this text file must be distributed along with any copies \n      of Qhull that you redistribute; this includes copies that you have \n      modified, or copies of programs or other software products that \n      include Qhull.\n\n   3. If you modify Qhull, you must include a notice giving the\n      name of the person performing the modification, the date of\n      modification, and the reason for such modification.\n\n   4. When distributing modified versions of Qhull, or other software \n      products that include Qhull, you must provide notice that the original \n      source code may be obtained as noted above.\n\n   5. There is no warranty or other guarantee of fitness for Qhull, it is \n      provided solely \"as is\".  Bug reports or fixes may be sent to \n      qhull_bug@qhull.org; the authors may or may not act on them as \n      they desire.\n\n\n Name: Qt4 Editor\n Files: matplotlib/backends/qt_editor\n Description: Module creating PyQt4 form dialogs/layouts to edit various type of parameters\n License: MIT\n   Module creating PyQt4 form dialogs/layouts to edit various type of parameters\n\n\n   formlayout License Agreement (MIT License)\n   ------------------------------------------\n\n   Copyright (c) 2009 Pierre Raybaut\n\n   Permission is hereby granted, free of charge, to any person\n   obtaining a copy of this software and associated documentation\n   files (the \"Software\"), to deal in the Software without\n   restriction, including without limitation the rights to use,\n   copy, modify, merge, publish, distribute, sublicense, and/or sell\n   copies of the Software, and to permit persons to whom the\n   Software is furnished to do so, subject to the following\n   conditions:\n\n   The above copyright notice and this permission notice shall be\n   included in all copies or substantial portions of the Software.\n\n   THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\n   OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n   NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\n   HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\n   WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\n   OTHER DEALINGS IN THE SOFTWARE.\n   \"\"\"\n\n\n Name: Solarized\n Files: matplotlib/mpl-data/stylelib/Solarize_Light2.mplstyle\n Description: Solarized color scheme/style\n License: MIT\n   https://github.com/altercation/solarized/blob/master/LICENSE\n   Copyright (c) 2011 Ethan Schoonover\n\n   Permission is hereby granted, free of charge, to any person obtaining a copy\n   of this software and associated documentation files (the \"Software\"), to deal\n   in the Software without restriction, including without limitation the rights\n   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n   copies of the Software, and to permit persons to whom the Software is\n   furnished to do so, subject to the following conditions:\n\n   The above copyright notice and this permission notice shall be included in\n   all copies or substantial portions of the Software.\n\n   THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n   THE SOFTWARE.\n\n\n Name: Stix fonts\n Files: matplotlib/mpl-data/fonts/ttf/STIX*.ttf\n Description: STIX fonts\n License:\n   TERMS AND CONDITIONS\n\n      1. Permission is hereby granted, free of charge, to any person \n   obtaining a copy of the STIX Fonts-TM set accompanying this license \n   (collectively, the \"Fonts\") and the associated documentation files \n   (collectively with the Fonts, the \"Font Software\"), to reproduce and \n   distribute the Font Software, including the rights to use, copy, merge \n   and publish copies of the Font Software, and to permit persons to whom \n   the Font Software is furnished to do so same, subject to the following \n   terms and conditions (the \"License\").\n\n      2. The following copyright and trademark notice and these Terms and \n   Conditions shall be included in all copies of one or more of the Font \n   typefaces and any derivative work created as permitted under this \n   License:\n\n     Copyright (c) 2001-2005 by the STI Pub Companies, consisting of \n   the American Institute of Physics, the American Chemical Society, the \n   American Mathematical Society, the American Physical Society, Elsevier, \n   Inc., and The Institute of Electrical and Electronic Engineers, Inc. \n   Portions copyright (c) 1998-2003 by MicroPress, Inc. Portions copyright \n   (c) 1990 by Elsevier, Inc. All rights reserved. STIX Fonts-TM is a \n   trademark of The Institute of Electrical and Electronics Engineers, Inc.\n\n      3. You may (a) convert the Fonts from one format to another (e.g., \n   from TrueType to PostScript), in which case the normal and reasonable \n   distortion that occurs during such conversion shall be permitted and (b) \n   embed or include a subset of the Fonts in a document for the purposes of \n   allowing users to read text in the document that utilizes the Fonts. In \n   each case, you may use the STIX Fonts-TM mark to designate the resulting \n   Fonts or subset of the Fonts.\n\n      4. You may also (a) add glyphs or characters to the Fonts, or modify \n   the shape of existing glyphs, so long as the base set of glyphs is not \n   removed and (b) delete glyphs or characters from the Fonts, provided \n   that the resulting font set is distributed with the following \n   disclaimer: \"This [name] font does not include all the Unicode points \n   covered in the STIX Fonts-TM set but may include others.\" In each case, \n   the name used to denote the resulting font set shall not include the \n   term \"STIX\" or any similar term.\n\n      5. You may charge a fee in connection with the distribution of the \n   Font Software, provided that no copy of one or more of the individual \n   Font typefaces that form the STIX Fonts-TM set may be sold by itself.\n\n      6. THE FONT SOFTWARE IS PROVIDED \"AS IS,\" WITHOUT WARRANTY OF ANY \n   KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES \n   OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT \n   OF COPYRIGHT, PATENT, TRADEMARK OR OTHER RIGHT. IN NO EVENT SHALL \n   MICROPRESS OR ANY OF THE STI PUB COMPANIES BE LIABLE FOR ANY CLAIM, \n   DAMAGES OR OTHER LIABILITY, INCLUDING, BUT NOT LIMITED TO, ANY GENERAL, \n   SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES, WHETHER IN AN \n   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM OR OUT OF THE USE OR \n   INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT \n   SOFTWARE.\n\n      7. Except as contained in the notice set forth in Section 2, the \n   names MicroPress Inc. and STI Pub Companies, as well as the names of the \n   companies/organizations that compose the STI Pub Companies, shall not be \n   used in advertising or otherwise to promote the sale, use or other \n   dealings in the Font Software without the prior written consent of the \n   respective company or organization.\n\n      8. This License shall become null and void in the event of any \n   material breach of the Terms and Conditions herein by licensee.\n\n      9. A substantial portion of the STIX Fonts set was developed by \n   MicroPress Inc. for the STI Pub Companies. To obtain additional \n   mathematical fonts, please contact MicroPress, Inc., 68-30 Harrow \n   Street, Forest Hills, NY 11375, USA - Phone: (718) 575-1816.\n\n\n Name: Yorick Colormaps\n Files: lib/matplotlib/_cm.py\n Description: Gist/Yorick colormaps\n License:\n   BSD-style license for gist/yorick colormaps.\n\n   Copyright:\n\n     Copyright (c) 1996.  The Regents of the University of California.\n          All rights reserved.\n\n   Permission to use, copy, modify, and distribute this software for any\n   purpose without fee is hereby granted, provided that this entire\n   notice is included in all copies of any software which is or includes\n   a copy or modification of this software and in all copies of the\n   supporting documentation for such software.\n\n   This work was produced at the University of California, Lawrence\n   Livermore National Laboratory under contract no. W-7405-ENG-48 between\n   the U.S. Department of Energy and The Regents of the University of\n   California for the operation of UC LLNL.\n\n\n               DISCLAIMER\n\n   This software was prepared as an account of work sponsored by an\n   agency of the United States Government.  Neither the United States\n   Government nor the University of California nor any of their\n   employees, makes any warranty, express or implied, or assumes any\n   liability or responsibility for the accuracy, completeness, or\n   usefulness of any information, apparatus, product, or process\n   disclosed, or represents that its use would not infringe\n   privately-owned rights.  Reference herein to any specific commercial\n   products, process, or service by trade name, trademark, manufacturer,\n   or otherwise, does not necessarily constitute or imply its\n   endorsement, recommendation, or favoring by the United States\n   Government or the University of California.  The views and opinions of\n   authors expressed herein do not necessarily state or reflect those of\n   the United States Government or the University of California, and\n   shall not be used for advertising or product endorsement purposes.\n\n\n           AUTHOR\n\n   David H. Munro wrote Yorick and Gist.  Berkeley Yacc (byacc) generated\n   the Yorick parser.  The routines in Math are from LAPACK and FFTPACK;\n   MathC contains C translations by David H. Munro.  The algorithms for\n   Yorick's random number generator and several special functions in\n   Yorick/include were taken from Numerical Recipes by Press, et. al.,\n   although the Yorick implementations are unrelated to those in\n   Numerical Recipes.  A small amount of code in Gist was adapted from\n   the X11R4 release, copyright M.I.T. -- the complete copyright notice\n   may be found in the (unused) file Gist/host.c.\n",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Framework :: Matplotlib",
+      "Intended Audience :: Science/Research",
+      "Intended Audience :: Education",
+      "License :: OSI Approved :: Python Software Foundation License",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Topic :: Scientific/Engineering :: Visualization"
+    ],
+    "project_urls": [
+      "Homepage, https://matplotlib.org",
+      "Download, https://matplotlib.org/stable/install/index.html",
+      "Documentation, https://matplotlib.org",
+      "Source Code, https://github.com/matplotlib/matplotlib",
+      "Bug Tracker, https://github.com/matplotlib/matplotlib/issues",
+      "Forum, https://discourse.matplotlib.org/",
+      "Donate, https://numfocus.org/donate-to-matplotlib"
+    ],
+    "archived_files": [
+      "matplotlib-3.10.9/matplotlib-3.10.9.dist-info__LICENSE",
+      "matplotlib-3.10.9/matplotlib__mpl-data__fonts__ttf__LICENSE_DEJAVU",
+      "matplotlib-3.10.9/matplotlib__mpl-data__fonts__ttf__LICENSE_STIX"
+    ]
+  },
+  {
+    "name": "modelscope",
+    "version": "1.39.1",
+    "license_expression": "Apache-2.0",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/modelscope/modelscope"
+    ],
+    "archived_files": [
+      "modelscope-1.39.1/modelscope-1.39.1.dist-info__licenses__LICENSE",
+      "modelscope-1.39.1/modelscope__pipelines__cv__license_plate_detection_pipeline.py"
+    ]
+  },
+  {
+    "name": "modelscope-hub",
+    "version": "0.4.0",
+    "license_expression": null,
+    "license_metadata": "Apache-2.0",
+    "classifiers": [
+      "Development Status :: 3 - Alpha",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: Apache Software License",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Topic :: Scientific/Engineering :: Artificial Intelligence"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "modelscope-hub-0.4.0/modelscope_hub-0.4.0.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "networkx",
+    "version": "3.6.1",
+    "license_expression": "BSD-3-Clause",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Science/Research",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3 :: Only",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Topic :: Scientific/Engineering :: Bio-Informatics",
+      "Topic :: Scientific/Engineering :: Information Analysis",
+      "Topic :: Scientific/Engineering :: Mathematics",
+      "Topic :: Scientific/Engineering :: Physics"
+    ],
+    "project_urls": [
+      "Homepage, https://networkx.org/",
+      "Bug Tracker, https://github.com/networkx/networkx/issues",
+      "Documentation, https://networkx.org/documentation/stable/",
+      "Source Code, https://github.com/networkx/networkx"
+    ],
+    "archived_files": [
+      "networkx-3.6.1/networkx-3.6.1.dist-info__licenses__LICENSE.txt"
+    ]
+  },
+  {
+    "name": "numpy",
+    "version": "2.5.3",
+    "license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Science/Research",
+      "Intended Audience :: Developers",
+      "Programming Language :: C",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Topic :: Software Development",
+      "Topic :: Scientific/Engineering",
+      "Typing :: Typed",
+      "Operating System :: Microsoft :: Windows",
+      "Operating System :: POSIX",
+      "Operating System :: Unix",
+      "Operating System :: MacOS"
+    ],
+    "project_urls": [
+      "homepage, https://numpy.org",
+      "documentation, https://numpy.org/doc/",
+      "source, https://github.com/numpy/numpy",
+      "download, https://pypi.org/project/numpy/#files",
+      "tracker, https://github.com/numpy/numpy/issues",
+      "release notes, https://numpy.org/doc/stable/release"
+    ],
+    "archived_files": [
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__LICENSE.txt",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy___core__include__numpy__libdivide__LICENSE.txt",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy___core__src__common__pythoncapi-compat__COPYING",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy___core__src__highway__LICENSE",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy___core__src__multiarray__dragon4_LICENSE.txt",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy___core__src__npysort__x86-simd-sort__LICENSE.md",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy___core__src__umath__svml__LICENSE",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__fft__pocketfft__LICENSE.md",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__linalg__lapack_lite__LICENSE.txt",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__ma__LICENSE",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__random__LICENSE.md",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__random__src__distributions__LICENSE.md",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__random__src__mt19937__LICENSE.md",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__random__src__pcg64__LICENSE.md",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__random__src__philox__LICENSE.md",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__random__src__sfc64__LICENSE.md",
+      "numpy-2.5.3/numpy-2.5.3.dist-info__licenses__numpy__random__src__splitmix64__LICENSE.md",
+      "numpy-2.5.3/numpy___core__include__numpy__random__LICENSE.txt",
+      "numpy-2.5.3/numpy__ma__LICENSE",
+      "numpy-2.5.3/numpy__random__LICENSE.md"
+    ]
+  },
+  {
+    "name": "opencv-contrib-python",
+    "version": "4.10.0.84",
+    "license_expression": null,
+    "license_metadata": "Apache 2.0",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Environment :: Console",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Education",
+      "Intended Audience :: Information Technology",
+      "Intended Audience :: Science/Research",
+      "License :: OSI Approved :: Apache Software License",
+      "Operating System :: MacOS",
+      "Operating System :: Microsoft :: Windows",
+      "Operating System :: POSIX",
+      "Operating System :: Unix",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.6",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: C++",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Topic :: Scientific/Engineering",
+      "Topic :: Scientific/Engineering :: Image Recognition",
+      "Topic :: Software Development"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "opencv-contrib-python-4.10.0.84/cv2__LICENSE-3RD-PARTY.txt",
+      "opencv-contrib-python-4.10.0.84/cv2__LICENSE.txt",
+      "opencv-contrib-python-4.10.0.84/cv2__data__haarcascade_license_plate_rus_16stages.xml",
+      "opencv-contrib-python-4.10.0.84/opencv_contrib_python-4.10.0.84.dist-info__LICENSE-3RD-PARTY.txt",
+      "opencv-contrib-python-4.10.0.84/opencv_contrib_python-4.10.0.84.dist-info__LICENSE.txt"
+    ]
+  },
+  {
+    "name": "opt-einsum",
+    "version": "3.3.0",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Science/Research",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.5",
+      "Programming Language :: Python :: 3.6",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "opt-einsum-3.3.0/opt_einsum-3.3.0.dist-info__LICENSE"
+    ]
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "license_expression": "Apache-2.0 OR BSD-2-Clause",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Programming Language :: Python :: Free Threading :: 4 - Resilient",
+      "Typing :: Typed"
+    ],
+    "project_urls": [
+      "Documentation, https://packaging.pypa.io/",
+      "Source, https://github.com/pypa/packaging"
+    ],
+    "archived_files": [
+      "packaging-26.3/packaging-26.3.dist-info__licenses__LICENSE",
+      "packaging-26.3/packaging-26.3.dist-info__licenses__LICENSE.APACHE",
+      "packaging-26.3/packaging-26.3.dist-info__licenses__LICENSE.BSD"
+    ]
+  },
+  {
+    "name": "paddleocr",
+    "version": "3.3.2",
+    "license_expression": null,
+    "license_metadata": "Apache License 2.0",
+    "classifiers": [
+      "Intended Audience :: Developers",
+      "Operating System :: OS Independent",
+      "Natural Language :: Chinese (Simplified)",
+      "Programming Language :: Python :: 3",
+      "Topic :: Utilities"
+    ],
+    "project_urls": [
+      "homepage, https://github.com/PaddlePaddle/PaddleOCR",
+      "documentation, https://github.com/PaddlePaddle/PaddleOCR/blob/main/README.md",
+      "repository, https://github.com/PaddlePaddle/PaddleOCR.git",
+      "issues, https://github.com/PaddlePaddle/PaddleOCR/issues"
+    ],
+    "archived_files": [
+      "paddleocr-3.3.2/paddleocr-3.3.2.dist-info__LICENSE"
+    ]
+  },
+  {
+    "name": "paddlepaddle",
+    "version": "3.2.2",
+    "license_expression": null,
+    "license_metadata": "Apache Software License",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Operating System :: OS Independent",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Education",
+      "Intended Audience :: Science/Research",
+      "License :: OSI Approved :: Apache Software License",
+      "Programming Language :: C++",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Typing :: Typed"
+    ],
+    "project_urls": [
+      "Homepage, https://www.paddlepaddle.org.cn/",
+      "Downloads, https://github.com/paddlepaddle/paddle"
+    ],
+    "archived_files": [
+      "paddlepaddle-3.2.2/paddlepaddle-3.2.2.dist-info__LICENSE"
+    ]
+  },
+  {
+    "name": "paddlex",
+    "version": "3.3.13",
+    "license_expression": null,
+    "license_metadata": "Apache-2.0",
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Education",
+      "Intended Audience :: Science/Research",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Topic :: Scientific/Engineering",
+      "Topic :: Scientific/Engineering :: Mathematics",
+      "Topic :: Scientific/Engineering :: Artificial Intelligence",
+      "Topic :: Software Development",
+      "Topic :: Software Development :: Libraries",
+      "Topic :: Software Development :: Libraries :: Python Modules"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "paddlex-3.3.13/paddlex-3.3.13.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "pandas",
+    "version": "3.0.2",
+    "license_expression": null,
+    "license_metadata": "BSD 3-Clause License\n\n Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team\n All rights reserved.\n\n Copyright (c) 2011-2026, Open source contributors.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n * Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n * Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n * Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\n FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n Copyright (c) 2010-2019 Keith Goodman\n Copyright (c) 2019 Bottleneck Developers\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n     * Redistributions of source code must retain the above copyright notice,\n       this list of conditions and the following disclaimer.\n\n     * Redistributions in binary form must reproduce the above copyright\n       notice, this list of conditions and the following disclaimer in the\n       documentation and/or other materials provided with the distribution.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\n ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE\n LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR\n CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF\n SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\n INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN\n CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)\n ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE\n POSSIBILITY OF SUCH DAMAGE.Copyright 2017- Paul Ganssle <paul@ganssle.io>\n Copyright 2017- dateutil contributors (see AUTHORS file)\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n        http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,\n    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n\n The above license applies to all contributions after 2017-12-01, as well as\n all contributions that have been re-licensed (see AUTHORS file for the list of\n contributors who have re-licensed their code).\n --------------------------------------------------------------------------------\n dateutil - Extensions to the standard Python datetime module.\n\n Copyright (c) 2003-2011 - Gustavo Niemeyer <gustavo@niemeyer.net>\n Copyright (c) 2012-2014 - Tomi Pieviläinen <tomi.pievilainen@iki.fi>\n Copyright (c) 2014-2016 - Yaron de Leeuw <me@jarondl.net>\n Copyright (c) 2015-     - Paul Ganssle <paul@ganssle.io>\n Copyright (c) 2015-     - dateutil contributors (see AUTHORS file)\n\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n     * Redistributions of source code must retain the above copyright notice,\n       this list of conditions and the following disclaimer.\n     * Redistributions in binary form must reproduce the above copyright notice,\n       this list of conditions and the following disclaimer in the documentation\n       and/or other materials provided with the distribution.\n     * Neither the name of the copyright holder nor the names of its\n       contributors may be used to endorse or promote products derived from\n       this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\n A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR\n CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,\n EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR\n PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\n NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n The above BSD License Applies to all code, even that also covered by Apache 2.0.# MIT License\n\n Copyright (c) 2019 Hadley Wickham; RStudio; and Evan Miller\n\n Permission is hereby granted, free of charge, to any person obtaining a copy\n of this software and associated documentation files (the \"Software\"), to deal\n in the Software without restriction, including without limitation the rights\n to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n copies of the Software, and to permit persons to whom the Software is\n furnished to do so, subject to the following conditions:\n\n The above copyright notice and this permission notice shall be included in all\n copies or substantial portions of the Software.\n\n THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n SOFTWARE.\n Based on http://opensource.org/licenses/MIT\n\n This is a template. Complete and ship as file LICENSE the following 2\n lines (only)\n\n YEAR:\n COPYRIGHT HOLDER:\n\n and specify as\n\n License: MIT + file LICENSE\n\n Copyright (c) <YEAR>, <COPYRIGHT HOLDER>\n\n Permission is hereby granted, free of charge, to any person obtaining\n a copy of this software and associated documentation files (the\n \"Software\"), to deal in the Software without restriction, including\n without limitation the rights to use, copy, modify, merge, publish,\n distribute, sublicense, and/or sell copies of the Software, and to\n permit persons to whom the Software is furnished to do so, subject to\n the following conditions:\n\n The above copyright notice and this permission notice shall be\n included in all copies or substantial portions of the Software.\n\n THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\n LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\n OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\n WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n The MIT License\n\n Copyright (c) 2008-     Attractive Chaos <attractor@live.co.uk>\n\n Permission is hereby granted, free of charge, to any person obtaining\n a copy of this software and associated documentation files (the\n \"Software\"), to deal in the Software without restriction, including\n without limitation the rights to use, copy, modify, merge, publish,\n distribute, sublicense, and/or sell copies of the Software, and to\n permit persons to whom the Software is furnished to do so, subject to\n the following conditions:\n\n The above copyright notice and this permission notice shall be\n included in all copies or substantial portions of the Software.\n\n THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS\n BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN\n ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\n CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n SOFTWARE.musl as a whole is licensed under the following standard MIT license:\n\n ----------------------------------------------------------------------\n Copyright © 2005-2020 Rich Felker, et al.\n\n Permission is hereby granted, free of charge, to any person obtaining\n a copy of this software and associated documentation files (the\n \"Software\"), to deal in the Software without restriction, including\n without limitation the rights to use, copy, modify, merge, publish,\n distribute, sublicense, and/or sell copies of the Software, and to\n permit persons to whom the Software is furnished to do so, subject to\n the following conditions:\n\n The above copyright notice and this permission notice shall be\n included in all copies or substantial portions of the Software.\n\n THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\n IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\n CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\n TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\n SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n ----------------------------------------------------------------------\n\n Authors/contributors include:\n\n A. Wilcox\n Ada Worcester\n Alex Dowad\n Alex Suykov\n Alexander Monakov\n Andre McCurdy\n Andrew Kelley\n Anthony G. Basile\n Aric Belsito\n Arvid Picciani\n Bartosz Brachaczek\n Benjamin Peterson\n Bobby Bingham\n Boris Brezillon\n Brent Cook\n Chris Spiegel\n Clément Vasseur\n Daniel Micay\n Daniel Sabogal\n Daurnimator\n David Carlier\n David Edelsohn\n Denys Vlasenko\n Dmitry Ivanov\n Dmitry V. Levin\n Drew DeVault\n Emil Renner Berthing\n Fangrui Song\n Felix Fietkau\n Felix Janda\n Gianluca Anzolin\n Hauke Mehrtens\n He X\n Hiltjo Posthuma\n Isaac Dunham\n Jaydeep Patil\n Jens Gustedt\n Jeremy Huntwork\n Jo-Philipp Wich\n Joakim Sindholt\n John Spencer\n Julien Ramseier\n Justin Cormack\n Kaarle Ritvanen\n Khem Raj\n Kylie McClain\n Leah Neukirchen\n Luca Barbato\n Luka Perkov\n M Farkas-Dyck (Strake)\n Mahesh Bodapati\n Markus Wichmann\n Masanori Ogino\n Michael Clark\n Michael Forney\n Mikhail Kremnyov\n Natanael Copa\n Nicholas J. Kain\n orc\n Pascal Cuoq\n Patrick Oppenlander\n Petr Hosek\n Petr Skocik\n Pierre Carrier\n Reini Urban\n Rich Felker\n Richard Pennington\n Ryan Fairfax\n Samuel Holland\n Segev Finer\n Shiz\n sin\n Solar Designer\n Stefan Kristiansson\n Stefan O'Rear\n Szabolcs Nagy\n Timo Teräs\n Trutz Behn\n Valentin Ochs\n Will Dietz\n William Haddon\n William Pitcock\n\n Portions of this software are derived from third-party works licensed\n under terms compatible with the above MIT license:\n\n The TRE regular expression implementation (src/regex/reg* and\n src/regex/tre*) is Copyright © 2001-2008 Ville Laurikari and licensed\n under a 2-clause BSD license (license text in the source files). The\n included version has been heavily modified by Rich Felker in 2012, in\n the interests of size, simplicity, and namespace cleanliness.\n\n Much of the math library code (src/math/* and src/complex/*) is\n Copyright © 1993,2004 Sun Microsystems or\n Copyright © 2003-2011 David Schultz or\n Copyright © 2003-2009 Steven G. Kargl or\n Copyright © 2003-2009 Bruce D. Evans or\n Copyright © 2008 Stephen L. Moshier or\n Copyright © 2017-2018 Arm Limited\n and labelled as such in comments in the individual source files. All\n have been licensed under extremely permissive terms.\n\n The ARM memcpy code (src/string/arm/memcpy.S) is Copyright © 2008\n The Android Open Source Project and is licensed under a two-clause BSD\n license. It was taken from Bionic libc, used on Android.\n\n The AArch64 memcpy and memset code (src/string/aarch64/*) are\n Copyright © 1999-2019, Arm Limited.\n\n The implementation of DES for crypt (src/crypt/crypt_des.c) is\n Copyright © 1994 David Burren. It is licensed under a BSD license.\n\n The implementation of blowfish crypt (src/crypt/crypt_blowfish.c) was\n originally written by Solar Designer and placed into the public\n domain. The code also comes with a fallback permissive license for use\n in jurisdictions that may not recognize the public domain.\n\n The smoothsort implementation (src/stdlib/qsort.c) is Copyright © 2011\n Valentin Ochs and is licensed under an MIT-style license.\n\n The x86_64 port was written by Nicholas J. Kain and is licensed under\n the standard MIT terms.\n\n The mips and microblaze ports were originally written by Richard\n Pennington for use in the ellcc project. The original code was adapted\n by Rich Felker for build system and code conventions during upstream\n integration. It is licensed under the standard MIT terms.\n\n The mips64 port was contributed by Imagination Technologies and is\n licensed under the standard MIT terms.\n\n The powerpc port was also originally written by Richard Pennington,\n and later supplemented and integrated by John Spencer. It is licensed\n under the standard MIT terms.\n\n All other files which have no copyright comments are original works\n produced specifically for use as part of this library, written either\n by Rich Felker, the main author of the library, or by one or more\n contibutors listed above. Details on authorship of individual files\n can be found in the git version control history of the project. The\n omission of copyright and license comments in each file is in the\n interest of source tree size.\n\n In addition, permission is hereby granted for all public header files\n (include/* and arch/*/bits/*) and crt files intended to be linked into\n applications (crt/*, ldso/dlstart.c, and arch/*/crt_arch.h) to omit\n the copyright notice and permission notice otherwise required by the\n license, and to use these files without any requirement of\n attribution. These files include substantial contributions from:\n\n Bobby Bingham\n John Spencer\n Nicholas J. Kain\n Rich Felker\n Richard Pennington\n Stefan Kristiansson\n Szabolcs Nagy\n\n all of whom have explicitly granted such permission.\n\n This file previously contained text expressing a belief that most of\n the files covered by the above exception were sufficiently trivial not\n to be subject to copyright, resulting in confusion over whether it\n negated the permissions granted in the license. In the spirit of\n permissive licensing, and of not having licensing issues being an\n obstacle to adoption, that text has been removed.Copyright (c) 2005-2023, NumPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are\n met:\n\n     * Redistributions of source code must retain the above copyright\n        notice, this list of conditions and the following disclaimer.\n\n     * Redistributions in binary form must reproduce the above\n        copyright notice, this list of conditions and the following\n        disclaimer in the documentation and/or other materials provided\n        with the distribution.\n\n     * Neither the name of the NumPy Developers nor the names of any\n        contributors may be used to endorse or promote products derived\n        from this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\n A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\n OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\n SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\n LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\n THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n                                  Apache License\n                            Version 2.0, January 2004\n                         http://www.apache.org/licenses/\n\n    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n    1. Definitions.\n\n       \"License\" shall mean the terms and conditions for use, reproduction,\n       and distribution as defined by Sections 1 through 9 of this document.\n\n       \"Licensor\" shall mean the copyright owner or entity authorized by\n       the copyright owner that is granting the License.\n\n       \"Legal Entity\" shall mean the union of the acting entity and all\n       other entities that control, are controlled by, or are under common\n       control with that entity. For the purposes of this definition,\n       \"control\" means (i) the power, direct or indirect, to cause the\n       direction or management of such entity, whether by contract or\n       otherwise, or (ii) ownership of fifty percent (50%) or more of the\n       outstanding shares, or (iii) beneficial ownership of such entity.\n\n       \"You\" (or \"Your\") shall mean an individual or Legal Entity\n       exercising permissions granted by this License.\n\n       \"Source\" form shall mean the preferred form for making modifications,\n       including but not limited to software source code, documentation\n       source, and configuration files.\n\n       \"Object\" form shall mean any form resulting from mechanical\n       transformation or translation of a Source form, including but\n       not limited to compiled object code, generated documentation,\n       and conversions to other media types.\n\n       \"Work\" shall mean the work of authorship, whether in Source or\n       Object form, made available under the License, as indicated by a\n       copyright notice that is included in or attached to the work\n       (an example is provided in the Appendix below).\n\n       \"Derivative Works\" shall mean any work, whether in Source or Object\n       form, that is based on (or derived from) the Work and for which the\n       editorial revisions, annotations, elaborations, or other modifications\n       represent, as a whole, an original work of authorship. For the purposes\n       of this License, Derivative Works shall not include works that remain\n       separable from, or merely link (or bind by name) to the interfaces of,\n       the Work and Derivative Works thereof.\n\n       \"Contribution\" shall mean any work of authorship, including\n       the original version of the Work and any modifications or additions\n       to that Work or Derivative Works thereof, that is intentionally\n       submitted to Licensor for inclusion in the Work by the copyright owner\n       or by an individual or Legal Entity authorized to submit on behalf of\n       the copyright owner. For the purposes of this definition, \"submitted\"\n       means any form of electronic, verbal, or written communication sent\n       to the Licensor or its representatives, including but not limited to\n       communication on electronic mailing lists, source code control systems,\n       and issue tracking systems that are managed by, or on behalf of, the\n       Licensor for the purpose of discussing and improving the Work, but\n       excluding communication that is conspicuously marked or otherwise\n       designated in writing by the copyright owner as \"Not a Contribution.\"\n\n       \"Contributor\" shall mean Licensor and any individual or Legal Entity\n       on behalf of whom a Contribution has been received by Licensor and\n       subsequently incorporated within the Work.\n\n    2. Grant of Copyright License. Subject to the terms and conditions of\n       this License, each Contributor hereby grants to You a perpetual,\n       worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n       copyright license to reproduce, prepare Derivative Works of,\n       publicly display, publicly perform, sublicense, and distribute the\n       Work and such Derivative Works in Source or Object form.\n\n    3. Grant of Patent License. Subject to the terms and conditions of\n       this License, each Contributor hereby grants to You a perpetual,\n       worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n       (except as stated in this section) patent license to make, have made,\n       use, offer to sell, sell, import, and otherwise transfer the Work,\n       where such license applies only to those patent claims licensable\n       by such Contributor that are necessarily infringed by their\n       Contribution(s) alone or by combination of their Contribution(s)\n       with the Work to which such Contribution(s) was submitted. If You\n       institute patent litigation against any entity (including a\n       cross-claim or counterclaim in a lawsuit) alleging that the Work\n       or a Contribution incorporated within the Work constitutes direct\n       or contributory patent infringement, then any patent licenses\n       granted to You under this License for that Work shall terminate\n       as of the date such litigation is filed.\n\n    4. Redistribution. You may reproduce and distribute copies of the\n       Work or Derivative Works thereof in any medium, with or without\n       modifications, and in Source or Object form, provided that You\n       meet the following conditions:\n\n       (a) You must give any other recipients of the Work or\n           Derivative Works a copy of this License; and\n\n       (b) You must cause any modified files to carry prominent notices\n           stating that You changed the files; and\n\n       (c) You must retain, in the Source form of any Derivative Works\n           that You distribute, all copyright, patent, trademark, and\n           attribution notices from the Source form of the Work,\n           excluding those notices that do not pertain to any part of\n           the Derivative Works; and\n\n       (d) If the Work includes a \"NOTICE\" text file as part of its\n           distribution, then any Derivative Works that You distribute must\n           include a readable copy of the attribution notices contained\n           within such NOTICE file, excluding those notices that do not\n           pertain to any part of the Derivative Works, in at least one\n           of the following places: within a NOTICE text file distributed\n           as part of the Derivative Works; within the Source form or\n           documentation, if provided along with the Derivative Works; or,\n           within a display generated by the Derivative Works, if and\n           wherever such third-party notices normally appear. The contents\n           of the NOTICE file are for informational purposes only and\n           do not modify the License. You may add Your own attribution\n           notices within Derivative Works that You distribute, alongside\n           or as an addendum to the NOTICE text from the Work, provided\n           that such additional attribution notices cannot be construed\n           as modifying the License.\n\n       You may add Your own copyright statement to Your modifications and\n       may provide additional or different license terms and conditions\n       for use, reproduction, or distribution of Your modifications, or\n       for any such Derivative Works as a whole, provided Your use,\n       reproduction, and distribution of the Work otherwise complies with\n       the conditions stated in this License.\n\n    5. Submission of Contributions. Unless You explicitly state otherwise,\n       any Contribution intentionally submitted for inclusion in the Work\n       by You to the Licensor shall be under the terms and conditions of\n       this License, without any additional terms or conditions.\n       Notwithstanding the above, nothing herein shall supersede or modify\n       the terms of any separate license agreement you may have executed\n       with Licensor regarding such Contributions.\n\n    6. Trademarks. This License does not grant permission to use the trade\n       names, trademarks, service marks, or product names of the Licensor,\n       except as required for reasonable and customary use in describing the\n       origin of the Work and reproducing the content of the NOTICE file.\n\n    7. Disclaimer of Warranty. Unless required by applicable law or\n       agreed to in writing, Licensor provides the Work (and each\n       Contributor provides its Contributions) on an \"AS IS\" BASIS,\n       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n       implied, including, without limitation, any warranties or conditions\n       of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n       PARTICULAR PURPOSE. You are solely responsible for determining the\n       appropriateness of using or redistributing the Work and assume any\n       risks associated with Your exercise of permissions under this License.\n\n    8. Limitation of Liability. In no event and under no legal theory,\n       whether in tort (including negligence), contract, or otherwise,\n       unless required by applicable law (such as deliberate and grossly\n       negligent acts) or agreed to in writing, shall any Contributor be\n       liable to You for damages, including any direct, indirect, special,\n       incidental, or consequential damages of any character arising as a\n       result of this License or out of the use or inability to use the\n       Work (including but not limited to damages for loss of goodwill,\n       work stoppage, computer failure or malfunction, or any and all\n       other commercial damages or losses), even if such Contributor\n       has been advised of the possibility of such damages.\n\n    9. Accepting Warranty or Additional Liability. While redistributing\n       the Work or Derivative Works thereof, You may choose to offer,\n       and charge a fee for, acceptance of support, warranty, indemnity,\n       or other liability obligations and/or rights consistent with this\n       License. However, in accepting such obligations, You may act only\n       on Your own behalf and on Your sole responsibility, not on behalf\n       of any other Contributor, and only if You agree to indemnify,\n       defend, and hold each Contributor harmless for any liability\n       incurred by, or claims asserted against, such Contributor by reason\n       of your accepting any such warranty or additional liability.\n\n    END OF TERMS AND CONDITIONS\n\n\n Copyright (c) Donald Stufft and individual contributors.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n     1. Redistributions of source code must retain the above copyright notice,\n        this list of conditions and the following disclaimer.\n\n     2. Redistributions in binary form must reproduce the above copyright\n        notice, this list of conditions and the following disclaimer in the\n        documentation and/or other materials provided with the distribution.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\n FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.A. HISTORY OF THE SOFTWARE\n ==========================\n\n Python was created in the early 1990s by Guido van Rossum at Stichting\n Mathematisch Centrum (CWI, see https://www.cwi.nl) in the Netherlands\n as a successor of a language called ABC.  Guido remains Python's\n principal author, although it includes many contributions from others.\n\n In 1995, Guido continued his work on Python at the Corporation for\n National Research Initiatives (CNRI, see https://www.cnri.reston.va.us)\n in Reston, Virginia where he released several versions of the\n software.\n\n In May 2000, Guido and the Python core development team moved to\n BeOpen.com to form the BeOpen PythonLabs team.  In October of the same\n year, the PythonLabs team moved to Digital Creations, which became\n Zope Corporation.  In 2001, the Python Software Foundation (PSF, see\n https://www.python.org/psf/) was formed, a non-profit organization\n created specifically to own Python-related Intellectual Property.\n Zope Corporation was a sponsoring member of the PSF.\n\n All Python releases are Open Source (see https://opensource.org for\n the Open Source Definition).  Historically, most, but not all, Python\n releases have also been GPL-compatible; the table below summarizes\n the various releases.\n\n     Release         Derived     Year        Owner       GPL-\n                     from                                compatible? (1)\n\n     0.9.0 thru 1.2              1991-1995   CWI         yes\n     1.3 thru 1.5.2  1.2         1995-1999   CNRI        yes\n     1.6             1.5.2       2000        CNRI        no\n     2.0             1.6         2000        BeOpen.com  no\n     1.6.1           1.6         2001        CNRI        yes (2)\n     2.1             2.0+1.6.1   2001        PSF         no\n     2.0.1           2.0+1.6.1   2001        PSF         yes\n     2.1.1           2.1+2.0.1   2001        PSF         yes\n     2.1.2           2.1.1       2002        PSF         yes\n     2.1.3           2.1.2       2002        PSF         yes\n     2.2 and above   2.1.1       2001-now    PSF         yes\n\n Footnotes:\n\n (1) GPL-compatible doesn't mean that we're distributing Python under\n     the GPL.  All Python licenses, unlike the GPL, let you distribute\n     a modified version without making your changes open source.  The\n     GPL-compatible licenses make it possible to combine Python with\n     other software that is released under the GPL; the others don't.\n\n (2) According to Richard Stallman, 1.6.1 is not GPL-compatible,\n     because its license has a choice of law clause.  According to\n     CNRI, however, Stallman's lawyer has told CNRI's lawyer that 1.6.1\n     is \"not incompatible\" with the GPL.\n\n Thanks to the many outside volunteers who have worked under Guido's\n direction to make these releases possible.\n\n\n B. TERMS AND CONDITIONS FOR ACCESSING OR OTHERWISE USING PYTHON\n ===============================================================\n\n Python software and documentation are licensed under the\n Python Software Foundation License Version 2.\n\n Starting with Python 3.8.6, examples, recipes, and other code in\n the documentation are dual licensed under the PSF License Version 2\n and the Zero-Clause BSD license.\n\n Some software incorporated into Python is under different licenses.\n The licenses are listed with code falling under that license.\n\n\n PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2\n --------------------------------------------\n\n 1. This LICENSE AGREEMENT is between the Python Software Foundation\n (\"PSF\"), and the Individual or Organization (\"Licensee\") accessing and\n otherwise using this software (\"Python\") in source or binary form and\n its associated documentation.\n\n 2. Subject to the terms and conditions of this License Agreement, PSF hereby\n grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce,\n analyze, test, perform and/or display publicly, prepare derivative works,\n distribute, and otherwise use Python alone or in any derivative version,\n provided, however, that PSF's License Agreement and PSF's notice of copyright,\n i.e., \"Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010,\n 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023 Python Software Foundation;\n All Rights Reserved\" are retained in Python alone or in any derivative version\n prepared by Licensee.\n\n 3. In the event Licensee prepares a derivative work that is based on\n or incorporates Python or any part thereof, and wants to make\n the derivative work available to others as provided herein, then\n Licensee hereby agrees to include in any such work a brief summary of\n the changes made to Python.\n\n 4. PSF is making Python available to Licensee on an \"AS IS\"\n basis.  PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\n IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND\n DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\n FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON WILL NOT\n INFRINGE ANY THIRD PARTY RIGHTS.\n\n 5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON\n FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS\n A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON,\n OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n 6. This License Agreement will automatically terminate upon a material\n breach of its terms and conditions.\n\n 7. Nothing in this License Agreement shall be deemed to create any\n relationship of agency, partnership, or joint venture between PSF and\n Licensee.  This License Agreement does not grant permission to use PSF\n trademarks or trade name in a trademark sense to endorse or promote\n products or services of Licensee, or any third party.\n\n 8. By copying, installing or otherwise using Python, Licensee\n agrees to be bound by the terms and conditions of this License\n Agreement.\n\n\n BEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0\n -------------------------------------------\n\n BEOPEN PYTHON OPEN SOURCE LICENSE AGREEMENT VERSION 1\n\n 1. This LICENSE AGREEMENT is between BeOpen.com (\"BeOpen\"), having an\n office at 160 Saratoga Avenue, Santa Clara, CA 95051, and the\n Individual or Organization (\"Licensee\") accessing and otherwise using\n this software in source or binary form and its associated\n documentation (\"the Software\").\n\n 2. Subject to the terms and conditions of this BeOpen Python License\n Agreement, BeOpen hereby grants Licensee a non-exclusive,\n royalty-free, world-wide license to reproduce, analyze, test, perform\n and/or display publicly, prepare derivative works, distribute, and\n otherwise use the Software alone or in any derivative version,\n provided, however, that the BeOpen Python License is retained in the\n Software, alone or in any derivative version prepared by Licensee.\n\n 3. BeOpen is making the Software available to Licensee on an \"AS IS\"\n basis.  BEOPEN MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\n IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, BEOPEN MAKES NO AND\n DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\n FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE WILL NOT\n INFRINGE ANY THIRD PARTY RIGHTS.\n\n 4. BEOPEN SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE\n SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS\n AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THE SOFTWARE, OR ANY\n DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n 5. This License Agreement will automatically terminate upon a material\n breach of its terms and conditions.\n\n 6. This License Agreement shall be governed by and interpreted in all\n respects by the law of the State of California, excluding conflict of\n law provisions.  Nothing in this License Agreement shall be deemed to\n create any relationship of agency, partnership, or joint venture\n between BeOpen and Licensee.  This License Agreement does not grant\n permission to use BeOpen trademarks or trade names in a trademark\n sense to endorse or promote products or services of Licensee, or any\n third party.  As an exception, the \"BeOpen Python\" logos available at\n http://www.pythonlabs.com/logos.html may be used according to the\n permissions granted on that web page.\n\n 7. By copying, installing or otherwise using the software, Licensee\n agrees to be bound by the terms and conditions of this License\n Agreement.\n\n\n CNRI LICENSE AGREEMENT FOR PYTHON 1.6.1\n ---------------------------------------\n\n 1. This LICENSE AGREEMENT is between the Corporation for National\n Research Initiatives, having an office at 1895 Preston White Drive,\n Reston, VA 20191 (\"CNRI\"), and the Individual or Organization\n (\"Licensee\") accessing and otherwise using Python 1.6.1 software in\n source or binary form and its associated documentation.\n\n 2. Subject to the terms and conditions of this License Agreement, CNRI\n hereby grants Licensee a nonexclusive, royalty-free, world-wide\n license to reproduce, analyze, test, perform and/or display publicly,\n prepare derivative works, distribute, and otherwise use Python 1.6.1\n alone or in any derivative version, provided, however, that CNRI's\n License Agreement and CNRI's notice of copyright, i.e., \"Copyright (c)\n 1995-2001 Corporation for National Research Initiatives; All Rights\n Reserved\" are retained in Python 1.6.1 alone or in any derivative\n version prepared by Licensee.  Alternately, in lieu of CNRI's License\n Agreement, Licensee may substitute the following text (omitting the\n quotes): \"Python 1.6.1 is made available subject to the terms and\n conditions in CNRI's License Agreement.  This Agreement together with\n Python 1.6.1 may be located on the internet using the following\n unique, persistent identifier (known as a handle): 1895.22/1013.  This\n Agreement may also be obtained from a proxy server on the internet\n using the following URL: http://hdl.handle.net/1895.22/1013\".\n\n 3. In the event Licensee prepares a derivative work that is based on\n or incorporates Python 1.6.1 or any part thereof, and wants to make\n the derivative work available to others as provided herein, then\n Licensee hereby agrees to include in any such work a brief summary of\n the changes made to Python 1.6.1.\n\n 4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\"\n basis.  CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\n IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND\n DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\n FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT\n INFRINGE ANY THIRD PARTY RIGHTS.\n\n 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON\n 1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS\n A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1,\n OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n 6. This License Agreement will automatically terminate upon a material\n breach of its terms and conditions.\n\n 7. This License Agreement shall be governed by the federal\n intellectual property law of the United States, including without\n limitation the federal copyright law, and, to the extent such\n U.S. federal law does not apply, by the law of the Commonwealth of\n Virginia, excluding Virginia's conflict of law provisions.\n Notwithstanding the foregoing, with regard to derivative works based\n on Python 1.6.1 that incorporate non-separable material that was\n previously distributed under the GNU General Public License (GPL), the\n law of the Commonwealth of Virginia shall govern this License\n Agreement only as to issues arising under or with respect to\n Paragraphs 4, 5, and 7 of this License Agreement.  Nothing in this\n License Agreement shall be deemed to create any relationship of\n agency, partnership, or joint venture between CNRI and Licensee.  This\n License Agreement does not grant permission to use CNRI trademarks or\n trade name in a trademark sense to endorse or promote products or\n services of Licensee, or any third party.\n\n 8. By clicking on the \"ACCEPT\" button where indicated, or by copying,\n installing or otherwise using Python 1.6.1, Licensee agrees to be\n bound by the terms and conditions of this License Agreement.\n\n         ACCEPT\n\n\n CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2\n --------------------------------------------------\n\n Copyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam,\n The Netherlands.  All rights reserved.\n\n Permission to use, copy, modify, and distribute this software and its\n documentation for any purpose and without fee is hereby granted,\n provided that the above copyright notice appear in all copies and that\n both that copyright notice and this permission notice appear in\n supporting documentation, and that the name of Stichting Mathematisch\n Centrum or CWI not be used in advertising or publicity pertaining to\n distribution of the software without specific, written prior\n permission.\n\n STICHTING MATHEMATISCH CENTRUM DISCLAIMS ALL WARRANTIES WITH REGARD TO\n THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND\n FITNESS, IN NO EVENT SHALL STICHTING MATHEMATISCH CENTRUM BE LIABLE\n FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT\n OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n\n ZERO-CLAUSE BSD LICENSE FOR CODE IN THE PYTHON DOCUMENTATION\n ----------------------------------------------------------------------\n\n Permission to use, copy, modify, and/or distribute this software for any\n purpose with or without fee is hereby granted.\n\n THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH\n REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY\n AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,\n INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM\n LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR\n OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR\n PERFORMANCE OF THIS SOFTWARE.\n Copyright (c) 2014, Al Sweigart\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n * Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n * Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n * Neither the name of the {organization} nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\n FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.Copyright (c) 2017 Anthony Sottile\n\n Permission is hereby granted, free of charge, to any person obtaining a copy\n of this software and associated documentation files (the \"Software\"), to deal\n in the Software without restriction, including without limitation the rights\n to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n copies of the Software, and to permit persons to whom the Software is\n furnished to do so, subject to the following conditions:\n\n The above copyright notice and this permission notice shall be included in\n all copies or substantial portions of the Software.\n\n THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n THE SOFTWARE.Copyright (c) 2015-2019 Jared Hobbs\n\n Permission is hereby granted, free of charge, to any person obtaining a copy of\n this software and associated documentation files (the \"Software\"), to deal in\n the Software without restriction, including without limitation the rights to\n use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\n of the Software, and to permit persons to whom the Software is furnished to do\n so, subject to the following conditions:\n\n The above copyright notice and this permission notice shall be included in all\n copies or substantial portions of the Software.\n\n THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n SOFTWARE.Developed by ESN, an Electronic Arts Inc. studio.\n Copyright (c) 2014, Electronic Arts Inc.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n * Redistributions of source code must retain the above copyright\n notice, this list of conditions and the following disclaimer.\n * Redistributions in binary form must reproduce the above copyright\n notice, this list of conditions and the following disclaimer in the\n documentation and/or other materials provided with the distribution.\n * Neither the name of ESN, Electronic Arts Inc. nor the\n names of its contributors may be used to endorse or promote products\n derived from this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n DISCLAIMED. IN NO EVENT SHALL ELECTRONIC ARTS INC. BE LIABLE\n FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\n LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND\n ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n ----\n\n Portions of code from MODP_ASCII - Ascii transformations (upper/lower, etc)\n https://github.com/client9/stringencoders\n\n   Copyright 2005, 2006, 2007\n   Nick Galbreath -- nickg [at] modp [dot] com\n   All rights reserved.\n\n   Redistribution and use in source and binary forms, with or without\n   modification, are permitted provided that the following conditions are\n   met:\n\n     Redistributions of source code must retain the above copyright\n     notice, this list of conditions and the following disclaimer.\n\n     Redistributions in binary form must reproduce the above copyright\n     notice, this list of conditions and the following disclaimer in the\n     documentation and/or other materials provided with the distribution.\n\n     Neither the name of the modp.com nor the names of its\n     contributors may be used to endorse or promote products derived from\n     this software without specific prior written permission.\n\n   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n   \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n   LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\n   A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\n   OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\n   SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\n   LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n   DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\n   THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n   This is the standard \"new\" BSD license:\n   http://www.opensource.org/licenses/bsd-license.php\n\n https://github.com/client9/stringencoders/blob/cfd5c1507325ae497ea9bacdacba12c0ffd79d30/COPYING\n\n ----\n\n Numeric decoder derived from from TCL library\n https://opensource.apple.com/source/tcl/tcl-14/tcl/license.terms\n  * Copyright (c) 1988-1993 The Regents of the University of California.\n  * Copyright (c) 1994 Sun Microsystems, Inc.\n\n   This software is copyrighted by the Regents of the University of\n   California, Sun Microsystems, Inc., Scriptics Corporation, ActiveState\n   Corporation and other parties.  The following terms apply to all files\n   associated with the software unless explicitly disclaimed in\n   individual files.\n\n   The authors hereby grant permission to use, copy, modify, distribute,\n   and license this software and its documentation for any purpose, provided\n   that existing copyright notices are retained in all copies and that this\n   notice is included verbatim in any distributions. No written agreement,\n   license, or royalty fee is required for any of the authorized uses.\n   Modifications to this software may be copyrighted by their authors\n   and need not follow the licensing terms described here, provided that\n   the new terms are clearly indicated on the first page of each file where\n   they apply.\n\n   IN NO EVENT SHALL THE AUTHORS OR DISTRIBUTORS BE LIABLE TO ANY PARTY\n   FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES\n   ARISING OUT OF THE USE OF THIS SOFTWARE, ITS DOCUMENTATION, OR ANY\n   DERIVATIVES THEREOF, EVEN IF THE AUTHORS HAVE BEEN ADVISED OF THE\n   POSSIBILITY OF SUCH DAMAGE.\n\n   THE AUTHORS AND DISTRIBUTORS SPECIFICALLY DISCLAIM ANY WARRANTIES,\n   INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY,\n   FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.  THIS SOFTWARE\n   IS PROVIDED ON AN \"AS IS\" BASIS, AND THE AUTHORS AND DISTRIBUTORS HAVE\n   NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR\n   MODIFICATIONS.\n\n   GOVERNMENT USE: If you are acquiring this software on behalf of the\n   U.S. government, the Government shall have only \"Restricted Rights\"\n   in the software and related documentation as defined in the Federal\n   Acquisition Regulations (FARs) in Clause 52.227.19 (c) (2).  If you\n   are acquiring the software on behalf of the Department of Defense, the\n   software shall be classified as \"Commercial Computer Software\" and the\n   Government shall have only \"Restricted Rights\" as defined in Clause\n   252.227-7013 (c) (1) of DFARs.  Notwithstanding the foregoing, the\n   authors grant the U.S. Government and others acting in its behalf\n   permission to use and distribute the software in accordance with the\n   terms specified in this license.",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Environment :: Console",
+      "Intended Audience :: Science/Research",
+      "License :: OSI Approved :: BSD License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Cython",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Topic :: Scientific/Engineering"
+    ],
+    "project_urls": [
+      "homepage, https://pandas.pydata.org",
+      "documentation, https://pandas.pydata.org/docs/",
+      "repository, https://github.com/pandas-dev/pandas"
+    ],
+    "archived_files": [
+      "pandas-3.0.2/pandas-3.0.2.dist-info__LICENSE"
+    ]
+  },
+  {
+    "name": "pillow",
+    "version": "11.3.0",
+    "license_expression": "MIT-CMU",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 6 - Mature",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Topic :: Multimedia :: Graphics",
+      "Topic :: Multimedia :: Graphics :: Capture :: Digital Camera",
+      "Topic :: Multimedia :: Graphics :: Capture :: Screen Capture",
+      "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+      "Topic :: Multimedia :: Graphics :: Viewers",
+      "Typing :: Typed"
+    ],
+    "project_urls": [
+      "Changelog, https://github.com/python-pillow/Pillow/releases",
+      "Documentation, https://pillow.readthedocs.io",
+      "Funding, https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+      "Homepage, https://python-pillow.github.io",
+      "Mastodon, https://fosstodon.org/@pillow",
+      "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+      "Source, https://github.com/python-pillow/Pillow"
+    ],
+    "archived_files": [
+      "pillow-11.3.0/pillow-11.3.0.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "prettytable",
+    "version": "3.18.0",
+    "license_expression": "BSD-3-Clause",
+    "license_metadata": null,
+    "classifiers": [
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15",
+      "Programming Language :: Python :: 3.16",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Topic :: Text Processing",
+      "Typing :: Typed"
+    ],
+    "project_urls": [
+      "Changelog, https://github.com/prettytable/prettytable/releases",
+      "Funding, https://tidelift.com/subscription/pkg/pypi-prettytable?utm_source=pypi-prettytable&utm_medium=pypi",
+      "Homepage, https://github.com/prettytable/prettytable",
+      "Source, https://github.com/prettytable/prettytable"
+    ],
+    "archived_files": [
+      "prettytable-3.18.0/prettytable-3.18.0.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "protobuf",
+    "version": "7.36.1",
+    "license_expression": null,
+    "license_metadata": "3-Clause BSD License",
+    "classifiers": [
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "protobuf-7.36.1/protobuf-7.36.1.dist-info__LICENSE"
+    ]
+  },
+  {
+    "name": "psutil",
+    "version": "7.2.2",
+    "license_expression": null,
+    "license_metadata": "BSD-3-Clause",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Environment :: Console",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Information Technology",
+      "Intended Audience :: System Administrators",
+      "Operating System :: MacOS :: MacOS X",
+      "Operating System :: Microsoft :: Windows :: Windows 10",
+      "Operating System :: Microsoft :: Windows :: Windows 11",
+      "Operating System :: Microsoft :: Windows :: Windows 7",
+      "Operating System :: Microsoft :: Windows :: Windows 8",
+      "Operating System :: Microsoft :: Windows :: Windows 8.1",
+      "Operating System :: Microsoft :: Windows :: Windows Server 2003",
+      "Operating System :: Microsoft :: Windows :: Windows Server 2008",
+      "Operating System :: Microsoft :: Windows :: Windows Vista",
+      "Operating System :: Microsoft :: Windows",
+      "Operating System :: Microsoft",
+      "Operating System :: OS Independent",
+      "Operating System :: POSIX :: AIX",
+      "Operating System :: POSIX :: BSD :: FreeBSD",
+      "Operating System :: POSIX :: BSD :: NetBSD",
+      "Operating System :: POSIX :: BSD :: OpenBSD",
+      "Operating System :: POSIX :: BSD",
+      "Operating System :: POSIX :: Linux",
+      "Operating System :: POSIX :: SunOS/Solaris",
+      "Operating System :: POSIX",
+      "Programming Language :: C",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Programming Language :: Python",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Topic :: Software Development :: Libraries",
+      "Topic :: System :: Benchmark",
+      "Topic :: System :: Hardware",
+      "Topic :: System :: Monitoring",
+      "Topic :: System :: Networking :: Monitoring :: Hardware Watchdog",
+      "Topic :: System :: Networking :: Monitoring",
+      "Topic :: System :: Networking",
+      "Topic :: System :: Operating System",
+      "Topic :: System :: Systems Administration",
+      "Topic :: Utilities"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "psutil-7.2.2/psutil-7.2.2.dist-info__LICENSE"
+    ]
+  },
+  {
+    "name": "py-cpuinfo",
+    "version": "9.0.0",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Topic :: Utilities",
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "py-cpuinfo-9.0.0/py_cpuinfo-9.0.0.dist-info__LICENSE"
+    ]
+  },
+  {
+    "name": "pyclipper",
+    "version": "1.4.0",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "classifiers": [
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Cython",
+      "Programming Language :: C++",
+      "Environment :: Other Environment",
+      "Development Status :: 4 - Beta",
+      "Intended Audience :: Developers",
+      "Operating System :: OS Independent",
+      "License :: OSI Approved",
+      "License :: OSI Approved :: MIT License",
+      "Topic :: Multimedia :: Graphics",
+      "Topic :: Scientific/Engineering :: Mathematics",
+      "Topic :: Software Development :: Libraries :: Python Modules"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "pyclipper-1.4.0/pyclipper-1.4.0.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "pycparser",
+    "version": "3.0",
+    "license_expression": "BSD-3-Clause",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/eliben/pycparser"
+    ],
+    "archived_files": [
+      "pycparser-3.0/pycparser-3.0.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "pycryptodome",
+    "version": "3.23.0",
+    "license_expression": null,
+    "license_metadata": "BSD, Public Domain",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "License :: OSI Approved :: BSD License",
+      "License :: Public Domain",
+      "Intended Audience :: Developers",
+      "Operating System :: Unix",
+      "Operating System :: Microsoft :: Windows",
+      "Operating System :: MacOS :: MacOS X",
+      "Topic :: Security :: Cryptography",
+      "Programming Language :: Python :: 2",
+      "Programming Language :: Python :: 2.7",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13"
+    ],
+    "project_urls": [
+      "Source, https://github.com/Legrandin/pycryptodome/",
+      "Changelog, https://www.pycryptodome.org/src/changelog"
+    ],
+    "archived_files": [
+      "pycryptodome-3.23.0/pycryptodome-3.23.0.dist-info__LICENSE.rst"
+    ]
+  },
+  {
+    "name": "pydantic",
+    "version": "2.13.5",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Framework :: Hypothesis",
+      "Framework :: Pydantic",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Information Technology",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Topic :: Internet",
+      "Topic :: Software Development :: Libraries :: Python Modules"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/pydantic/pydantic",
+      "Documentation, https://docs.pydantic.dev",
+      "Funding, https://github.com/sponsors/samuelcolvin",
+      "Source, https://github.com/pydantic/pydantic",
+      "Changelog, https://docs.pydantic.dev/latest/changelog/"
+    ],
+    "archived_files": [
+      "pydantic-2.13.5/pydantic-2.13.5.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "pydantic_core",
+    "version": "2.46.5",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 3 - Alpha",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Programming Language :: Python :: Implementation :: GraalPy",
+      "Programming Language :: Rust",
+      "Framework :: Pydantic",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Information Technology",
+      "Operating System :: POSIX :: Linux",
+      "Operating System :: Microsoft :: Windows",
+      "Operating System :: MacOS",
+      "Typing :: Typed"
+    ],
+    "project_urls": [
+      "Funding, https://github.com/sponsors/samuelcolvin",
+      "Homepage, https://github.com/pydantic",
+      "Source, https://github.com/pydantic/pydantic/tree/main/pydantic-core"
+    ],
+    "archived_files": [
+      "pydantic_core-2.46.5/pydantic_core-2.46.5.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "pyparsing",
+    "version": "3.3.2",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Information Technology",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Topic :: Software Development :: Compilers",
+      "Topic :: Text Processing",
+      "Typing :: Typed"
+    ],
+    "project_urls": [
+      "Documentation, https://pyparsing-docs.readthedocs.io/en/latest/",
+      "Homepage, https://github.com/pyparsing/pyparsing/",
+      "Source, https://github.com/pyparsing/pyparsing.git"
+    ],
+    "archived_files": [
+      "pyparsing-3.3.2/pyparsing-3.3.2.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "pypdfium2",
+    "version": "4.30.0",
+    "license_expression": null,
+    "license_metadata": "(Apache-2.0 OR BSD-3-Clause) AND LicenseRef-PdfiumThirdParty",
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Information Technology",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Topic :: Multimedia :: Graphics",
+      "Topic :: Software Development :: Libraries"
+    ],
+    "project_urls": [
+      "Source, https://github.com/pypdfium2-team/pypdfium2",
+      "Tracker, https://github.com/pypdfium2-team/pypdfium2/issues",
+      "Documentation, https://pypdfium2.readthedocs.io",
+      "Changelog, https://pypdfium2.readthedocs.io/en/stable/changelog.html"
+    ],
+    "archived_files": [
+      "pypdfium2-4.30.0/pypdfium2-4.30.0.dist-info__LicenseRef-PdfiumThirdParty.txt"
+    ]
+  },
+  {
+    "name": "python-bidi",
+    "version": "0.6.11",
+    "license_expression": null,
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Intended Audience :: Developers",
+      "Operating System :: OS Independent",
+      "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
+      "Topic :: Text Processing",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14"
+    ],
+    "project_urls": [
+      "Changelog, https://github.com/MeirKriheli/python-bidi/blob/master/CHANGELOG.rst",
+      "Documentation, https://python-bidi.readthedocs.io/en/latest/",
+      "Homepage, https://github.com/MeirKriheli/python-bidi",
+      "Issues, https://github.com/MeirKriheli/python-bidi/issues",
+      "Repository, https://github.com/MeirKriheli/python-bidi"
+    ],
+    "archived_files": [
+      "python-bidi-0.6.11/python_bidi-0.6.11.dist-info__licenses__COPYING",
+      "python-bidi-0.6.11/python_bidi-0.6.11.dist-info__licenses__COPYING.LESSER",
+      "python-bidi-0.6.11/python_bidi-0.6.11.dist-info__licenses__LICENSE-THIRD-PARTY.yml"
+    ]
+  },
+  {
+    "name": "python-dateutil",
+    "version": "2.9.0.post0",
+    "license_expression": null,
+    "license_metadata": "Dual License",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: BSD License",
+      "License :: OSI Approved :: Apache Software License",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 2",
+      "Programming Language :: Python :: 2.7",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.3",
+      "Programming Language :: Python :: 3.4",
+      "Programming Language :: Python :: 3.5",
+      "Programming Language :: Python :: 3.6",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Topic :: Software Development :: Libraries"
+    ],
+    "project_urls": [
+      "Documentation, https://dateutil.readthedocs.io/en/stable/",
+      "Source, https://github.com/dateutil/dateutil"
+    ],
+    "archived_files": [
+      "python-dateutil-2.9.0.post0/python_dateutil-2.9.0.post0.dist-info__LICENSE"
+    ]
+  },
+  {
+    "name": "PyYAML",
+    "version": "6.0.2",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Cython",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Topic :: Text Processing :: Markup"
+    ],
+    "project_urls": [
+      "Bug Tracker, https://github.com/yaml/pyyaml/issues",
+      "CI, https://github.com/yaml/pyyaml/actions",
+      "Documentation, https://pyyaml.org/wiki/PyYAMLDocumentation",
+      "Mailing lists, http://lists.sourceforge.net/lists/listinfo/yaml-core",
+      "Source Code, https://github.com/yaml/pyyaml"
+    ],
+    "archived_files": [
+      "PyYAML-6.0.2/PyYAML-6.0.2.dist-info__LICENSE"
+    ]
+  },
+  {
+    "name": "requests",
+    "version": "2.34.2",
+    "license_expression": null,
+    "license_metadata": "Apache-2.0",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Environment :: Web Environment",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: Apache Software License",
+      "Natural Language :: English",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Programming Language :: Python :: Free Threading :: 2 - Beta",
+      "Topic :: Internet :: WWW/HTTP",
+      "Topic :: Software Development :: Libraries"
+    ],
+    "project_urls": [
+      "Documentation, https://requests.readthedocs.io",
+      "Source, https://github.com/psf/requests"
+    ],
+    "archived_files": [
+      "requests-2.34.2/requests-2.34.2.dist-info__licenses__LICENSE",
+      "requests-2.34.2/requests-2.34.2.dist-info__licenses__NOTICE"
+    ]
+  },
+  {
+    "name": "ruamel.yaml",
+    "version": "0.19.1",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Topic :: Text Processing :: Markup",
+      "Typing :: Typed"
+    ],
+    "project_urls": [
+      "Home, https://sourceforge.net/p/ruamel-yaml/",
+      "Source, https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree/",
+      "Tracker, https://sourceforge.net/p/ruamel-yaml/tickets/",
+      "Documentation, https://yaml.dev/doc/ruamel.yaml"
+    ],
+    "archived_files": [
+      "ruamel.yaml-0.19.1/ruamel_yaml-0.19.1.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "safetensors",
+    "version": "0.8.0",
+    "license_expression": null,
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Education",
+      "Intended Audience :: Science/Research",
+      "License :: OSI Approved :: Apache Software License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Topic :: Scientific/Engineering :: Artificial Intelligence",
+      "Typing :: Typed"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/huggingface/safetensors",
+      "Source, https://github.com/huggingface/safetensors"
+    ],
+    "archived_files": [
+      "safetensors-0.8.0/safetensors-0.8.0.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "setuptools",
+    "version": "84.0.0",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Topic :: System :: Archiving :: Packaging",
+      "Topic :: System :: Systems Administration",
+      "Topic :: Utilities"
+    ],
+    "project_urls": [
+      "Source, https://github.com/pypa/setuptools",
+      "Documentation, https://setuptools.pypa.io/",
+      "Changelog, https://setuptools.pypa.io/en/stable/history.html"
+    ],
+    "archived_files": [
+      "setuptools-84.0.0/setuptools-84.0.0.dist-info__licenses__LICENSE",
+      "setuptools-84.0.0/setuptools___vendor__autocommand-2.2.2.dist-info__LICENSE",
+      "setuptools-84.0.0/setuptools___vendor__backports.tarfile-1.2.0.dist-info__LICENSE",
+      "setuptools-84.0.0/setuptools___vendor__importlib_metadata-8.7.1.dist-info__licenses__LICENSE",
+      "setuptools-84.0.0/setuptools___vendor__jaraco.text-4.0.0.dist-info__LICENSE",
+      "setuptools-84.0.0/setuptools___vendor__jaraco_context-6.1.0.dist-info__licenses__LICENSE",
+      "setuptools-84.0.0/setuptools___vendor__jaraco_functools-4.4.0.dist-info__licenses__LICENSE",
+      "setuptools-84.0.0/setuptools___vendor__more_itertools-10.8.0.dist-info__licenses__LICENSE",
+      "setuptools-84.0.0/setuptools___vendor__packaging-26.0.dist-info__licenses__LICENSE",
+      "setuptools-84.0.0/setuptools___vendor__packaging-26.0.dist-info__licenses__LICENSE.APACHE",
+      "setuptools-84.0.0/setuptools___vendor__packaging-26.0.dist-info__licenses__LICENSE.BSD",
+      "setuptools-84.0.0/setuptools___vendor__platformdirs-4.4.0.dist-info__licenses__LICENSE",
+      "setuptools-84.0.0/setuptools___vendor__tomli-2.4.0.dist-info__licenses__LICENSE",
+      "setuptools-84.0.0/setuptools___vendor__wheel-0.46.3.dist-info__licenses__LICENSE.txt",
+      "setuptools-84.0.0/setuptools___vendor__zipp-3.23.0.dist-info__licenses__LICENSE",
+      "setuptools-84.0.0/setuptools__config__NOTICE",
+      "setuptools-84.0.0/setuptools__config___validate_pyproject__NOTICE"
+    ]
+  },
+  {
+    "name": "shapely",
+    "version": "2.1.2",
+    "license_expression": null,
+    "license_metadata": "BSD 3-Clause",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Science/Research",
+      "License :: OSI Approved :: BSD License",
+      "Operating System :: Unix",
+      "Operating System :: MacOS",
+      "Operating System :: Microsoft :: Windows",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Topic :: Scientific/Engineering :: GIS"
+    ],
+    "project_urls": [
+      "Documentation, https://shapely.readthedocs.io/",
+      "Repository, https://github.com/shapely/shapely"
+    ],
+    "archived_files": [
+      "shapely-2.1.2/shapely-2.1.2.dist-info__licenses__LICENSE.txt",
+      "shapely-2.1.2/shapely-2.1.2.dist-info__licenses__LICENSE_GEOS"
+    ]
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Programming Language :: Python :: 2",
+      "Programming Language :: Python :: 3",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Topic :: Software Development :: Libraries",
+      "Topic :: Utilities"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "six-1.17.0/six-1.17.0.dist-info__LICENSE"
+    ]
+  },
+  {
+    "name": "tqdm",
+    "version": "4.70.0",
+    "license_expression": null,
+    "license_metadata": "MPL-2.0 AND MIT",
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Environment :: Console",
+      "Environment :: MacOS X",
+      "Environment :: Other Environment",
+      "Environment :: Win32 (MS Windows)",
+      "Environment :: X11 Applications",
+      "Framework :: IPython",
+      "Framework :: Jupyter",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Education",
+      "Intended Audience :: End Users/Desktop",
+      "Intended Audience :: Other Audience",
+      "Intended Audience :: System Administrators",
+      "Operating System :: MacOS",
+      "Operating System :: MacOS :: MacOS X",
+      "Operating System :: Microsoft",
+      "Operating System :: Microsoft :: MS-DOS",
+      "Operating System :: Microsoft :: Windows",
+      "Operating System :: POSIX",
+      "Operating System :: POSIX :: BSD",
+      "Operating System :: POSIX :: BSD :: FreeBSD",
+      "Operating System :: POSIX :: Linux",
+      "Operating System :: POSIX :: SunOS/Solaris",
+      "Operating System :: Unix",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: Implementation",
+      "Programming Language :: Python :: Implementation :: IronPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Programming Language :: Unix Shell",
+      "Topic :: Desktop Environment",
+      "Topic :: Education :: Computer Aided Instruction (CAI)",
+      "Topic :: Education :: Testing",
+      "Topic :: Office/Business",
+      "Topic :: Other/Nonlisted Topic",
+      "Topic :: Software Development :: Build Tools",
+      "Topic :: Software Development :: Libraries",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Topic :: Software Development :: Pre-processors",
+      "Topic :: Software Development :: User Interfaces",
+      "Topic :: System :: Installation/Setup",
+      "Topic :: System :: Logging",
+      "Topic :: System :: Monitoring",
+      "Topic :: System :: Shells",
+      "Topic :: Terminals",
+      "Topic :: Utilities"
+    ],
+    "project_urls": [
+      "homepage, https://tqdm.github.io",
+      "repository, https://github.com/tqdm/tqdm",
+      "changelog, https://tqdm.github.io/releases",
+      "wiki, https://github.com/tqdm/tqdm/wiki"
+    ],
+    "archived_files": [
+      "tqdm-4.70.0/tqdm-4.70.0.dist-info__licenses__LICENCE"
+    ]
+  },
+  {
+    "name": "typing-inspection",
+    "version": "0.4.4",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 3 - Alpha",
+      "Intended Audience :: Developers",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Typing :: Typed"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/pydantic/typing-inspection",
+      "Documentation, https://pydantic.github.io/typing-inspection/dev/",
+      "Source, https://github.com/pydantic/typing-inspection",
+      "Changelog, https://github.com/pydantic/typing-inspection/blob/main/HISTORY.md"
+    ],
+    "archived_files": [
+      "typing-inspection-0.4.4/typing_inspection-0.4.4.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "license_expression": "PSF-2.0",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Environment :: Console",
+      "Intended Audience :: Developers",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15",
+      "Topic :: Software Development"
+    ],
+    "project_urls": [
+      "Bug Tracker, https://github.com/python/typing_extensions/issues",
+      "Changes, https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+      "Documentation, https://typing-extensions.readthedocs.io/",
+      "Home, https://github.com/python/typing_extensions",
+      "Q & A, https://github.com/python/typing/discussions",
+      "Repository, https://github.com/python/typing_extensions"
+    ],
+    "archived_files": [
+      "typing_extensions-4.16.0/typing_extensions-4.16.0.dist-info__licenses__LICENSE"
+    ]
+  },
+  {
+    "name": "ujson",
+    "version": "6.0.0",
+    "license_expression": "BSD-3-Clause AND TCL",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "Programming Language :: C",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: GraalPy",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Typing :: Typed"
+    ],
+    "project_urls": [
+      "Download, https://github.com/ultrajson/ultrajson",
+      "Homepage, https://github.com/ultrajson/ultrajson",
+      "Source, https://github.com/ultrajson/ultrajson"
+    ],
+    "archived_files": [
+      "ujson-6.0.0/ujson-6.0.0.dist-info__licenses__LICENSE.txt"
+    ]
+  },
+  {
+    "name": "urllib3",
+    "version": "2.7.0",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "classifiers": [
+      "Environment :: Web Environment",
+      "Intended Audience :: Developers",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: Free Threading :: 2 - Beta",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Topic :: Internet :: WWW/HTTP",
+      "Topic :: Software Development :: Libraries"
+    ],
+    "project_urls": [
+      "Changelog, https://github.com/urllib3/urllib3/blob/main/CHANGES.rst",
+      "Documentation, https://urllib3.readthedocs.io",
+      "Code, https://github.com/urllib3/urllib3",
+      "Issue tracker, https://github.com/urllib3/urllib3/issues"
+    ],
+    "archived_files": [
+      "urllib3-2.7.0/urllib3-2.7.0.dist-info__licenses__LICENSE.txt"
+    ]
+  },
+  {
+    "name": "vtk",
+    "version": "9.3.1",
+    "license_expression": null,
+    "license_metadata": "BSD",
+    "classifiers": [
+      "License :: OSI Approved :: BSD License",
+      "Programming Language :: Python",
+      "Programming Language :: C++",
+      "Intended Audience :: Developers",
+      "Intended Audience :: Education",
+      "Intended Audience :: Healthcare Industry",
+      "Intended Audience :: Science/Research",
+      "Topic :: Multimedia :: Graphics",
+      "Topic :: Multimedia :: Graphics :: 3D Modeling",
+      "Topic :: Multimedia :: Graphics :: 3D Rendering",
+      "Topic :: Scientific/Engineering",
+      "Topic :: Scientific/Engineering :: Chemistry",
+      "Topic :: Scientific/Engineering :: Information Analysis",
+      "Topic :: Scientific/Engineering :: Medical Science Apps.",
+      "Topic :: Scientific/Engineering :: Physics",
+      "Topic :: Scientific/Engineering :: Visualization",
+      "Topic :: Software Development :: Libraries",
+      "Operating System :: Microsoft :: Windows",
+      "Operating System :: POSIX",
+      "Operating System :: Unix",
+      "Operating System :: MacOS"
+    ],
+    "project_urls": [],
+    "archived_files": [
+      "vtk-9.3.1/vtk-9.3.1.dist-info__LICENSE"
+    ]
+  },
+  {
+    "name": "wcwidth",
+    "version": "0.8.3",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Environment :: Console",
+      "Intended Audience :: Developers",
+      "Natural Language :: English",
+      "Operating System :: POSIX",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.14",
+      "Programming Language :: Python :: 3.15",
+      "Topic :: Software Development :: Internationalization",
+      "Topic :: Software Development :: Libraries",
+      "Topic :: Software Development :: Localization",
+      "Topic :: Terminals",
+      "Typing :: Typed"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/jquast/wcwidth"
+    ],
+    "archived_files": [
+      "wcwidth-0.8.3/wcwidth-0.8.3.dist-info__licenses__LICENSE"
+    ]
+  }
+]

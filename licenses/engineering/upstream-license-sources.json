@@ -1,0 +1,39 @@
+[
+  {
+    "file": "OCCT-7.8.1-LGPL-2.1.txt",
+    "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/V7_8_1/LICENSE_LGPL_21.txt",
+    "sha256": "e237fa56668030e928551ddd60f05df5fe957f75eab874bbd017e085ed722e7c"
+  },
+  {
+    "file": "OCCT-7.8.1-exception.txt",
+    "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/V7_8_1/OCCT_LGPL_EXCEPTION.txt",
+    "sha256": "04580a884ea6cea294402649ff7b5cbb167d47462d1340a4ed33e550db10a81b"
+  },
+  {
+    "file": "FreeImage-3.18.0-FIPL.txt",
+    "url": "https://freeimage.sourceforge.io/freeimage-license.txt",
+    "sha256": "37f80b2998523e0e780cbab2774e1ee7eb4b7945f1ff232f5ece22ce037b6282"
+  },
+  {
+    "file": "LibRaw-0.21.3-COPYRIGHT.txt",
+    "url": "https://raw.githubusercontent.com/LibRaw/LibRaw/0.21.3/COPYRIGHT",
+    "sha256": "d6ed03c89e25fcda5db454c1badc2c321f241799aab2062418a7fb3742c935ce"
+  },
+  {
+    "file": "LibRaw-0.21.3-LGPL.txt",
+    "url": "https://raw.githubusercontent.com/LibRaw/LibRaw/0.21.3/LICENSE.LGPL",
+    "sha256": "eea173a556abac0370461e57e12aab266894ea6be3874c2be05fd87871f75449"
+  },
+  {
+    "file": "LibRaw-0.21.3-CDDL.txt",
+    "url": "https://raw.githubusercontent.com/LibRaw/LibRaw/0.21.3/LICENSE.CDDL",
+    "sha256": "0e3098d2d54a12434715f6679ea408d57da5e8d613c385c58ecc6fe5d30cc81f"
+  },
+  {
+    "file": "bce-python-sdk-0.9.79/APACHE-2.0.txt",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "copyright_evidence_sdist": "https://files.pythonhosted.org/packages/9d/64/d31e61620ddaecb7039dc7b8f62eb75b95d2281f2d2016b6d6b22396e16f/bce_python_sdk-0.9.79.tar.gz",
+    "sdist_sha256": "cd77476b43347ed28d0211d5ad557e524e1ec648bd093d57c6a6d3de075a7508"
+  }
+]

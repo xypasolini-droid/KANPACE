@@ -1,0 +1,21 @@
+[
+  {
+    "file": "langsmith-sdk-v0.12.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/langchain-ai/langsmith-sdk/v0.12.2/LICENSE",
+    "sha256": "34e0b9842c7a31d34e53bc7eb224e81e07a34996106e029bbc72dea2d449f496"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/langchain-ai/langsmith-sdk/v0.12.2/python/LICENSE",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "sqlite-vec-v0.1.9-LICENSE-MIT",
+    "url": "https://raw.githubusercontent.com/asg017/sqlite-vec/v0.1.9/LICENSE-MIT",
+    "sha256": "6ce72bbe12d975bd5286e5ab0a064c069693300c47bccbc57bec18485f1621ea"
+  },
+  {
+    "file": "sqlite-vec-v0.1.9-LICENSE-APACHE",
+    "url": "https://raw.githubusercontent.com/asg017/sqlite-vec/v0.1.9/LICENSE-APACHE",
+    "sha256": "a38070a94d4afd9cd710e3ce67bd1de78097cfe1784c1f0109ac95d3c196bfdc"
+  }
+]

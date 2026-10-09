@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "services": {
+    "docling": {
+      "protocol": "kanpace-document-v1",
+      "url": "http://127.0.0.1:8091",
+      "engine_version": "2.133.0",
+      "model_revision": "REPLACE_WITH_PINNED_MODEL_MANIFEST_SHA256",
+      "license": "REPLACE_WITH_REVIEWED_COMPONENT_LICENSE_MANIFEST",
+      "token_env": "KANPACE_DOCLING_WORKER_TOKEN",
+      "timeout_seconds": 120
+    },
+    "paddleocr": {
+      "protocol": "kanpace-document-v1",
+      "url": "http://127.0.0.1:8092",
+      "engine_version": "REPLACE_WITH_VERIFIED_PADDLEOCR_VERSION",
+      "model_revision": "REPLACE_WITH_PINNED_PP_OCR_MANIFEST_SHA256",
+      "license": "REPLACE_WITH_REVIEWED_COMPONENT_LICENSE_MANIFEST",
+      "token_env": "KANPACE_PP_OCR_WORKER_TOKEN",
+      "timeout_seconds": 120
+    },
+    "paddleocr_vl": {
+      "protocol": "kanpace-document-v1",
+      "url": "http://127.0.0.1:8093",
+      "engine_version": "REPLACE_WITH_VERIFIED_PIPELINE_VERSION",
+      "model_revision": "REPLACE_WITH_PINNED_VL_MODEL_REVISION",
+      "license": "REPLACE_WITH_REVIEWED_COMPONENT_LICENSE_MANIFEST",
+      "token_env": "KANPACE_VL_WORKER_TOKEN",
+      "timeout_seconds": 180
+    }
+  }
+}

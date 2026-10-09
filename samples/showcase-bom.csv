@@ -1,0 +1,9 @@
+id,name,material,category,length_mm,width_mm,thickness_mm,quantity,unit,finish,revision,source_file,source_reference
+WD-001,柜体侧板,18mm多层板,wood,900,450,18,2,mm,哑光白色烤漆,A01,演示柜体.SLDASM,柜体侧板@演示配置
+WD-002,顶底板,18mm多层板,wood,1164,450,18,2,mm,哑光白色烤漆,A01,演示柜体.SLDASM,顶底板@演示配置
+WD-003,背板,9mm多层板,wood,1164,864,9,1,mm,饰面板免漆,A01,演示柜体.SLDASM,背板@演示配置
+MT-001,金属底座,304不锈钢,metal,1200,450,2,1,mm,拉丝本色,A01,演示柜体.SLDASM,金属底座@演示配置
+GL-001,玻璃层板,8mm钢化玻璃,glass,1128,410,8,2,mm,四边磨边,A01,演示柜体.SLDASM,玻璃层板@演示配置
+EL-001,LED灯条,24V 4000K灯条,electrical,1100,,,2,mm,成品,A01,演示柜体.SLDASM,灯条@演示配置
+EL-002,LED电源,24V 60W电源,electrical,,,,1,mm,成品,A01,演示柜体.SLDASM,电源@演示配置
+HW-001,层板托,不锈钢层板托,hardware,,,,8,mm,成品,A01,演示柜体.SLDASM,层板托@演示配置

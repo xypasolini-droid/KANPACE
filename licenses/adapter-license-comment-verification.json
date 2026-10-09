@@ -1,0 +1,22 @@
+[
+  {
+    "path": "engineering_engines.py",
+    "comment_only_ast_unchanged": true,
+    "sha256": "75dd0952ff18c979504a06c6376877948b970900b35ffcad7d4abe628d8a28da"
+  },
+  {
+    "path": "optimization_engines.py",
+    "comment_only_ast_unchanged": true,
+    "sha256": "d39ab17b008a9e92d295eb23b6044ded301270fbb6eb49f0c8fbe925c1b6e247"
+  },
+  {
+    "path": "optimization_worker.py",
+    "comment_only_ast_unchanged": true,
+    "sha256": "512527710ef0627184d821c921371759036d5cc02e49e06523764bf07408dedd"
+  },
+  {
+    "path": "langgraph_agent.py",
+    "comment_only_ast_unchanged": true,
+    "sha256": "6a394d688df9fdebfb70cc2ac9b0ddd8dc5075756600feff9e641d1b3ae67633"
+  }
+]

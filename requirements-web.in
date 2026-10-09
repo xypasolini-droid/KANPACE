@@ -1,0 +1,7 @@
+# CPU Web runtime input pins. Resolve separate environments with setup_web_runtime.py.
+# Full resolved versions and downloaded artifact hashes are saved per installation.
+ortools==9.15.6755
+pypdfium2==4.30.0
+Pillow==12.3.0
+langgraph==1.2.11
+langgraph-checkpoint-sqlite==3.1.1

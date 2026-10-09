@@ -1,0 +1,67 @@
+{
+  "bugs": {
+    "url": "https://github.com/kovacsv/occt-import-js/issues"
+  },
+  "dist": {
+    "shasum": "1916aacd5b228e92da5de631ae048ca152281778",
+    "tarball": "https://registry.npmjs.org/occt-import-js/-/occt-import-js-0.0.23.tgz",
+    "fileCount": 123,
+    "integrity": "sha512-RFfYQXYFX5C1mB1Aywm0ShcUKzXOr/VzTnlzhBSDJOR6YCAPt1HYCzeXWg1vwwjn/cUxwqRNhhtf1dlewoZYCQ==",
+    "signatures": [
+      {
+        "sig": "MEUCIDmJwGhgpbGt8ybHv30Wjh2Xi/JEb2f3wyAAuvYNeDTEAiEA+VyQCC1nWo7a6BRq+eEpGYtjEPMm8TyPNmnn0CwW3Dg=",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 11611468
+  },
+  "main": "./dist/occt-import-js.js",
+  "name": "occt-import-js",
+  "browser": {
+    "fs": false
+  },
+  "gitHead": "c2148e54b456b571238d35cac037d304053d64b2",
+  "license": "LGPL-2.1",
+  "scripts": {
+    "test": "mocha test/test.js --timeout 20000",
+    "start": "http-server"
+  },
+  "_npmUser": {
+    "name": "kovacsv",
+    "email": "viktorkovacs@gmail.com"
+  },
+  "homepage": "https://github.com/kovacsv/occt-import-js#readme",
+  "keywords": [
+    "3d",
+    "model",
+    "converter",
+    "step",
+    "stp"
+  ],
+  "repository": {
+    "url": "git+https://github.com/kovacsv/occt-import-js.git",
+    "type": "git"
+  },
+  "_npmVersion": "10.8.2",
+  "description": "Javascript interface for the occt library.",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "kovacsv",
+      "email": "viktorkovacs@gmail.com"
+    }
+  ],
+  "_nodeVersion": "18.20.5",
+  "dependencies": {},
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "mocha": "^8.3.2",
+    "http-server": "^0.12.3"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/occt-import-js_0.0.23_1733209270952_0.7336075076351751",
+    "host": "s3://npm-registry-packages"
+  },
+  "_id": "occt-import-js@0.0.23",
+  "version": "0.0.23"
+}

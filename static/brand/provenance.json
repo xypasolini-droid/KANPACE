@@ -1,0 +1,17 @@
+{
+  "manual": "KANPACE_Brand_Manual_CN-EN_v1.1.pdf",
+  "manual_sha256": "a7a1717b7dcbc50f0d467f5b31c63b4906ab8665a01521cf0c1a7acfcf0b0d69",
+  "assets": [
+    {
+      "file": "KANPACE-Handoff-Black.svg",
+      "source": "user-provided-brand-assets/KANPACE-Handoff-Black.svg",
+      "sha256": "0a455c4c6a3eeddd6313c48cd2846d94e2d8bc3fa1ffa6dc1801425753cd8081"
+    },
+    {
+      "file": "KANPACE-Handoff-White.svg",
+      "source": "user-provided-brand-assets/KANPACE-Handoff-White.svg",
+      "sha256": "a6108c832edb475d4848ef256ee7ae66b93f82047f4f09cab3b3dfe558872a7e"
+    }
+  ],
+  "modifications": "None. Original SVG assets copied byte-for-byte."
+}

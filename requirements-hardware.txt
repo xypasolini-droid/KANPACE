@@ -1,0 +1,2 @@
+# Optional USB serial connection to the ESP32-C3. Core Web app needs no packages.
+pyserial==3.5

@@ -1,0 +1,452 @@
+[
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKFillet.7.8.1.dylib",
+    "bytes": 2586656,
+    "sha256": "0bb1c3e8dab0c9df851de6a7d8355993a9a210f6cdd8babf725b3e3632aee925",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libOpenEXRCore.32.3.3.2.dylib",
+    "bytes": 2336544,
+    "sha256": "637531cd8f973883a1f6ff9e6e0d383e6cdac162d736db3b204c809d44ea3534",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libjpegxr.1.1.dylib",
+    "bytes": 315184,
+    "sha256": "1a67fae79753546a5305692673ef55cd694cb58039b9e90fec1cc4cade7d6261",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKXmlTObj.7.8.1.dylib",
+    "bytes": 135456,
+    "sha256": "509df281e910f9ef0af1aaae367251aafda49f8c1666f498af07fbba1d6aa2e3",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKFeat.7.8.1.dylib",
+    "bytes": 1257632,
+    "sha256": "4ea17b488d7baa1beff05f3d5c08d85d8f2f58ae935d9eed08810ab0de9e136d",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKTopAlgo.7.8.1.dylib",
+    "bytes": 3018176,
+    "sha256": "f305d9d9b4a38c1925227d2c19cfb60b8ddf9f1689f2537bc670fbbb98d13d2f",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKDEVRML.7.8.1.dylib",
+    "bytes": 691728,
+    "sha256": "af311566cc581be71d30cab496e93da3f0ea7639d5ad44937e00b98b8666891f",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKXMesh.7.8.1.dylib",
+    "bytes": 85264,
+    "sha256": "7ffdf84017cde73b56b91ae2984042fa925d807e600a8f1e99703c3f2a84d0d0",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libIex.32.3.3.2.dylib",
+    "bytes": 964144,
+    "sha256": "c22ab0c9a6f2eb8278f4974b49efc8b2085e0e80bd76bec6ba0aaa582799edb1",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKXmlXCAF.7.8.1.dylib",
+    "bytes": 276672,
+    "sha256": "4f9ca32ccdda58c137eaec12be6776fb35e7124c6aab46ce6943ebb41b1c1d35",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKHLR.7.8.1.dylib",
+    "bytes": 1168592,
+    "sha256": "5e9a75ba3a34576b64f18b33a39663f9fbae927f09aba41438baede5b77b80d9",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKRWMesh.7.8.1.dylib",
+    "bytes": 235152,
+    "sha256": "7e80a2226ccdc3d4e3e6d4823aa82ea73ac20156e2147878caf94fdb2c48be66",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libIlmThread.32.3.3.2.dylib",
+    "bytes": 101680,
+    "sha256": "36ba46041cd72b182f442b863c54f874fba74ed15cd54b2562209e3b1bb18fec",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKDEIGES.7.8.1.dylib",
+    "bytes": 4229776,
+    "sha256": "a0ca0a14dfa3fb10dbaaa4a2f550a288f347c4d773bd9d5b9ccf7c3d67232609",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKBO.7.8.1.dylib",
+    "bytes": 2297056,
+    "sha256": "f83dfd8a5fc768cd535175e0bbb79c5128bd0b5b3fb2382b45a71b50c0dae00f",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKService.7.8.1.dylib",
+    "bytes": 1251120,
+    "sha256": "c39b470e3fa8a20f7378467cc7719be0ae07fc673b6e8fc4b021b79b6f74524c",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKCAF.7.8.1.dylib",
+    "bytes": 659888,
+    "sha256": "ac3c93990eb7cae5374bb39c8f0eebe9ce3c069ac842b587dba64ec8e45a85f9",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKLCAF.7.8.1.dylib",
+    "bytes": 960784,
+    "sha256": "4a59d791f78cc8ba7ae1002872d6f9d78ef20478cc0f75a335eea86590531a33",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKernel.7.8.1.dylib",
+    "bytes": 1998480,
+    "sha256": "b2abcd3471341c487b18996f9531932ae30401e88331439aa226fb2d9264ae72",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKDEOBJ.7.8.1.dylib",
+    "bytes": 297824,
+    "sha256": "f08d67cf3b408dc5c2c5baae6550ec4dbd5234667e83da18191cfecec422677e",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKDESTEP.7.8.1.dylib",
+    "bytes": 9099280,
+    "sha256": "625c763830c7e8698569ac3d7afa0f7dd859e11c30fb51be552651cd15dc6d48",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/liblcms2.2.dylib",
+    "bytes": 415504,
+    "sha256": "1685fa2c4c4312b3c5895560f588b8e2d5a1291f668bd85709113104646c93d3",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKMesh.7.8.1.dylib",
+    "bytes": 948848,
+    "sha256": "e3a6b448ca06be4d4b56a44d68da1116a54592418f6d5c4f726000f90926e653",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKG2d.7.8.1.dylib",
+    "bytes": 406528,
+    "sha256": "e64dceb2ea3bc1956bc8b1812bd3b3f2f9fcee70327d0bb5ebafa4f55a9557aa",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libpng16.16.dylib",
+    "bytes": 258480,
+    "sha256": "8873a2e6ee3adf64ea57e0a3956e211439b52e457c78dce12add38bbea3b1c69",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libc++.1.0.dylib",
+    "bytes": 1099024,
+    "sha256": "b1e41d5d3f525492c150a1e762455f6c0e98a00582c961a8219be274bce6317c",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKMath.7.8.1.dylib",
+    "bytes": 2508000,
+    "sha256": "482165bf62cb8eaab00c7316f1f348cab47a36750d6bd7da6f3b8942158936d7",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKShHealing.7.8.1.dylib",
+    "bytes": 2869408,
+    "sha256": "9dfa1d68f908ea639828a8180b579e053172cc1e99d5a07a13ccfb4cd2108fa6",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKDEGLTF.7.8.1.dylib",
+    "bytes": 543328,
+    "sha256": "34993af769beb296b5c6a597650c44ed6c4579a2c2e15c059703742dff99ac32",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKBool.7.8.1.dylib",
+    "bytes": 4189744,
+    "sha256": "cb05e59d0e872d214e519b5a048b01f5f08825934554122c515b5ddb67a4f602",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKXSBase.7.8.1.dylib",
+    "bytes": 2235664,
+    "sha256": "ec2110555a4468b89470365bba0d26a93d658ba5dba6f072824282e998aca1c2",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKDE.7.8.1.dylib",
+    "bytes": 170832,
+    "sha256": "c67085fbe48af6aa8cd4abce99ecc31eaa337ca8ac9697e1ac7bf70b47886ce2",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKV3d.7.8.1.dylib",
+    "bytes": 3078000,
+    "sha256": "0febe1c60c15c1749009eec7c34e2f90a9e15604ef3c4b87c33fa8d045b27a3a",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libfreetype.6.dylib",
+    "bytes": 785728,
+    "sha256": "e992493ed93264fd33621c5c56d31cb07e96d26bd6181bd0e644e23574157b7c",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libwebp.7.1.10.dylib",
+    "bytes": 515056,
+    "sha256": "1d3c221037493362ba78ab8e6c4bd815d3437f8112bf3fca84c3dd21fa2b1431",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKStd.7.8.1.dylib",
+    "bytes": 951424,
+    "sha256": "d9ea118877b82a412abb37f032c25bc9a2932316e111db6103c9750c41b6976a",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKXml.7.8.1.dylib",
+    "bytes": 271840,
+    "sha256": "d5ca5b95e6ad6a8292789241d4a6a42f19f110ad601e63ef69e2be98e58dd05f",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKG3d.7.8.1.dylib",
+    "bytes": 1154576,
+    "sha256": "bfd78ea44aa7995fa1fca7d268c93b0852c1eeed308d0a28675fe6186842f339",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKOffset.7.8.1.dylib",
+    "bytes": 2310384,
+    "sha256": "2e341fdb99c914dc31ec9a2837533e9532626c6e2dc71c0959fef743794ca0b2",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libdeflate.0.dylib",
+    "bytes": 121296,
+    "sha256": "5ffbad4b21e4652ee3e10d4023d526264240c2efdf249bc74aeea317f51bff4d",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libz.1.3.1.dylib",
+    "bytes": 141008,
+    "sha256": "db1b84ac74c678ebc434f6482868ba74dbe1a025554c1397c20c6b97d73fd0a9",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKPrim.7.8.1.dylib",
+    "bytes": 441744,
+    "sha256": "190e24853ed0f1b332447eea0654747cba3060724ae1c741b062e9913f30027b",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKBinL.7.8.1.dylib",
+    "bytes": 424096,
+    "sha256": "29feba551f461895420a1ee05e354515c1b845ba3a0fd1ad23fedeb5c65ba8f4",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libzstd.1.5.6.dylib",
+    "bytes": 864144,
+    "sha256": "7f4a2e93bafbfb178cd60ab2e841918c93c9a087c979aa8f8cc8b88745c29531",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libwebpmux.3.1.1.dylib",
+    "bytes": 106368,
+    "sha256": "6b0209613c10cb89485d20b6b737a3ec1319ccead098e9285d569ee71d0e3e2c",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKXmlL.7.8.1.dylib",
+    "bytes": 488368,
+    "sha256": "083aff1a52c80cd11fccd3734e5a369278b7783996c261ea24e1c69842124ade",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKMeshVS.7.8.1.dylib",
+    "bytes": 460032,
+    "sha256": "1bcdd27792d186c2414029e9af2f8e92075b3a3e845e766f96f8b7c924868384",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libsharpyuv.0.1.1.dylib",
+    "bytes": 86368,
+    "sha256": "5f47df6a8840837c57943cd16da00d0957a1b5a2df9dcd1ad8fb365a79bf9dbc",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKDEPLY.7.8.1.dylib",
+    "bytes": 189376,
+    "sha256": "1cfa69fa08a331de76e79b5ea7cb667459c6051af42e0248b78748c7c3e5826f",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKIVtk.7.8.1.dylib",
+    "bytes": 316640,
+    "sha256": "d777221beb6a327ac1b1948d3f324cbc558a7fc5b2d77ed9e887680cd6a845be",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libLerc.4.dylib",
+    "bytes": 618192,
+    "sha256": "a0966d209591db6ce50379023ca0d54071148fda27eebdda79bf38d21852cc75",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/liblzma.5.dylib",
+    "bytes": 217744,
+    "sha256": "8ff5aaad7d0618511bb6ea4e8d2e565dc0d00311826249b7083c7592c1e366a3",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKXCAF.7.8.1.dylib",
+    "bytes": 1042048,
+    "sha256": "d2462a7cfb95f7780ecc635b01fc0ffd53f26b6d60584167c43cdcad17019e2f",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libjpeg.8.3.2.dylib",
+    "bytes": 648112,
+    "sha256": "4e5c207c7b34fd0c10a47773d63e587f538ff8565e11ce6d3b6c2deb1d6c66ce",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libOpenEXR.32.3.3.2.dylib",
+    "bytes": 1144144,
+    "sha256": "58c995a1d0bd8dafedea909c11595825f18ed172dfaba1be95ea2324d6321003",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKBinTObj.7.8.1.dylib",
+    "bytes": 138288,
+    "sha256": "bfddf9b0d7d658c13b87ab7869ac73ee7234e51f761665f37ab0c97440e05133",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKOpenGl.7.8.1.dylib",
+    "bytes": 1484592,
+    "sha256": "6eb3d7d43dc745649eb54baed9de00e22945f5152dbac1d1fb3936abfeb75b96",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKCDF.7.8.1.dylib",
+    "bytes": 402544,
+    "sha256": "122ae13fcfc62b7683d9bdb1ab5b62c4085fce965ff59a015b32cbfb8d8ff50f",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKGeomBase.7.8.1.dylib",
+    "bytes": 5111376,
+    "sha256": "9632526b3ef606cfa40ec61b2dff33597bf35f61ec9a58eea0ad7c2ed3591ef6",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKStdL.7.8.1.dylib",
+    "bytes": 372192,
+    "sha256": "bd47ffece74cb8598c6b054b4f7aae6f823452164a4c307d1d9cd86f9888f613",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKBinXCAF.7.8.1.dylib",
+    "bytes": 260768,
+    "sha256": "a3d72f445360e6e4435a0a732f11cc82cc5b5a747013966d1224513c456fb855",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libImath.29.11.0.dylib",
+    "bytes": 374448,
+    "sha256": "b636af422eff5203bc8a6dc38bb6d458d284a3a8941ce087f91962c15eaa2a4e",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKDECascade.7.8.1.dylib",
+    "bytes": 203616,
+    "sha256": "090fa38e93597edde11eb7236a0dd45b1359dbb675b404d2d142476960da2526",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKExpress.7.8.1.dylib",
+    "bytes": 270784,
+    "sha256": "8bc12c3cf6d82905c83190c3915095d6ff420882cab7898ae32450e71a3e0cb6",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKBRep.7.8.1.dylib",
+    "bytes": 1209520,
+    "sha256": "d05770c1dff0810f2eff19fda37649414b8bfb39c28e10144003d11bbb5ad6c7",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKTObj.7.8.1.dylib",
+    "bytes": 325984,
+    "sha256": "8a81f1069730bd4be6069554e5261f77378328968260ccbc8fffe1860bb444ad",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKVCAF.7.8.1.dylib",
+    "bytes": 331728,
+    "sha256": "24118f7abf376115e8273f925dc33ffe019a462d389f56e0d1f445105e0e936c",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKGeomAlgo.7.8.1.dylib",
+    "bytes": 5061312,
+    "sha256": "1391dff50e0d470e2e17396b9a0856224fa89d6b535f1cf81968840226af9d27",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libjxrglue.1.1.dylib",
+    "bytes": 175888,
+    "sha256": "ff29d12ff8485e9944e68cf90be70d16904de5526a7c63aca64b90106e0cba8a",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libopenjp2.2.5.3.dylib",
+    "bytes": 408672,
+    "sha256": "61a3407bd1d1e9a69b006b66632be15649ad32b5f6df5fa07ab548f43dcebc57",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libtiff.6.dylib",
+    "bytes": 595424,
+    "sha256": "24cf338e013bb677a46c667be10c36612c40710c936e9f104f08e24f3ecbc97e",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKBin.7.8.1.dylib",
+    "bytes": 236224,
+    "sha256": "cb63ad1c73b315e0b5f2788d24311fb3e53d809529ffc80205ff9be3cca3dd9b",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libTKDESTL.7.8.1.dylib",
+    "bytes": 206784,
+    "sha256": "89833981abcdb2f4e127e05742668cb153e2038e01cc9d0a0140afe0bc556706",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libraw.23.dylib",
+    "bytes": 1124176,
+    "sha256": "f1e1e9271ba7e37f3165fe9aaeac2378a4dbfb29f0a4678cb1e86cec741e3b64",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  },
+  {
+    "file": "lib/python3.12/site-packages/OCP/.dylibs/libfreeimage.3.18.0.dylib",
+    "bytes": 812960,
+    "sha256": "9cc96d1a508e2781803e6f27f4d612af13d1e746853768e5c14a96f430235c5c",
+    "license_scope": "embedded native dependency; wrapper license is not sufficient"
+  }
+]

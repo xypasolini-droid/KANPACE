@@ -1,0 +1,7 @@
+{
+  "upstream": "https://raw.githubusercontent.com/docling-project/docling/v2.133.0/LICENSE",
+  "version": "2.133.0",
+  "sha256": "edb765d1e3e60d0c7a7d5fba5f2bb2c3c29f7465cecb5c22cf1185c884954e4c",
+  "installed": false,
+  "models_reviewed": false
+}

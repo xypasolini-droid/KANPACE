@@ -1,0 +1,4 @@
+# Isolated worker environment; install via setup_optimization.py.
+ortools==9.15.6755
+cmake==3.31.6
+ninja==1.11.1.4

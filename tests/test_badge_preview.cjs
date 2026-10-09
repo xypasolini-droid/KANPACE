@@ -1,0 +1,5 @@
+const {test}=require('node:test');const assert=require('node:assert/strict');
+const {create,current,pending,act}=require('../static/badge-studio/model.js');
+test('current work must pause before switching; quantities remain intact',()=>{const s=create([{id:'a',status:'ready',quantity:3},{id:'b',status:'ready',quantity:2}]);act(s,'start');assert.throws(()=>act(s,'select','b'));act(s,'pause','缺料');act(s,'select','b');assert.equal(current(s).id,'b');assert.equal(s.tasks[0].quantity,3);assert.equal(s.tasks[0].status,'paused');});
+test('completion, label identity and badge return are separate guards',()=>{const s=create([{id:'a',status:'ready'}]);assert.throws(()=>act(s,'label','a'));act(s,'start');act(s,'finish');assert.throws(()=>act(s,'return'));assert.throws(()=>act(s,'label','wrong'));act(s,'label','a');act(s,'label','a');assert.equal(pending(s).length,0);act(s,'return');assert.equal(s.returned,true);assert.throws(()=>act(s,'start'));});
+test('preview does not mutate input business record',()=>{const original=[{id:'a',status:'ready'}];const s=create(original);act(s,'start');assert.equal(original[0].status,'ready');});

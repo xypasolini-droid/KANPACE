@@ -1,0 +1,28 @@
+{
+  "official": {
+    "comment_text": null,
+    "core-metadata": {
+      "sha256": "2558a63832d87041ae1f26f6c03c02f49602360cbd3b163248740a8dcbfc4d54"
+    },
+    "digests": {
+      "blake2b_256": "2a3a84204351f84bc837c6bc95592f3b4bf71487f4a99e72a5bc7027d2fe1ba8",
+      "md5": "766f0b9675e669b49fbda5eb5b693ef4",
+      "sha256": "c62dab0d4df6de2978960832f0015a145c23cd379418d932ddd8f546629d1fe4"
+    },
+    "downloads": -1,
+    "filename": "paddlepaddle-3.2.2-cp312-cp312-macosx_11_0_arm64.whl",
+    "has_sig": false,
+    "md5_digest": "766f0b9675e669b49fbda5eb5b693ef4",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp312",
+    "requires_python": null,
+    "size": 99510113,
+    "upload_time": "2025-11-14T13:27:27",
+    "upload_time_iso_8601": "2025-11-14T13:27:27.710949Z",
+    "url": "https://files.pythonhosted.org/packages/2a/3a/84204351f84bc837c6bc95592f3b4bf71487f4a99e72a5bc7027d2fe1ba8/paddlepaddle-3.2.2-cp312-cp312-macosx_11_0_arm64.whl",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "mirror_url": "https://pypi.tuna.tsinghua.edu.cn/packages/2a/3a/84204351f84bc837c6bc95592f3b4bf71487f4a99e72a5bc7027d2fe1ba8/paddlepaddle-3.2.2-cp312-cp312-macosx_11_0_arm64.whl",
+  "verified_sha256": "c62dab0d4df6de2978960832f0015a145c23cd379418d932ddd8f546629d1fe4"
+}

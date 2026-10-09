@@ -1,0 +1,31 @@
+{
+  "source_url": "https://files.pythonhosted.org/packages/a1/14/838b3ba247a0ba92e4df5d23f2bea9478edcfd72b78a39d6ca36ccd84ad2/pypdfium2-4.30.0.tar.gz",
+  "source_sha256": "48b5b7e5566665bc1015b9d69c1ebabe21f6aee468b509531c3c8318eeee2e16",
+  "files": [
+    {
+      "file": "sdist-pypdfium2-4.30.0__LICENSES__Apache-2.0.txt",
+      "member": "pypdfium2-4.30.0/LICENSES/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "file": "sdist-pypdfium2-4.30.0__LICENSES__BSD-3-Clause.txt",
+      "member": "pypdfium2-4.30.0/LICENSES/BSD-3-Clause.txt",
+      "sha256": "a6d11f0694c0137e9b02924b9d33a159f6c72f220fa4655bb2e1ea3654377d39"
+    },
+    {
+      "file": "sdist-pypdfium2-4.30.0__LICENSES__CC-BY-4.0.txt",
+      "member": "pypdfium2-4.30.0/LICENSES/CC-BY-4.0.txt",
+      "sha256": "419896aea50c15d6e40c5b4baf4bd346f78223b9a354c7357ad00262afdc08ec"
+    },
+    {
+      "file": "sdist-pypdfium2-4.30.0__LICENSES__LicenseRef-FairUse.txt",
+      "member": "pypdfium2-4.30.0/LICENSES/LicenseRef-FairUse.txt",
+      "sha256": "e16f1596201850fd4a63680b27f603cb64e67176159be3d8ed78a4403fdb1700"
+    },
+    {
+      "file": "sdist-pypdfium2-4.30.0__LICENSES__LicenseRef-PdfiumThirdParty.txt",
+      "member": "pypdfium2-4.30.0/LICENSES/LicenseRef-PdfiumThirdParty.txt",
+      "sha256": "c2fdbc1aeb250d596d1ef3d9817c9bf31df712b197583c0811677ee5d9206eeb"
+    }
+  ]
+}

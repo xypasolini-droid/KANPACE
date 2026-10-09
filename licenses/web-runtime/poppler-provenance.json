@@ -1,0 +1,21 @@
+{
+  "component": "Poppler",
+  "version": "26.04.0",
+  "version_evidence": "pdfinfo -v and pdftoppm -v on 2026-09-07",
+  "installed_formula_license": "GPL-2.0-only",
+  "upstream": "https://poppler.freedesktop.org/",
+  "source_archive": "https://poppler.freedesktop.org/poppler-26.04.0.tar.xz",
+  "source_archive_sha256_from_installed_formula": "b0955163114af96bc0106f68cb24daf973a629462453d8b82775f81b0d4e0693",
+  "source_archive_downloaded": false,
+  "origin": "COPYING and README copied from existing Homebrew Poppler 26.04.0 package; not claimed independently rebuilt",
+  "copied_files": [
+    {
+      "path": "licenses/web-runtime/Poppler-26.04.0-COPYING.txt",
+      "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6"
+    },
+    {
+      "path": "licenses/web-runtime/Poppler-26.04.0-README.md",
+      "sha256": "3a6d2dfa541596d6aac3eb0ea67cdfba1d015681e4c8283e6989c7bfb48f9d8a"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "file": "OCCT-d2abb6d844231cb8f29be6894440874a4700e4a5.tar.gz",
+    "url": "https://codeload.github.com/Open-Cascade-SAS/OCCT/tar.gz/d2abb6d844231cb8f29be6894440874a4700e4a5",
+    "size": 48218968,
+    "sha256": "2715d89a1bc44dfd34dab88f729c445ea93f6b57d6539b0c89614a80ae144a6c"
+  },
+  {
+    "file": "OCCT-7.6.1-browser-LGPL.txt",
+    "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/d2abb6d844231cb8f29be6894440874a4700e4a5/LICENSE_LGPL_21.txt",
+    "size": 26434,
+    "sha256": "e237fa56668030e928551ddd60f05df5fe957f75eab874bbd017e085ed722e7c"
+  },
+  {
+    "file": "OCCT-browser-exception.txt",
+    "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/d2abb6d844231cb8f29be6894440874a4700e4a5/OCCT_LGPL_EXCEPTION.txt",
+    "size": 663,
+    "sha256": "04580a884ea6cea294402649ff7b5cbb167d47462d1340a4ed33e550db10a81b"
+  },
+  {
+    "file": "OCCT-browser-Standard_Version.hxx",
+    "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/d2abb6d844231cb8f29be6894440874a4700e4a5/src/Standard/Standard_Version.hxx",
+    "size": 3051,
+    "sha256": "f3b3e76b4304f26a04fbcc2c29f25fc6e1a176939a9baf298358fa644ce234b3"
+  },
+  {
+    "file": "Emscripten-3.1.69-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/3.1.69/LICENSE",
+    "size": 5093,
+    "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+  },
+  {
+    "file": "Emscripten-3.1.69-musl-COPYRIGHT.txt",
+    "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/3.1.69/system/lib/libc/musl/COPYRIGHT",
+    "size": 6204,
+    "sha256": "f9bc4423732350eb0b3f7ed7e91d530298476f8fec0c6c427a1c04ade22655af"
+  },
+  {
+    "file": "Emscripten-3.1.69-libcxx-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/3.1.69/system/lib/libcxx/LICENSE.TXT",
+    "size": 16703,
+    "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+  },
+  {
+    "file": "Emscripten-3.1.69-libcxxabi-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/3.1.69/system/lib/libcxxabi/LICENSE.TXT",
+    "size": 16706,
+    "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+  },
+  {
+    "file": "occt-import-js-wasm_build.yml",
+    "url": "https://raw.githubusercontent.com/kovacsv/occt-import-js/c2148e54b456b571238d35cac037d304053d64b2/.github/workflows/wasm_build.yml",
+    "size": 569,
+    "sha256": "253e507264311467f13fe92d73841a33487cd40d59d9cd7162dc867ba86f7e3d"
+  }
+]

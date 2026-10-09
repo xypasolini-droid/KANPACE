@@ -1,0 +1,17 @@
+{
+  "_note": "全部单价与费率均为虚构演示假设，使用前必须换成本厂真实价格；不构成报价建议。",
+  "material_rates": {
+    "18mm多层板": {"unit_price": 110, "pricing_unit": "m2"},
+    "9mm多层板": {"unit_price": 58, "pricing_unit": "m2"},
+    "304不锈钢": {"unit_price": 230, "pricing_unit": "m2"},
+    "8mm钢化玻璃": {"unit_price": 160, "pricing_unit": "m2"},
+    "24V 4000K灯条": {"unit_price": 35, "pricing_unit": "meter"},
+    "24V 60W电源": {"unit_price": 75, "pricing_unit": "piece"},
+    "不锈钢层板托": {"unit_price": 3, "pricing_unit": "piece"}
+  },
+  "hourly_rates": {"木工": 45, "五金": 55, "油漆": 50, "玻璃": 45, "电工": 60, "装配": 45, "质检": 40, "包装": 35},
+  "loss_rate": 0.08,
+  "overhead_rate": 0.12,
+  "margin_rate": 0.25,
+  "outsourcing_cost": 80
+}

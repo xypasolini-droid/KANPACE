@@ -1,0 +1,1167 @@
+{
+  "sha": "c2148e54b456b571238d35cac037d304053d64b2",
+  "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/c2148e54b456b571238d35cac037d304053d64b2",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c2bd407c5b1a331bba17c955315f12e226e8ed43",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/c2bd407c5b1a331bba17c955315f12e226e8ed43"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0765ac2223e968ae663885a4104ff57f9f6c9c7d",
+      "size": 813,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/0765ac2223e968ae663885a4104ff57f9f6c9c7d"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c952e6d6414aea5ee057ae1f8511c2a05f84443",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/1c952e6d6414aea5ee057ae1f8511c2a05f84443"
+    },
+    {
+      "path": ".github/workflows/native_build.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f92f4daaf6758733d1d2f07e45a253e6ba01d30",
+      "size": 1773,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/5f92f4daaf6758733d1d2f07e45a253e6ba01d30"
+    },
+    {
+      "path": ".github/workflows/npm_publish.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "363cfededaa2265daaad8d3f65144ce7ed199b87",
+      "size": 387,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/363cfededaa2265daaad8d3f65144ce7ed199b87"
+    },
+    {
+      "path": ".github/workflows/wasm_build.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a93068daad941ffc036405a1f085b81362f863b1",
+      "size": 569,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/a93068daad941ffc036405a1f085b81362f863b1"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b2c9bd3347667358d2189b0463b653c990b4211",
+      "size": 37,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/6b2c9bd3347667358d2189b0463b653c990b4211"
+    },
+    {
+      "path": ".gitmodules",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50011d7743389b2e90d1c5a320044a2f6924f999",
+      "size": 86,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/50011d7743389b2e90d1c5a320044a2f6924f999"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e1568d5cc5af129a7ff32da68d03bbfc57ffd98",
+      "size": 9939,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/5e1568d5cc5af129a7ff32da68d03bbfc57ffd98"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8000a6faacf471c537530805ab29523c7732e11a",
+      "size": 26526,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/8000a6faacf471c537530805ab29523c7732e11a"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82e35c1164e3b3ed88f84700f09c211bb4e23fa7",
+      "size": 5581,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/82e35c1164e3b3ed88f84700f09c211bb4e23fa7"
+    },
+    {
+      "path": "dist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd5d98d384508c52544aa4251450dd24b52b90c9",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/dd5d98d384508c52544aa4251450dd24b52b90c9"
+    },
+    {
+      "path": "dist/license.occt-import-js.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8000a6faacf471c537530805ab29523c7732e11a",
+      "size": 26526,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/8000a6faacf471c537530805ab29523c7732e11a"
+    },
+    {
+      "path": "dist/license.occt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "732811e4f1faf71870b7350f211b26e00d7bfbe9",
+      "size": 26434,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/732811e4f1faf71870b7350f211b26e00d7bfbe9"
+    },
+    {
+      "path": "dist/occt-import-js-worker.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af06c3aca8e15e4afb04013e603993bef9bdf71e",
+      "size": 305,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/af06c3aca8e15e4afb04013e603993bef9bdf71e"
+    },
+    {
+      "path": "dist/occt-import-js.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abec0c5eb45cc53e2bcb5a193dcab90f387de7bd",
+      "size": 96852,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/abec0c5eb45cc53e2bcb5a193dcab90f387de7bd"
+    },
+    {
+      "path": "dist/occt-import-js.wasm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29458885e6b030850d352cff33ab0c22a7e36c35",
+      "size": 7604031,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/29458885e6b030850d352cff33ab0c22a7e36c35"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "291c31a05b3c22ba16350322acc0edc263e90739",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/291c31a05b3c22ba16350322acc0edc263e90739"
+    },
+    {
+      "path": "examples/browser_step.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30c62f9668236209d3a2e3b3ffa9ecb0f131af67",
+      "size": 743,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/30c62f9668236209d3a2e3b3ffa9ecb0f131af67"
+    },
+    {
+      "path": "examples/browser_step_worker.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a5c5b6932c5f8ded164c7f8966fba1d40fca57b",
+      "size": 913,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/7a5c5b6932c5f8ded164c7f8966fba1d40fca57b"
+    },
+    {
+      "path": "examples/node_step.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a91eb43795dfbc5616d2bdda05a5bdfd863236fd",
+      "size": 401,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/a91eb43795dfbc5616d2bdda05a5bdfd863236fd"
+    },
+    {
+      "path": "examples/stp_to_obj.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f6f9a7b931762f20c1941c17785c397860580ff",
+      "size": 2915,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/9f6f9a7b931762f20c1941c17785c397860580ff"
+    },
+    {
+      "path": "examples/three_viewer.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63c2e04379f67b5e46f89fcccb436561a923faf9",
+      "size": 6213,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/63c2e04379f67b5e46f89fcccb436561a923faf9"
+    },
+    {
+      "path": "occt",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "d2abb6d844231cb8f29be6894440874a4700e4a5"
+    },
+    {
+      "path": "occt-import-js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8228a5ad6509b40d315d1f7a66a510cdaeb9b118",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/8228a5ad6509b40d315d1f7a66a510cdaeb9b118"
+    },
+    {
+      "path": "occt-import-js/.editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b327b719632fddb6140f646627691845f64a1499",
+      "size": 2727,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/b327b719632fddb6140f646627691845f64a1499"
+    },
+    {
+      "path": "occt-import-js/example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b00ffdec3ad956badad704fe14f6adb9be870f6b",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/b00ffdec3ad956badad704fe14f6adb9be870f6b"
+    },
+    {
+      "path": "occt-import-js/example/main.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5770ba48d85f7c1db7d77af2d4dc1b59bca71902",
+      "size": 4349,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/5770ba48d85f7c1db7d77af2d4dc1b59bca71902"
+    },
+    {
+      "path": "occt-import-js/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db09d187326ed43e7461acdfc2b90b8211b9e309",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/db09d187326ed43e7461acdfc2b90b8211b9e309"
+    },
+    {
+      "path": "occt-import-js/src/importer-brep.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7c415876e79915b606cc4d7dacc639d4f7c7081",
+      "size": 3753,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/b7c415876e79915b606cc4d7dacc639d4f7c7081"
+    },
+    {
+      "path": "occt-import-js/src/importer-brep.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56f2472ce201cd4ed8af2f095c2e456ab5ec9cff",
+      "size": 338,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/56f2472ce201cd4ed8af2f095c2e456ab5ec9cff"
+    },
+    {
+      "path": "occt-import-js/src/importer-iges.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e8219636fc5ad35a78d121c29edbc2684cbfa13",
+      "size": 1152,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/5e8219636fc5ad35a78d121c29edbc2684cbfa13"
+    },
+    {
+      "path": "occt-import-js/src/importer-iges.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "525cd071528906fc04920d2b4d40e5ae09a9dbab",
+      "size": 222,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/525cd071528906fc04920d2b4d40e5ae09a9dbab"
+    },
+    {
+      "path": "occt-import-js/src/importer-step.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a580b47c08618cb4259f830453dd430e5b5dacb5",
+      "size": 855,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/a580b47c08618cb4259f830453dd430e5b5dacb5"
+    },
+    {
+      "path": "occt-import-js/src/importer-step.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a019d561b959aaea1571f910e1ce32087c43880",
+      "size": 222,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/5a019d561b959aaea1571f910e1ce32087c43880"
+    },
+    {
+      "path": "occt-import-js/src/importer-utils.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1a7c7721a0aa69f8c505b23b3edb8e38a1f2f8d",
+      "size": 4790,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/a1a7c7721a0aa69f8c505b23b3edb8e38a1f2f8d"
+    },
+    {
+      "path": "occt-import-js/src/importer-utils.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed45c399459cc19cc12d33a3594bbd641d2fc9da",
+      "size": 1182,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/ed45c399459cc19cc12d33a3594bbd641d2fc9da"
+    },
+    {
+      "path": "occt-import-js/src/importer-xcaf.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "820f3a72793f97caf113ed798ee26553567c7b2e",
+      "size": 11728,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/820f3a72793f97caf113ed798ee26553567c7b2e"
+    },
+    {
+      "path": "occt-import-js/src/importer-xcaf.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cfa6751301061461a361b313af7a5640f35350e",
+      "size": 621,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/7cfa6751301061461a361b313af7a5640f35350e"
+    },
+    {
+      "path": "occt-import-js/src/importer.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad9b28e585a04b717593938e185bf8901b36cb28",
+      "size": 1017,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/ad9b28e585a04b717593938e185bf8901b36cb28"
+    },
+    {
+      "path": "occt-import-js/src/importer.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ef861637c04254b2153b5ab0ac374ca45a4f4d4",
+      "size": 2195,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/2ef861637c04254b2153b5ab0ac374ca45a4f4d4"
+    },
+    {
+      "path": "occt-import-js/src/js-interface.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb382e8a0e8ded338b8382b25d58e5b328ade3ca",
+      "size": 10240,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/bb382e8a0e8ded338b8382b25d58e5b328ade3ca"
+    },
+    {
+      "path": "occt-import-js/src/js-interface.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "871981a02eecac024864dd4e29047e89e4df8eca",
+      "size": 58,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/871981a02eecac024864dd4e29047e89e4df8eca"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef6cc3ab21caab1a1295f1c936bf46d87a4c51b5",
+      "size": 48289,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/ef6cc3ab21caab1a1295f1c936bf46d87a4c51b5"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e233a80f7eb8a0b46685384aa12ee373a53f8382",
+      "size": 512,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/e233a80f7eb8a0b46685384aa12ee373a53f8382"
+    },
+    {
+      "path": "start_server.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0186425f84f07d615eeac5e41276a967dc528c79",
+      "size": 10,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/0186425f84f07d615eeac5e41276a967dc528c79"
+    },
+    {
+      "path": "test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "829e134ce40a384b728bbfc07069edf03988e917",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/829e134ce40a384b728bbfc07069edf03988e917"
+    },
+    {
+      "path": "test/test.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4b9f62dad725f7367f1183d4823f7fb410dae8c",
+      "size": 13359,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/a4b9f62dad725f7367f1183d4823f7fb410dae8c"
+    },
+    {
+      "path": "test/testfiles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a944742e76750253b0f9d46d6ce5964ad8ac611",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/1a944742e76750253b0f9d46d6ce5964ad8ac611"
+    },
+    {
+      "path": "test/testfiles/cax-if-brep",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a24b0b9ba55060a5ce64157b43d160b176ce50a",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/7a24b0b9ba55060a5ce64157b43d160b176ce50a"
+    },
+    {
+      "path": "test/testfiles/cax-if-brep/as1_pe_203.brep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59ec94c813a09b3b1bb8e6723a8e85fd7f58b14f",
+      "size": 39053,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/59ec94c813a09b3b1bb8e6723a8e85fd7f58b14f"
+    },
+    {
+      "path": "test/testfiles/cax-if",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5bf8ddfe45cc3ed177502a9652504e6778a14249",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/5bf8ddfe45cc3ed177502a9652504e6778a14249"
+    },
+    {
+      "path": "test/testfiles/cax-if/as1-oc-214.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61e75dd77efd657dc4caec1a0c73788c77a875aa",
+      "size": 433606,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/61e75dd77efd657dc4caec1a0c73788c77a875aa"
+    },
+    {
+      "path": "test/testfiles/cax-if/as1-oc-214",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a49c1dbc2b3a30b5270728f06998416cf40087b",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/3a49c1dbc2b3a30b5270728f06998416cf40087b"
+    },
+    {
+      "path": "test/testfiles/cax-if/as1-oc-214/as1-oc-214.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61e75dd77efd657dc4caec1a0c73788c77a875aa",
+      "size": 433606,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/61e75dd77efd657dc4caec1a0c73788c77a875aa"
+    },
+    {
+      "path": "test/testfiles/cax-if/as1-tu-203.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83151b1b6366cdcd812078231c558d6edbe3029e",
+      "size": 139215,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/83151b1b6366cdcd812078231c558d6edbe3029e"
+    },
+    {
+      "path": "test/testfiles/cax-if/as1_pe_203.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d665b45ccf0f127673c5ca877f8f0600593d075a",
+      "size": 136663,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/d665b45ccf0f127673c5ca877f8f0600593d075a"
+    },
+    {
+      "path": "test/testfiles/cax-if/dm1-id-214.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "562ebb6468ec4c5945525c36fd10ca8c2b4ebdea",
+      "size": 85638,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/562ebb6468ec4c5945525c36fd10ca8c2b4ebdea"
+    },
+    {
+      "path": "test/testfiles/cax-if/dm1-oc-214.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee808dc24909fed574d87de1d3a15ac0a0e5004c",
+      "size": 221913,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/ee808dc24909fed574d87de1d3a15ac0a0e5004c"
+    },
+    {
+      "path": "test/testfiles/cax-if/dm1-pe-214.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8be6caffdd9b3ae527de16419c668cdd3221e44f",
+      "size": 77136,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/8be6caffdd9b3ae527de16419c668cdd3221e44f"
+    },
+    {
+      "path": "test/testfiles/cax-if/io1-cm-214.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19373db8c8c224836b0d48098271ebcfbbd48636",
+      "size": 41720,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/19373db8c8c224836b0d48098271ebcfbbd48636"
+    },
+    {
+      "path": "test/testfiles/cax-if/io1-tu-203.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a069d71a9ee3603da198009d4d60091e095c2322",
+      "size": 77285,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/a069d71a9ee3603da198009d4d60091e095c2322"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb670e5c6f2ddc287185854c1ce00999e84c2a64",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/cb670e5c6f2ddc287185854c1ce00999e84c2a64"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/FOOT.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6c8e602b3209e7233d65d57ba69bb0305b11840",
+      "size": 6633,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/c6c8e602b3209e7233d65d57ba69bb0305b11840"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/FOOT.stp.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "411474f77c819a0fdb770c6bf21c367cd0c6d591",
+      "size": 1912,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/411474f77c819a0fdb770c6bf21c367cd0c6d591"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/FOOT_BACK_000.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd9dd90a4ac0ce9309de65701a35765988ae3068",
+      "size": 26249,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/bd9dd90a4ac0ce9309de65701a35765988ae3068"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/FOOT_BACK_000.stp.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8991e39ae3d73d07f211e87deb136e9fd262fc1",
+      "size": 456,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/e8991e39ae3d73d07f211e87deb136e9fd262fc1"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/FOOT_FRONT_000.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23bcab5888e813c8623106dc299c836d79ab3857",
+      "size": 26181,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/23bcab5888e813c8623106dc299c836d79ab3857"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/FOOT_FRONT_000.stp.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "254c05ef925be6001ddcc17ef8b5a52a688cca4c",
+      "size": 459,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/254c05ef925be6001ddcc17ef8b5a52a688cca4c"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/HEAD.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b794d07910cf87b8700cd5416b35f2cd133792f3",
+      "size": 6625,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/b794d07910cf87b8700cd5416b35f2cd133792f3"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/HEAD.stp.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c04adbfbc1605896f0469e8aa7837a9caecc03c",
+      "size": 1887,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/4c04adbfbc1605896f0469e8aa7837a9caecc03c"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/HEAD_BACK.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d66c52876b20be650310378b7fe3d8bc38593c49",
+      "size": 46251,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/d66c52876b20be650310378b7fe3d8bc38593c49"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/HEAD_BACK.stp.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea25cdb99583794b79c3be201639c3d80256f354",
+      "size": 449,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/ea25cdb99583794b79c3be201639c3d80256f354"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/HEAD_FRONT.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5167ff87936017fdc69baef9c16d59bea0171bb7",
+      "size": 15708,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/5167ff87936017fdc69baef9c16d59bea0171bb7"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/HEAD_FRONT.stp.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc2eaff71bbe77282e1c76c9f192f936a9159042",
+      "size": 451,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/bc2eaff71bbe77282e1c76c9f192f936a9159042"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/MAINBODY.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e96661063851b7a77cb46f61b43707525c72dc9",
+      "size": 6667,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/9e96661063851b7a77cb46f61b43707525c72dc9"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/MAINBODY.stp.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "799ad547352dcf3d61f2587d393ffdc1a5e69b63",
+      "size": 1920,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/799ad547352dcf3d61f2587d393ffdc1a5e69b63"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/MAINBODY_BACK.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cc6f681c8321f1e25ed794ab9e58591aff59e60",
+      "size": 113822,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/3cc6f681c8321f1e25ed794ab9e58591aff59e60"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/MAINBODY_BACK.stp.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dca7bc0026c91fb4b22c4631748daae209789f3",
+      "size": 459,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/3dca7bc0026c91fb4b22c4631748daae209789f3"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/MAINBODY_FRONT.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dceb0fa355c6e3fe9498c4a421f12ce45585578",
+      "size": 86373,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/6dceb0fa355c6e3fe9498c4a421f12ce45585578"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/MAINBODY_FRONT.stp.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b87f27e22635e60796d5b9f4b5197be64b92431b",
+      "size": 461,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/b87f27e22635e60796d5b9f4b5197be64b92431b"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/TAIL.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7153519bb528741e56402b8543eaad8bb15c0c53",
+      "size": 7455,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/7153519bb528741e56402b8543eaad8bb15c0c53"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/TAIL.stp.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5d5d446502ef1e49c66f3767aacd7c626c1d36c",
+      "size": 1915,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/e5d5d446502ef1e49c66f3767aacd7c626c1d36c"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/TAIL_MIDDLE_PART.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc2ebe70a12485138f90c642fbecd6f79fce0e6a",
+      "size": 38041,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/bc2ebe70a12485138f90c642fbecd6f79fce0e6a"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/TAIL_MIDDLE_PART.stp.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d377574519f85e798b9b8ed13aa9d13e893fa50",
+      "size": 463,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/9d377574519f85e798b9b8ed13aa9d13e893fa50"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/TAIL_TURBINE.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "278e049619bceffba4a6aa17f7faf63ec02643f5",
+      "size": 39730,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/278e049619bceffba4a6aa17f7faf63ec02643f5"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/TAIL_TURBINE.stp.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3d1ab6dbe51adc728a6fc0b90c9b1f874247ba7",
+      "size": 455,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/d3d1ab6dbe51adc728a6fc0b90c9b1f874247ba7"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/s1-c5-214.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0abe1da011d91f11bff5c4d19a4d6551621092f1",
+      "size": 12189,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/0abe1da011d91f11bff5c4d19a4d6551621092f1"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-c5-214/s1-c5-214.stp.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e6b21a0ae29b3f843cff70affd135aecde40855",
+      "size": 3216,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/7e6b21a0ae29b3f843cff70affd135aecde40855"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-tu-203",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2ff54265de4359e0b9798987a6ded5674040a8b",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/e2ff54265de4359e0b9798987a6ded5674040a8b"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-tu-203/footback.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "830b07c97b8109d0983e49745d475477bfab5f2c",
+      "size": 26088,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/830b07c97b8109d0983e49745d475477bfab5f2c"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-tu-203/footfront.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c32fa508b6e9f3af520a9bc5e823fbafa77973a",
+      "size": 31385,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/3c32fa508b6e9f3af520a9bc5e823fbafa77973a"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-tu-203/headback.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "846cd21ad1125cd558eccddf94da49c356cce558",
+      "size": 36786,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/846cd21ad1125cd558eccddf94da49c356cce558"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-tu-203/headfront.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dde840b7432da9d8364396c2b08b2b6b0beaff05",
+      "size": 17845,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/dde840b7432da9d8364396c2b08b2b6b0beaff05"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-tu-203/mainbodyback.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcdabfd742fa0a2208878ee0ed7bd3249ed079f3",
+      "size": 44499,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/dcdabfd742fa0a2208878ee0ed7bd3249ed079f3"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-tu-203/mainbodyfront.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "150b114e7957bccf1aa0d71da4f82d1acc65adc2",
+      "size": 73379,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/150b114e7957bccf1aa0d71da4f82d1acc65adc2"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-tu-203/s1-tu-203.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47f36f0be03754ac1939dda098313f7d70838e7b",
+      "size": 46557,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/47f36f0be03754ac1939dda098313f7d70838e7b"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-tu-203/tailmiddlepart.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36ed2190daf92fd9a1ecb171c41138e5b8ea9339",
+      "size": 29833,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/36ed2190daf92fd9a1ecb171c41138e5b8ea9339"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1-tu-203/tailturbine.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96fc851947bac478f9494e84f55d12446c0d7459",
+      "size": 60292,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/96fc851947bac478f9494e84f55d12446c0d7459"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1_pe_214",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7d1135ed4f5fddc55c0431a3235c295944ac8369",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/7d1135ed4f5fddc55c0431a3235c295944ac8369"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1_pe_214/foot_asm.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7508113e7c20d99c58858b874c02a998936b03e8",
+      "size": 12621,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/7508113e7c20d99c58858b874c02a998936b03e8"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1_pe_214/foot_back_prt.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd41f3b887fc5f675940a1616bee0031dce44c6e",
+      "size": 16177,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/cd41f3b887fc5f675940a1616bee0031dce44c6e"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1_pe_214/foot_front_prt.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73b897ce1dbac393e3e7323eaa85430d97cd4330",
+      "size": 23501,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/73b897ce1dbac393e3e7323eaa85430d97cd4330"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1_pe_214/head_asm.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d3365a9199b81bf6b9ec8d2db8e169635dc7ece",
+      "size": 12536,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/9d3365a9199b81bf6b9ec8d2db8e169635dc7ece"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1_pe_214/head_back_prt.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce438f0899426a616d8f0279880d17527f40da5c",
+      "size": 20617,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/ce438f0899426a616d8f0279880d17527f40da5c"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1_pe_214/head_front_prt.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "575afbf7e8be8d333d510eaf2336eeac330d9be8",
+      "size": 12167,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/575afbf7e8be8d333d510eaf2336eeac330d9be8"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1_pe_214/main_body_back_prt.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efd3014242dce3b043fe2bb80ddf73175f216ca0",
+      "size": 44026,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/efd3014242dce3b043fe2bb80ddf73175f216ca0"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1_pe_214/main_body_front_prt.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a55745a6e2969ebe51b14343086044d04941ab0",
+      "size": 54185,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/6a55745a6e2969ebe51b14343086044d04941ab0"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1_pe_214/mainbody_asm.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca85c51b7b4df00c38bb323edc36ffe7f5c52d24",
+      "size": 12814,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/ca85c51b7b4df00c38bb323edc36ffe7f5c52d24"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1_pe_214/s1_pe_214.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7836812d43d1ba563eb63b38e7f81ced903275c7",
+      "size": 22379,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/7836812d43d1ba563eb63b38e7f81ced903275c7"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1_pe_214/tail_asm.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "383f6f259aa01a9f83eb6782739279542ec38da5",
+      "size": 14683,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/383f6f259aa01a9f83eb6782739279542ec38da5"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1_pe_214/tail_middle_part_prt.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b43494cbe9f150580eaf3d6be8d8edf5f75243d",
+      "size": 39163,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/5b43494cbe9f150580eaf3d6be8d8edf5f75243d"
+    },
+    {
+      "path": "test/testfiles/cax-if/s1_pe_214/tail_turbine_prt.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66a0c36e171f70be25dc3c08059f2569edf29d44",
+      "size": 43561,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/66a0c36e171f70be25dc3c08059f2569edf29d44"
+    },
+    {
+      "path": "test/testfiles/cax-if/sg1-c5-214.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e20b9a6fdd04a5b3f91b8bb5ead6df8334a5e9d1",
+      "size": 23354,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/e20b9a6fdd04a5b3f91b8bb5ead6df8334a5e9d1"
+    },
+    {
+      "path": "test/testfiles/cax-if/source.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70fc0897266f2513a6326a7bd9ce9c81158b653c",
+      "size": 43,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/70fc0897266f2513a6326a7bd9ce9c81158b653c"
+    },
+    {
+      "path": "test/testfiles/conical-surface",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d3e9f7ce0be33e912e125041293211505c030450",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/d3e9f7ce0be33e912e125041293211505c030450"
+    },
+    {
+      "path": "test/testfiles/conical-surface/conical-surface.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ca563004f27f1d2e7379c3adc00baa2fc7927ae",
+      "size": 9391,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/6ca563004f27f1d2e7379c3adc00baa2fc7927ae"
+    },
+    {
+      "path": "test/testfiles/cube-10x10mm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "813304851334f446d74ef430bf8b21ea32b8ffc7",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/813304851334f446d74ef430bf8b21ea32b8ffc7"
+    },
+    {
+      "path": "test/testfiles/cube-10x10mm/Cube 10x10.igs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04b052d3bbf97c8d25b4f73b6668a270e16c87a4",
+      "size": 11421,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/04b052d3bbf97c8d25b4f73b6668a270e16c87a4"
+    },
+    {
+      "path": "test/testfiles/cube-10x10mm/Cube 10x10.ipt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a750a199dea03895f9df59564e6157dc0c877771",
+      "size": 88064,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/a750a199dea03895f9df59564e6157dc0c877771"
+    },
+    {
+      "path": "test/testfiles/cube-10x10mm/Cube 10x10.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf7887c4832c31d17bda43d069c8bc34e15c982a",
+      "size": 546955,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/bf7887c4832c31d17bda43d069c8bc34e15c982a"
+    },
+    {
+      "path": "test/testfiles/cube-10x10mm/Cube 10x10.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bb284f2f1305b1bec890ed574543f3ad5726a0f",
+      "size": 684,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/0bb284f2f1305b1bec890ed574543f3ad5726a0f"
+    },
+    {
+      "path": "test/testfiles/cube-10x10mm/Cube 10x10.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c0c6e335566c3ed2e85465c4a9e83e5200ced9c",
+      "size": 9138,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/5c0c6e335566c3ed2e85465c4a9e83e5200ced9c"
+    },
+    {
+      "path": "test/testfiles/cube-10x10mm/source.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4581f8f35e7eb361fa083ef5e174e6397f25f75b",
+      "size": 46,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/4581f8f35e7eb361fa083ef5e174e6397f25f75b"
+    },
+    {
+      "path": "test/testfiles/cube-fcstd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c76ba550497f34c3d4d39192e740e94ab13ab7ad",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/c76ba550497f34c3d4d39192e740e94ab13ab7ad"
+    },
+    {
+      "path": "test/testfiles/cube-fcstd/cube.FCStd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af37b48c0f60e665b5a2bfc098539201c7abaa85",
+      "size": 5327,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/af37b48c0f60e665b5a2bfc098539201c7abaa85"
+    },
+    {
+      "path": "test/testfiles/cube-fcstd/cube.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7bd0a89a6565ffb9d40b3b75061f4fdcf22b163",
+      "size": 17032,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/a7bd0a89a6565ffb9d40b3b75061f4fdcf22b163"
+    },
+    {
+      "path": "test/testfiles/cube-fcstd/cube2.FCStd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71f9e0c86b22ea4c357ca23c48685ed482c400b7",
+      "size": 5353,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/71f9e0c86b22ea4c357ca23c48685ed482c400b7"
+    },
+    {
+      "path": "test/testfiles/cube-fcstd/cube2.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0708fd5a224afe527b741f1bfd4070b737fbfcb9",
+      "size": 18112,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/0708fd5a224afe527b741f1bfd4070b737fbfcb9"
+    },
+    {
+      "path": "test/testfiles/cube-fcstd/cube3.FCStd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e2e339bb89dfeefa387031f8523f6ac8d7e683f",
+      "size": 5353,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/4e2e339bb89dfeefa387031f8523f6ac8d7e683f"
+    },
+    {
+      "path": "test/testfiles/cube-fcstd/cube3.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "684000cceb3d24b31cf9e7258bce653c9710879b",
+      "size": 16632,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/684000cceb3d24b31cf9e7258bce653c9710879b"
+    },
+    {
+      "path": "test/testfiles/cube-units",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6782356e02de8b1565b52f9adcb59d4798222ba",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/e6782356e02de8b1565b52f9adcb59d4798222ba"
+    },
+    {
+      "path": "test/testfiles/cube-units/cube-in.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cb25304d48254202340265e2e3c3b74d1318c6f",
+      "size": 18531,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/9cb25304d48254202340265e2e3c3b74d1318c6f"
+    },
+    {
+      "path": "test/testfiles/cube-units/cube-m.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4c2864f8238bd63dc492e465160738974057c1b",
+      "size": 17487,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/a4c2864f8238bd63dc492e465160738974057c1b"
+    },
+    {
+      "path": "test/testfiles/cube-units/cube-mm.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dfa4ae379a1becc87a81fc5d4c1be2709d75429",
+      "size": 17607,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/0dfa4ae379a1becc87a81fc5d4c1be2709d75429"
+    },
+    {
+      "path": "test/testfiles/cube-units/cube.FCStd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c2f0d7bd75b152130e62ce3c0d016eb56863725",
+      "size": 5321,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/8c2f0d7bd75b152130e62ce3c0d016eb56863725"
+    },
+    {
+      "path": "test/testfiles/rounded-cube",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9a64ab020e59a0ebb15003d9d700a0d33c024a0",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/b9a64ab020e59a0ebb15003d9d700a0d33c024a0"
+    },
+    {
+      "path": "test/testfiles/rounded-cube/rounded-cube.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd59b5699afbb1c34f566ff3d45a7e2a098a9852",
+      "size": 20532,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/dd59b5699afbb1c34f566ff3d45a7e2a098a9852"
+    },
+    {
+      "path": "test/testfiles/simple-basic-cube",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72213e9f0e02730e71ea1f998d65797e5f841cc4",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/72213e9f0e02730e71ea1f998d65797e5f841cc4"
+    },
+    {
+      "path": "test/testfiles/simple-basic-cube/cube.stp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "156a1c0e401f148272bc5f1e92f2228576973557",
+      "size": 8010,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/156a1c0e401f148272bc5f1e92f2228576973557"
+    },
+    {
+      "path": "test/testfiles/simple-basic-cube/source.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af584550c05f921e732d5ebb852e750a29638223",
+      "size": 46,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/af584550c05f921e732d5ebb852e750a29638223"
+    },
+    {
+      "path": "tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa53677a25e1411924e27a07e2eb606850a8f53f",
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/trees/fa53677a25e1411924e27a07e2eb606850a8f53f"
+    },
+    {
+      "path": "tools/build_native_win_debug.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be5084eb52c3fccdcacb0b0653a2f514c75037cb",
+      "size": 231,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/be5084eb52c3fccdcacb0b0653a2f514c75037cb"
+    },
+    {
+      "path": "tools/build_native_win_release.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "387af981e7e590c70cb73c89d516f42d7ee8a2ec",
+      "size": 240,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/387af981e7e590c70cb73c89d516f42d7ee8a2ec"
+    },
+    {
+      "path": "tools/build_wasm_win.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fb9df15e1f165fed5fe956f3f7f20e9012de826",
+      "size": 361,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/9fb9df15e1f165fed5fe956f3f7f20e9012de826"
+    },
+    {
+      "path": "tools/build_wasm_win_dist.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af51f322951d77d2c0e9a959f254da4daa605c7b",
+      "size": 550,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/af51f322951d77d2c0e9a959f254da4daa605c7b"
+    },
+    {
+      "path": "tools/build_wasm_win_release.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d52b00e88da9c979121c88930624ddde24a9767",
+      "size": 58,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/1d52b00e88da9c979121c88930624ddde24a9767"
+    },
+    {
+      "path": "tools/setup_emscripten_win.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12c6115ebe7b37fe97c320ea629aedbec3c7eefb",
+      "size": 275,
+      "url": "https://api.github.com/repos/kovacsv/occt-import-js/git/blobs/12c6115ebe7b37fe97c320ea629aedbec3c7eefb"
+    }
+  ],
+  "truncated": false
+}

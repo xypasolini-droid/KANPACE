@@ -1,0 +1,656 @@
+{
+  "scope": "合成验收fixture，临时数据库；不是客户实单收益",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "availability": {
+    "ortools": {
+      "available": true,
+      "name": "Google OR-Tools CP-SAT",
+      "version": "9.15.6755",
+      "probe_status": "OPTIMAL"
+    },
+    "packingsolver": {
+      "available": true,
+      "name": "PackingSolver rectangle-guillotine",
+      "version": "4ba84e45ab4b7697d2fec2bb62bdca09dab56d29"
+    }
+  },
+  "schedule": {
+    "id": "scenario_b5bba7e6d1604510",
+    "version": 1,
+    "status": "advice",
+    "created_at": "2026-09-07T07:55:16.810893+00:00",
+    "factory_type": "cabinet",
+    "name": "生产排产模拟",
+    "start_date": "2026-09-07",
+    "config": {
+      "name": "生产排产模拟",
+      "start_date": "2026-09-07",
+      "horizon_days": 1,
+      "factory_type": "cabinet",
+      "task_ids": [],
+      "rush_task_ids": [],
+      "overrides": [],
+      "note": "",
+      "engine_options": {
+        "time_limit_seconds": 2.0,
+        "non_interruptible_task_ids": []
+      }
+    },
+    "fingerprint": "0525d452c5d99e58f721d35ddfc338400aec24163bb14b30356402b4678c55f1",
+    "impact": [
+      {
+        "task_id": "task_sched_1",
+        "title": "工序1",
+        "before_end": "2026-09-07T11:00",
+        "after_end": "2026-09-07T11:20",
+        "change": "rescheduled",
+        "shift_days": 0,
+        "shift_minutes": 20
+      },
+      {
+        "task_id": "task_sched_2",
+        "title": "工序2",
+        "before_end": "2026-09-07T11:20",
+        "after_end": "2026-09-07T11:40",
+        "change": "rescheduled",
+        "shift_days": 0,
+        "shift_minutes": 20
+      },
+      {
+        "task_id": "task_sched_3",
+        "title": "工序3",
+        "before_end": "2026-09-07T11:20",
+        "after_end": "2026-09-07T08:20",
+        "change": "rescheduled",
+        "shift_days": 0,
+        "shift_minutes": -180
+      },
+      {
+        "task_id": "task_sched_4",
+        "title": "工序4",
+        "before_end": "2026-09-07T14:20",
+        "after_end": "2026-09-07T11:20",
+        "change": "rescheduled",
+        "shift_days": 0,
+        "shift_minutes": -180
+      }
+    ],
+    "engine": {
+      "requested": "Google OR-Tools CP-SAT",
+      "used": "Google OR-Tools CP-SAT",
+      "status": "OPTIMAL",
+      "version": "9.15.6755",
+      "fallback_reason": null,
+      "wall_time_seconds": 0.1254,
+      "objective_value": -41084722264.0,
+      "best_objective_bound": -41084722264.0
+    },
+    "validation": {
+      "valid": true,
+      "errors": [],
+      "checked_tasks": 4
+    },
+    "comparison": {
+      "baseline": {
+        "scheduled": 4,
+        "unplaced": 0,
+        "late_tasks": 0,
+        "finish_date": "2026-09-07",
+        "frozen_plans": 0
+      },
+      "optimized": {
+        "scheduled": 4,
+        "unplaced": 0,
+        "late_tasks": 0,
+        "finish_date": "2026-09-07",
+        "frozen_plans": 0
+      },
+      "changed_tasks": 4,
+      "baseline_metrics": {
+        "scheduled": 4,
+        "total_tardiness_minutes": 0,
+        "weighted_tardiness_minutes": 0,
+        "completion_span_minutes": 380
+      },
+      "optimized_metrics": {
+        "scheduled": 4,
+        "total_tardiness_minutes": 0,
+        "weighted_tardiness_minutes": 0,
+        "completion_span_minutes": 220
+      },
+      "not_worse_on_coverage_and_tardiness": true,
+      "basis": "相同人员、工位、前序、料期与冻结计划；不改变实际状态"
+    },
+    "rows": [
+      {
+        "task_id": "task_sched_3",
+        "title": "工序3",
+        "project_id": "prj_dba6b375eb23",
+        "person_id": "person_5beb6d14e94849bc",
+        "workcenter_id": null,
+        "start_at": "2026-09-07T08:00",
+        "end_at": "2026-09-07T08:20",
+        "ready_at": "2026-09-07T08:20",
+        "minutes": 20.0,
+        "setup_minutes": 0,
+        "wait_hours": 0,
+        "planned_minutes": 20,
+        "allocations": [
+          {
+            "date": "2026-09-07",
+            "minutes": 20
+          }
+        ],
+        "minute_segments": [
+          {
+            "date": "2026-09-07",
+            "start_minute": 0,
+            "end_minute": 20
+          }
+        ],
+        "warnings": [],
+        "delay_days": 0,
+        "task_revision": 1,
+        "task_execution_version": 0,
+        "minutes_source": "task_estimate"
+      },
+      {
+        "task_id": "task_sched_1",
+        "title": "工序1",
+        "project_id": "prj_dba6b375eb23",
+        "person_id": "person_5beb6d14e94849bc",
+        "workcenter_id": null,
+        "start_at": "2026-09-07T08:20",
+        "end_at": "2026-09-07T11:20",
+        "ready_at": "2026-09-07T11:20",
+        "minutes": 180.0,
+        "setup_minutes": 0,
+        "wait_hours": 0,
+        "planned_minutes": 180,
+        "allocations": [
+          {
+            "date": "2026-09-07",
+            "minutes": 180
+          }
+        ],
+        "minute_segments": [
+          {
+            "date": "2026-09-07",
+            "start_minute": 20,
+            "end_minute": 200
+          }
+        ],
+        "warnings": [],
+        "delay_days": 0,
+        "task_revision": 1,
+        "task_execution_version": 0,
+        "minutes_source": "task_estimate"
+      },
+      {
+        "task_id": "task_sched_4",
+        "title": "工序4",
+        "project_id": "prj_dba6b375eb23",
+        "person_id": "person_4c00e4b01cae468c",
+        "workcenter_id": null,
+        "start_at": "2026-09-07T08:20",
+        "end_at": "2026-09-07T11:20",
+        "ready_at": "2026-09-07T11:20",
+        "minutes": 180.0,
+        "setup_minutes": 0,
+        "wait_hours": 0,
+        "planned_minutes": 180,
+        "allocations": [
+          {
+            "date": "2026-09-07",
+            "minutes": 180
+          }
+        ],
+        "minute_segments": [
+          {
+            "date": "2026-09-07",
+            "start_minute": 20,
+            "end_minute": 200
+          }
+        ],
+        "warnings": [],
+        "delay_days": 0,
+        "task_revision": 1,
+        "task_execution_version": 0,
+        "minutes_source": "task_estimate"
+      },
+      {
+        "task_id": "task_sched_2",
+        "title": "工序2",
+        "project_id": "prj_dba6b375eb23",
+        "person_id": "person_4c00e4b01cae468c",
+        "workcenter_id": null,
+        "start_at": "2026-09-07T11:20",
+        "end_at": "2026-09-07T11:40",
+        "ready_at": "2026-09-07T11:40",
+        "minutes": 20.0,
+        "setup_minutes": 0,
+        "wait_hours": 0,
+        "planned_minutes": 20,
+        "allocations": [
+          {
+            "date": "2026-09-07",
+            "minutes": 20
+          }
+        ],
+        "minute_segments": [
+          {
+            "date": "2026-09-07",
+            "start_minute": 200,
+            "end_minute": 220
+          }
+        ],
+        "warnings": [],
+        "delay_days": 0,
+        "task_revision": 1,
+        "task_execution_version": 0,
+        "minutes_source": "task_estimate"
+      }
+    ],
+    "unplaced": [],
+    "frozen_plan_ids": [],
+    "summary": {
+      "scheduled": 4,
+      "unplaced": 0,
+      "late_tasks": 0,
+      "finish_date": "2026-09-07",
+      "frozen_plans": 0
+    }
+  },
+  "packing_request": {
+    "dimensions_confirmed": true,
+    "material": "审核测试板材",
+    "thickness_mm": 18,
+    "grain": "none",
+    "kerf_mm": 5,
+    "trim_mm": 10,
+    "stock": {
+      "width_mm": 1000,
+      "height_mm": 1000,
+      "quantity": 5,
+      "cost_per_sheet": 120
+    },
+    "items": [
+      {
+        "id": "panel_a",
+        "width_mm": 480,
+        "height_mm": 480,
+        "quantity": 4,
+        "allow_rotate": false
+      }
+    ],
+    "baseline_sheet_count": 2,
+    "time_limit_seconds": 2
+  },
+  "packing": {
+    "engine": {
+      "requested": "PackingSolver rectangle-guillotine",
+      "used": "PackingSolver rectangle-guillotine",
+      "status": "FEASIBLE_VALIDATED",
+      "version": "4ba84e45ab4b7697d2fec2bb62bdca09dab56d29",
+      "wall_time_seconds": 0.1151,
+      "optimality_proven": false,
+      "fallback_reason": null
+    },
+    "input_summary": {
+      "material": "审核测试板材",
+      "thickness_mm": 18.0,
+      "grain": "none",
+      "dimensions_confirmed": true,
+      "item_types": 1,
+      "quantity": 4,
+      "kerf_mm": 5.0,
+      "trim_mm": 10.0,
+      "coordinate_origin": "原板左下角，毫米",
+      "certificate_units_per_mm": 100
+    },
+    "layouts": [
+      {
+        "id": "plate_0_1",
+        "width_mm": 1000.0,
+        "height_mm": 1000.0,
+        "pieces": [
+          {
+            "item_id": "panel_a",
+            "label": "panel_a",
+            "rotated": false,
+            "x_mm": 10.0,
+            "y_mm": 10.0,
+            "width_mm": 480.0,
+            "height_mm": 480.0
+          },
+          {
+            "item_id": "panel_a",
+            "label": "panel_a",
+            "rotated": false,
+            "x_mm": 495.0,
+            "y_mm": 10.0,
+            "width_mm": 480.0,
+            "height_mm": 480.0
+          },
+          {
+            "item_id": "panel_a",
+            "label": "panel_a",
+            "rotated": false,
+            "x_mm": 10.0,
+            "y_mm": 495.0,
+            "width_mm": 480.0,
+            "height_mm": 480.0
+          },
+          {
+            "item_id": "panel_a",
+            "label": "panel_a",
+            "rotated": false,
+            "x_mm": 495.0,
+            "y_mm": 495.0,
+            "width_mm": 480.0,
+            "height_mm": 480.0
+          }
+        ],
+        "leftovers": [
+          {
+            "kind": "offcut",
+            "x_mm": 10.0,
+            "y_mm": 980.0,
+            "width_mm": 965.0,
+            "height_mm": 10.0
+          },
+          {
+            "kind": "residual",
+            "x_mm": 980.0,
+            "y_mm": 10.0,
+            "width_mm": 10.0,
+            "height_mm": 980.0
+          }
+        ],
+        "cut_nodes": [
+          {
+            "node_id": 0,
+            "parent_id": null,
+            "x": 0,
+            "y": 0,
+            "width": 98000,
+            "height": 98000,
+            "type": 0,
+            "depth": 0
+          },
+          {
+            "node_id": 1,
+            "parent_id": 0,
+            "x": 0,
+            "y": 0,
+            "width": 96500,
+            "height": 98000,
+            "type": -2,
+            "depth": 1
+          },
+          {
+            "node_id": 2,
+            "parent_id": 1,
+            "x": 0,
+            "y": 0,
+            "width": 96500,
+            "height": 48000,
+            "type": -2,
+            "depth": 2
+          },
+          {
+            "node_id": 3,
+            "parent_id": 2,
+            "x": 0,
+            "y": 0,
+            "width": 48000,
+            "height": 48000,
+            "type": 0,
+            "depth": 3
+          },
+          {
+            "node_id": 4,
+            "parent_id": 2,
+            "x": 48500,
+            "y": 0,
+            "width": 48000,
+            "height": 48000,
+            "type": 0,
+            "depth": 3
+          },
+          {
+            "node_id": 5,
+            "parent_id": 1,
+            "x": 0,
+            "y": 48500,
+            "width": 96500,
+            "height": 48000,
+            "type": -2,
+            "depth": 2
+          },
+          {
+            "node_id": 6,
+            "parent_id": 5,
+            "x": 0,
+            "y": 48500,
+            "width": 48000,
+            "height": 48000,
+            "type": 0,
+            "depth": 3
+          },
+          {
+            "node_id": 7,
+            "parent_id": 5,
+            "x": 48500,
+            "y": 48500,
+            "width": 48000,
+            "height": 48000,
+            "type": 0,
+            "depth": 3
+          },
+          {
+            "node_id": 8,
+            "parent_id": 1,
+            "x": 0,
+            "y": 97000,
+            "width": 96500,
+            "height": 1000,
+            "type": -1,
+            "depth": 2
+          },
+          {
+            "node_id": 9,
+            "parent_id": 0,
+            "x": 97000,
+            "y": 0,
+            "width": 1000,
+            "height": 98000,
+            "type": -3,
+            "depth": 1
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "sheet_count": 1,
+      "stock_quantity": 5,
+      "placed_quantity": 4,
+      "material_cost": 120.0,
+      "cost_per_sheet": 120.0,
+      "gross_area_mm2": 1000000.0,
+      "parts_area_mm2": 921600.0,
+      "utilization_percent": 92.16,
+      "offcut_area_mm2": 19450.0,
+      "non_part_area_mm2": 78400.0,
+      "note": "余料为切割树空白子板；可复用价值需人工验收。成本仅原板金额，不含人工、锯缝工费与余料估值。"
+    },
+    "validation": {
+      "valid": true,
+      "errors": [],
+      "checked_pieces": 4,
+      "checks": [
+        "零件数量",
+        "尺寸与旋转",
+        "裁边边界",
+        "零件重叠与锯缝",
+        "原板数量",
+        "齐头切父子树"
+      ]
+    },
+    "baseline_comparison": {
+      "baseline_sheet_count": 2,
+      "optimized_sheet_count": 1,
+      "sheets_saved": 1,
+      "material_cost_saved": 120.0,
+      "basis": "用户提供且同规格同约束的原方案板数；未提供时不虚构节省"
+    },
+    "certificate_csv": "PLATE_ID,COPIES,NODE_ID,X,Y,WIDTH,HEIGHT,TYPE,CUT,PARENT\n0,1,0,0,0,98000,98000,0,0,\n0,1,1,0,0,96500,98000,-2,1,0\n0,1,2,0,0,96500,48000,-2,2,1\n0,1,3,0,0,48000,48000,0,3,2\n0,1,4,48500,0,48000,48000,0,3,2\n0,1,5,0,48500,96500,48000,-2,2,1\n0,1,6,0,48500,48000,48000,0,3,5\n0,1,7,48500,48500,48000,48000,0,3,5\n0,1,8,0,97000,96500,1000,-1,2,1\n0,1,9,97000,0,1000,98000,-3,1,0\n",
+    "solver_report": {
+      "IntermediaryOutputs": [
+        {
+          "BinPackingBound": 1,
+          "IsProvenInfeasible": false,
+          "KnapsackBound": null,
+          "OpenDimensionXBound": 0,
+          "OpenDimensionYBound": 0,
+          "Solution": {
+            "BinArea": 0,
+            "BinCost": 0.0,
+            "CuttingCost": 0,
+            "Feasible": {
+              "CutThroughDefects": true,
+              "Defects": true,
+              "Feasible": false,
+              "ItemCopies": true,
+              "MaximumDistance1Cuts": true,
+              "MaximumDistance2Cuts": true,
+              "MaximumNumber1Cuts": true,
+              "MaximumNumber2Cuts": true,
+              "MinimumDistance1Cuts": true,
+              "MinimumDistance2Cuts": true,
+              "MinimumWasteLength": true,
+              "NumberOfStages": true,
+              "Stacks": true
+            },
+            "FullWaste": 0,
+            "FullWastePercentage": 0.0,
+            "Height": 0,
+            "ItemArea": 0,
+            "ItemProfit": 0.0,
+            "NumberOfBins": 0,
+            "NumberOfDifferentBins": 0,
+            "NumberOfItems": 0,
+            "NumberOfStages": 0,
+            "SecondLeftoverValue": 0,
+            "Waste": 0,
+            "WastePercentage": 0.0,
+            "Width": 0
+          },
+          "Time": 0.0,
+          "VariableSizedBinPackingBound": 0.0
+        },
+        {
+          "BinPackingBound": 1,
+          "IsProvenInfeasible": false,
+          "KnapsackBound": null,
+          "OpenDimensionXBound": 0,
+          "OpenDimensionYBound": 0,
+          "Solution": {
+            "BinArea": 9604000000,
+            "BinCost": 9604000000.0,
+            "CuttingCost": 0,
+            "Feasible": {
+              "CutThroughDefects": true,
+              "Defects": true,
+              "Feasible": true,
+              "ItemCopies": true,
+              "MaximumDistance1Cuts": true,
+              "MaximumDistance2Cuts": true,
+              "MaximumNumber1Cuts": true,
+              "MaximumNumber2Cuts": true,
+              "MinimumDistance1Cuts": true,
+              "MinimumDistance2Cuts": true,
+              "MinimumWasteLength": true,
+              "NumberOfStages": true,
+              "Stacks": true
+            },
+            "FullWaste": 388000000,
+            "FullWastePercentage": 0.04039983340274885,
+            "Height": 98000,
+            "ItemArea": 9216000000,
+            "ItemProfit": 9216000000.0,
+            "NumberOfBins": 1,
+            "NumberOfDifferentBins": 1,
+            "NumberOfItems": 4,
+            "NumberOfStages": 3,
+            "SecondLeftoverValue": 96500000,
+            "Waste": 290000000,
+            "WastePercentage": 0.03050704818009678,
+            "Width": 96500
+          },
+          "Time": 0.001758208,
+          "VariableSizedBinPackingBound": 0.0
+        }
+      ],
+      "Output": {
+        "BinPackingBound": 1,
+        "IsProvenInfeasible": false,
+        "KnapsackBound": null,
+        "OpenDimensionXBound": 0,
+        "OpenDimensionYBound": 0,
+        "Solution": {
+          "BinArea": 9604000000,
+          "BinCost": 9604000000.0,
+          "CuttingCost": 0,
+          "Feasible": {
+            "CutThroughDefects": true,
+            "Defects": true,
+            "Feasible": true,
+            "ItemCopies": true,
+            "MaximumDistance1Cuts": true,
+            "MaximumDistance2Cuts": true,
+            "MaximumNumber1Cuts": true,
+            "MaximumNumber2Cuts": true,
+            "MinimumDistance1Cuts": true,
+            "MinimumDistance2Cuts": true,
+            "MinimumWasteLength": true,
+            "NumberOfStages": true,
+            "Stacks": true
+          },
+          "FullWaste": 388000000,
+          "FullWastePercentage": 0.04039983340274885,
+          "Height": 98000,
+          "ItemArea": 9216000000,
+          "ItemProfit": 9216000000.0,
+          "NumberOfBins": 1,
+          "NumberOfDifferentBins": 1,
+          "NumberOfItems": 4,
+          "NumberOfStages": 3,
+          "SecondLeftoverValue": 96500000,
+          "Waste": 290000000,
+          "WastePercentage": 0.03050704818009678,
+          "Width": 96500
+        },
+        "Time": 0.001975625,
+        "VariableSizedBinPackingBound": 0.0
+      },
+      "Parameters": {
+        "Logger": {
+          "FilePath": "",
+          "HasLogger": false,
+          "StardardError": false
+        },
+        "Messages": {
+          "FilePath": "",
+          "NumberOfStreams": 0,
+          "StandardOutput": true,
+          "VerbosityLevel": 0
+        },
+        "TimeLimit": 2.0,
+        "VerbosityLevel": 0
+      }
+    }
+  },
+  "production_database_modified": false,
+  "main_service_started_or_restarted": false
+}

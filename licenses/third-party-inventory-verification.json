@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-07",
+  "checks": {
+    "component_and_dependency_license_paths_exist": true,
+    "references_checked": 354,
+    "distributed_source_archive_hashes_match": true,
+    "json_parse_valid": true,
+    "adapter_ast_unchanged": true,
+    "web_runtime_license_hashes_match": true
+  },
+  "package_source_archive_bytes": 53044870,
+  "component_count": 19,
+  "python_package_records": 122,
+  "cpp_dependency_records": 11,
+  "note": "No application behavior or business data changed. Release owner verifies final package allowlist."
+}

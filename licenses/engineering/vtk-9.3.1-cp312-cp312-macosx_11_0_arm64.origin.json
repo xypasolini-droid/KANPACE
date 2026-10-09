@@ -1,0 +1,28 @@
+{
+  "official": {
+    "comment_text": "",
+    "core-metadata": {
+      "sha256": "6ea670c877a4c66905b53a90e0e01f62e49334fedaa7ed0bc1f7ed308b8e7e39"
+    },
+    "digests": {
+      "blake2b_256": "8e75c637c620d23ccecb8ddf58fdb80af1dc56ecdd60f3e018c55e041663398b",
+      "md5": "3e1b8f4ca04497e88568db6d7ed3161c",
+      "sha256": "bdbefb1aef9599a0a0b8222c9582f26946732a93534e6ec37d4b8e2c524c627e"
+    },
+    "downloads": -1,
+    "filename": "vtk-9.3.1-cp312-cp312-macosx_11_0_arm64.whl",
+    "has_sig": false,
+    "md5_digest": "3e1b8f4ca04497e88568db6d7ed3161c",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp312",
+    "requires_python": null,
+    "size": 70385880,
+    "upload_time": "2024-06-29T03:15:33",
+    "upload_time_iso_8601": "2024-06-29T03:15:33.131091Z",
+    "url": "https://files.pythonhosted.org/packages/8e/75/c637c620d23ccecb8ddf58fdb80af1dc56ecdd60f3e018c55e041663398b/vtk-9.3.1-cp312-cp312-macosx_11_0_arm64.whl",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "mirror_url": "https://pypi.tuna.tsinghua.edu.cn/packages/8e/75/c637c620d23ccecb8ddf58fdb80af1dc56ecdd60f3e018c55e041663398b/vtk-9.3.1-cp312-cp312-macosx_11_0_arm64.whl",
+  "verified_sha256": "bdbefb1aef9599a0a0b8222c9582f26946732a93534e6ec37d4b8e2c524c627e"
+}

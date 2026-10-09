@@ -1,0 +1,5 @@
+# Separate Python 3.12 CPU environment. Models are provisioned independently.
+# Reviewed release: https://github.com/docling-project/docling/releases/tag/v2.133.0
+docling[rapidocr]==2.133.0
+# Docling pins compatible core/model/runtime ranges; produce a full lock and
+# component license manifest after server-platform dependency resolution.

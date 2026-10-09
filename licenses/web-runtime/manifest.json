@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Pillow",
+    "version": "12.3.0",
+    "license_expression": "MIT-CMU",
+    "license_metadata": null,
+    "files": [
+      {
+        "path": "licenses/web-runtime/Pillow-12.3.0-pillow-12.3.0.dist-info__licenses__LICENSE",
+        "sha256": "dda12a98c1979cf3d94df1cff45d27a4cb3f04a60c76f76902ac54cac03ec0ce"
+      }
+    ]
+  },
+  {
+    "name": "pyserial",
+    "version": "3.5",
+    "license_expression": null,
+    "license_metadata": "BSD",
+    "files": [
+      {
+        "path": "licenses/web-runtime/pyserial-3.5-BSD-3-Clause.txt",
+        "sha256": "f91cb9813de6a5b142b8f7f2dede630b5134160aedaeaf55f4d6a7e2593ca3f3"
+      }
+    ],
+    "supplement": "official upstream v3.5 license, wheel omitted license file"
+  }
+]

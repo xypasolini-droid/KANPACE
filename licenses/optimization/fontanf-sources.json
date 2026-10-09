@@ -1,0 +1,44 @@
+[
+  {
+    "name": "optimizationtools",
+    "repository": "https://github.com/fontanf/optimizationtools.git",
+    "commit": "7e29ad3e2dab11a44887fbcc9382188c5d0ead12",
+    "source_dir": "原机路径已移除"
+  },
+  {
+    "name": "shape",
+    "repository": "https://github.com/fontanf/shape.git",
+    "commit": "1e57508f8f9a194891e0343c84a1a255f62f0e40",
+    "source_dir": "原机路径已移除"
+  },
+  {
+    "name": "mathoptsolverscmake",
+    "repository": "https://github.com/fontanf/mathoptsolverscmake.git",
+    "commit": "66b6e34c0c99916c75f10d7af6756c3310e54a2b",
+    "source_dir": "原机路径已移除"
+  },
+  {
+    "name": "knapsacksolver",
+    "repository": "https://github.com/fontanf/knapsacksolver.git",
+    "commit": "605153f85b0781ae0c2b7548a18639ef77d25c09",
+    "source_dir": "原机路径已移除"
+  },
+  {
+    "name": "multiplechoicesubsetsumsolver",
+    "repository": "https://github.com/fontanf/multiplechoicesubsetsumsolver.git",
+    "commit": "83406f59044425aef1391030db0b29333c208d7f",
+    "source_dir": "原机路径已移除"
+  },
+  {
+    "name": "treesearchsolver",
+    "repository": "https://github.com/fontanf/treesearchsolver.git",
+    "commit": "b7254420989dd804144d16b898f323f1d606dda4",
+    "source_dir": "原机路径已移除"
+  },
+  {
+    "name": "columngenerationsolver",
+    "repository": "https://github.com/fontanf/columngenerationsolver.git",
+    "commit": "1274df41234709ab3d62f1b3e6dd2a88d3799710",
+    "source_dir": "原机路径已移除"
+  }
+]

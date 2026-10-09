@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "engine_version": "2.133.0",
+  "artifacts_path": "/srv/kanpace/models/docling-2.133.0",
+  "model_manifest_path": "/srv/kanpace/config/docling-model-files.json",
+  "model_revision": "REPLACE_WITH_SHA256_OF_MODEL_MANIFEST_BYTES",
+  "license": "REPLACE_WITH_REVIEWED_COMPONENT_LICENSE_MANIFEST",
+  "token_env": "KANPACE_DOCLING_WORKER_TOKEN",
+  "ocr": {
+    "det_model_path": "REPLACE_WITH_LOCAL_DETECTOR_ONNX_RELATIVE_PATH",
+    "rec_model_path": "REPLACE_WITH_LOCAL_RECOGNIZER_ONNX_RELATIVE_PATH",
+    "cls_model_path": "REPLACE_WITH_LOCAL_CLASSIFIER_ONNX_RELATIVE_PATH",
+    "rec_keys_path": "REPLACE_WITH_LOCAL_RECOGNITION_KEYS_RELATIVE_PATH"
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "file": "licenses/web-runtime/pyserial-3.5-BSD-3-Clause.txt",
+    "source_url": "https://raw.githubusercontent.com/pyserial/pyserial/v3.5/LICENSE.txt",
+    "sha256": "f91cb9813de6a5b142b8f7f2dede630b5134160aedaeaf55f4d6a7e2593ca3f3"
+  },
+  {
+    "file": "licenses/web-runtime/Poppler-26.04.0-COPYING.txt",
+    "source_url": "https://gitlab.freedesktop.org/poppler/poppler/-/raw/poppler-26.04.0/COPYING",
+    "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6"
+  }
+]

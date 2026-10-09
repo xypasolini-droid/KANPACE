@@ -1,0 +1,28 @@
+{
+  "official": {
+    "comment_text": null,
+    "core-metadata": {
+      "sha256": "455c6d9fca848660525501efe855e8e8e9c9e5bc86603f575c7fc2e7bb015c89"
+    },
+    "digests": {
+      "blake2b_256": "35d04831af68ce30cc2d03c697bea8450e3225a835ef497d0d70f31b8cdde965",
+      "md5": "bd9c57a2cad6adecd81583d7b503e9e4",
+      "sha256": "970762605cff1ca0d3f71ed4f3a769ea8f85fc8e6348f6e110b8fea7e6eb5a14"
+    },
+    "downloads": -1,
+    "filename": "pandas-3.0.2-cp312-cp312-macosx_11_0_arm64.whl",
+    "has_sig": false,
+    "md5_digest": "bd9c57a2cad6adecd81583d7b503e9e4",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp312",
+    "requires_python": ">=3.11",
+    "size": 9888127,
+    "upload_time": "2026-03-31T06:46:36",
+    "upload_time_iso_8601": "2026-03-31T06:46:36.253724Z",
+    "url": "https://files.pythonhosted.org/packages/35/d0/4831af68ce30cc2d03c697bea8450e3225a835ef497d0d70f31b8cdde965/pandas-3.0.2-cp312-cp312-macosx_11_0_arm64.whl",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "mirror_url": "https://pypi.tuna.tsinghua.edu.cn/packages/35/d0/4831af68ce30cc2d03c697bea8450e3225a835ef497d0d70f31b8cdde965/pandas-3.0.2-cp312-cp312-macosx_11_0_arm64.whl",
+  "verified_sha256": "970762605cff1ca0d3f71ed4f3a769ea8f85fc8e6348f6e110b8fea7e6eb5a14"
+}

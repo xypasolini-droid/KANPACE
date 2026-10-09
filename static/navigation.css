@@ -1,0 +1,103 @@
+/* Uses the existing application and KANPACE brand tokens. */
+.simplified-shell>.sidebar{overflow-y:auto}.simplified-shell .sidebar>nav{display:grid;gap:4px}.simplified-shell .nav-link{font-size:14px;min-height:46px;margin-bottom:0}.simplified-shell .workspace-switch{margin:0 0 20px}.simplified-shell .sidebar-foot{padding-top:24px}.simplified-shell .sidebar-foot>.nav-link{margin-bottom:16px}.simplified-shell .user{border-top:1px solid var(--line);padding-top:16px}.agent-launch{display:flex;align-items:center;gap:10px;width:100%;min-height:44px;padding:10px 12px;margin:0 0 24px;border:1px solid #d4ddef;border-radius:6px;background:var(--surface);font-size:13px;color:var(--ink);text-align:left}.agent-launch:hover{border-color:var(--blue);background:var(--blue-soft)}.agent-launch>.icon{color:var(--blue)}.agent-launch kbd{margin-left:auto;font:11px var(--font);color:var(--muted);background:var(--paper);padding:2px 5px;border-radius:3px}.simplified-shell .breadcrumbs a{color:var(--muted)}.workspace-subnav{display:flex;gap:24px;border-bottom:1px solid var(--line);margin:0 0 24px;overflow-x:auto}.workspace-subnav a{padding:0 0 12px;border-bottom:2px solid transparent;color:var(--muted);font-size:13px;white-space:nowrap}.workspace-subnav a[aria-current=page]{border-color:var(--blue);color:var(--blue);font-weight:600}.settings-directory{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;max-width:1050px}.settings-directory section h2{font-size:13px;color:var(--muted);font-weight:500;margin-bottom:12px}.settings-directory-list{border:1px solid var(--line);border-radius:8px;background:var(--surface);overflow:hidden}.settings-directory-link{display:flex;align-items:center;gap:14px;padding:18px 20px;color:var(--ink);min-width:0}.settings-directory-link+ .settings-directory-link{border-top:1px solid var(--line)}.settings-directory-link:hover{background:#fafbfe}.settings-directory-link>span{flex:1;min-width:0}.settings-directory-link strong{font-size:14px;font-weight:500;display:block}.settings-directory-link small{display:block;color:var(--muted);font-size:12px;margin-top:3px;overflow-wrap:anywhere}.settings-directory-link>.icon{color:var(--muted)}.settings-directory-link>.icon:last-child{width:14px}.settings-resources{max-width:1050px;margin-top:28px}.settings-resources summary{cursor:pointer;color:var(--muted);font-size:13px;list-style:none;display:flex;gap:8px;align-items:center;padding:12px 0}.settings-resources summary::-webkit-details-marker{display:none}.settings-resources summary .icon{width:14px}.settings-resources[open] summary .icon{transform:rotate(180deg)}.settings-resources>div{display:flex;gap:20px;flex-wrap:wrap;padding:8px 0 16px}.settings-resources a,.settings-resources button{display:flex;gap:6px;align-items:center;font-size:12px;color:var(--muted);background:none;border:0;padding:6px 0}.settings-resources a .icon,.settings-resources button .icon{width:14px}.mobile-agent-button,.simplified-shell .nav-link.mobile-settings{display:none}.simplified-shell .topbar{height:64px}.simplified-shell .workspace-subnav~.page-head{margin-top:0}.simplified-shell .overview-shortcuts{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:24px}.overview-assistant{display:flex;align-items:center;gap:10px;width:100%;max-width:580px;padding:14px 16px;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:6px;text-align:left;font-size:13px}.overview-assistant>.icon:first-child{color:var(--blue)}.overview-assistant>.icon:last-child{margin-left:auto}.overview-assistant:hover{border-color:#bac9f2}.simplified-shell [hidden]{display:none!important}
+@media(max-width:1050px){.settings-directory{grid-template-columns:1fr;gap:24px}.simplified-shell .page-head{flex-wrap:wrap}.simplified-shell .topbar{padding-inline:24px}}
+@media(max-width:680px){.simplified-shell>.sidebar{overflow:visible;display:block;padding:18px 16px 12px}.simplified-shell .sidebar .kanpace-brand{padding:0 0 16px;min-height:0}.simplified-shell .workspace-switch{display:flex;position:static;inset:auto;width:100%;max-width:100%;margin:0 0 12px;padding:8px 10px;min-height:40px}.simplified-shell .sidebar>nav{display:flex;justify-content:space-between;gap:0;margin:0 -6px;overflow-x:auto}.simplified-shell .nav-link{min-height:42px;padding:9px 8px;gap:0;font-size:12px;flex:1;justify-content:center}.simplified-shell .nav-link>.icon{display:none}.simplified-shell .nav-link.mobile-settings{display:flex}.simplified-shell .sidebar-foot,.agent-launch{display:none}.simplified-shell .topbar{height:48px;padding:0 16px}.mobile-agent-button{display:flex;align-items:center;gap:6px;min-height:36px;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--blue);font-size:12px}.mobile-agent-button .icon{width:15px}.workspace-subnav{gap:20px;margin-bottom:20px}.workspace-subnav a{font-size:12px;min-height:38px;padding-top:4px}.settings-directory-link{padding:16px;gap:12px}.settings-resources>div{flex-direction:column;gap:4px}.settings-resources a,.settings-resources button{min-height:40px}.overview-assistant{font-size:12px;line-height:1.7;padding:12px}.simplified-shell .head-actions{padding-top:0}.simplified-shell .overview-shortcuts{margin-bottom:20px}.simplified-shell .workspace-switch select{min-width:0;flex:1}}
+@media(prefers-reduced-motion:reduce){.simplified-shell *, .simplified-shell *:before,.simplified-shell *:after{scroll-behavior:auto!important;transition:none!important}}
+/* Five work stages. Keep each direct link separate from its native disclosure. */
+.hierarchical-shell{grid-template-columns:236px minmax(0,1fr)}
+.hierarchical-shell>.sidebar{width:236px;overflow:hidden;gap:0;padding:24px 16px 16px}
+.hierarchical-shell .sidebar-head{flex:0 0 auto;min-width:0}
+.hierarchical-shell .sidebar .kanpace-brand{padding-bottom:20px}
+.hierarchical-shell .workspace-switch{margin-bottom:12px;font-size:14px;min-height:44px}
+.hierarchical-shell .nav-shortcuts{display:grid;margin-bottom:16px}
+.hierarchical-shell .agent-launch{display:flex;margin:0;width:100%;min-height:44px;font-size:15px;padding:10px 12px;gap:10px;border-radius:6px;color:var(--blue);border-color:var(--line);background:var(--blue-soft);font-weight:500}
+.hierarchical-shell .agent-launch:hover{border-color:var(--blue)}
+.hierarchical-shell .nav-menu-disclosure{min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;flex:1;scroll-padding-block:14px;margin-right:-12px;padding-right:10px}
+.hierarchical-shell .nav-menu-disclosure>summary{display:none}
+.hierarchical-shell .kanpace-menu-body{display:grid!important;gap:4px;margin:0!important;overflow:visible!important}
+.hierarchical-shell .nav-stage{position:relative;min-width:0}
+.hierarchical-shell .nav-today,.hierarchical-shell .nav-stage-main{display:flex;align-items:center;gap:10px;min-height:48px;padding:10px;color:var(--ink);font-size:16px;font-weight:500;line-height:1.5;border-radius:6px;overflow-wrap:anywhere}
+.hierarchical-shell .nav-stage-main{padding-right:44px}
+.hierarchical-shell .nav-today{margin-bottom:8px}
+.hierarchical-shell .nav-today>.icon,.hierarchical-shell .nav-stage-main>.icon{width:24px;height:20px;flex-shrink:0;color:var(--muted)}
+.hierarchical-shell .nav-step{display:inline-grid;place-items:center;width:24px;min-width:24px;height:24px;font:500 14px var(--mono);border:1px solid var(--line);border-radius:6px;color:var(--muted)}
+.hierarchical-shell .nav-today:hover,.hierarchical-shell .nav-stage-main:hover{background:var(--paper)}
+.hierarchical-shell .nav-today.active,.hierarchical-shell .is-current-group>.nav-stage-main{color:var(--blue);background:var(--blue-soft);font-weight:600}
+.hierarchical-shell .is-current-group .nav-step{color:var(--blue);border-color:var(--blue);background:var(--surface)}
+.hierarchical-shell .nav-group{min-width:0}
+.hierarchical-shell .nav-group>summary{position:absolute;top:2px;right:0;display:flex;align-items:center;justify-content:center;cursor:pointer;min-height:44px;width:40px;list-style:none;color:var(--muted);border-radius:6px}
+.hierarchical-shell summary::-webkit-details-marker{display:none}
+.hierarchical-shell .nav-group>summary:hover{color:var(--blue);background:var(--blue-soft)}
+.hierarchical-shell .nav-group>summary>.icon{width:16px;height:16px}
+.hierarchical-shell .nav-group[open]>summary>.icon,.hierarchical-shell .nav-group[open]>summary>.nav-plain-icon{transform:rotate(180deg)}
+.hierarchical-shell .nav-children{display:grid;gap:2px;padding:4px 0 8px 12px;margin-left:22px;border-left:1px solid var(--line)}
+.hierarchical-shell .nav-child{min-height:44px;display:flex;align-items:center;position:relative;padding:9px 10px;font-size:15px;line-height:1.5;color:#536071;border-radius:6px;white-space:normal;overflow-wrap:anywhere}
+.hierarchical-shell .nav-child:hover{color:var(--ink);background:var(--paper)}
+.hierarchical-shell .nav-child.active{color:var(--blue);background:var(--blue-soft);font-weight:600}
+.hierarchical-shell .nav-child.active:before{content:'';position:absolute;left:-14px;top:12px;bottom:12px;width:3px;border-radius:2px;background:var(--blue)}
+.hierarchical-shell .nav-secondary{display:block}
+.hierarchical-shell .nav-stage:not(.nav-secondary)+.nav-secondary{margin-top:12px;padding-top:12px;border-top:1px solid var(--line)}
+.hierarchical-shell .nav-stage:not(.nav-secondary)+.nav-secondary>.nav-group>summary{top:14px}
+.hierarchical-shell .nav-secondary>.nav-stage-main{font-size:15px;color:var(--muted)}
+.hierarchical-shell .nav-secondary.is-current-group>.nav-stage-main{color:var(--blue)}
+.hierarchical-shell .sidebar-foot{margin-top:0;flex:0 0 auto;padding-top:12px}
+.hierarchical-shell .user{padding-top:12px}
+.hierarchical-shell .user strong{font-size:13px}
+.hierarchical-shell .user small{font-size:12px}
+.hierarchical-shell .breadcrumbs{font-size:14px;line-height:1.5}
+.hierarchical-shell .breadcrumbs>.icon{width:14px}
+.hierarchical-shell summary:focus-visible,.hierarchical-shell .nav-child:focus-visible,.hierarchical-shell .nav-stage-main:focus-visible,.hierarchical-shell .nav-today:focus-visible,.hierarchical-shell .agent-launch:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.hierarchical-shell #badge-media-panel{scroll-margin-top:24px}
+.hierarchical-shell .nav-plain-icon{width:24px;display:inline-flex;justify-content:center;font-size:20px;line-height:1}
+.hierarchical-shell [data-kanpace-menu]{display:flex;flex:1;min-height:0}
+.hierarchical-shell [data-kanpace-menu]>.nav-menu-disclosure{width:100%}
+@media(max-width:1050px){.hierarchical-shell{grid-template-columns:220px minmax(0,1fr)}.hierarchical-shell>.sidebar{width:220px;padding-inline:12px}}
+@media(max-width:680px){
+  .hierarchical-shell{display:block}
+  .hierarchical-shell>.sidebar{width:auto;display:block;position:static;overflow:visible;padding:16px 16px 12px}
+  .hierarchical-shell .sidebar .kanpace-brand{padding-bottom:14px}
+  .hierarchical-shell .workspace-switch{margin-bottom:12px;font-size:14px;min-height:44px;padding:8px 10px}
+  .hierarchical-shell .nav-shortcuts{margin-bottom:12px}
+  .hierarchical-shell .agent-launch{font-size:15px;min-height:44px;justify-content:center}
+  .hierarchical-shell .nav-menu-disclosure{margin:0;padding:0;border:1px solid var(--line);border-radius:6px;overflow:visible;scrollbar-gutter:auto}
+  .hierarchical-shell .nav-menu-disclosure>summary{display:flex;align-items:center;gap:8px;list-style:none;min-height:48px;padding:10px 12px;font-size:15px;cursor:pointer;color:var(--ink);background:var(--surface);border-radius:6px}
+  .hierarchical-shell .nav-menu-disclosure>summary>.icon{width:18px;height:18px}
+  .hierarchical-shell .nav-menu-disclosure>summary>strong{font-size:15px;font-weight:600;white-space:nowrap}
+  .hierarchical-shell .nav-current-label{font-size:13px;color:var(--muted);overflow:hidden;white-space:nowrap;text-overflow:ellipsis;margin-left:auto}
+  .hierarchical-shell .nav-mobile-state{font-size:12px;color:var(--muted);white-space:nowrap}
+  .hierarchical-shell .nav-menu-disclosure:not([open])>summary .when-open,.hierarchical-shell .nav-menu-disclosure[open]>summary .when-closed{display:none}
+  .hierarchical-shell .nav-menu-disclosure[open]>summary>.icon:last-child{transform:rotate(180deg)}
+  .hierarchical-shell .kanpace-menu-body{padding:8px!important;max-height:min(65dvh,640px);overflow-y:auto!important;overscroll-behavior:contain}
+  .hierarchical-shell .nav-child{font-size:15px;min-height:44px;padding:10px;justify-content:flex-start;flex:initial}
+  .hierarchical-shell .sidebar-foot{display:none}
+  .hierarchical-shell .topbar{height:auto;min-height:52px;padding:8px 16px;gap:12px}
+  .hierarchical-shell .breadcrumbs{font-size:13px;gap:6px;flex-wrap:wrap}
+  .hierarchical-shell .topbar .mobile-agent-button{display:none}
+  .hierarchical-shell .topbar .icon-button{display:flex;min-width:36px;min-height:36px}
+  .hierarchical-shell .settings-directory-link strong{font-size:15px}
+  .hierarchical-shell .settings-directory-link small{font-size:13px}
+  .hierarchical-shell .nav-menu-disclosure:not([open])>.kanpace-menu-body{display:none!important}
+}
+.hierarchical-shell .ops-tabs{flex-wrap:wrap;gap:8px 16px}.hierarchical-shell .ops-tabs button{font-size:14px;min-height:44px}.hierarchical-shell .ops-filter{font-size:14px}.hierarchical-shell .ops-filter select{font-size:14px;min-height:40px}.hierarchical-shell .ops-page>.page-head p{font-size:14px}.hierarchical-shell .ops-page .btn{font-size:14px;min-height:40px}
+
+.hierarchical-shell .sidebar .kanpace-brand{width:100%;min-width:240px;max-width:100%}.hierarchical-shell .sidebar .kanpace-wordmark{width:240px;max-width:240px;min-width:240px;height:auto}
+@media(min-width:681px){.hierarchical-shell{grid-template-columns:280px minmax(0,1fr)}.hierarchical-shell>.sidebar{width:280px;padding-inline:20px}}
+
+/* Six clear work entries stay ahead of the detailed daily view on the home page. */
+.hierarchical-shell .nav-stage-main{font-size:17px;min-height:52px}
+.kanpace-workflow-entry{max-width:1200px;margin:0 0 32px;padding:24px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.kanpace-workflow-heading{margin-bottom:18px}
+.kanpace-workflow-heading p{margin:0 0 4px;color:var(--muted);font-size:14px;line-height:1.5}
+.kanpace-workflow-heading h2{margin:0;color:var(--ink);font-size:24px;line-height:1.35}
+.kanpace-workflow-entry ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;list-style:none;margin:0;padding:0}
+.kanpace-workflow-entry li{min-width:0}
+.kanpace-workflow-entry a{display:flex;align-items:center;gap:14px;min-height:90px;padding:16px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);text-decoration:none}
+.kanpace-workflow-entry a:hover{border-color:var(--blue);background:var(--blue-soft)}
+.kanpace-workflow-entry a:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.kanpace-workflow-number{display:grid;place-items:center;flex:0 0 36px;width:36px;height:36px;border-radius:7px;background:var(--blue-soft);color:var(--blue);font-size:20px;font-weight:700;line-height:1}
+.kanpace-workflow-copy{display:grid;gap:3px;min-width:0;flex:1}
+.kanpace-workflow-copy strong{font-size:18px;font-weight:650;line-height:1.35}
+.kanpace-workflow-copy small{color:var(--muted);font-size:14px;line-height:1.5;overflow-wrap:anywhere}
+.kanpace-workflow-entry a>.icon,.kanpace-workflow-entry a>.nav-plain-icon{width:18px;flex:0 0 18px;color:var(--muted)}
+@media(max-width:1100px){.kanpace-workflow-entry ol{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.kanpace-workflow-entry{margin:0 0 24px;padding:18px 16px}.kanpace-workflow-heading h2{font-size:22px}.kanpace-workflow-entry ol{grid-template-columns:minmax(0,1fr)}.kanpace-workflow-entry a{min-height:76px;padding:12px 14px}.hierarchical-shell .nav-stage-main{font-size:17px}}

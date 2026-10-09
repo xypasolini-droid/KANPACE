@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>图纸分工 · 空白模板 — KANPACE</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="view.js" defer></script>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/brand/brand.css">
+</head>
+<body>
+  <a class="skip" href="#packages">跳至分工清单</a>
+  <header class="topbar">
+    <a class="brand kanpace-brand" href="/#page=drawing" aria-label="返回 KANPACE 图纸拆单"><img src="/brand/KANPACE-Handoff-Black.svg" class="kanpace-wordmark" alt="KANPACE" width="240" height="29"></a>
+    <a class="back-link" href="/#page=drawing">← 返回图纸拆单</a>
+  </header>
+  <main>
+    <div class="page-heading">
+      <div>
+        <div class="eyebrow">项目学习 / 图纸分工</div>
+        <div class="title-line"><h1 id="study-title">图纸分工 · 空白模板</h1><span class="status">待技术复核</span></div>
+        <p class="page-description" id="summary">根据施工图与部件拆解图整理分工，未产生生产派工。</p>
+      </div>
+      <div class="page-actions">
+        <button class="button" id="download-button" type="button" disabled>下载分工数据</button>
+        <button class="button primary" id="print-button" type="button" disabled>打印当前清单</button>
+      </div>
+    </div>
+    <div id="counts" class="counts" aria-label="项目资料统计"></div>
+    <div class="review-tools">
+    <section id="issues-section" class="review-summary" hidden>
+      <details id="issues-details"><summary><span><span class="review-mark" aria-hidden="true">!</span>技术复核 <span id="issue-count"></span></span><span class="detail-label">查看问题</span></summary><div id="issues" class="issues"></div></details>
+    </section>
+    <section id="flow-section" class="flow-section" hidden>
+      <details><summary>查看分工衔接<span class="detail-label">前序与并行关系</span></summary><div id="flow" class="flow"></div></details>
+    </section>
+    </div>
+    <section class="work-section" aria-label="图文分工清单">
+      <div class="filter-panel" id="filters" hidden>
+        <div id="cabinet-filters" class="cabinet-filters" role="group" aria-label="选择柜型"></div>
+        <div class="filter-row">
+          <label class="trade-filter">工种 <select id="trade-filter" aria-label="选择工种"><option value="">全部工种</option></select></label>
+          <p id="result-count" role="status" aria-live="polite"></p>
+          <button id="clear-filter" class="text-button" type="button" hidden>清除筛选</button>
+        </div>
+      </div>
+      <p id="print-filter" class="print-only"></p>
+      <div id="loading" class="empty-state" role="status">正在加载图纸与分工清单…</div>
+      <div id="error" class="empty-state" role="alert" hidden><strong>图纸资料暂时无法加载</strong><p id="error-message">请检查本地服务后重试。</p><button class="button" id="retry-button" type="button">重新加载</button></div>
+      <div id="packages" tabindex="-1"></div>
+      <div id="empty" class="empty-state" hidden><strong>该组合暂无分工样例</strong><p>试试其他柜型或工种。</p><button id="empty-reset" class="button" type="button">显示全部</button></div>
+    </section>
+    <footer class="page-footer">KANPACE · 图纸分工样例</footer>
+  </main>
+  <dialog id="image-viewer" aria-labelledby="viewer-title">
+    <div class="viewer-heading"><div><h2 id="viewer-title">图纸预览</h2><p id="viewer-source"></p></div><button id="close-viewer" class="button" type="button" aria-label="关闭图纸预览">关闭 <span aria-hidden="true">×</span></button></div>
+    <div class="viewer-tools"><div class="paging"><button class="button" type="button" id="viewer-prev" aria-label="上一张图纸">←</button><span id="viewer-position"></span><button class="button" type="button" id="viewer-next" aria-label="下一张图纸">→</button></div><div class="zoom-tools"><button class="button" id="zoom-out" type="button" aria-label="缩小图纸">−</button><button class="button" id="zoom-reset" type="button">适合窗口</button><button class="button" id="zoom-in" type="button" aria-label="放大图纸">＋</button></div><a class="button" id="viewer-original" target="_blank" rel="noopener" hidden>打开原 PDF ↗</a></div>
+    <div class="viewer-canvas" id="viewer-canvas"><img id="viewer-image" alt=""><p class="image-missing" id="viewer-missing" hidden>图纸图片暂未就绪</p></div>
+  </dialog>
+  <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

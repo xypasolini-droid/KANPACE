@@ -1,0 +1,430 @@
+﻿项目,功能分组,建议,覆盖能力,许可证,许可分组,接入方式,能力边界,维护证据,仓库,许可原文,官方来源
+PDF.js,图纸与3D,优先验证,PDF浏览；页码与坐标定位；文本层；批注展示,Apache-2.0,宽松开源,在现有附件查看器嵌入本地托管的 pdfjs-dist 与 worker；保存 file_hash、page、bbox、draw_revision，将提取字段回链到原始页区。Poppler 可继续承担后端渲染/提取，PDF.js 负责交互。,不是 OCR，也不是 CAD 语义解析器；PDF 画线与文字不会自动变成可制造实体。；纸面坐标与真实尺寸之间需要图纸标注/已确认比例；不可从显示像素推断加工尺寸。；mozilla/pdfjs-dist 旧 GitHub 仓库归档不等于 pdf.js 主项目停更；npm pdfjs-dist 构建产物应从主项目当前发布链核验。,发布 v6.3.289 · 2026-08-29,https://github.com/mozilla/pdf.js,https://github.com/mozilla/pdf.js/blob/master/LICENSE,"https://github.com/mozilla/pdf.js
+https://github.com/mozilla/pdf.js/blob/master/LICENSE
+https://mozilla.github.io/pdf.js/examples/
+https://mozilla.github.io/pdf.js/getting_started/
+https://github.com/mozilla/pdfjs-dist
+https://github.com/mozilla/pdf.js/commit/4c6025719e324761f9ee32e52b052565887c283a
+https://github.com/mozilla/pdf.js/releases/tag/v6.3.289"
+ezdxf,图纸与3D,优先验证,DXF读取/写入；图层/块/文字/标注；二维轮廓；施工图BOM字段辅助,MIT,宽松开源,在现有 Python 上传解析任务中输出标准化 entities、layers、blocks、dimensions 与单位；先双跑旧解析器比对，再逐步切换。BOM 草稿每项关联 entity handle、文件版本，缺失/歧义标注待确认。,不直接读取 DWG；官方 odafc 附加模块调用的 ODA File Converter 不是 ezdxf 自身的开源能力。；无法自动理解企业图层命名、零件编号、材料规则或恢复参数化设计意图。；绘图/渲染附加功能不保证与 AutoCAD 完全同像；曲线离散、块变换、单位与字体都要回归实际图纸。,默认分支提交 · 2026-08-26,https://github.com/mozman/ezdxf,https://github.com/mozman/ezdxf/blob/master/LICENSE,"https://github.com/mozman/ezdxf
+https://github.com/mozman/ezdxf/blob/master/LICENSE
+https://ezdxf.readthedocs.io/en/stable/introduction.html
+https://ezdxf.readthedocs.io/en/stable/addons/drawing.html
+https://ezdxf.readthedocs.io/en/stable/addons/odafc.html
+https://github.com/mozman/ezdxf/commit/d6f2ac10caeddc712ed1824aaeb3b9c050de4a04"
+GNU LibreDWG,图纸与3D,谨慎评估,DWG读取；DWG转DXF/JSON；DWG图层/文字检索,GPL-3.0-or-later,含互惠开源许可,Python 任务队列调用受限本地转换进程，保留原 DWG、转换日志和跳过实体清单；结果只进入待复核图纸/BOM，不静默覆盖工程尺寸。闭源商用安装包的分发方案单独定版。,GNU 官网将其标为 beta，说明部分高级 R2010+ 实体可能跳过；DWG 高保真并非无条件覆盖。；应按选定版本核验写入年代和实体覆盖，不能将 reader 覆盖等同 writer 覆盖。；GPL 分发义务需要结合真实组合方式落实；改成子进程并不自动免除所有分发责任。,发布 0.14 · 2026-06-27,https://github.com/LibreDWG/libredwg,https://github.com/LibreDWG/libredwg/blob/master/COPYING,"https://github.com/LibreDWG/libredwg
+https://github.com/LibreDWG/libredwg/blob/master/COPYING
+https://www.gnu.org/software/libredwg/
+https://www.gnu.org/software/libredwg/manual/LibreDWG.html
+https://www.gnu.org/software/libredwg/manual/html_node/Programs.html
+https://github.com/LibreDWG/libredwg/releases/tag/0.14"
+Open CASCADE Technology (OCCT),图纸与3D,沿用完善,精确B-rep；STEP/IGES；装配结构与属性；几何检查/测量；网格化,LGPL-2.1 with OCCT LGPL exception 1.0；另有商业许可选项,混合或附条件,保留现有 OCCT WASM 预览；精确尺寸/体积/拓扑验证可由 C++ 或经 CadQuery/OCP 的本地进程读取源 STEP。规范单位和 tessellation 容差，将源零件实例 ID 与 BOM 行关联。,OCCT 是开发内核，需自建 BOM 映射、材料/工艺/版本流程和用户界面。；标准开源交换模块不等于原生 SLDPRT/SLDASM 参数树、配合、配置解析。；STEP 几何/装配也不保证携带完整原生特征历史；三角网格测量精度不可混同 B-rep。,发布 V8.0.1 · 2026-07-30,https://github.com/Open-Cascade-SAS/OCCT,https://github.com/Open-Cascade-SAS/OCCT/blob/master/LICENSE_LGPL_21.txt,"https://github.com/Open-Cascade-SAS/OCCT
+https://github.com/Open-Cascade-SAS/OCCT/blob/master/LICENSE_LGPL_21.txt
+https://github.com/Open-Cascade-SAS/OCCT/blob/master/OCCT_LGPL_EXCEPTION.txt
+https://dev.opencascade.org/doc/overview/html/index.html
+https://github.com/Open-Cascade-SAS/OCCT/commit/3d097a0328e71b826377d4814ab05ec3c3d23871
+https://github.com/Open-Cascade-SAS/OCCT/releases/tag/V8.0.1"
+FreeCAD（含 Assembly / TechDraw / CAM）,图纸与3D,优先验证,参数化CAD；装配BOM；施工图生成；STEP处理；CAM刀路,当前主仓根 LICENSE 为 LGPL-2.1；部分官方贡献/旧文档仍写 LGPL2+,含互惠开源许可,使用固定 FreeCAD 版本的工作站/sidecar，读 STEP/FCStd、输出经过确认的 BOM CSV/JSON、工程图与 GLB/网格。KANPACE 只接收带源文件哈希、装配路径、人工确认记录的产物；CAM 先产出供工程师审查的 job 与 G-code 文件。,不能假定原生 SolidWorks 参数树完整导入；中性格式常只有几何与部分属性。；BOM 依赖源装配实例和已填写属性，采购件、虚拟件、工序耗材及真实制造拆分仍需业务规则。；CAM 适配机床、刀具、装夹与后处理；不能把候选刀路自动发给机床。部分脚本需要 GUI，headless 能力须按任务实测。,发布 1.1.3 · 2026-07-25,https://github.com/FreeCAD/FreeCAD,https://github.com/FreeCAD/FreeCAD/blob/main/LICENSE,"https://github.com/FreeCAD/FreeCAD
+https://github.com/FreeCAD/FreeCAD/blob/main/LICENSE
+https://freecad.github.io/Website/download/releases/1-1/
+https://github.com/FreeCAD/FreeCAD/blob/main/CONTRIBUTING.md
+https://github.com/FreeCAD/FreeCAD-documentation/blob/main/wiki/CAM_Workbench.md
+https://github.com/FreeCAD/FreeCAD/commit/a48d5e2a1549cbd88c6b70e46e96ca0dc275eae0
+https://github.com/FreeCAD/FreeCAD/releases/tag/1.1.3"
+CadQuery,图纸与3D,按需引入,代码参数化建模；已知尺寸生成零件；STEP/DXF导入；STEP/GLTF等导出,Apache-2.0,宽松开源,独立 Python worker 接收经过 schema 校验的模板 ID 和数值参数，输出 STEP 与显示网格；禁止把用户上传 Python 当模板执行。SQLite 保存模板版本、输入来源和人工确认后尺寸。,读入 STEP 不会恢复设计者原始参数历史；导入格式/装配行为以当前 API 为准。；输入效果图或文字不会自动产生可信加工尺寸；模板参数必须来自图纸、BOM 或工程确认。；不是通用 SolidWorks、DWG 解析器，也不自带完整 MES/BOM 审批或通用 CAM。,发布 v2.8.0 · 2026-06-20,https://github.com/CadQuery/cadquery,https://github.com/CadQuery/cadquery/blob/master/LICENSE,"https://github.com/CadQuery/cadquery
+https://github.com/CadQuery/cadquery/blob/master/LICENSE
+https://cadquery.readthedocs.io/en/latest/importexport.html
+https://github.com/CadQuery/OCP/blob/master/LICENSE
+https://github.com/CadQuery/cadquery/commit/a6bedc0d7ceac1829290037259465e918fc00e80
+https://github.com/CadQuery/cadquery/releases/tag/v2.8.0"
+occt-import-js,图纸与3D,沿用完善,STEP/IGES/BREP浏览器导入；真模型网格；层级/颜色/面映射,LGPL-2.1（封装本体）,含互惠开源许可,沿用现有 importer，将 worker 的 success/error、linearUnit、deflection 与源哈希写入解析记录；用返回 root.children 绑定零件选择和 BOM 定位。精确尺寸从源 B-rep/图纸取得，网格尺寸注明显示近似。,仅暴露三类导入函数与网格结果，不能当完整 OCCT 编辑/精确测量 API。；不直接支持原生 SLDASM/SLDPRT，层级节点不等于完整制造 BOM。；本次观察 release/默认分支提交停留 2024-12-03；需评估维护与底层 OCCT 更新策略，大文件受浏览器内存约束。,发布 0.0.23 · 2024-12-03,https://github.com/kovacsv/occt-import-js,https://github.com/kovacsv/occt-import-js/blob/main/LICENSE.md,"https://github.com/kovacsv/occt-import-js
+https://github.com/kovacsv/occt-import-js/blob/main/LICENSE.md
+https://github.com/kovacsv/occt-import-js/blob/main/README.md
+https://github.com/kovacsv/occt-import-js/commit/41e470890ae0f9dc69ac50ffd5fc73e03576f4eb
+https://github.com/kovacsv/occt-import-js/releases/tag/0.0.23"
+Three.js,图纸与3D,沿用完善,真模型旋转/缩放；网格渲染；零件拾取；剖切/高亮交互,MIT,宽松开源,保留现有 Three.js；建立 source_part_id/assembly_path 到 mesh 的稳定映射，补拾取、聚焦、剖切及文件级单位提示。所有显示动作使用同一真实模型，禁止用效果图伪造三维几何。,Three.js 是渲染库，不是工程 CAD 内核、BOM 解释器或 CAM。；STL/GLB 三角网格不天然具备材料、厚度、设计特征及加工公差；不可仅从表面外观推断它们。；大型装配需要实例化、网格简化/分块与性能预算，不能只看简单示例流畅度。,发布 r185 · 2026-07-01,https://github.com/mrdoob/three.js,https://github.com/mrdoob/three.js/blob/dev/LICENSE,"https://github.com/mrdoob/three.js
+https://github.com/mrdoob/three.js/blob/dev/LICENSE
+https://threejs.org/docs/
+https://threejs.org/license/
+https://github.com/mrdoob/three.js/commit/9941685098b927759ceb06931c24eebbdc9ceb70
+https://github.com/mrdoob/three.js/releases/tag/r185"
+IfcOpenShell（核心 / Python / IfcConvert）,图纸与3D,按需引入,IFC读取；BIM语义与属性；数量/清单；几何转换,LGPL-3.0-or-later（核心 / Python）；同仓部分组件 GPL-3.0-or-later,含互惠开源许可,本地 Python worker 读取 IFC，输出 GUID、类型、层级、属性/数量与显示网格；先映射到工程构件清单，再人工/规则生成制造 BOM。IFC 源值和 KANPACE 人工修订分开保存。,IFC 构件与制造拆件不一一对应；材料/数量字段仍取决于设计方填报质量。；完整 schema 解析支持与各 IFC 版本的几何支持范围不同，不能把 parse 成功等同所有几何完整。；同仓 Bonsai alpha release 不是 Python 核心稳定 release；原生 SolidWorks 参数树不在其职责。,同仓 Bonsai alpha 发布（非核心稳定版） · 2026-09-04,https://github.com/IfcOpenShell/IfcOpenShell,https://github.com/IfcOpenShell/IfcOpenShell/blob/v0.9.0/COPYING.LESSER,"https://github.com/IfcOpenShell/IfcOpenShell
+https://github.com/IfcOpenShell/IfcOpenShell/blob/v0.9.0/COPYING.LESSER
+https://docs.ifcopenshell.org/ifcopenshell-python.html
+https://docs.ifcopenshell.org/ifcopenshell-python/installation.html
+https://docs.ifcopenshell.org/ifccsv.html
+https://github.com/IfcOpenShell/IfcOpenShell/commit/dc69c19aa7b05de75524acfa1e73e081239c74e6
+https://github.com/IfcOpenShell/IfcOpenShell/releases/tag/bonsai-0.9.0-alpha2609040826"
+web-ifc,图纸与3D,按需引入,浏览器IFC读取/写入；IFC几何；IFC属性查询,MPL-2.0,含互惠开源许可,作为按需加载的 IFC Web Worker，JS/WASM 本地托管并锁同版；只把显示和拾取放前端，需审计的数量/BOM 仍由后端 IfcOpenShell 生成。,不是完整 BIM 编辑器；将几何与语义送入 KANPACE 仍需业务映射。；多线程 WASM 需要对应 worker 和浏览器隔离配置；JS/WASM 必须配套同版本。；大 IFC 的内存、实体几何支持与坐标变换需要真实文件验证。,发布 0.77 · 2026-03-06,https://github.com/ThatOpen/engine_web-ifc,https://github.com/ThatOpen/engine_web-ifc/blob/main/LICENSE.md,"https://github.com/ThatOpen/engine_web-ifc
+https://github.com/ThatOpen/engine_web-ifc/blob/main/LICENSE.md
+https://thatopen.github.io/engine_web-ifc/docs/
+https://github.com/ThatOpen/engine_web-ifc/blob/main/README.md
+https://github.com/ThatOpen/engine_web-ifc/commit/d918114e09ecedd26cc5333acbf636521f21669e
+https://github.com/ThatOpen/engine_web-ifc/releases/tag/0.77"
+PaddleOCR（建议先锁 PP-OCRv5 det/rec）,图纸与3D,优先验证,扫描图OCR；中文/英文标注；坐标与置信度；BOM表格辅助,Apache-2.0（代码）,宽松开源,Poppler 生成定 DPI 图块，按图框/表格/标注区分块 OCR；保存原始字符串、bbox、rec_score、模型 revision。与原生 PDF/DXF 文本先比对，结果仅进入 BOM/尺寸复核界面。,尺寸符号、上下偏差、孔径/数量、引线归属和图框多尺度是工程图专项难点；普通 OCR benchmark 不证明工程正确率。；OCR 值不可直接进入下料/CAM；应保留页区与低置信度/冲突状态，交工程人员确认。；模型家族和依赖更新快；本条不把仓库全部可选 VLM/第三方权重笼统判为同一许可。,默认分支提交 · 2026-07-22,https://github.com/PaddlePaddle/PaddleOCR,https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE,"https://github.com/PaddlePaddle/PaddleOCR
+https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE
+https://www.paddleocr.ai/main/en/version3.x/installation.html
+https://huggingface.co/PaddlePaddle/PP-OCRv5_server_det
+https://huggingface.co/PaddlePaddle/PP-OCRv5_server_rec
+https://github.com/PaddlePaddle/PaddleOCR/commit/2661c7c0ef5c613e8f93c6e93b2e052399f0f854"
+Docling,图纸与3D,优先验证,文档版面；BOM表格结构化；PDF图文抽取；离线文档管线,MIT（代码）,宽松开源,作为独立文档 worker 解析 BOM 表和技术说明；统一输出 part_number、quantity、material、dimensions_raw 与 page/bbox/模型来源。所有规范化字段保留原值，解析成功不自动审批入库。,表格单元格识别不等于零件实体识别，需自行定义 BOM schema、合并单元格规则与行校验。；版面模型/通用 VLM 不能从效果图可靠恢复准确工程几何；不得隐式补尺寸。；可选 OCR/VLM 引擎与远程服务来源不同，离线默认需要显式配置模型路径与关闭非本地管线。,默认分支提交 · 2026-09-04,https://github.com/docling-project/docling,https://github.com/docling-project/docling/blob/main/LICENSE,"https://github.com/docling-project/docling
+https://github.com/docling-project/docling/blob/main/LICENSE
+https://github.com/docling-project/docling/blob/main/docs/faq/index.md
+https://github.com/docling-project/docling/blob/main/docs/usage/model_catalog.md
+https://huggingface.co/docling-project/docling-models
+https://huggingface.co/docling-project/docling-layout-heron
+https://huggingface.co/ibm-granite/granite-docling-258M
+https://github.com/docling-project/docling/commit/025b27ca2c2f040b5b9628dccffd2611246990ca"
+FreeCAD SheetMetal Workbench,图纸与3D,按需引入,钣金建模；折弯展开；展开轮廓DXF；K因子/材料表,LGPL-2.1-or-later,含互惠开源许可,在固定 FreeCAD 工程工作站启用 Engineering UX Mode；KANPACE 向任务传已确认材料/板厚/折弯参数，接收展开 DXF、计算依据和审查结果，再进入排料。,需要可展开的几何及真实厚度、折弯半径、K 因子/折弯表；外观无法确定这些参数。；复杂/不满足钣金假设的实体可能无法可靠展开，不能把任意 STEP/曲面都当钣金。；展开几何不是最终工艺批准：工装、回弹、加工余量和折弯次序仍需企业工艺规则。,默认分支提交 · 2026-08-22,https://github.com/shaise/FreeCAD_SheetMetal,https://github.com/shaise/FreeCAD_SheetMetal/blob/master/LICENSE,"https://github.com/shaise/FreeCAD_SheetMetal
+https://github.com/shaise/FreeCAD_SheetMetal/blob/master/LICENSE
+https://github.com/shaise/FreeCAD_SheetMetal/blob/master/package.xml
+https://github.com/shaise/FreeCAD_SheetMetal#engineering-mode
+https://freecad.github.io/Addon-Reports/
+https://github.com/shaise/FreeCAD_SheetMetal/commit/fd2ab6d07b9110960ff07963584e5a074ec2a6cd"
+PackingSolver,图纸与3D,优先验证,一维型材下料；矩形板材排料；齐头切；异形排料；利用率优化,MIT,宽松开源,Python 将已审批 BOM 按材料/板厚/纹理分组，生成 CSV 或异形 JSON，设置转角、切缝和工艺余量；限时运行，解析 certificate 回显布局与利用率。输出仍为排料方案，再由已验证 CAM/后处理接续。,是优化引擎，不读取完整施工图/BOM、不自动确定材料/尺寸，也不生成完整机床 G-code。；时间受限搜索结果未必全局最优；必须检查所有零件是否被放入、边界/间距、材料方向和遗漏。；C++ 构建涉及多个依赖与可选求解器；不能将选择 KNITRO 等专有后端的组合称为全开源。,默认分支提交 · 2026-09-06,https://github.com/fontanf/packingsolver,https://github.com/fontanf/packingsolver/blob/master/LICENSE,"https://github.com/fontanf/packingsolver
+https://github.com/fontanf/packingsolver/blob/master/LICENSE
+https://github.com/fontanf/packingsolver#rectangleguillotine-solver
+https://github.com/fontanf/packingsolver#irregular-solver
+https://github.com/fontanf/packingsolver/blob/master/extern/CMakeLists.txt
+https://github.com/ERGO-Code/HiGHS/blob/master/LICENSE.txt
+https://github.com/fontanf/packingsolver/commit/c4983a29068346436f4a3bde8c3bf0f98bdd11cb
+https://github.com/fontanf/packingsolver/blob/master/CMakeLists.txt"
+libnest2d,图纸与3D,备选,二维嵌套算法；矩形/凸多边形布局,LGPL-3.0,含互惠开源许可,若仅做凸形/矩形快速布局，可独立 C++ worker PoC；Python 用子进程或自建绑定。复杂凹形/套孔优先评测 PackingSolver，避免在未满足算法边界时强行接入。,官方 README 明说功能和文档不完整，目前擅长矩形/凸闭多边形，不考虑孔洞与凹形。；上游默认分支可见最新提交 2022-11-16，未归档不代表维护充分。；没有完整工艺/库存/余料/刀路管理；新平台编译和几何异常需自行承担。,默认分支提交 · 2022-11-16,https://github.com/tamasmeszaros/libnest2d,https://github.com/tamasmeszaros/libnest2d/blob/master/LICENSE.txt,"https://github.com/tamasmeszaros/libnest2d
+https://github.com/tamasmeszaros/libnest2d/blob/master/LICENSE.txt
+https://github.com/tamasmeszaros/libnest2d/blob/master/README.md
+https://github.com/tamasmeszaros/libnest2d/commit/663daa69e1d7478669f714218e27681edbc96640"
+Deepnest（deepnest-next 社区维护分支）,图纸与3D,谨慎评估,二维异形排料；共线合并；SVG/DXF转换工作流,混合：根 MIT；main/deepnest.js GPLv3；其他 MIT/Boost 等,含互惠开源许可,先当工程师外部桌面工具，用已校核 SVG/轮廓文件交换，回收排版结果；本地保密场景先验证并消除在线格式转换依赖。若改造成 Web 服务，按实际 GPL 组件及分发结构评估，不能只改包名。,README 把无需在线转换的原生 DXF、部分新核心等列为 Upcoming，不能当作已交付功能。；官方 LICENSES.md 列 main/deepnest.js 为 GPLv3，根 MIT 不能概括整套。；原版 Jack000/Deepnest 长期低活跃；社区新项目 deepnest-next/deepnest-next 又是独立代码线（组织页标 AGPL），不要混用版本/许可。,默认分支提交 · 2026-07-28,https://github.com/deepnest-next/deepnest,https://github.com/deepnest-next/deepnest/blob/main/LICENSE,"https://github.com/deepnest-next/deepnest
+https://github.com/deepnest-next/deepnest/blob/main/LICENSE
+https://github.com/deepnest-next/deepnest/blob/main/LICENSES.md
+https://github.com/deepnest-next/deepnest/blob/main/BUILD.md
+https://github.com/deepnest-next
+https://github.com/Jack000/Deepnest/blob/master/main/deepnest.js
+https://github.com/deepnest-next/deepnest/commit/4d8b57f85ffc1831069549e3555eb7d97c408967"
+PyCAM,图纸与3D,备选,三轴CAM；2D/3D转刀路；G-code；脚本化加工任务,GPL-3.0-or-later,含互惠开源许可,仅在独立 Linux PoC 中读已验证模型和工艺参数并输出文件，比较 FreeCAD CAM 的刀路质量/速度；禁止直接连接机床。若没有特定收益则不引入第二套 CAM 运行时。,默认分支最新可见提交 2021-11-25；安装说明 Windows 为 TODO、macOS 仍有 Python2 待迁移文字。；不适合作为未经验证的跨平台生产基础；没有理由承诺五轴、所有机床后处理或完整防碰撞。；生成刀路前仍需材料、刀具、原点、装夹、进给和机床参数，不能由视觉效果自行推断。,默认分支提交 · 2021-11-25,https://github.com/SebKuzminsky/pycam,https://github.com/SebKuzminsky/pycam/blob/master/LICENSE.TXT,"https://github.com/SebKuzminsky/pycam
+https://github.com/SebKuzminsky/pycam/blob/master/LICENSE.TXT
+https://github.com/SebKuzminsky/pycam/blob/master/README.md
+https://github.com/SebKuzminsky/pycam/blob/master/INSTALL.md
+https://github.com/SebKuzminsky/pycam/commit/55e3129f518e470040e79bb00515b4bfcf36c172"
+Google OR-Tools,制造与排产,优先验证,有限产能排程；串并行工序；人员班次；重排优化,Apache-2.0；仓库整体许可证及需保留的版权/NOTICE按分发依赖核对。,宽松开源,第一优先：作为可替换的 Python 排程库/独立进程。输入版本化计划快照，输出建议排程及求解状态，由 KANPACE 校验后发布。,求解器不会自动生成正确业务模型，示例的不可中断任务不能直接等同于 KANPACE 暂停/恢复。；新增 Python 原生扩展依赖；必须设置求解时限，并处理 FEASIBLE/INFEASIBLE/UNKNOWN，不能承诺总能获得最优解。；保持现有启发式为可用回退；缺料、质量和图纸版本门槛仍由 KANPACE 执行。,发布 v9.15 · 2026-01-12,https://github.com/google/or-tools,https://github.com/google/or-tools/blob/stable/LICENSE,"https://developers.google.com/optimization/scheduling/job_shop
+https://developers.google.com/optimization/scheduling/employee_scheduling
+https://github.com/google/or-tools
+https://github.com/google/or-tools/blob/stable/LICENSE
+https://github.com/google/or-tools/releases/tag/v9.15"
+Timefold Solver Community,制造与排产,按需引入,约束规划；人员技能与班次；动态重排；任务分配,Community Apache-2.0；Enterprise 与 Plus 为专有商业版本。,混合或附条件,P2 排程备选：当规则持续变化且团队愿意维护 Java/Kotlin 时，作为外挂求解服务；首轮先用 OR-Tools 对照。,官方已停止 Python Solver beta 的主动开发与修复；新项目不要依赖该 Python 版本。；Enterprise/Plus 与开源 Community 不同；当前企业文档将多线程求解、nearby selection、score analysis 等列为商业特性。；需新增 JVM 服务与模型，不适合作为当前标准库 Python 的无缝替换。,发布 v2.6.0 · 2026-09-01,https://github.com/TimefoldAI/timefold-solver,https://github.com/TimefoldAI/timefold-solver/blob/main/LICENSE.txt,"https://github.com/TimefoldAI/timefold-solver
+https://docs.timefold.ai/timefold-solver/latest/responding-to-change/real-time-planning
+https://github.com/TimefoldAI/timefold-solver/discussions/1698
+https://docs.timefold.ai/timefold-solver/latest/enterprise-edition/enterprise-edition
+https://timefold.ai/terms
+https://github.com/TimefoldAI/timefold-solver/blob/main/LICENSE.txt
+https://github.com/TimefoldAI/timefold-solver/releases/tag/v2.6.0"
+frePPLe Community,制造与排产,按需引入,APS；有限物料与有限产能；What-if；Excel/CSV/REST；Odoo互联,当前 Community MIT（自8.0.0）；Enterprise/Cloud额外功能专有；旧7.x AGPL须按具体版本区别。,含互惠开源许可,P2 外挂 APS：保留 KANPACE 为执行层。优先验证 CE 的数据导入、有限资源计划及计划建议回传；不要整套替换。,关键更正：8.0.0（2023-06-03）已从 AGPL 改为 MIT；AGPL旧宣传册不能用于当前版本结论。；交互式 Gantt、库存优化规划、交期报价、换型矩阵优化、保质期规划列在 Cloud/Enterprise，不能算入CE。；要建立订单、物料、资源、工序与计划回写映射；避免与客户ERP并列维护两份权威库存。,发布 9.18.0 · 2026-08-28,https://github.com/frePPLe/frepple,https://github.com/frePPLe/frepple/blob/master/COPYING,"https://frepple.com/editions/
+https://frepple.com/docs/current/license.php
+https://frepple.com/docs/current/release-notes.html
+https://frepple.com/docs/current/model-reference/resources.html
+https://github.com/frePPLe/frepple
+https://github.com/frePPLe/frepple/blob/master/COPYING
+https://github.com/frePPLe/frepple/releases/tag/9.18.0"
+ERPNext + Frappe Framework,制造与排产,模式参考,ERP/MRP；工单Job Card；质量检验；采购外协；库存成本；Excel/REST,ERPNext GPL-3.0；Frappe Framework MIT。云托管/支持服务与软件许可须分开。,含互惠开源许可,P1 参考业务模型、P2 接客户ERP：用REST/文件交换订单、物料、采购/外协状态、检验及成本；不迁移KANPACE内核到Frappe。,ERPNext 是 GPL-3.0，不能因其底层 Frappe 是MIT就把ERPNext全部当MIT。；基础工作中心排时不等于多资源、插单最小扰动的高级APS。；整体替换会改变客户ERP/Excel工作流并引入Frappe运维；优先同步必要主数据/业务结果。,发布 v16.34.1 · 2026-09-02,https://github.com/frappe/erpnext,https://github.com/frappe/erpnext/blob/develop/license.txt,"https://docs.frappe.io/erpnext/production-and-material-planning-capacity-planning
+https://docs.frappe.io/erpnext/quality-inspection
+https://docs.frappe.io/erpnext/subcontracting-in-erpnext
+https://docs.frappe.io/framework/user/en/api/rest
+https://docs.frappe.io/erpnext/data-import
+https://github.com/frappe/frappe/blob/develop/LICENSE
+https://github.com/frappe/erpnext/blob/develop/license.txt
+https://github.com/frappe/erpnext
+https://github.com/frappe/erpnext/releases/tag/v16.34.1"
+Odoo Community 19,制造与排产,按需引入,ERP/MRP；采购库存；BOM；外协；成本/交付接口,Community 19 LGPL-3.0；Enterprise Odoo Enterprise Edition License v1.0专有；各App须逐模块核验。,含互惠开源许可,P2 客户系统适配；不要为获得更完整ERP而重建KANPACE。可借鉴mrp/stock/purchase模型。,官方版本比较的 Barcode、Shopfloor/Control Panel/Scheduling、PLM、Quality 行为 CE叉/EE勾（已读取表格HTML核验）。；Odoo Apps 的第三方/OCA模块有各自许可证与成熟度；不要把OCA或付费App等同于官方CE。；不能把统一官方用户文档中的EE特性整体算入CE；版本升级/本地化有额外工程成本。,默认分支提交 · 2026-09-05,https://github.com/odoo/odoo,https://www.odoo.com/documentation/19.0/legal/licenses.html,"https://github.com/odoo/odoo/blob/19.0/addons/mrp/__manifest__.py
+https://github.com/odoo/odoo/blob/19.0/addons/mrp_subcontracting/__manifest__.py
+https://www.odoo.com/page/editions
+https://www.odoo.com/documentation/19.0/legal/licenses.html
+https://github.com/odoo/odoo
+https://github.com/odoo/odoo/commit/1a13ceeaee12fe5cc50f287c31f217d4be2a2eaf"
+Tryton,制造与排产,模式参考,模块化ERP；工艺路线工单工时；外协；批次库存；质量阻断；成本,GPL-3.0-or-later；已核对 trytond/pyproject.toml及LICENSE；第三方模块独立核验。,含互惠开源许可,P2 业务模型参考/P3 可选客户ERP外挂；优先借鉴质量控制点→检验→异常阻断结构。,GitHub是官方镜像；主代码平台是 code.tryton.org，不应以GitHub星数判断成熟度。；没有本次证据支持其具有成熟高级有限产能优化器；工艺路线/工单能力不等于APS。；ERP结构与权限需要学习，当前KANPACE重写成Tryton模块会扩大范围。,发布 8.0 LTS · 2026-04-21,https://github.com/tryton/tryton,https://github.com/tryton/tryton/blob/main/trytond/LICENSE,"https://docs.tryton.org/latest/production.html
+https://docs.tryton.org/latest/modules-quality/design.html
+https://docs.tryton.org/latest/modules-stock-lot/design.html
+https://docs.tryton.org/latest/modules-stock/usage/index.html
+https://docs.tryton.org/6.0/modules-production-outsourcing/
+https://github.com/tryton/tryton/blob/main/trytond/pyproject.toml
+https://discuss.tryton.org/t/tryton-release-8-0/9208
+https://github.com/tryton/tryton/blob/main/trytond/LICENSE
+https://github.com/tryton/tryton"
+OpenProject Community,制造与排产,按需引入,工程项目/WBS；依赖甘特；工时成本预算；Excel同步参考；工作流,GPL-3.0；CE可自托管，Enterprise付费附加功能与托管支持需区分。,含互惠开源许可,P2 装修/工程场景的参考系统；必要时仅对接项目与里程碑。不要取代工序状态机。,17.7 新Resource management module明确为Enterprise add-on；不能把它当CE免费有限资源排程。；项目依赖日期自动计算不等于人员+设备双资源有限产能求解。；引入Rails/PostgreSQL应用会增加维护；避免又让工人录入第二套任务。,发布 v17.8.0 · 2026-09-02,https://github.com/opf/openproject,https://github.com/opf/openproject/blob/dev/LICENSE,"https://www.openproject.org/community-edition/
+https://www.openproject.org/docs/faq/
+https://www.openproject.org/docs/release-notes/17-7-0/
+https://www.openproject.org/docs/system-admin-guide/integrations/excel-synchronization/
+https://www.openproject.org/docs/user-guide/time-and-costs/cost-tracking/
+https://github.com/opf/openproject/blob/dev/LICENSE
+https://github.com/opf/openproject
+https://github.com/opf/openproject/releases/tag/v17.8.0"
+bpmn-js / diagram-js,制造与排产,优先验证,可视化流程模板；BPMN2.0导入导出；流程图编辑,bpmn-js：bpmn.io License（MIT式基础+不可移除/遮挡水印条款）；diagram-js：MIT。,混合或附条件,P1 UI能力候选：只做流程模板编辑器，转换到受约束的KANPACE工艺DAG；若无BPMN互操作需求可优先diagram-js。,bpmn-js 当前是 bpmn.io 自定义许可证，附必须保留且完整可见的bpmn.io水印要求；不能标成纯MIT。；diagram-js 才是MIT；用它自建业务图编辑器仍需自行实现序列化/校验。；BPMN UI不等于BPMN执行引擎，也不会提供有限产能、库存或质量业务。,发布 v18.28.0 · 2026-09-04,https://github.com/bpmn-io/bpmn-js,https://github.com/bpmn-io/bpmn-js/blob/develop/LICENSE,"https://bpmn.io/toolkit/bpmn-js/
+https://github.com/bpmn-io/bpmn-js
+https://github.com/bpmn-io/bpmn-js/blob/develop/LICENSE
+https://github.com/bpmn-io/diagram-js/blob/develop/LICENSE
+https://github.com/bpmn-io/diagram-js/releases/tag/v15.26.0
+https://github.com/bpmn-io/bpmn-js/releases/tag/v18.28.0"
+Temporal,制造与排产,后期考虑,可靠长流程；重试恢复；外部系统编排；Python SDK,Temporal Server MIT；具体SDK及依赖按版本核验；Temporal Cloud为另行提供的商业托管服务。,混合或附条件,P3 后期可靠集成基础设施；当前不要替换状态机或为单机部署过早引入。,需要独立Server和Worker运维，以及确定性Workflow、版本演进和Activity幂等设计。；自动重试不能保证ERP收货/扣料这类副作用自动恰好一次；仍需业务幂等键（判断）。；将当前本地状态机整体搬进Temporal会提高系统复杂度且不能直接补齐制造规则。,发布 v1.31.2 · 2026-07-08,https://github.com/temporalio/temporal,https://github.com/temporalio/temporal/blob/main/LICENSE,"https://github.com/temporalio/temporal
+https://docs.temporal.io/develop/python
+https://github.com/temporalio/temporal/blob/main/LICENSE
+https://github.com/temporalio/temporal/releases/tag/v1.31.2"
+Camunda 8 / Camunda 7 CE（排除性比较）,制造与排产,谨慎评估,BPMN执行；人工任务；流程编排,Camunda8核心源码Camunda License v1/编译版本专有生产许可；Camunda7 CE历史Apache-2.0但已结束官方社区维护。,混合或附条件,排除默认方案；需要开源BPMN执行时评估Flowable，只有可视化需求用bpmn-js/diagram-js。,8.6及以后核心源码为Camunda License v1，编译分发为专有许可；生产使用需购买Enterprise。；官方Camunda 7 CE在2025-10-14最终7.24后不再给社区版安全/维护更新；不能为避开8的商业许可回退到7新建商用系统。；Desktop Modeler MIT、部分Connector SDK Apache不代表Camunda 8执行平台整体开源。,发布 8.9.19 · 2026-09-04,https://github.com/camunda/camunda,https://docs.camunda.io/docs/reference/licenses/,"https://docs.camunda.io/docs/reference/licenses/
+https://camunda.com/blog/2024/10/camunda-licensing-what-you-need-to-know/
+https://camunda.com/platform-7/performance/
+https://forum.camunda.io/t/camunda-7-community-end-of-life-eol-clarification/60208
+https://github.com/camunda/camunda
+https://github.com/camunda/camunda/releases/tag/8.9.19"
+Flowable Open Source,制造与排产,后期考虑,BPMN执行；DMN规则；CMMN案例；人工/系统任务；REST,Open-source engine Apache-2.0；Flowable商业平台另行许可。,混合或附条件,P3 真正BPMN运行时备选；先用受约束流程模板+现有状态机，复杂度达到需要时再挂接。,开源Engine与Flowable商业平台/设计服务分开；免费使用某设计服务不等于该服务代码开源。；新增Java服务和流程引擎持久状态，需防止其与KANPACE状态机同时决定同一工单。；仅为画图无须引擎。,发布条目更新 Flowable 8.0.0 Release · 2026-02-27,https://github.com/flowable/flowable-engine,https://github.com/flowable/flowable-engine/blob/main/LICENSE,"https://github.com/flowable/flowable-engine
+https://www.flowable.com/open-source-download
+https://www.flowable.com/open-source/docs/bpmn/ch02-GettingStarted
+https://github.com/flowable/flowable-engine/blob/main/LICENSE
+https://github.com/flowable/flowable-engine/releases/tag/flowable-8.0.0"
+OpenBoxes,制造与排产,模式参考,WMS；库位/批次/有效期；收货拣货发运；采购；Excel/API,EPL-1.0；仓库LICENSE.md已核验。,含互惠开源许可,P2 WMS参考/P3外挂；本期优先借鉴出入库流水与批次，只有仓库复杂度足够才独立部署。,产品模型主要服务仓储/医疗物流，不提供工艺执行、BOM制造排程或专用质量管理。；若客户ERP已有库存账，另建WMS必须先决定仓库操作与财务库存的权威边界。；EPL不是MIT；分发修改版本时需遵守其源代码/许可证义务。,发布 v0.9.8-hotfix1 · 2026-08-14,https://github.com/openboxes/openboxes,https://github.com/openboxes/openboxes/blob/develop/LICENSE.md,"https://github.com/openboxes/openboxes
+https://openboxes.com/features/
+https://docs.openboxes.com/en/stable/about/features/
+https://help.openboxes.com/article/69-lot-and-expiry-control
+https://github.com/openboxes/openboxes/blob/develop/LICENSE.md
+https://github.com/openboxes/openboxes/releases/tag/v0.9.8-hotfix1"
+qcadoo MES Community,制造与排产,谨慎评估,MES参考；工艺版本；BOM与工序；工时成本定额,GNU AGPLv3（LICENSE文件允许v3或以后版本）；商业版本另行提供。,混合或附条件,仅P2参考，不作为KANPACE默认替换或免费REST外挂；受版别与AGPL边界限制。,官方README明确 REST API集成、现成ERP/SCADA连接、Gantt排程、仓库物料流、维护计划等为商业版附加功能。；Community AGPLv3；嵌入/修改后交付或网络使用需审视具体许可义务，不能标成闭源产品随意复制的模块。；不得把商业官网的完整MES功能推断为开源仓库已有；本次未跑系统验证CE功能细节。,发布 3.1.19 · 2026-08-27,https://github.com/qcadoo/mes,https://github.com/qcadoo/mes/blob/master/LICENSE.txt,"https://github.com/qcadoo/mes
+https://www.qcadoo.com/en/functions-technologies/
+https://github.com/qcadoo/mes/releases/tag/3.1.19
+https://github.com/qcadoo/mes/blob/master/LICENSE.txt"
+InvenTree,制造与排产,模式参考,库存零件/BOM；批次序列；装配Build；测试验收；采购外协；REST插件,MIT；插件/第三方工具按各自许可核验。,宽松开源,P1 业务参考、P2可选外挂：优先验证小型装配/库存/测试模型；客户已有ERP时用其作为边界设计参考即可。,Build的开始/目标日期与日历不是有限产能排程。；库存/装配系统不是完整财务ERP或覆盖CAPA/审核的完整QMS；不能把测试结果记录等同于全部质量管理。；官方完成Build存在允许人工覆盖部分未完成/未分配警告的选项；KANPACE关键质量/缺料门槛应明确由谁执行。,发布 1.5.2 · 2026-08-25,https://github.com/inventree/InvenTree,https://github.com/inventree/InvenTree/blob/master/LICENSE,"https://github.com/inventree/InvenTree
+https://docs.inventree.org/en/stable/manufacturing/build/
+https://docs.inventree.org/en/latest/manufacturing/build/
+https://docs.inventree.org/en/1.5.x/api/schema/build/
+https://docs.inventree.org/en/latest/api/schema/stock/
+https://github.com/inventree/InvenTree/blob/master/LICENSE
+https://github.com/inventree/InvenTree/releases/tag/1.5.2"
+ESP-IDF（含官方 OTA、rollback、Secure Boot、Flash/NVS encryption）,硬件与工业通信,沿用完善,官方 ESP32-C3 SDK；FreeRTOS、Wi-Fi、NVS、HTTP/TLS；OTA 双槽、启动自检回滚、签名与设备密钥能力,主仓库 Apache-2.0；包含的第三方组件和二进制库须按各自许可证核验，不把整个 SDK 供应链一概当 Apache。,宽松开源,"保留 cabinet-badge-1/protocol1 的业务状态机与持久化语义，将硬件、传输、UI 分层。
+为 OTA 先拿真实 firmware.bin 大小和字体/图片占用做预算；可能需要瘦身字体、共享只读资源，或下一代更大 Flash 机型。
+未来双槽版在首次启动检查显示、触摸、NVS、业务存储后才 mark_app_valid；失败回滚。
+不把安全启动/加密开关直接带入当前试验板；本次只读研究，没有烧写或 eFuse 操作。",本板 README 为 4MB Flash，单个 3MB app 加 0xF0000 LittleFS；仅有 otadata 不构成双槽 OTA，不能直接承诺回滚。；C3 单核最高160MHz、400KB SRAM；没有可按 S3 示例使用的大容量 PSRAM。；版本跨 IDF4→5→6 涉及驱动及接口迁移；最新 SDK 可维护不代表当前 PlatformIO 依赖可无改动替换。；Secure Boot、Flash encryption 与 HTTPS 分别解决镜像真实性、静态存储和传输问题；NVS 凭据须另用 NVS encryption。首次量产 eFuse 方案需要独立恢复设计。,发布条目更新 ESP-IDF Release v6.1 · 2026-08-27,https://github.com/espressif/esp-idf,https://github.com/espressif/esp-idf/blob/master/LICENSE,"https://documentation.espressif.com/esp32-c3_datasheet_en.html
+https://docs.espressif.com/projects/esp-idf/en/stable/esp32c3/api-reference/system/ota.html
+https://docs.espressif.com/projects/esp-idf/en/v6.0/esp32c3/security/secure-boot-v2.html
+https://docs.espressif.com/projects/esp-idf/en/stable/esp32c3/security/flash-encryption.html
+https://github.com/espressif/esp-idf/blob/master/LICENSE
+https://github.com/espressif/esp-idf
+https://github.com/espressif/esp-idf/releases/tag/v6.1"
+Arduino-ESP32,硬件与工业通信,沿用完善,当前固件所用 API 与编程模型；WiFi、WebServer、Preferences、LittleFS、USB Serial；可作为 ESP-IDF component 使用,核心 LGPL-2.1-or-later；依赖和子组件分别核验。,含互惠开源许可,"保持现有 platformio.ini 和固定 Git 提交，新增 transport adapter 复用 execution_event / execution_ack。
+需要 IDF5.3+ 的新组件时单独建升级验证分支，不把新组件 manifest 生搬到旧 core。
+记录 LGPL 核心及现有字体/图像库的第三方声明。",PlatformIO espressif32@6.12.0 不等于 Arduino core 6.12；README 明确当前以 Arduino2 兼容代码为基线。；上游当前 3.3.11 基于 IDF5.5.5；4.0.0-alpha1 是预发布，不能把 alpha 当量产默认。；升级 core 后需重验 SPI_MODE3、40MHz、USB枚举、ESP-NOW 回调、LittleFS、触摸、报工重试。,发布条目更新 Arduino Release v3.3.11 based on ESP-IDF v5.5.5 · 2026-07-23,https://github.com/espressif/arduino-esp32,https://github.com/espressif/arduino-esp32/blob/master/LICENSE.md,"https://github.com/espressif/arduino-esp32/releases/tag/3.3.11
+https://github.com/espressif/arduino-esp32/blob/master/cores/esp32/Arduino.h
+https://esphome.io/components/esp32/
+https://github.com/espressif/arduino-esp32/blob/master/LICENSE.md
+https://github.com/espressif/arduino-esp32"
+LVGL,硬件与工业通信,按需引入,嵌入式按钮、标签、滚动、图像与状态控件；局部渲染和多缓冲；可独立设计显示及输入适配层,LVGL core MIT；可选字体、图片与商用编辑工具另算。,宽松开源,"做显示 flush 和 CST816D input 回调，先迁首页与一次确认，保持主操作按钮、明确返回、700ms确认保护。
+禁用未用控件/动画/大图片缓存；中文保留既有字形管线或按任务字集生成。
+同一时刻图像解码、TLS、Wi-Fi重连下记录最低空闲堆与帧时延后决定是否迁移。",170×320 RGB565 一帧108800字节；双全帧217600字节，未含 Wi-Fi/TLS/任务/解码和堆。；宜用约1/10屏局部缓冲10880字节，视性能再调；这是计算与建议，不是本板测量。；LVGL 不自动提供完整中文字体，也不自动解决图片存储、工业业务状态及触摸驱动。；v8/v9 API不同，禁止混拼例程；LVGL Pro Editor 的许可证不等同于开源 LVGL 核心。,发布条目更新 Release v9.5.0 · 2026-02-18,https://github.com/lvgl/lvgl,https://github.com/lvgl/lvgl/blob/master/LICENCE.txt,"https://github.com/lvgl/lvgl
+https://lvgl.io/docs/open/9.2/porting/display
+https://components.espressif.com/components/espressif/esp_lvgl_port/versions/2.9.0/readme
+https://github.com/lvgl/lvgl/blob/master/LICENCE.txt
+https://github.com/lvgl/lvgl/releases/tag/v9.5.0"
+LovyanGFX,硬件与工业通信,备选,SPI绘图、DMA、sprite、缩放旋转；部分兼容 AdafruitGFX/TFT_eSPI API；ST7789 与 CST816S 类触摸,原创部分 FreeBSD/BSD-2-Clause 风格；含 Adafruit MIT/BSD 及其他第三方声明，须保留整份 license.txt。,宽松开源,"单独 LGFX board class 设置现有引脚、CS固定有效、40MHz、MODE3和170×320窗口偏移。
+先保留现有CST816D输入读取，换显示后再评估统一触摸抽象。
+用已有施工/效果JPEG和中文长任务比较耗时、RAM、重连时触摸响应。",支持ST7789不等于有金逸晨170×320板级预设。；官方列 CST816S；本板是 CST816D，需验证芯片ID、寄存器、IRQ、坐标旋转和唤醒，不能宣称即插即用。；大sprite仍占SRAM；库支持PSRAM功能不意味着C3具备PSRAM。,发布条目更新 1.2.28 · 2026-08-25,https://github.com/lovyan03/LovyanGFX,https://github.com/lovyan03/LovyanGFX/blob/master/license.txt,"https://github.com/lovyan03/LovyanGFX
+https://github.com/lovyan03/LovyanGFX/releases/tag/1.2.28
+https://github.com/lovyan03/LovyanGFX/blob/master/license.txt"
+TFT_eSPI,硬件与工业通信,备选,ST7789及多种TFT；快速绘图、sprite、字体；Arduino/PlatformIO配置,原创 FreeBSD/BSD-2-Clause 风格；继承代码含 MIT/BSD，字体另有声明。,宽松开源,"将板级配置纳入本项目版本管理，避免修改全局库User_Setup造成别的板被影响。
+保留触摸与业务层，只替换绘图backend，比较同图同字库的稳定性。",最新可见release V2.5.43 是2024-03-06，但默认分支有2026-04-03提交；不能仅因旧release说已停止维护。；User_Setup 不是本板现成配置，C3 core版本、SPI host、ST7789偏移需实测。；库触摸集成不能等同于本板CST816D支持，需独立输入驱动。,维护记录 Update README.md · 2026-04-03,https://github.com/Bodmer/TFT_eSPI,https://github.com/Bodmer/TFT_eSPI/blob/master/license.txt,"https://github.com/Bodmer/TFT_eSPI
+https://github.com/Bodmer/TFT_eSPI/releases
+https://github.com/Bodmer/TFT_eSPI/commit/16e37595040eac69cd628e4bffb56fc30cad6299
+https://github.com/Bodmer/TFT_eSPI/blob/master/license.txt"
+esp_lcd + esp_lcd_touch + esp_lvgl_port（ESP-BSP）,硬件与工业通信,按需引入,官方显示面板/总线/触摸抽象；IDF内置ST7789 panel；LVGL8/9 bridge与任务、timer、锁,上述 Espressif components Apache-2.0；LVGL依赖MIT。,宽松开源,"IDF升级完成后，esp_lcd_new_panel_st7789连接原GPIO；面板偏移/颜色反转/旋转照现有实测配置迁移。
+注册触摸irq到UI任务，不在中断内画图；接入锁与短DMA缓冲。
+用当前部件图册和BOOT返回案例重验，绝不照搬S3开发板引脚。",当前 cst816s v1.1.2 和 esp_lvgl_port v2.9.0 manifest 均要求 IDF>=5.2。；触摸组件名称/README只承诺CST816S；本板CST816D还需板测，不把supports all targets解读为所有触摸芯片兼容。；CST816S类芯片可能只在触摸后短暂回应I2C，初始化扫描失败不等于硬件不存在。；GenericBSP支持的别的芯片能力，不代表C3有RGB或USB Host。,维护记录 Merge pull request #822 from Kainarx/feat/add_lt9611_conponent · 2026-09-04,https://github.com/espressif/esp-bsp,https://components.espressif.com/components/espressif/esp_lcd_touch_cst816s/versions/1.1.2/license,"https://docs.espressif.com/projects/esp-idf/en/stable/esp32c3/api-reference/peripherals/lcd/index.html
+https://components.espressif.com/components/espressif/esp_lcd_touch_cst816s/versions/1.1.2/readme
+https://github.com/espressif/esp-bsp/blob/master/components/lcd_touch/esp_lcd_touch_cst816s/idf_component.yml
+https://github.com/espressif/esp-bsp/blob/master/components/esp_lvgl_port/idf_component.yml
+https://components.espressif.com/components/espressif/esp_lcd_touch_cst816s/versions/1.1.2/license
+https://components.espressif.com/components/espressif/esp_lvgl_port/versions/2.9.0/license
+https://github.com/espressif/esp-bsp
+https://github.com/espressif/esp-bsp/commit/b1bc71e7980663110055fbeba7eab59d5e689c2b"
+esptool,硬件与工业通信,沿用完善,官方串口Flash读写/校验；镜像合并、芯片识别；espsecure / espefuse相关工具,GPL-2.0-or-later（官方README明确）。,含互惠开源许可,"在Web硬件维护中先显示识别结果、当前/目标版本、板型与应用SHA256，保留现有全Flash备份策略。
+已采用现有分区的板，仅写0x10000应用并重握手；新的分区变更另作数据迁移。
+此次没有调用任何串口或刷机命令；建议接入方案不等于已刷写。",烧写前串口必须从任务桥释放，连接/复位行为不同于普通JSONL收发。；C3 bootloader偏移为0x0；不能复制经典ESP32示例的0x1000。；read_flash/写入/加密功能随芯片安全状态受限；不应盲刷合并全镜像或erase_flash。；刷机工具只负责镜像搬运，不验证工人业务与任务数据兼容性。,发布条目更新 Version 5.4.0 · 2026-09-02,https://github.com/espressif/esptool,https://github.com/espressif/esptool/blob/master/LICENSE,"https://docs.espressif.com/projects/esptool/en/latest/esp32c3/index.html
+https://github.com/espressif/esptool/blob/master/README.md
+https://github.com/espressif/esptool/releases/tag/v5.4.0
+https://github.com/espressif/esptool/blob/master/LICENSE
+https://github.com/espressif/esptool"
+ESP Web Tools + esptool-js,硬件与工业通信,谨慎评估,浏览器Web Serial刷机；manifest选择芯片镜像；可选Improv串口配网；底层esptool-js可定制,ESP Web Tools Apache-2.0；esptool-js Apache-2.0。,宽松开源,"本地托管固定版本JS和仅本板镜像，不依赖运行时CDN latest。
+为已部署工牌设计app-only写入列表和分区核验；初装与升级分开，维护权限由Web业务层决定。
+完成后回到JSONL hello和功能自检，Wi-Fi配网继续现有USB配置协议。",本项目使用自定义JSONL配网，没有证据已实现Improv。默认ESP Web Tools无法识别固件时可能走new installation并擦除已有数据。；现有Python桥占用串口时浏览器不能同时刷机；需明确释放/重连。；不能承诺所有手机浏览器；官方ESP Web Tools文档仍无iOS及完整Android安装支持。使用navigator.serial能力检测并保留Python维护入口。；esptool-js不包含ELF转镜像、espsecure和espefuse，不能代替完整发布构建。,发布条目更新 10.4.0 · 2026-07-15,https://github.com/esphome/esp-web-tools,https://github.com/esphome/esp-web-tools/blob/main/LICENSE,"https://esphome.github.io/esp-web-tools/
+https://github.com/espressif/esptool-js
+https://github.com/espressif/esptool-js/releases/tag/v0.6.1
+https://github.com/esphome/esp-web-tools/blob/main/LICENSE
+https://github.com/espressif/esptool-js/blob/main/LICENSE
+https://github.com/esphome/esp-web-tools
+https://github.com/esphome/esp-web-tools/releases/tag/10.4.0"
+ESP-MQTT + Mosquitto + MQTT.js（Python侧优先Paho）,硬件与工业通信,优先验证,设备主动长连接与双向消息；QoS、LWT、重连、会话；局域网broker与ACL/TLS；Node/浏览器MQTT.js或现有Python的Paho客户端,ESP-MQTT Apache-2.0；Mosquitto EPL-2.0 OR BSD-3-Clause（EDL1.0）；MQTT.js MIT；Paho Python EPL-2.0 / EDL1.0 双许可。,含互惠开源许可,"保持protocol1 JSON对象、delivery_id / event_id / revision / execution_version；USB/HTTP/MQTT归一到同一执行处理器。
+topic建议 kanpace/v1/devices/{device_id}/task、delivery_ack、execution、execution_ack、availability；按设备ACL，命令不retain。
+QoS1+稳定event_id；设备Flash持久化成功再发送；Web去重、状态更新、结果存储同一事务后回业务ACK。
+现有8条队列满要拒绝新增并说明，重试同ID、指数退避带抖动；持久拒绝原因、重启恢复、旧ACK不覆盖新任务。
+Mosquitto设持久化与明确的队列/会话上限；离线任务带过期和版本，重连先对账。
+Python侧Paho与现有服务整合；Web客户端先走既有后端，避免把全设备broker凭据暴露浏览器。",ESP-MQTT v1.1.0 manifest要求IDF>=5.3，当前Arduino2/IDF4基线不可直接升级；应先用兼容的框架内client或单独迁移。；ESP-MQTT默认outbox不等于掉电持久业务队列；库中的消息会有过期清理。Paho会话也默认只存内存。；QoS ACK仅表示协议投递阶段，不能代替业务事务execution_ack，不能提供跨USB/HTTP/MQTT全链路自动exactly-once。；VPN、网段隔离、防火墙/AP隔离仍可能阻断broker；MQTT不能自动解决当前LAN可达性未完成验证的问题。；高质量图片不宜塞入一个MQTT大包；按图像manifest+HTTP分块/校验下载，继续受控原子落盘。,发布条目更新 v1.1.0 · 2026-07-30,https://github.com/espressif/esp-mqtt,https://github.com/espressif/esp-mqtt/blob/master/LICENSE,"https://docs.espressif.com/projects/esp-mqtt/en/latest/esp32/
+https://github.com/espressif/esp-mqtt/blob/master/idf_component.yml
+https://mosquitto.org/
+https://github.com/mqttjs/MQTT.js
+https://github.com/eclipse-paho/paho.mqtt.python#known-limitations
+https://github.com/espressif/esp-mqtt/blob/master/LICENSE
+https://github.com/eclipse-mosquitto/mosquitto/blob/master/LICENSE.txt
+https://github.com/mqttjs/MQTT.js/blob/main/LICENSE.md
+https://github.com/eclipse-paho/paho.mqtt.python/blob/master/LICENSE.txt
+https://github.com/espressif/esp-mqtt
+https://github.com/espressif/esp-mqtt/releases/tag/v1.1.0"
+ESPHome,硬件与工业通信,谨慎评估,YAML设备配置与自动化；C3、ST7789、CST816触摸组件；LVGL、API、MQTT、OTA生态,Python及其他部分MIT；C/C++ runtime GPLv3，官方LICENSE按文件类型划分。,含互惠开源许可,"为工位温湿度、呼叫按钮等独立节点使用ESPHome，输出标准遥测到本地服务。
+借鉴CST816D识别与触摸行为时先处理runtime许可证；要复制代码必须遵守对应GPL义务。
+保持工牌已有正式任务状态机作为业务入口。",当前任务/回执状态机、8条持久outbox、中文图册仍须自定义组件重做。；运行时C++为GPLv3，不能只看Python部分MIT就复制runtime到闭源固件。；显示/触摸芯片支持不等于本板引脚/偏移和现有分区兼容；OTA仍受4MB应用资源预算限制。；其Home Assistant模式不是生产任务的事务、版本和验收模型。,发布条目更新 2026.8.2 · 2026-08-31,https://github.com/esphome/esphome,https://github.com/esphome/esphome/blob/dev/LICENSE,"https://esphome.io/components/esp32/
+https://esphome.io/components/touchscreen/cst816/
+https://esphome.io/components/lvgl/
+https://github.com/esphome/esphome/blob/dev/LICENSE
+https://github.com/esphome/esphome
+https://github.com/esphome/esphome/releases/tag/2026.8.2"
+ThingsBoard Community Edition,硬件与工业通信,后期考虑,设备/资产管理、遥测、告警；规则链和设备仪表盘；多协议接入与本地部署,Community Edition 主仓库 Apache-2.0；PE/Cloud 产品与功能另行授权。,宽松开源,"先只输出在线、RSSI、固件版本、队列深度等遥测给ThingsBoard；任务与完工仍在原事务服务。
+需要舰队管理时用设备ID建立映射，避免建立第二套权威任务状态。",现有项目/部件/工序/负责人/质检状态不是现成ThingsBoard业务模型。；需要额外服务、数据库与运维资源；原生设备RPC回执不是生产事务ACK。；Community Edition的Apache2不包含所有商业/云功能。,发布条目更新 ThingsBoard 4.3.1.4 Release · 2026-08-27,https://github.com/thingsboard/thingsboard,https://github.com/thingsboard/thingsboard/blob/master/LICENSE,"https://github.com/thingsboard/thingsboard
+https://github.com/thingsboard/thingsboard/releases/tag/v4.3.1.4
+https://github.com/thingsboard/thingsboard/blob/master/LICENSE"
+EMQX（现行统一版）,硬件与工业通信,谨慎评估,MQTT broker、集群、规则与连接器；设备连接/认证与管理,BUSL-1.1（Business Source License），带额外使用授权；特定版本四年后转Apache-2.0。,混合或附条件,"业务协议保持标准MQTT与独立topic/ACL，使未来可换broker。
+单工厂内部使用与对外售卖部署包分开判断授权范围；不为避授权锁死已EOL旧社区版。",从5.9.0起现行统一版改为BSL1.1 source-available，不能称OSI开源版。；Additional Use Grant允许单节点生产使用，但排除把它托管或嵌入向第三方提供的产品/解决方案；销售KANPACE集成方案不应假定免费。；每特定版本发布四年后转Apache2，不意味着现在已是Apache2。；5.8 Apache社区版已于2026-02-28 EOL；Enterprise5.8的较长支持期是另一版本路线，不能混淆。,发布条目更新 EMQX Enterprise (LTS) 6.3.0 · 2026-09-03,https://github.com/emqx/emqx,https://github.com/emqx/emqx/blob/master/LICENSE,"https://github.com/emqx/emqx/blob/master/LICENSE
+https://www.emqx.com/en/content/license-faq
+https://www.emqx.com/en/news/a-notice-on-the-emqx-5-8-open-source-version
+https://docs.emqx.com/en/emqx/latest/changes/eol-ee.html
+https://github.com/emqx/emqx
+https://github.com/emqx/emqx/releases/tag/6.3.0"
+ESP-SR（WakeNet9s / MultiNet / AFE）,硬件与工业通信,后期考虑,唤醒词、音频前端、命令词算法族；WakeNet9s面向低资源芯片,ESPRESSIF MIT（许可授予范围限定用于Espressif产品），非标准MIT；部分算法/模型以预编译资源交付，不能表述为完整算法源代码开源。,混合或附条件,"工牌保留触摸确认和BOOT返回；语音只提出草稿动作，最终完工等由既有确认与事务校验处理。
+优先手机/工位按住说话，转写为暂停说明或交接草稿，再由工人确认。
+若下一代硬件确需离线命令识别，选择具有已证实模型支持、麦克风和足够RAM的芯片/板，另做噪声环境验证。",README未确认本工牌有麦克风、I2S引脚及音频电源；需先确认物理音频链路。；WakeNet9s识别固定唤醒词，不等同于识别暂停原因、数量、工序或自由文本。；当前esp-sr component manifest为2.5.3、要求IDF>=5.0；GitHub旧release2.0.0不足以代表新增C3能力。；低资源也需与Wi-Fi、图像和触摸共存实测；不能直接套S3 MultiNet/AFE或PSRAM配置。,维护记录 Merge branch 'fix/esp32s31_docs-f' into 'master' · 2026-09-04,https://github.com/espressif/esp-sr,https://github.com/espressif/esp-sr/blob/master/LICENSE,"https://github.com/espressif/esp-sr
+https://github.com/espressif/esp-sr/blob/master/LICENSE
+https://github.com/espressif/esp-sr/blob/master/idf_component.yml
+https://github.com/espressif/esp-sr/blob/master/CMakeLists.txt
+https://github.com/espressif/esp-sr/commit/efa8d907c6d457cd0f99dae6c6b493412d3078d4"
+whisper.cpp,硬件与工业通信,按需引入,本地语音转文字；CPU/Metal等后端、量化；Mac/Windows/Linux/手机/WASM,whisper.cpp代码MIT；使用的模型权重与第三方后端按具体来源核验。,宽松开源,"Web录音或工位麦克风生成短音频，发送本机服务转写为pause_note/handover_note草稿。
+既有确认页面显示完整文本与关联任务，确认后走现有execution处理器。
+将转写服务隔离于任务事务线程，限制音频时长，断网时触摸/文字仍可完成工作。",官方tiny参考模型磁盘75MiB、运行约273MB；远超C3的4MB Flash/400KB SRAM，量化也不使该板可运行完整Whisper。；噪声/口音/数字会误识别；识别文本不能直接触发生产完工或质量放行。；模型文件许可与代码许可证应一起登记；推理速度须在实际主机测量。,发布条目更新 v1.9.3 · 2026-08-20,https://github.com/ggml-org/whisper.cpp,https://github.com/ggml-org/whisper.cpp/blob/master/LICENSE,"https://github.com/ggml-org/whisper.cpp
+https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.3
+https://github.com/ggml-org/whisper.cpp/blob/master/LICENSE"
+ZXing for JS：@zxing/browser + @zxing/library,硬件与工业通信,按需引入,浏览器相机扫码；QR及一维/二维条码；图片导入和相机切换,@zxing/browser MIT；@zxing/library Apache-2.0。,宽松开源,"为设备/部件打印短ID二维码，扫描后服务端解析并显示项目/部件/工序供确认。
+扫码绑定只关联已登录用户和已知device_id，不把Bearer token或Wi-Fi凭据放码里。
+纸质标签作为主入口，170px屏幕只在需要时显示有留白、低密度的短码。",@zxing/browser不支持实体扫描枪协议；USB键盘式扫描枪通过普通输入框接收，不必走相机库。；手机相机需浏览器权限与安全上下文；LAN普通HTTP能开网页不保证能用getUserMedia。；二维码只是标识，不是操作授权；服务端仍核验用户、设备、任务版次。；本板没有已确认摄像头，C3 USB Serial/JTAG也不是通用USB Host扫描枪接口。,发布条目更新 v0.2.1 · 2026-07-06,https://github.com/zxing-js/browser,https://github.com/zxing-js/browser/blob/master/LICENSE,"https://github.com/zxing-js/browser
+https://github.com/zxing-js/library
+https://github.com/zxing-js/browser/releases/tag/v0.2.1
+https://www.w3.org/TR/mediacapture-streams/
+https://github.com/zxing-js/browser/blob/master/LICENSE
+https://github.com/zxing-js/library/blob/master/LICENSE"
+open62541（OPC UA）,硬件与工业通信,按需引入,OPC UA客户端/服务端、订阅和信息模型；C99可移植，安全插件,核心 MPL-2.0；部分示例/插件CC0，部分仍MPL。分发时修改的MPL文件有源码义务，独立业务文件可用自身许可证。,含互惠开源许可,"按设备文档列出允许读取的NodeId和证书信任关系，通过订阅/周期读取转成machine_state/计数遥测。
+记录源时间、采集时间、质量码，断线写unknown并补齐缺口；不推断未采到的产量。
+工牌只接收与当前任务相关的提示，机器写控制和安全回路保持在经验证的PLC系统。",官方通用embedded支持不等于金逸晨C3固件已适配；未找到本板资源实测证据。；地址空间、证书、连接和加密要占RAM，不能与工牌显示/任务存储竞争后仍宣称可靠。；采集机台运行/停机/计数，不等同工人任务完工；工艺归属和设备计数规则需业务映射。,发布条目更新 v1.5.8 · 2026-09-06,https://github.com/open62541/open62541,https://github.com/open62541/open62541/blob/master/LICENSE,"https://github.com/open62541/open62541
+https://open62541.org/
+https://github.com/open62541/open62541/releases/tag/v1.5.8
+https://github.com/open62541/open62541/blob/master/LICENSE"
+PyModbus（Modbus TCP / RTU）,硬件与工业通信,按需引入,同步/异步Modbus client/server；TCP/TLS、RTU/ASCII、RS485；测试用设备模拟器,BSD-3-Clause。,宽松开源,"独立Python采集适配器定时读取白名单寄存器，生成source、timestamp、quality和单位明确的设备遥测。
+超时/异常/断网不记作0产量；验证机台累计计数回绕和重启清零规则。
+机器遥测提供任务进度参考，完成/暂停/验收仍经原业务事务处理。",依赖设备厂家寄存器表、地址基准、字节序、倍率、unit/device ID和轮询负载；不能自动猜寄存器含义。；RS485需要适当收发器/隔离/接线，不是直接把工业总线接C3 GPIO。；传统Modbus TCP/RTU没有应用用户授权；需网关和网络隔离，不能因库支持TLS就假定原机台支持TLS。；项目明确次版本可能改API，不按完整SemVer保证，需锁版本。,发布条目更新 Pymodbus v3.15.0 · 2026-08-13,https://github.com/pymodbus-dev/pymodbus,https://github.com/pymodbus-dev/pymodbus/blob/dev/LICENSE,"https://github.com/pymodbus-dev/pymodbus
+https://github.com/pymodbus-dev/pymodbus/blob/dev/LICENSE
+https://github.com/pymodbus-dev/pymodbus/releases/tag/v3.15.0"
+Apache ECharts,BI与界面,优先验证,老板BI；产能负荷；交付趋势；成本偏差,Apache-2.0,宽松开源,接现有统计 API，在当前原生 JS 页面增加联动筛选和图表，无需重写整套前端。指标定义、去重和权限在后端统一。,图表库不定义准交率、毛利和工时统计口径；任务完成比例不能替代收入确认或实际利润。,发布 6.1.0 · 2026-05-19,https://github.com/apache/echarts,https://github.com/apache/echarts/blob/master/LICENSE,"https://github.com/apache/echarts
+https://github.com/apache/echarts/blob/master/LICENSE
+https://github.com/apache/echarts/releases/tag/6.1.0"
+Apache Superset,BI与界面,按需引入,老板BI；自助报表；SQL指标层,Apache-2.0,宽松开源,多工厂或大量自助报表需求明确后再部署，通过只读分析视图汇总交付、缺料、成本和产能。小规模先用 ECharts。,需要独立服务和分析数据源；嵌入 BI 的身份、行级权限与业务系统需要明确对接；不能直接把生产库全部开放。,发布 6.1.0 · 2026-05-13,https://github.com/apache/superset,https://github.com/apache/superset/blob/master/LICENSE.txt,"https://github.com/apache/superset
+https://github.com/apache/superset/blob/master/LICENSE.txt
+https://superset.apache.org/
+https://github.com/apache/superset/releases/tag/6.1.0"
+Metabase,BI与界面,谨慎评估,自助报表；嵌入分析,AGPL（社区部分）＋商业许可证（enterprise目录）,混合或附条件,优先作为客户独立使用的 BI 对接；KANPACE 自带图表优先 ECharts，嵌入方式和相应许可另做选定版本核验。,仓库混合许可；完整应用嵌入官方要求 Pro/Enterprise，不能将免费自托管等同于可免费白标集成全部嵌入功能。,仓库 push · 2026-09-07,https://github.com/metabase/metabase,https://github.com/metabase/metabase,"https://github.com/metabase/metabase
+https://www.metabase.com/license
+https://www.metabase.com/docs/latest/embedding/full-app-embedding
+https://api.github.com/repos/metabase/metabase"
+Node-RED,文件与系统互联,优先验证,ERP互联；事件路由；HTTP/MQTT适配；工位网关,Apache-2.0（核心）,宽松开源,外挂连接客户 ERP、文件入口或 MQTT，所有任务变更仍调用 KANPACE 同一业务 API；保留来源单号、重试记录和失败队列。,第三方节点许可和质量独立核验；画出一条 flow 并不自动实现业务幂等、事务和跨系统一致性。,发布 5.0.6 · 2026-09-01,https://github.com/node-red/node-red,https://github.com/node-red/node-red/blob/main/LICENSE,"https://github.com/node-red/node-red
+https://github.com/node-red/node-red/blob/main/LICENSE
+https://nodered.org/docs/
+https://flows.nodered.org/
+https://github.com/node-red/node-red/releases/tag/5.0.6"
+n8n,文件与系统互联,谨慎评估,低代码互联；AI工作流,Sustainable Use License＋Enterprise（非OSI开源）,混合或附条件,可以作为客户已有系统的对接对象；不作为 KANPACE 默认随产品分发的商业连接器底座。优先核验 Node-RED。,官方明确不称 OSI 开源；白标销售、向客户收费托管，以及某些使用客户凭据的产品后端场景受商业许可限制。,仓库 push · 2026-09-07,https://github.com/n8n-io/n8n,https://github.com/n8n-io/n8n/blob/master/LICENSE.md,"https://github.com/n8n-io/n8n
+https://github.com/n8n-io/n8n/blob/master/LICENSE.md
+https://docs.n8n.io/sustainable-use-license/
+https://api.github.com/repos/n8n-io/n8n"
+Univer,文件与系统互联,按需引入,网页表格；类Excel交互；协同表格,Apache-2.0核心＋Pro商业功能,混合或附条件,先验证是否真的需要完整电子表格编辑器；当前字段映射、导入预览和校验可保留，避免仅为导入 Excel 增加整套表格服务。,官方 XLSX 导入导出方案使用 Pro exchange 客户端及服务端；协作、历史、部分高级能力不能统称免费核心。,仓库 push · 2026-09-07,https://github.com/dream-num/univer,https://github.com/dream-num/univer/blob/dev/LICENSE,"https://github.com/dream-num/univer
+https://github.com/dream-num/univer/blob/dev/LICENSE
+https://docs.univer.ai/guides/sheets/features/import-export
+https://docs.univer.ai/guides/sheets/getting-started/pro
+https://api.github.com/repos/dream-num/univer"
+SheetJS Community Edition,文件与系统互联,谨慎评估,Excel解析；浏览器文件预检,Apache-2.0（CE）,宽松开源,若使用则从官方当前分发渠道锁版本和完整性；最终校验和提交仍交后端。后端已有 Python，优先评测 openpyxl。,GitHub 是旧镜像，主源码已经迁移；官方文档说明 npm 的 xlsx 包源滞后。CE 不是完整 Excel 公式引擎，也不能保证复杂模板原样往返。,旧 GitHub 镜像 push · 2024-04-18；主源码已迁移,https://github.com/SheetJS/sheetjs,https://github.com/SheetJS/sheetjs/blob/github/LICENSE,"https://github.com/SheetJS/sheetjs
+https://github.com/SheetJS/sheetjs/blob/github/LICENSE
+https://git.sheetjs.com/sheetjs/sheetjs
+https://docs.sheetjs.com/docs/getting-started/installation/nodejs/
+https://api.github.com/repos/SheetJS/sheetjs"
+ExcelJS,文件与系统互联,备选,Excel导出；样式与工作簿,MIT,宽松开源,仅在 JavaScript 侧必须生成复杂导出时使用；Python 主业务侧避免为相同能力新增 Node 服务。,本次仓库 push 时间为 2025-01-21，活跃度低于部分替代方案；它不运行 Excel 的完整计算与宏环境。,仓库 push · 2025-01-21,https://github.com/exceljs/exceljs,https://github.com/exceljs/exceljs/blob/master/LICENSE,"https://github.com/exceljs/exceljs
+https://github.com/exceljs/exceljs/blob/master/LICENSE
+https://api.github.com/repos/exceljs/exceljs"
+Frappe Gantt,BI与界面,优先验证,生产排程表；甘特图；前后工序连线,MIT,宽松开源,用作现有排产结果的可视化编辑器；求解交给 OR-Tools 或现有排程模块，修改后先预览影响再发布。,甘特图不是有限产能求解器；拖动条形必须经过后端的工种、班次、缺料、冻结任务和前置依赖校验。,发布 v1.0.3 · 2025-02-03,https://github.com/frappe/gantt,https://github.com/frappe/gantt/blob/master/license.txt,"https://github.com/frappe/gantt
+https://github.com/frappe/gantt/blob/master/license.txt
+https://github.com/frappe/gantt/releases/tag/v1.0.3"
+TanStack Table,BI与界面,按需引入,BOM清单；大表格筛选；列配置,MIT,宽松开源,当 BOM/订单/物料列表复杂度增加时逐页引入核心表格状态管理；保留现有原生 JS 架构。,不是现成 Excel 编辑器；样式、可访问性和大列表虚拟化仍需配套实现与实际数据验证。,仓库 push · 2026-08-31,https://github.com/TanStack/table,https://github.com/TanStack/table/blob/main/LICENSE,"https://github.com/TanStack/table
+https://github.com/TanStack/table/blob/main/LICENSE
+https://api.github.com/repos/TanStack/table"
+Keycloak,基础平台,按需引入,SSO；账号登录；企业身份互联,Apache-2.0,宽松开源,客户需要统一账号或多工厂上线时作为 OIDC 身份源；小规模本地单厂不必先部署一套身份平台。,登录成功不等于有权查看某工厂、项目或成本；对象权限、设备身份、租户隔离要在 KANPACE 后端执行。,仓库 push · 2026-09-07,https://github.com/keycloak/keycloak,https://github.com/keycloak/keycloak/blob/main/LICENSE.txt,"https://github.com/keycloak/keycloak
+https://github.com/keycloak/keycloak/blob/main/LICENSE.txt
+https://api.github.com/repos/keycloak/keycloak"
+PyCasbin,基础平台,备选,角色权限；对象权限；策略校验,Apache-2.0,宽松开源,权限模型变复杂后考虑替代散落判断；先明确老板、厂长、技术员、班组长、工人、客户各自数据范围。,权限策略、缓存失效、默认拒绝和每个 API 的调用覆盖仍需逐项验证；账号服务和对象授权是不同层。,默认分支提交 · 2026-08-13,https://github.com/apache/casbin-pycasbin,https://github.com/apache/casbin-pycasbin/blob/master/LICENSE,"https://github.com/apache/casbin-pycasbin
+https://github.com/apache/casbin-pycasbin/blob/master/LICENSE
+https://github.com/apache/casbin-pycasbin/releases.atom
+https://github.com/apache/casbin-pycasbin/commits/master.atom"
+LangGraph,AI与知识,按需引入,拆单Agent编排；人工复核；断点恢复,MIT（开源库）,宽松开源,只处理拆单候选和待复核建议；正式料号、尺寸、工艺版本、工单发布继续经 KANPACE 校验和授权。,不会让模型自动具有制造常识；LangSmith 托管等配套产品独立计费与授权。持久执行框架不替代生产事务状态机。；重启恢复需要持久 checkpointer 和稳定 thread_id；内存保存器不够，节点重放中的外部写入仍需幂等。,仓库 push · 2026-09-06,https://github.com/langchain-ai/langgraph,https://github.com/langchain-ai/langgraph/blob/main/LICENSE,"https://github.com/langchain-ai/langgraph
+https://github.com/langchain-ai/langgraph/blob/main/LICENSE
+https://docs.langchain.com/oss/python/langgraph/durable-execution
+https://docs.langchain.com/oss/python/langgraph/interrupts
+https://docs.langchain.com/oss/python/langgraph/persistence
+https://api.github.com/repos/langchain-ai/langgraph"
+Ollama,AI与知识,按需引入,本地AI；私有图纸辅助理解,MIT运行时；模型权重另审,宽松开源,放在电脑或局域网推理服务，将输出保存为含来源、证据完整度与待复核标记的建议；不能从效果图生成未经验证的制造尺寸。,运行时许可不覆盖模型；效果、内存和吞吐由选定权重及硬件决定。ESP32-C3 不承担此类模型推理。,仓库 push · 2026-09-05,https://github.com/ollama/ollama,https://github.com/ollama/ollama/blob/main/LICENSE,"https://github.com/ollama/ollama
+https://github.com/ollama/ollama/blob/main/LICENSE
+https://api.github.com/repos/ollama/ollama"
+Qdrant,AI与知识,按需引入,相似图纸检索；历史工艺检索；知识库,Apache-2.0,宽松开源,按项目/文件/页区建立可追溯索引，检索结果回链到已确认资料。业务主数据继续保存在关系数据库。 另选图纸提取与 embedding 流程并用历史项目验证召回，向量库本身不理解加工尺寸。,相似度不是同一零件、重复文件或数量证据；租户过滤和原始数据删除的索引同步需设计。,仓库 push · 2026-09-06,https://github.com/qdrant/qdrant,https://github.com/qdrant/qdrant/blob/master/LICENSE,"https://github.com/qdrant/qdrant
+https://github.com/qdrant/qdrant/blob/master/LICENSE
+https://api.github.com/repos/qdrant/qdrant"
+MCP Python SDK,文件与系统互联,优先验证,MCP互联；Agent调用业务工具；协议入口,MIT,宽松开源,对外暴露查询订单、预览导入、生成排程建议等受控工具；MCP、CLI、Web 共用同一后端业务逻辑和审计。,MCP 不自动连接所有 ERP，也不替代登录和审批。不要将旧 v1/FastMCP 示例未经核验直接套用 v2 API。,发布 v2.1.1 · 2026-08-25,https://github.com/modelcontextprotocol/python-sdk,https://github.com/modelcontextprotocol/python-sdk/blob/main/LICENSE,"https://github.com/modelcontextprotocol/python-sdk
+https://github.com/modelcontextprotocol/python-sdk/blob/main/LICENSE
+https://py.sdk.modelcontextprotocol.io/
+https://py.sdk.modelcontextprotocol.io/migration/
+https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.1.1"
+Playwright,基础平台,优先验证,Web回归测试；多浏览器；关键工作流验收,Apache-2.0,宽松开源,扩展现有测试覆盖导入预览、确认拆单、暂停切单、完工发货禁派工、权限和报表追溯，用独立测试数据验证。,浏览器端通过不代表实体工牌、串口断连、排程算法或财务数据正确；需相应接口测试和硬件实测。,发布 v1.63.0 · 2026-09-04,https://github.com/microsoft/playwright,https://github.com/microsoft/playwright/blob/main/LICENSE,"https://github.com/microsoft/playwright
+https://github.com/microsoft/playwright/blob/main/LICENSE
+https://playwright.dev/docs/intro
+https://github.com/microsoft/playwright/releases/tag/v1.63.0"
+Dexie.js,基础平台,按需引入,离线任务；本地缓存；待上传事件队列,Apache-2.0；Dexie Cloud另有服务条款,宽松开源,建立带 event_id、任务版本和发生时间的本地 outbox，重连后由服务器去重、验证权限与冲突，显示明确待同步状态。 本机网页先验证；手机工位版另完成局域网入口与认证，结合 Workbox 时按其可信 HTTPS 要求部署。,免费本地库不自动具备 Dexie Cloud 同步；浏览器离线数据可能被清除，跨设备冲突需要服务端版本规则。,仓库 push · 2026-09-06,https://github.com/dexie/Dexie.js,https://github.com/dexie/Dexie.js/blob/master/LICENSE,"https://github.com/dexie/Dexie.js
+https://github.com/dexie/Dexie.js/blob/master/LICENSE
+https://api.github.com/repos/dexie/Dexie.js"
+Workbox,基础平台,按需引入,PWA；离线页面；静态资源缓存,MIT,宽松开源,与 Dexie 配合缓存应用壳和必要素材，登录退出清理授权缓存；任务提交仍经版本校验与幂等业务接口。 第一版 Workbox 只管页面壳/静态资源，Dexie 统一管业务 outbox，避免两个独立队列重复报工。,缓存与后台重试不保证业务恰好一次；不能把上次获取的任务状态当实时状态，也不能缓存他人授权资料。；Service Worker 需要可信来源；手机访问当前仅监听 127.0.0.1 的服务，还需要局域网部署、可信 HTTPS 和认证。无原生 Background Sync 时主要在 Service Worker 启动时重放；默认只重试抛异常请求，4xx/5xx 不会自动重试。,仓库 push · 2026-09-02,https://github.com/GoogleChrome/workbox,https://github.com/GoogleChrome/workbox/blob/v7/LICENSE,"https://github.com/GoogleChrome/workbox
+https://github.com/GoogleChrome/workbox/blob/v7/LICENSE
+https://developer.chrome.com/docs/workbox/
+https://www.w3.org/TR/service-workers/#register
+https://developer.chrome.com/docs/workbox/modules/workbox-background-sync
+https://api.github.com/repos/GoogleChrome/workbox"
+PostgreSQL,基础平台,按需引入,多人协作；业务事务；多工厂数据,PostgreSQL License,宽松开源,出现持续并发写入争用、多应用实例、跨主机访问或集中运维需求时评估 SQLite 迁移；少量多人共用单服务不构成必须迁移的依据。生产任务、物料、成本和审计明确事务边界，并保留迁移回滚。,RLS 必须启用与配置；超级用户/BYPASSRLS 以及通常的表所有者可以绕过策略。换数据库不会自动实现多租户隔离。,仓库 push · 2026-09-06,https://github.com/postgres/postgres,https://github.com/postgres/postgres/blob/master/COPYRIGHT,"https://github.com/postgres/postgres
+https://github.com/postgres/postgres/blob/master/COPYRIGHT
+https://www.postgresql.org/docs/current/ddl-rowsecurity.html
+https://www.sqlite.org/whentouse.html
+https://api.github.com/repos/postgres/postgres"
+SeaweedFS,基础平台,后期考虑,图纸对象存储；多工厂附件；S3接口,Apache-2.0,宽松开源,当前本地文件量可控时保留现有存储与备份；扩展后抽象 artifact 存储接口，文件哈希和业务引用留在数据库。,需要运维、备份与访问控制；业务文件版本和引用关系不会由对象存储自动解决。,仓库 push · 2026-09-07,https://github.com/seaweedfs/seaweedfs,https://github.com/seaweedfs/seaweedfs/blob/master/LICENSE,"https://github.com/seaweedfs/seaweedfs
+https://github.com/seaweedfs/seaweedfs/blob/master/LICENSE
+https://api.github.com/repos/seaweedfs/seaweedfs"
+OpenTelemetry Python,基础平台,按需引入,故障诊断；链路追踪；服务指标,Apache-2.0,宽松开源,用 request_id/task_id/event_id 关联服务故障，生产变更审计继续写入业务数据库。 业务 ID 放 trace/log 属性，避免直接成为高基数指标标签。,遥测 SDK 还需要收集/存储后端；技术追踪不是不可缺失的生产审计账本，也不能记录密码或完整私有图纸。,仓库 push · 2026-09-07,https://github.com/open-telemetry/opentelemetry-python,https://github.com/open-telemetry/opentelemetry-python/blob/main/LICENSE,"https://github.com/open-telemetry/opentelemetry-python
+https://github.com/open-telemetry/opentelemetry-python/blob/main/LICENSE
+https://api.github.com/repos/open-telemetry/opentelemetry-python"
+openpyxl,文件与系统互联,优先验证,Excel文件互联；排程表读取；字段映射,MIT,宽松开源,保留上传原件，预览工作表与字段映射后提交；分别保存公式与缓存值的来源，不用库打开后覆盖客户原文件。,不计算公式；data_only 读取的是上次 Excel 保存的缓存结果，可能缺失或陈旧。复杂形状和模板元素并非完整原样往返。；旧 .xls 和 .xlsb 不属于其支持范围；保留 VBA 不等于执行宏。,发布 3.1.5 · 2024-06-28,https://foss.heptapod.net/openpyxl/openpyxl,https://pypi.org/project/openpyxl/,"https://pypi.org/project/openpyxl/
+https://openpyxl.readthedocs.io/en/stable/simple_formulae.html
+https://foss.heptapod.net/openpyxl/openpyxl
+https://openpyxl.readthedocs.io/en/stable/tutorial.html
+https://pypi.org/project/openpyxl/3.1.5/"
+NVIDIA Omniverse CAD to USD skill / usd-convert-cad,图纸与3D,按需引入,原生 CAD 与 STEP 转 USD；真实三维模型旋转的上游资产生成；装配可视化层级；零件名称和源元数据；多文件装配引用,skill 文档 CC-BY-4.0、skill 源码 Apache-2.0；转换 runtime 为 NVIDIA Software License Agreement + NVIDIA AI Product Specific Terms；包含专有 HOOPS Exchange。,混合或附条件,"['KANPACE Python 后端通过隔离转换作业适配器调用独立 Python 3.12 环境 CLI；Mac Web 后端可向企业自有、满足许可的 Windows/Linux 转换节点派发本地文件任务。', '按文件包保留真实 CAD 源及外部零件引用，生成 source hash、版本、参数、日志、退出码、USD 输出清单、单位/边界框与告警；工具本身不生成独立 JSON 状态报告。', '将 USD 装配 occurrence / 源零件名映射到 KANPACE 的已核验 BOM ID；由工程师核对数量、重复实例、抑制件、材料牌号和关键尺寸后才进入分工。', '常规网页查看继续 Three.js：另评估 USD 到 GLB/网格 JSON 的资产适配，显式保留 BOM ID、变换、材质、单位与拾取映射；此 adapter 不是该 skill 的现成功能。', '若后续确需大场景 RTX 材质审阅，可另用 Windows/Linux RTX Kit 服务和 Omniverse WebRTC 嵌入网页；这属于额外运行时、会话与渲染基础设施。', 'ESP32 工牌只接收任务、状态与已核验零件标识，不承载 CAD 解析或 USD 渲染。']",USD 输出不保留原生 CAD B-rep 拓扑，不能一般性无损回写 CAD；完整 SolidWorks 特征树、草图、配置逻辑与 mates/constraints 不在已实现输出能力内。；官方明确不生成可视 PMI 几何、专门 PMI schema 或可编辑语义 PMI；可能读取部分 PMI 供元数据/视图使用不等于完整保留尺寸公差。；抑制的装配分支总被跳过；隐藏分支受加载及过滤参数影响；缺失外部零件与源读取器未暴露的数据无法补回。可视化节点数不能直接当完整工程 BOM 数量。；材料为 Preview Surface / OmniPBR 等可视化映射；当前不输出 primvars:st UV，不能保证源贴图外观完全保真，也不能把视觉颜色推断为制造材料牌号。；只有 USD/USDA/USDC 输出，不输出 GLB 或 USDZ；GLTF/GLB 出现在输入列表。当前 Three.js 工作流需单独的 USD 到网页资产适配或支持 USD 的查看器。；该技能没有图片/效果图到准确工程模型的能力；尺寸、板厚、孔位、配合、公差必须来自真实 CAD、施工图与人工确认。；不提供排料、制造工艺、CNC 后处理或 G-code。几何展示需与已核验 BOM、加工数据分开。；linux-aarch64 不支持 DWG/DXF 或 RVT/RFA；Mac 不在官方支持平台内。；本轮只读验证官方文档、许可证、元数据和索引；未安装、未运行转换，未验证客户 SolidWorks 版本、装配引用、中文名称、实际 BOM 一致性、离线部署或网页输出。,默认分支提交 · 2026-07-30,https://github.com/NVIDIA-Omniverse/usd-convert-cad,https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/LICENSE.md,"https://github.com/NVIDIA-Omniverse/usd-convert-cad
+https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/skills/omniverse-cad-to-usd/SKILL.md
+https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/docs/concept_mapping.md
+https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/LIMITATIONS.md
+https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/LICENSE.md
+https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/skills/omniverse-cad-to-usd/LICENSE.md
+https://github.com/NVIDIA-Omniverse/usd-convert-cad/blob/main/THIRD_PARTY_NOTICES.md
+https://pypi.nvidia.com/usd-convert-cad/
+https://pypi.org/pypi/usd-convert-cad/json
+https://docs.omniverse.nvidia.com/extensions/latest/ext_cad-converter/manual.html
+https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement/
+https://www.nvidia.com/en-us/agreements/enterprise-software/product-specific-terms-for-ai-products/
+https://docs.omniverse.nvidia.com/dev-guide/latest/common/technical-requirements.html
+https://docs.omniverse.nvidia.com/ov-web-sdk/latest/web-streaming-library/overview.html
+https://github.com/NVIDIA-Omniverse/usd-convert-cad/commits/main.atom
+https://github.com/NVIDIA-Omniverse/usd-convert-cad/commit/208fe2c1cd71ae2bb7bd825daf712617000ae028"

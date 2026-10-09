@@ -1,0 +1,28 @@
+{
+  "official": {
+    "comment_text": null,
+    "core-metadata": {
+      "sha256": "11a97f9ef0a4b3d5c14ade51becb844b6ba54d818bbec4ff2537c0a1e197efff"
+    },
+    "digests": {
+      "blake2b_256": "3a987b81196dd990bfbbdeff7858db7d319dede6fef2fb6c153ede9eb409a9e9",
+      "md5": "53226a2532ccd515fdcd537bd56155a9",
+      "sha256": "0022e854a3840efd5c7fc14fe933772613794777d5eb056a4754d44a86baf02a"
+    },
+    "downloads": -1,
+    "filename": "cadquery_ocp-7.8.1.1.post1-cp312-cp312-macosx_11_0_arm64.whl",
+    "has_sig": false,
+    "md5_digest": "53226a2532ccd515fdcd537bd56155a9",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp312",
+    "requires_python": "<3.14,>=3.10",
+    "size": 68590290,
+    "upload_time": "2025-01-29T14:34:16",
+    "upload_time_iso_8601": "2025-01-29T14:34:16.804166Z",
+    "url": "https://files.pythonhosted.org/packages/3a/98/7b81196dd990bfbbdeff7858db7d319dede6fef2fb6c153ede9eb409a9e9/cadquery_ocp-7.8.1.1.post1-cp312-cp312-macosx_11_0_arm64.whl",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "mirror_url": "https://pypi.tuna.tsinghua.edu.cn/packages/3a/98/7b81196dd990bfbbdeff7858db7d319dede6fef2fb6c153ede9eb409a9e9/cadquery_ocp-7.8.1.1.post1-cp312-cp312-macosx_11_0_arm64.whl",
+  "verified_sha256": "0022e854a3840efd5c7fc14fe933772613794777d5eb056a4754d44a86baf02a"
+}

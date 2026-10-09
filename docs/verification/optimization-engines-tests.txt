@@ -1,0 +1,16 @@
+test_packing_requires_review_and_same_material (test_optimization_engines.CertificateTests.test_packing_requires_review_and_same_material) ... ok
+test_schedule_validator_rejects_conflict_and_bad_duration (test_optimization_engines.CertificateTests.test_schedule_validator_rejects_conflict_and_bad_duration) ... ok
+test_kerf_and_rotation_affect_real_layout (test_optimization_engines.RealPackingTests.test_kerf_and_rotation_affect_real_layout) ... ok
+test_real_guillotine_layout_cost_and_independent_check (test_optimization_engines.RealPackingTests.test_real_guillotine_layout_cost_and_independent_check) ... ok
+test_real_rotation_and_insufficient_stock_are_not_ignored (test_optimization_engines.RealPackingTests.test_real_rotation_and_insufficient_stock_are_not_ignored) ... ok
+test_explicit_fallback_never_claims_solver_success (test_optimization_engines.RealScheduleTests.test_explicit_fallback_never_claims_solver_success) ... ok
+test_freeze_non_interruptible_and_stale_persistence (test_optimization_engines.RealScheduleTests.test_freeze_non_interruptible_and_stale_persistence) ... ok
+test_material_gate_expected_date_and_unknown_duration (test_optimization_engines.RealScheduleTests.test_material_gate_expected_date_and_unknown_duration) ... ok
+test_preview_apply_keeps_task_state_and_owner (test_optimization_engines.RealScheduleTests.test_preview_apply_keeps_task_state_and_owner) ... ok
+test_real_solver_improves_two_stage_order_baseline (test_optimization_engines.RealScheduleTests.test_real_solver_improves_two_stage_order_baseline) ... ok
+test_real_solver_multiresource_join_and_read_only (test_optimization_engines.RealScheduleTests.test_real_solver_multiresource_join_and_read_only) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 4.853s
+
+OK

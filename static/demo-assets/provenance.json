@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "source_policy": "Only built-in synthetic seed and samples/showcase-bom.csv; no customer files or database accessed.",
+  "runtime_dependencies": "Python standard library; pre-generated PNGs copied, never rendered at startup.",
+  "assets": [
+    {
+      "file": "sample-drawing.png",
+      "sha256": "b41566648ea4c14d43fdd3d1b88935c58af7363224064248be694bfd7925ba67",
+      "bytes": 239299,
+      "width": 1600,
+      "height": 1000,
+      "synthetic_demo": true
+    },
+    {
+      "file": "sample-render.png",
+      "sha256": "038514d8d2d64527aa85be88796bfa6c60a4f2f5da1aa47b8aeb3c0ef8e7b821",
+      "bytes": 214444,
+      "width": 1600,
+      "height": 1000,
+      "synthetic_demo": true
+    },
+    {
+      "file": "showcase-drawing.png",
+      "sha256": "32ce64f5c5aa2a26a21d0ceeff012997be061de9f1be6ea37838edb65c71339b",
+      "bytes": 235926,
+      "width": 1600,
+      "height": 1000,
+      "synthetic_demo": true
+    },
+    {
+      "file": "showcase-render.png",
+      "sha256": "1205cb5989a4c8274a1782ce3477a3e861487d2c0a6ca2d0b3dad679a65225ee",
+      "bytes": 217819,
+      "width": 1600,
+      "height": 1000,
+      "synthetic_demo": true
+    }
+  ]
+}

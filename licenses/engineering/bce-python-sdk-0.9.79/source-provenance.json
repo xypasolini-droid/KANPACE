@@ -1,0 +1,22 @@
+{
+  "comment_text": null,
+  "core-metadata": false,
+  "digests": {
+    "blake2b_256": "9d64d31e61620ddaecb7039dc7b8f62eb75b95d2281f2d2016b6d6b22396e16f",
+    "md5": "46313e26b30ed1555146d4b78e88e58f",
+    "sha256": "cd77476b43347ed28d0211d5ad557e524e1ec648bd093d57c6a6d3de075a7508"
+  },
+  "downloads": -1,
+  "filename": "bce_python_sdk-0.9.79.tar.gz",
+  "has_sig": false,
+  "md5_digest": "46313e26b30ed1555146d4b78e88e58f",
+  "packagetype": "sdist",
+  "python_version": "source",
+  "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,<4,>=2.7",
+  "size": 322059,
+  "upload_time": "2026-09-01T05:48:52",
+  "upload_time_iso_8601": "2026-09-01T05:48:52.013800Z",
+  "url": "https://files.pythonhosted.org/packages/9d/64/d31e61620ddaecb7039dc7b8f62eb75b95d2281f2d2016b6d6b22396e16f/bce_python_sdk-0.9.79.tar.gz",
+  "yanked": false,
+  "yanked_reason": null
+}

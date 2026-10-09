@@ -1,0 +1,49 @@
+/* KANPACE Brand Manual v1.1: full master artwork, 240px minimum,
+   clear space at least half the visible glyph height (14.47px). */
+.kanpace-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  flex: 0 0 auto;
+  color: #000;
+  text-decoration: none;
+  line-height: 1;
+}
+.kanpace-brand .kanpace-wordmark {
+  display: block;
+  width: 240px;
+  min-width: 240px;
+  max-width: none;
+  height: auto;
+  flex: none;
+}
+.sidebar .kanpace-brand {
+  display: flex;
+  padding: 0 0 24px;
+  margin: 0;
+}
+@media (min-width: 681px) {
+  .shell { grid-template-columns: 280px minmax(0, 1fr); }
+  .shell > .sidebar { width: 280px; padding: 28px 20px 16px; }
+}
+@media (max-width: 680px) {
+  .shell > .sidebar { padding-top: 16px; }
+  .sidebar .kanpace-brand { padding-bottom: 16px; }
+}
+.topbar:has(> .kanpace-brand) {
+  height: auto;
+  min-height: 64px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+header > div:has(> .kanpace-brand) {
+  min-height: 64px;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+  .topbar:has(> .kanpace-brand) { row-gap: 18px; }
+  header > div:has(> .kanpace-brand) { row-gap: 18px; }
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>胸牌交互预览 · KANPACE</title>
+  <link rel="stylesheet" href="/badge-studio/style.css?v=r33">
+  <script src="/core/http-client.js" defer></script>
+  <script src="/qr-code.js" defer></script>
+  <script src="/badge-studio/model.js" defer></script>
+  <script src="/badge-studio/app.js?v=r33" defer></script>
+</head>
+<body>
+  <header class="studio-header"><a class="brand" href="/factory/index.html#page=daily">KANPACE<span>胸牌工作界面</span></a><a class="back-link" href="/factory/index.html#page=daily&step=dispatch">返回胸牌派工 →</a></header>
+  <main class="studio-main">
+    <section class="device-stage" aria-label="胸牌交互预览">
+      <p class="preview-label">交互预览 · 不写入生产记录</p>
+      <div class="device-shell">
+        <div class="camera-window" aria-hidden="true"></div><span class="shell-screw top" aria-hidden="true"></span><span class="shell-screw bottom" aria-hidden="true"></span>
+        <button class="hardware-key wheel" data-action="queue" aria-label="侧边滚轮：查看今日任务" title="今日任务"></button>
+        <button class="hardware-key view-key" data-action="image" aria-label="侧边查看键：放大图纸" title="放大图纸"></button>
+        <button class="hardware-key issue-key" data-action="issues" aria-label="橙色侧键：遇到问题" title="遇到问题"></button>
+        <div class="device-screen" id="badge-screen"></div>
+        <span class="shell-brand" aria-hidden="true">KANPACE</span>
+      </div>
+      <p class="stage-note">点大图放大 · 橙色侧键报问题</p>
+    </section>
+    <aside class="studio-controls">
+      <span class="eyebrow">按照工人的顺序</span><h1>一眼看到要做什么。<br>一步完成当前操作。</h1>
+      <p class="intro">工种、柜名、部件和数量放在上方，施工图放在中间。完成、问题和换任务都在当前界面处理。</p>
+      <div class="source-picker"><label for="source-mode">预览内容</label><select id="source-mode"><option value="demo">合成演示任务</option><option value="live">本厂任务（只读）</option></select><div id="live-picker" hidden><label for="live-task">选择任务</label><select id="live-task"><option value="">正在读取…</option></select></div><p id="source-note" role="status">演示图片带水印，不作为生产依据。</p></div>
+      <ol class="journey"><li><b>看图开工</b><span>当前任务和数量，始终看得见。</span></li><li><b>遇到问题</b><span>选择原因、暂停交接，再选其他任务。</span></li><li><b>完成贴标</b><span>核对部件与标签，确认后再进入下一项。</span></li><li><b>下班归还</b><span>未做完和未贴标的事项先处理清楚。</span></li></ol>
+      <div class="preview-actions"><button data-action="queue">今日任务</button><button data-action="return">归还胸牌</button><button data-action="reset">重新体验</button></div>
+      <details class="hardware-boundary"><summary>外观与开发板适配</summary><p>外壳参考烟灰透明材质、顶部摄像头窗口和侧边按键。此处按键可交互；当前 ESP32-C3 采用 170×320 触摸屏，固件按实际屏幕单独适配。新外壳、摄像头、滚轮与 PCB 尚需硬件设计和实机验证。</p></details>
+    </aside>
+  </main>
+  <dialog id="badge-dialog" aria-labelledby="sheet-title"></dialog>
+  <div id="announce" role="status" class="sr-only"></div>
+</body>
+</html>

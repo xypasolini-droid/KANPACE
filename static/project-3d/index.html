@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>清单尺寸示意 · KANPACE</title><link rel="icon" href="data:,"><link rel="stylesheet" href="/project-3d/style.css"><script type="importmap">{"imports":{"three":"/model/vendor/three/build/three.module.js","three/addons/":"/model/vendor/three/examples/jsm/"}}</script></head>
+<body>
+<header class="page-header"><a id="back" href="/">← 图纸拆单</a><div><strong>KANPACE</strong><span id="project-name">清单尺寸示意</span></div><a id="upload" href="/model/index.html">查看工程模型 ↗</a></header>
+<main id="workspace">
+  <div class="toolbar"><label>柜型<select id="cabinet-select" aria-label="选择预览柜型"><option value="">全部柜型</option></select></label><div class="views" aria-label="三维视角"><button data-view="iso" aria-pressed="true">立体</button><button data-view="front" aria-pressed="false">正面</button><button data-view="back" aria-pressed="false">背面</button><button data-view="right" aria-pressed="false">侧面</button><button data-view="top" aria-pressed="false">俯视</button></div><button id="fit" title="适应窗口">适应</button></div>
+  <section id="stage" tabindex="0" aria-label="项目柜型三维预览，拖动旋转，滚轮缩放，方向键转向">
+    <div id="canvas"></div>
+    <div class="mode-note"><span>清单尺寸示意</span><small>按尺寸生成，未读取原设计模型</small></div>
+    <div id="status-panel" role="status"><strong>正在读取项目柜型…</strong></div>
+    <div id="selection" class="selection" hidden></div>
+    <p class="gesture" id="gesture">拖动旋转 · 滚轮缩放</p>
+  </section>
+  <footer><span id="coverage"></span><details><summary>预览依据</summary><div id="basis">按清单外形尺寸展示，每种柜型显示一件。排列仅便于浏览，颜色为示意；未重建内部结构和现场布局。</div></details></footer>
+  <div id="pending" hidden></div>
+</main><script type="module" src="/project-3d/app.js"></script>
+</body></html>
